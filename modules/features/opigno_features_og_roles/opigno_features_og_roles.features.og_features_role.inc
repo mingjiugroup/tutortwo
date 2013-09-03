@@ -1,0 +1,30 @@
+<?php
+/**
+ * @file
+ * opigno_features_og_roles.features.og_features_role.inc
+ */
+
+/**
+ * Implements hook_og_features_default_roles().
+ */
+function opigno_features_og_roles_og_features_default_roles() {
+  $roles = array();
+
+  // Exported OG Role: 'node:course:student member'.
+  $roles['node:course:student member'] = array(
+    'gid' => 0,
+    'group_type' => 'node',
+    'group_bundle' => 'course',
+    'name' => 'student member',
+  );
+
+  // Exported OG Role: 'node:course:teacher member'.
+  $roles['node:course:teacher member'] = array(
+    'gid' => 0,
+    'group_type' => 'node',
+    'group_bundle' => 'course',
+    'name' => 'teacher member',
+  );
+
+  return $roles;
+}
