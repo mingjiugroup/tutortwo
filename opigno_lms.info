@@ -1,20 +1,25 @@
 name = Opigno LMS
 description = Install Opigno with commonly used features pre-configured.
 core = 7.x
+
+; Drupal core modules
 dependencies[] = block
-dependencies[] = comment
 dependencies[] = contextual
-dependencies[] = dashboard
-dependencies[] = image
-dependencies[] = list
 dependencies[] = menu
-dependencies[] = number
-dependencies[] = options
-dependencies[] = path
-dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
-dependencies[] = overlay
 dependencies[] = field_ui
-dependencies[] = file
+
+; Contrib
+dependencies[] = crumbs
+dependencies[] = features
+dependencies[] = apps
+dependencies[] = og_massadd
+dependencies[] = og_quiz
+; Make sure to use the 2.x version or patched 1.x
+dependencies[] = og_create_perms
+
+; Opigo
 dependencies[] = opigno
+dependencies[] = opigno_quiz_app
+dependencies[] = opigno_features_og_roles
