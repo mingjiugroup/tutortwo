@@ -99,6 +99,6 @@ projects[menu_attributes][version] = 1.0-rc2
 
 ; Third-patry libraries
 libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
-libraries[ckeditor][destination] = libraries
+libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
+libraries[ckeditor][destination]    = libraries
 libraries[ckeditor][directory_name] = ckeditor
