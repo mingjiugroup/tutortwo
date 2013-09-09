@@ -1,0 +1,11 @@
+name = Opigno Features WYSIWYG
+description = Opigno default WYSIWYG profile
+core = 7.x
+package = Opigno Features
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_filter
+features[features_api][] = api:1
+features[filter][] = html
+features[wysiwyg][] = html
