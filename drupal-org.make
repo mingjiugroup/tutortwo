@@ -4,12 +4,18 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[] = opigno
+projects[] = opigno
+projects[] = opigno_quiz_app
+projects[] = opigno_wt_app
 
 
 ; Opigno themes ================================================================
 
 projects[] = platon
+
+projects[open_framework][type] = theme
+projects[open_framework][download][type] = get
+projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework/archive/7.x-2.04.tar.gz"
 
 
 ; Opigno dependencies that need to be patched ==================================
@@ -79,6 +85,9 @@ projects[features][version] = 2.0-rc3
 
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
+
+projects[og_quiz][subdir]  = "contrib"
+projects[og_quiz][version] = 1.0-beta4
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2

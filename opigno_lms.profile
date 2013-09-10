@@ -19,7 +19,7 @@ function opigno_lms_install_tasks(&$install_state) {
 
   // Add the Opigno app selection to the installation process
   require_once(drupal_get_path('module', 'apps') . '/apps.profile.inc');
-  $tasks = $tasks + apps_profile_install_tasks($install_state, array('machine name' => 'opigno', 'default apps' => array('opigno_quiz_app', 'opigno_wt_app')));
+  $tasks = $tasks + apps_profile_install_tasks($install_state, array('machine name' => 'opigno'));
 
   return $tasks;
 }
@@ -94,7 +94,11 @@ function opigno_lms_form_apps_profile_apps_select_form_alter(&$form, $form_state
   if (isset($form['apps_fieldset'])) {
     $manifest = apps_manifest(apps_servers('opigno'));
     foreach ($manifest['apps'] as $name => $app) {
-      if ($name != '#theme') {
+      // Disable these apps. There installed by default with this distribution.
+      if ($name == 'opigno_quiz_app' || $name == 'opigno_wt_app') {
+        unset($form['apps_fieldset']['apps']['#options'][$name]);
+      }
+      elseif ($name != '#theme') {
         $form['apps_fieldset']['apps']['#options'][$name] = '<div class="admin-options"><div><strong>' . $app['name'] . '</strong></div><div class="form-item">' . theme('image', array('path' => $app['logo']['path'], 'height' => '64', 'width' => '64')) . '</div>' . $app['description'] . '</div>';
       }
     }

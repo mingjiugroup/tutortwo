@@ -1,6 +1,7 @@
 name = Opigno LMS
 description = Install Opigno with commonly used features pre-configured.
 core = 7.x
+exclusive = TRUE
 
 ; Drupal core modules
 dependencies[] = block
