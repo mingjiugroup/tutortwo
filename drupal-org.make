@@ -5,9 +5,6 @@ core = 7.x
 ; Opigno modules ===============================================================
 
 ;projects[] = opigno
-;projects[] = opigno_quiz_app
-;projects[] = opigno_wt_app
-;projects[] = opigno_certificate_app
 
 
 ; Opigno themes ================================================================
@@ -40,18 +37,6 @@ projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_a
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
-
-projects[module_filter][subdir]  = "contrib"
-projects[module_filter][version] = 1.8
-
-projects[ctools][subdir]  = "contrib"
-projects[ctools][version] = 1.3
-
-projects[views][subdir]  = "contrib"
-projects[views][version] = 3.7
-
-projects[views_bulk_operations][subdir]  = "contrib"
-projects[views_bulk_operations][version] = 3.1
 
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = 1.2
@@ -92,8 +77,8 @@ projects[features][version] = 2.0-rc3
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
-projects[og_quiz][subdir]  = "contrib"
-projects[og_quiz][version] = 1.0-beta3
+projects[og][subdir]  = "contrib"
+projects[og][version] = 1.0-beta3
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
@@ -115,6 +100,9 @@ projects[certificate][version] = 2.0-beta4
 
 projects[print][subdir]  = "contrib"
 projects[print][version] = 1.2
+
+projects[date][subdir]  = "contrib"
+projects[date][version] = 2.6
 
 projects[date_popup_authored][subdir]  = "contrib"
 projects[date_popup_authored][version] = 1.1
