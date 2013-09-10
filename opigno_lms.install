@@ -135,20 +135,18 @@ function _opigno_lms_install_menu() {
   );
   menu_link_save($item);
 
-  // Create a default entry for the calendar app, if it exists.
-  if (module_exists('opigno_calendar_app')) {
-    $item = array(
-      'link_title' => st('Calendar'),
-      'link_path' => 'opigno-calendar',
-      'menu_name' => 'main-menu',
-      'options' => array(
-        'attributes' => array(
-          'class' => array('icon', 'icon-calendar'),
-        ),
+  // Create an administration link in the main menu.
+  $item = array(
+    'link_title' => st('Administration'),
+    'link_path' => 'admin/opigno',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-settings'),
       ),
-    );
-    menu_link_save($item);
-  }
+    ),
+  );
+  menu_link_save($item);
 
   // Update the menu router information.
   menu_rebuild();

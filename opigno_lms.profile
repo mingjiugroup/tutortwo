@@ -48,6 +48,7 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
   $form['opigno_lms'] = array(
     '#type' => 'fieldset',
     '#title' => st("LMS settings"),
+    '#tree' => TRUE,
   );
   $form['opigno_lms']['simple_ui'] = array(
     '#type' => 'checkbox',
@@ -68,8 +69,13 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
  * Submit callback for opigno_lms_form_install_configure_form_alter().
  */
 function opigno_lms_form_install_configure_form_alter_submit($form, $form_state) {
-  $_SESSION['opigno_lms']['simple_ui'] = $form_state['values']['simple_ui'];
-  $_SESSION['opigno_lms']['demo_content'] = $form_state['values']['demo_content'];
+  dpm($form_state);
+  if (!empty($form_state['opigno_lms']['simple_ui'])) {
+    module_enable(array('opigno_simple_ui'));
+  }
+  if (!empty($form_state['opigno_lms']['demo_content'])) {
+    // @todo
+  }
 }
 
 /**

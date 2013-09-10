@@ -24,13 +24,13 @@ dependencies[] = apps
 dependencies[] = og
 dependencies[] = og_ui
 dependencies[] = og_massadd
-dependencies[] = og_quiz
 dependencies[] = og_create_perms
 dependencies[] = views
 dependencies[] = rules
 dependencies[] = rules_conditional
 
 ; Only for dev phase
+dependencies[] = dpm
 dependencies[] = drupal_reset
 
 ; Opigno
