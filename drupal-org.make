@@ -115,11 +115,6 @@ libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKE
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-;libraries[wkhtml][download][type]   = get
-;libraries[wkhtml][download][url]    = "https://wkhtmltopdf.googlecode.com/files/libwkhtmltox-0.11.0_rc1.zip"
-;libraries[wkhtml][destination]      = "libraries" 
-;libraries[wkhtml][directory_name]   = "wkhtml"
-
 
 ; Panopoly base distribution ===================================================
 
