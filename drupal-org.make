@@ -77,9 +77,6 @@ projects[features][version] = 2.0-rc3
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
-projects[og][subdir]  = "contrib"
-projects[og][version] = 1.0-beta3
-
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
 
