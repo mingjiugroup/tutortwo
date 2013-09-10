@@ -4,9 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[] = opigno
-projects[] = opigno_quiz_app
-projects[] = opigno_wt_app
+projects[opigno][version] = 1.x-dev
+projects[opigno][subdir]  = "opigno"
+
+projects[opigno_quiz_app][version] = 1.x-dev
+projects[opigno_quiz_app][subdir]  = "opigno"
+
+projects[opigno_wt_app][version] = 1.x-dev
+projects[opigno_wt_app][subdir]  = "opigno"
 
 
 ; Opigno themes ================================================================
