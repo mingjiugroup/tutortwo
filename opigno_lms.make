@@ -1,15 +1,23 @@
 api = 2
-core = 7.x
+core = 7.23
 
-; Opigno modules
-projects[] = opigno
-projects[] = opigno_quiz_app
-projects[] = opigno_wt_app
+projects[drupal][version] = 7.23
 
-; Opigno themes
+
+; Opigno modules ===============================================================
+
+;projects[] = opigno
+;projects[] = opigno_quiz_app
+;projects[] = opigno_wt_app
+
+
+; Opigno themes ================================================================
+
 projects[] = platon
 
-; Opigno dependencies that need to be patched
+
+; Opigno dependencies that need to be patched ==================================
+
 ; Quiz
 projects[quiz][version] = 4.0-beta1
 projects[quiz][subdir]  = "contrib"
@@ -17,16 +25,20 @@ projects[quiz][patch][] = "http://drupal.org/files/hide_save_button_when_no_righ
 projects[quiz][patch][] = "http://drupal.org/files/quiz.module.correct_delete_access_1529302.patch"
 projects[quiz][patch][] = "http://drupal.org/files/prevent_user_from_clicking_on_question_title_2076873_0.patch"
 projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-integration.patch"
-; Og
+
+; OG
 projects[og][version] = 2.3
 projects[og][subdir]  = "contrib"
 projects[og][patch][] = "http://drupal.org/files/og_add_role_rules_2076125.patch"
+
 ; OG Create Permissions
 projects[og_create_perms][version] = 1.0
 projects[og_create_perms][subdir]  = "contrib"
 projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_api_2077031.patch"
 
-; Third-party modules
+
+; Third-party modules ==========================================================
+
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
 
@@ -61,7 +73,7 @@ projects[crumbs][subdir]  = "contrib"
 projects[crumbs][version] = 2.0-beta9
 
 projects[variable][subdir]  = "contrib"
-projects[variable][version] = 2.9
+projects[variable][version] = 2.3
 
 projects[i18n][subdir]  = "contrib"
 projects[i18n][version] = 1.10
@@ -97,7 +109,8 @@ projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0-rc2
 
 
-; Third-patry libraries
+; Third-patry libraries ========================================================
+
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
 libraries[ckeditor][destination]    = libraries
