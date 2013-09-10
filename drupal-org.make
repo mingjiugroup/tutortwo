@@ -38,6 +38,9 @@ projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_a
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
 
+projects[module_filter][subdir]  = "contrib"
+projects[module_filter][version] = 1.7
+
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = 1.2
 
