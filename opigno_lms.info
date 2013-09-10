@@ -30,7 +30,7 @@ dependencies[] = rules
 dependencies[] = rules_conditional
 
 ; Only for dev phase
-dependencies[] = dpm
+dependencies[] = devel
 dependencies[] = drupal_reset
 
 ; Opigno

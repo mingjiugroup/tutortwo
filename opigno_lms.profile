@@ -1,10 +1,15 @@
 <?php
+
 /**
  * @file
  * Enables modules and site configuration for a standard site installation.
  * Provides a default API for Apps and modules to use. This will simplify the
  * user experience.
  */
+
+define('OPIGNO_LMS_STUDENT_ROLE', variable_get('opigno_lms_student_role_rid', 0));
+define('OPIGNO_LMS_TEACHER_ROLE', variable_get('opigno_lms_teacher_role_rid', 0));
+define('OPIGNO_LMS_ADMIN_ROLE',   variable_get('opigno_lms_admin_role_rid', 0));
 
 /**
  * Implements hook_install_tasks()
@@ -69,11 +74,10 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
  * Submit callback for opigno_lms_form_install_configure_form_alter().
  */
 function opigno_lms_form_install_configure_form_alter_submit($form, $form_state) {
-  dpm($form_state);
-  if (!empty($form_state['opigno_lms']['simple_ui'])) {
+  if (!empty($form_state['values']['opigno_lms']['simple_ui'])) {
     module_enable(array('opigno_simple_ui'));
   }
-  if (!empty($form_state['opigno_lms']['demo_content'])) {
+  if (!empty($form_state['values']['opigno_lms']['demo_content'])) {
     // @todo
   }
 }
@@ -91,7 +95,7 @@ function opigno_lms_form_apps_profile_apps_select_form_alter(&$form, $form_state
     $manifest = apps_manifest(apps_servers('opigno'));
     foreach ($manifest['apps'] as $name => $app) {
       if ($name != '#theme') {
-        $form['apps_fieldset']['apps']['#options'][$name] = '<strong>' . $app['name'] . '</strong><p><div class="admin-options"><div class="form-item">' . theme('image', array('path' => $app['logo']['path'], 'height' => '32', 'width' => '32')) . '</div>' . $app['description'] . '</div></p>';
+        $form['apps_fieldset']['apps']['#options'][$name] = '<div class="admin-options"><div><strong>' . $app['name'] . '</strong></div><div class="form-item">' . theme('image', array('path' => $app['logo']['path'], 'height' => '64', 'width' => '64')) . '</div>' . $app['description'] . '</div>';
       }
     }
   }
@@ -117,7 +121,7 @@ function opigno_lms_update_status_alter(&$projects) {
     UPDATE_NOT_SUPPORTED,
   );
 
-  $make_filepath = drupal_get_path('module', 'opigno_lms') . '/drupal-org.make';
+  $make_filepath = drupal_get_path('profile', 'opigno_lms') . '/drupal-org.make';
   if (!file_exists($make_filepath)) {
     return;
   }
@@ -184,6 +188,6 @@ function opigno_lms_form_update_manager_update_form_alter(&$form, &$form_state, 
  */
 function opigno_lms_set_og_permissions($bundle, $permissions) {
   foreach ($permissions as $role => $role_permissions) {
-
+    
   }
 }

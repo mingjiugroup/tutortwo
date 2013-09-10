@@ -19,6 +19,9 @@ function opigno_lms_install() {
   // Set default user settings.
   _opigno_lms_install_user_settings();
 
+  // Set default OG settings.
+  _opigno_lms_install_og_settings();
+
   // Create default entries in the menu.
   _opigno_lms_install_menu();
 }
@@ -132,6 +135,7 @@ function _opigno_lms_install_menu() {
         'class' => array('icon', 'icon-home'),
       ),
     ),
+    'weight' => -50,
   );
   menu_link_save($item);
 
@@ -145,9 +149,18 @@ function _opigno_lms_install_menu() {
         'class' => array('icon', 'icon-settings'),
       ),
     ),
+    'weight' => 50,
   );
   menu_link_save($item);
 
   // Update the menu router information.
   menu_rebuild();
+}
+
+/**
+ * Helper function to set default OG settings.
+ */
+function _opigno_lms_install_og_settings() {
+  $roles = og_roles('node', OPIGNO_COURSE_BUNDLE);
+  dpm($roles, 'roles');
 }
