@@ -9,17 +9,33 @@ dependencies[] = menu
 dependencies[] = dblog
 dependencies[] = search
 dependencies[] = field_ui
+dependencies[] = image
+dependencies[] = file
+dependencies[] = text
+dependencies[] = number
+dependencies[] = options
+dependencies[] = list
 
 ; Contrib
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = crumbs
-dependencies[] = features
 dependencies[] = apps
+dependencies[] = og
+dependencies[] = og_ui
 dependencies[] = og_massadd
 dependencies[] = og_quiz
-; Make sure to use the 2.x version or patched 1.x
 dependencies[] = og_create_perms
+dependencies[] = views
+dependencies[] = rules
+dependencies[] = rules_conditional
 
-; Opigo
+; Only for dev phase
+dependencies[] = drupal_reset
+
+; Opigno
 dependencies[] = opigno
-dependencies[] = opigno_quiz_app
+
+; Features
 dependencies[] = opigno_features_og_roles
+dependencies[] = opigno_features_wysiwyg

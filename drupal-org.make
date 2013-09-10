@@ -7,6 +7,7 @@ core = 7.x
 ;projects[] = opigno
 ;projects[] = opigno_quiz_app
 ;projects[] = opigno_wt_app
+;projects[] = opigno_certificate_app
 
 
 ; Opigno themes ================================================================
@@ -106,6 +107,12 @@ projects[field_group][version] = 1.2
 projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0-rc2
 
+projects[certificate][subdir]  = "contrib"
+projects[certificate][version] = 2.0-beta4
+
+projects[print][subdir]  = "contrib"
+projects[print][version] = 1.2
+
 
 ; Third-patry libraries ========================================================
 
@@ -113,3 +120,8 @@ libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
+
+;libraries[wkhtml][download][type]   = get
+;libraries[wkhtml][download][url]    = "https://wkhtmltopdf.googlecode.com/files/libwkhtmltox-0.11.0_rc1.zip"
+;libraries[wkhtml][destination]      = "libraries" 
+;libraries[wkhtml][directory_name]   = "wkhtml"
