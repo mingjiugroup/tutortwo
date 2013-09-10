@@ -128,3 +128,42 @@ libraries[ckeditor][directory_name] = "ckeditor"
 ;libraries[wkhtml][download][url]    = "https://wkhtmltopdf.googlecode.com/files/libwkhtmltox-0.11.0_rc1.zip"
 ;libraries[wkhtml][destination]      = "libraries" 
 ;libraries[wkhtml][directory_name]   = "wkhtml"
+
+
+
+; Panopoly base distribution ===================================================
+
+; The Panopoly Foundation
+projects[panopoly_core][version] = 1.0-rc5
+projects[panopoly_core][subdir] = panopoly
+
+projects[panopoly_images][version] = 1.0-rc5
+projects[panopoly_images][subdir] = panopoly
+
+projects[panopoly_theme][version] = 1.0-rc5
+projects[panopoly_theme][subdir] = panopoly
+
+projects[panopoly_magic][version] = 1.0-rc5
+projects[panopoly_magic][subdir] = panopoly
+
+projects[panopoly_widgets][version] = 1.0-rc5
+projects[panopoly_widgets][subdir] = panopoly
+
+; We don't want the admin module. We have our own.
+;projects[panopoly_admin][version] = 1.0-rc5
+;projects[panopoly_admin][subdir] = panopoly
+
+projects[panopoly_users][version] = 1.0-rc5
+projects[panopoly_users][subdir] = panopoly
+
+; The Panopoly Toolset
+; We don't vare about the pages.
+;projects[panopoly_pages][version] = 1.0-rc5
+;projects[panopoly_pages][subdir] = panopoly
+
+; We have our own WYSIWYG.
+;projects[panopoly_wysiwyg][version] = 1.0-r5
+;projects[panopoly_wysiwyg][subdir] = panopoly
+
+projects[panopoly_search][version] = 1.0-rc5
+projects[panopoly_search][subdir] = panopoly

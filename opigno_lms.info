@@ -16,6 +16,20 @@ dependencies[] = number
 dependencies[] = options
 dependencies[] = list
 
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+;dependencies[] = panopoly_widgets
+;dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+;dependencies[] = panopoly_pages
+dependencies[] = panopoly_search
+;dependencies[] = panopoly_wysiwyg
+
 ; Contrib
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
@@ -28,6 +42,8 @@ dependencies[] = og_create_perms
 dependencies[] = views
 dependencies[] = rules
 dependencies[] = rules_conditional
+dependencies[] = module_filter
+dependencies[] = date_popup_authored
 
 ; Only for dev phase
 dependencies[] = devel
