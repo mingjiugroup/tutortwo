@@ -101,6 +101,9 @@ projects[wysiwyg][version] = 2.2
 projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.9
 
+projects[wysiwyg_filter][subdir]  = "contrib"
+projects[wysiwyg_filter][version] = 1.6-rc2
+
 projects[field_group][subdir]  = "contrib"
 projects[field_group][version] = 1.2
 

@@ -52,7 +52,7 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
   $form['opigno_lms']['simple_ui'] = array(
     '#type' => 'checkbox',
     '#title' => st("Enable the Opigno Simple UI"),
-    '#description' => st("The default interfaces provided by Drupal can sometimes be difficult to use. Opigno Simple UI enhances many aspects of the user interface. It makes it more intuitive and much easier to use. If you are a seasoned Drupal user, you may want to disable this. If you're not familiar with some of Drupal's specificities, you are encouraged to use this as it will make your life easier. You can always disable it later."),
+    '#description' => st("The default interfaces provided by Drupal can sometimes be difficult to use. Opigno Simple UI enhances many aspects of the user interface. It makes it more intuitive and much easier to use. If you are a seasoned Drupal user, you may want to disable this. If you're not familiar with some of Drupal's specificities, or a new user, you are encouraged to use this as it will make your life easier. It will not prevent you from using functionality or hinder you. And you can always disable it later."),
     '#default_value' => 1,
   );
   $form['opigno_lms']['demo_content'] = array(
@@ -61,6 +61,15 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
     '#description' => st("You can enable demo content on your platform to get you started. This will create several user accounts, courses, certificates and quizzes to get you started."),
     '#default_value' => 0,
   );
+  $form['#submit'][] = 'opigno_lms_form_install_configure_form_alter_submit';
+}
+
+/** 
+ * Submit callback for opigno_lms_form_install_configure_form_alter().
+ */
+function opigno_lms_form_install_configure_form_alter_submit($form, $form_state) {
+  $_SESSION['opigno_lms']['simple_ui'] = $form_state['values']['simple_ui'];
+  $_SESSION['opigno_lms']['demo_content'] = $form_state['values']['demo_content'];
 }
 
 /**
@@ -73,7 +82,7 @@ function opigno_lms_form_apps_profile_apps_select_form_alter(&$form, $form_state
 
   // Improve style of apps selection form
   if (isset($form['apps_fieldset'])) {
-    $manifest = apps_manifest(apps_servers('panopoly'));
+    $manifest = apps_manifest(apps_servers('opigno'));
     foreach ($manifest['apps'] as $name => $app) {
       if ($name != '#theme') {
         $form['apps_fieldset']['apps']['#options'][$name] = '<strong>' . $app['name'] . '</strong><p><div class="admin-options"><div class="form-item">' . theme('image', array('path' => $app['logo']['path'], 'height' => '32', 'width' => '32')) . '</div>' . $app['description'] . '</div></p>';

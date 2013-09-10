@@ -8,9 +8,26 @@
  * Implements hook_install().
  */
 function opigno_lms_install() {
-  // Enable some standard blocks.
-  variable_set('theme_default', 'platon')
-  $default_theme = 'platon';
+  drupal_set_message('Install hook is called' . print_r($_SESSION, 1));
+
+  // Set the default theme.
+  variable_set('theme_default', 'platon');
+
+  // Enable blocks.  
+  _opigno_lms_install_enable_blocks();
+
+  // Set default user settings.
+  _opigno_lms_install_user_settings();
+
+  // Create default entries in the menu.
+  _opigno_lms_install_menu();
+}
+
+/** 
+ * Helper function to enable default blocks.
+ */
+function _opigno_lms_install_enable_blocks() {
+  $default_theme = variable_get('theme_default', 'platon');
   $blocks = array(
     array(
       'module' => 'system',
@@ -28,7 +45,7 @@ function opigno_lms_install() {
       'theme' => $default_theme,
       'status' => 1,
       'weight' => -1,
-      'region' => 'sidebar_first',
+      'region' => 'search_box',
       'pages' => '',
       'cache' => -1,
     ),
@@ -58,7 +75,12 @@ function opigno_lms_install() {
     $query->values($block);
   }
   $query->execute();
+}
 
+/**
+ * Helper function to set default user settings and roles.
+ */
+function _opigno_lms_install_user_settings() {
   // Enable user picture support and set the default to a square thumbnail option.
   variable_set('user_pictures', '1');
   variable_set('user_picture_dimensions', '1024x1024');
@@ -77,6 +99,7 @@ function opigno_lms_install() {
   $admin_role->weight = 2;
   user_role_save($admin_role);
   user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
+
   // Set this as the administrator role.
   variable_set('user_admin_role', $admin_role->rid);
 
@@ -85,13 +108,47 @@ function opigno_lms_install() {
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
 
+  // Create a default role for student managers.
+  $student_manager_role = new stdClass();
+  $student_manager_role->name = 'student manager';
+  $student_manager_role->weight = 3;
+  user_role_save($student_manager_role);
+  user_role_grant_permissions($student_manager_role->rid);
+
+  variable_set('opigno_lms_student_manager_role', $student_manager_role->rid);
+}
+
+/**
+ * Helper function to enable default menu entries.
+ */
+function _opigno_lms_install_menu() {
   // Create a Home link in the main menu.
   $item = array(
     'link_title' => st('Home'),
     'link_path' => '<front>',
     'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-home'),
+      ),
+    ),
   );
   menu_link_save($item);
+
+  // Create a default entry for the calendar app, if it exists.
+  if (module_exists('opigno_calendar_app')) {
+    $item = array(
+      'link_title' => st('Calendar'),
+      'link_path' => 'opigno-calendar',
+      'menu_name' => 'main-menu',
+      'options' => array(
+        'attributes' => array(
+          'class' => array('icon', 'icon-calendar'),
+        ),
+      ),
+    );
+    menu_link_save($item);
+  }
 
   // Update the menu router information.
   menu_rebuild();
