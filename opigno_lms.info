@@ -53,6 +53,15 @@ dependencies[] = drupal_reset
 ; Opigno
 dependencies[] = opigno
 
+; Opigno apps
+dependencies[] = opigno_quiz_app
+dependencies[] = opigno_wt_app
+dependencies[] = opigno_certificate_app
+dependencies[] = opigno_calendar_app
+dependencies[] = opigno_messaging_app
+dependencies[] = opigno_notitifications_app
+dependencies[] = opigno_forum_app
+
 ; Features
 dependencies[] = opigno_features_og_roles
 dependencies[] = opigno_features_wysiwyg

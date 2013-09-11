@@ -13,6 +13,21 @@ projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_wt_app][version] = 1.x-dev
 projects[opigno_wt_app][subdir]  = "opigno"
 
+projects[opigno_certificate_app][version] = 1.x-dev
+projects[opigno_certificate_app][subdir]  = "opigno"
+
+projects[opigno_calendar_app][version] = 1.x-dev
+projects[opigno_calendar_app][subdir]  = "opigno"
+
+projects[opigno_messaging_app][version] = 1.x-dev
+projects[opigno_messaging_app][subdir]  = "opigno"
+
+projects[opigno_notifications_app][version] = 1.x-dev
+projects[opigno_notifications_app][subdir]  = "opigno"
+
+projects[opigno_forum_app][version] = 1.x-dev
+projects[opigno_forum_app][subdir]  = "opigno"
+
 
 ; Opigno themes ================================================================
 
@@ -23,7 +38,7 @@ projects[open_framework][download][type] = get
 projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework/archive/7.x-2.04.tar.gz"
 
 
-; Opigno dependencies that need to be patched ==================================
+; Third-party modules that need to be patched ==================================
 
 ; Quiz
 projects[quiz][version] = 4.0-beta1
@@ -42,6 +57,11 @@ projects[og][patch][] = "http://drupal.org/files/og_add_role_rules_2076125_1.pat
 projects[og_create_perms][version] = 1.0
 projects[og_create_perms][subdir]  = "contrib"
 projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_api_2077031.patch"
+
+; OG forum
+projects[og_forum_D7][version] = 2.0-alpha1
+projects[og_forum_D7][subdir]  = "contrib"
+projects[og_forum_D7][patch][] = "https://drupal.org/files/fix-forum-access-1844104-2.patch"
 
 
 ; Third-party modules ==========================================================
@@ -118,8 +138,17 @@ projects[print][version] = 1.2
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.6
 
+projects[calendar][subdir]  = "contrib"
+projects[calendar][version] = 3.4
+
+projects[advanced_forum][subdir]  = "contrib"
+projects[advanced_forum][version] = 2.3
+
 projects[date_popup_authored][subdir]  = "contrib"
 projects[date_popup_authored][version] = 1.1
+
+projects[privatemsg][subdir]  = "contrib"
+projects[privatemsg][version] = 1.4
 
 
 ; Third-patry libraries ========================================================
