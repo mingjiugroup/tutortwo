@@ -7,22 +7,9 @@
  * user experience.
  */
 
-define('OPIGNO_LMS_STUDENT_ROLE', variable_get('opigno_lms_student_role_rid', 0));
-define('OPIGNO_LMS_TEACHER_ROLE', variable_get('opigno_lms_teacher_role_rid', 0));
-define('OPIGNO_LMS_ADMIN_ROLE',   variable_get('opigno_lms_admin_role_rid', 0));
-
-/**
- * Implements hook_install_tasks()
- */
-function opigno_lms_install_tasks(&$install_state) {
-  $tasks = array();
-
-  // Add the Opigno app selection to the installation process
-  require_once(drupal_get_path('module', 'apps') . '/apps.profile.inc');
-  $tasks = $tasks + apps_profile_install_tasks($install_state, array('machine name' => 'opigno'));
-
-  return $tasks;
-}
+define('OPIGNO_LMS_COURSE_STUDENT_ROLE', variable_get('opigno_lms_student_role_rid', 0));
+define('OPIGNO_LMS_COURSE_TEACHER_ROLE', variable_get('opigno_lms_teacher_role_rid', 0));
+define('OPIGNO_LMS_COURSE_ADMIN_ROLE',   variable_get('opigno_lms_admin_role_rid', 0));
 
 /**
  * Implements hook_form_FORM_ID_alter() for install_configure_form().
@@ -80,32 +67,6 @@ function opigno_lms_form_install_configure_form_alter_submit($form, $form_state)
   if (!empty($form_state['values']['opigno_lms']['demo_content'])) {
     // @todo
   }
-}
-
-/**
- * Implements hook_form_FORM_ID_alter()
- */
-function opigno_lms_form_apps_profile_apps_select_form_alter(&$form, $form_state) {
-  // For some things there are no need
-  $form['apps_message']['#access'] = FALSE;
-  $form['apps_fieldset']['apps']['#title'] = NULL;
-
-  // Improve style of apps selection form
-  if (isset($form['apps_fieldset'])) {
-    $manifest = apps_manifest(apps_servers('opigno'));
-    foreach ($manifest['apps'] as $name => $app) {
-      // Disable these apps. There installed by default with this distribution.
-      if ($name == 'opigno_quiz_app' || $name == 'opigno_wt_app') {
-        unset($form['apps_fieldset']['apps']['#options'][$name]);
-      }
-      elseif ($name != '#theme') {
-        $form['apps_fieldset']['apps']['#options'][$name] = '<div class="admin-options"><div><strong>' . $app['name'] . '</strong></div><div class="form-item">' . theme('image', array('path' => $app['logo']['path'], 'height' => '64', 'width' => '64')) . '</div>' . $app['description'] . '</div>';
-      }
-    }
-  }
-
-  // Remove the demo content selection option since this is handled through the Panopoly demo module.
-  $form['default_content_fieldset']['#access'] = FALSE;
 }
 
 /**
@@ -181,17 +142,40 @@ function opigno_lms_form_update_manager_update_form_alter(&$form, &$form_state, 
   }
 }
 
+/**
+ * @defgroup opigno_lms_api Opigno LMS API
+ * @{
+ * Opigno LMS provides an API that modules can use when inside the Opigno distribution context. These functions are meant
+ * to simplify the life of end users by allowing modules to set sensible defaults when installed. This is especially useful
+ * for apps and permissions. Many less-technical users will expect apps/modules to work out of the box. They will not expect
+ * to have to dig through long permission lists to check boxes for specific roles.
+ *
+ * When a new app/module is coded, developers should think about the different permissions and to which kind of users they
+ * would -- in most cases -- apply. Opigno ships with default OG roles, which are available as constants. Modules that provide
+ * other group bundles are encouraged to expose similar constants so that the same API can be used for similar purposes.
+ *
+ * The available role constants Opigno LMS provides apply to the course bundle:
+ *  - OPIGNO_LMS_COURSE_STUDENT_ROLE
+ *  - OPIGNO_LMS_COURSE_TEACHER_ROLE
+ *  - OPIGNO_LMS_COURSE_ADMIN_ROLE
+ */
 
 /**
- * Set permissions for a specific bundle and specific roles.
- * This function is globally available and modules and apps should use it to set default permissions,
- * simplifying module installation and site management.
+ * Set OG permissions for a specific bundle and specific roles.
+ * This function is globally available and modules and apps should use it to set default permissions, simplifying module
+ * installation and site management.
  *
  * @param  string $bundle
  * @param  array $permissions
+ *               An array of permissions, keyed by group role ID. Modules that define group types are encouraged to
+ *               expose constants for their default group roles so other modules can use this function for the same purpose.
  */
 function opigno_lms_set_og_permissions($bundle, $permissions) {
   foreach ($permissions as $role => $role_permissions) {
     
   }
 }
+
+/**
+ * @} End of "defgroup opigno_lms_api".
+ */
