@@ -161,6 +161,11 @@ libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKE
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 
+libraries[dompdf][download][type] = get
+libraries[dompdf][download][url]  = "https://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
+libraries[dompdf][destination]    = "libraries"
+libraries[dompdf][directory_name] = "dompdf"
+
 
 ; Panopoly base distribution ===================================================
 

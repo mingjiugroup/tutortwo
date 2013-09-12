@@ -16,6 +16,11 @@ function opigno_lms_install() {
   // Set the jQuery version we want to use.
   variable_set('jquery_update_jquery_version', '1.8');
 
+  // Set the DOMPDF library for the certificates, but display a message encouraging the users
+  // to use wkhtml.
+  variable_set('print_pdf_pdf_tool', 'profiles/opigno_lms/libraries/dompdf/dompdf_config.inc.php');
+  drupal_set_message(st("Please note that Opigno ships with the !dompdf library for generating certificates in PDF format. This works fine, but we strongly recommend to use !wkhtml instead, if you can. !wkhtml is much more powerful, and will allow you to make nicer certificates. However, !wkhtml requires manual installation, and your server might not be compatible.. Please refer to these <a href='!url'>instructions</a> for more information, or visit our support forums.", array('!dompdf' => '<a href="https://github.com/dompdf/dompdf" target="_blank">DomPDF</a>', '!wkhtml' => '<a href="https://code.google.com/p/wkhtmltopdf/" target="_blank">WKHTML</a>', '!url' => 'https://drupal.org/node/306882')), 'warning');
+
   // Enable blocks.  
   _opigno_lms_install_enable_blocks();
 
