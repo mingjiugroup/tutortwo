@@ -13,6 +13,9 @@ function opigno_lms_install() {
   // Set the default theme.
   variable_set('theme_default', 'platon');
 
+  // Set the jQuery version we want to use.
+  variable_set('jquery_update_jquery_version', '1.8');
+
   // Enable blocks.  
   _opigno_lms_install_enable_blocks();
 
@@ -136,6 +139,59 @@ function _opigno_lms_install_menu() {
       ),
     ),
     'weight' => -50,
+  );
+  menu_link_save($item);
+
+  // Create links for the apps.
+  $item = array(
+    'link_title' => st('Forum'),
+    'link_path' => 'forum',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-forum'),
+      ),
+    ),
+    'weight' => -40,
+  );
+  menu_link_save($item);
+
+  $item = array(
+    'link_title' => st('Calendar'),
+    'link_path' => 'opigno-calendar',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-calendar'),
+      ),
+    ),
+    'weight' => -30,
+  );
+  menu_link_save($item);
+
+  $item = array(
+    'link_title' => st('Messages'),
+    'link_path' => 'messages',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-message'),
+      ),
+    ),
+    'weight' => -20,
+  );
+  menu_link_save($item);
+
+  $item = array(
+    'link_title' => st('My achievements'),
+    'link_path' => 'my-achievements',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-certificate'),
+      ),
+    ),
+    'weight' => -10,
   );
   menu_link_save($item);
 

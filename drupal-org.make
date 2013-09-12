@@ -150,6 +150,9 @@ projects[date_popup_authored][version] = 1.1
 projects[privatemsg][subdir]  = "contrib"
 projects[privatemsg][version] = 1.4
 
+projects[jquery_update][subdir]  = "contrib"
+projects[jquery_update][version] = 2.3
+
 
 ; Third-patry libraries ========================================================
 
