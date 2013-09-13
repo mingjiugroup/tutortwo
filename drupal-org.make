@@ -166,6 +166,12 @@ projects[phpexcel][subdir]  = "contrib"
 projects[phpexcel][version] = 3.7
 
 
+; For dev phase (disable on production) ========================================
+
+projects[drupal_reset][subdir]  = "contrib"
+projects[drupal_reset][version] = 1.3 
+
+
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
