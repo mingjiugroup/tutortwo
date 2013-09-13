@@ -34,8 +34,8 @@ projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_wt_app][version] = 1.0-rc1
 projects[opigno_wt_app][subdir]  = "opigno"
 
-projects[opigno_course_categories_app][version] = 1.0-rc1
-projects[opigno_course_categories_app][subdir]  = "opigno"
+;projects[opigno_course_categories_app][version] = 1.0-rc1
+;projects[opigno_course_categories_app][subdir]  = "opigno"
 
 
 ; Opigno themes ================================================================
@@ -70,7 +70,7 @@ projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_a
 ; OG forum
 projects[og_forum_D7][version] = 2.0-alpha1
 projects[og_forum_D7][subdir]  = "contrib"
-projects[og_forum_D7][patch][] = "https://drupal.org/files/fix-forum-access-1844104-2.patch"
+projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
 
 
 ; Third-party modules ==========================================================
@@ -174,15 +174,15 @@ libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[dompdf][download][type] = get
-libraries[dompdf][download][url]  = "https://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
+libraries[dompdf][download][url]  = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
 libraries[dompdf][destination]    = "libraries"
 libraries[dompdf][directory_name] = "dompdf"
 
-libraries[PHPExcel][download][type] = "get"
-libraries[PHPExcel][download][url]  = "https://github.com/PHPOffice/PHPExcel/archive/PHPExcel_1.7.8.tar.gz"
-libraries[dompdf][destination]      = "libraries"
-libraries[dompdf][directory_name]   = "PHPExcel"
-libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
+;libraries[PHPExcel][download][type] = "get"
+;libraries[PHPExcel][download][url]  = "http://github.com/PHPOffice/PHPExcel/archive/PHPExcel_1.7.8.tar.gz"
+;libraries[dompdf][destination]      = "libraries"
+;libraries[dompdf][directory_name]   = "PHPExcel"
+;libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
 
 
 ; Panopoly base distribution ===================================================
