@@ -168,20 +168,20 @@ projects[phpexcel][version] = 3.7
 
 ; Third-patry libraries ========================================================
 
-libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
-libraries[ckeditor][destination]    = "libraries"
-libraries[ckeditor][directory_name] = "ckeditor"
+libraries[CKEditor][download][type] = get
+libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
+libraries[CKEditor][destination]    = "libraries"
+libraries[CKEditor][directory_name] = "ckeditor"
 
-libraries[dompdf][download][type] = get
-libraries[dompdf][download][url]  = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
-libraries[dompdf][destination]    = "libraries"
-libraries[dompdf][directory_name] = "dompdf"
+libraries[DOMPDF][download][type] = get
+libraries[DOMPDF][download][url]  = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
+libraries[DOMPDF][destination]    = "libraries"
+libraries[DOMPDF][directory_name] = "dompdf"
 
 ;libraries[PHPExcel][download][type] = "get"
 ;libraries[PHPExcel][download][url]  = "http://github.com/PHPOffice/PHPExcel/archive/PHPExcel_1.7.8.tar.gz"
-;libraries[dompdf][destination]      = "libraries"
-;libraries[dompdf][directory_name]   = "PHPExcel"
+;libraries[PHPExcel][destination]    = "libraries"
+;libraries[PHPExcel][directory_name] = "PHPExcel"
 ;libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
 
 
