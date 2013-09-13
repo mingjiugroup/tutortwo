@@ -4,18 +4,41 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[] = opigno
-;projects[] = opigno_quiz_app
-;projects[] = opigno_wt_app
-;projects[] = opigno_certificate_app
+projects[opigno][version] = 1.x-dev
+projects[opigno][subdir]  = "opigno"
+
+projects[opigno_quiz_app][version] = 1.x-dev
+projects[opigno_quiz_app][subdir]  = "opigno"
+
+projects[opigno_wt_app][version] = 1.x-dev
+projects[opigno_wt_app][subdir]  = "opigno"
+
+projects[opigno_certificate_app][version] = 1.x-dev
+projects[opigno_certificate_app][subdir]  = "opigno"
+
+projects[opigno_calendar_app][version] = 1.x-dev
+projects[opigno_calendar_app][subdir]  = "opigno"
+
+projects[opigno_messaging_app][version] = 1.x-dev
+projects[opigno_messaging_app][subdir]  = "opigno"
+
+projects[opigno_notifications_app][version] = 1.x-dev
+projects[opigno_notifications_app][subdir]  = "opigno"
+
+projects[opigno_forum_app][version] = 1.x-dev
+projects[opigno_forum_app][subdir]  = "opigno"
 
 
 ; Opigno themes ================================================================
 
 projects[] = platon
 
+projects[open_framework][type] = theme
+projects[open_framework][download][type] = get
+projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework/archive/7.x-2.04.tar.gz"
 
-; Opigno dependencies that need to be patched ==================================
+
+; Third-party modules that need to be patched ==================================
 
 ; Quiz
 projects[quiz][version] = 4.0-beta1
@@ -28,12 +51,17 @@ projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-
 ; OG
 projects[og][version] = 2.3
 projects[og][subdir]  = "contrib"
-projects[og][patch][] = "http://drupal.org/files/og_add_role_rules_2076125.patch"
+projects[og][patch][] = "http://drupal.org/files/og_add_role_rules_2076125_1.patch"
 
 ; OG Create Permissions
 projects[og_create_perms][version] = 1.0
 projects[og_create_perms][subdir]  = "contrib"
 projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_api_2077031.patch"
+
+; OG forum
+projects[og_forum_D7][version] = 2.0-alpha1
+projects[og_forum_D7][subdir]  = "contrib"
+projects[og_forum_D7][patch][] = "https://drupal.org/files/fix-forum-access-1844104-2.patch"
 
 
 ; Third-party modules ==========================================================
@@ -42,16 +70,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
 
 projects[module_filter][subdir]  = "contrib"
-projects[module_filter][version] = 1.8
-
-projects[ctools][subdir]  = "contrib"
-projects[ctools][version] = 1.3
-
-projects[views][subdir]  = "contrib"
-projects[views][version] = 3.7
-
-projects[views_bulk_operations][subdir]  = "contrib"
-projects[views_bulk_operations][version] = 3.1
+projects[module_filter][version] = 1.7
 
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = 1.2
@@ -93,13 +112,16 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[og_quiz][subdir]  = "contrib"
-projects[og_quiz][version] = 1.0-beta3
+projects[og_quiz][version] = 1.0-beta4
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
 
 projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.9
+
+projects[wysiwyg_filter][subdir]  = "contrib"
+projects[wysiwyg_filter][version] = 1.6-rc2
 
 projects[field_group][subdir]  = "contrib"
 projects[field_group][version] = 1.2
@@ -113,6 +135,24 @@ projects[certificate][version] = 2.0-beta4
 projects[print][subdir]  = "contrib"
 projects[print][version] = 1.2
 
+projects[date][subdir]  = "contrib"
+projects[date][version] = 2.6
+
+projects[calendar][subdir]  = "contrib"
+projects[calendar][version] = 3.4
+
+projects[advanced_forum][subdir]  = "contrib"
+projects[advanced_forum][version] = 2.3
+
+projects[date_popup_authored][subdir]  = "contrib"
+projects[date_popup_authored][version] = 1.1
+
+projects[privatemsg][subdir]  = "contrib"
+projects[privatemsg][version] = 1.4
+
+projects[jquery_update][subdir]  = "contrib"
+projects[jquery_update][version] = 2.3
+
 
 ; Third-patry libraries ========================================================
 
@@ -121,7 +161,45 @@ libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKE
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-;libraries[wkhtml][download][type]   = get
-;libraries[wkhtml][download][url]    = "https://wkhtmltopdf.googlecode.com/files/libwkhtmltox-0.11.0_rc1.zip"
-;libraries[wkhtml][destination]      = "libraries" 
-;libraries[wkhtml][directory_name]   = "wkhtml"
+libraries[dompdf][download][type] = get
+libraries[dompdf][download][url]  = "https://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
+libraries[dompdf][destination]    = "libraries"
+libraries[dompdf][directory_name] = "dompdf"
+
+
+; Panopoly base distribution ===================================================
+
+; The Panopoly Foundation
+projects[panopoly_core][version] = 1.0-rc5
+projects[panopoly_core][subdir] = panopoly
+
+projects[panopoly_images][version] = 1.0-rc5
+projects[panopoly_images][subdir] = panopoly
+
+projects[panopoly_theme][version] = 1.0-rc5
+projects[panopoly_theme][subdir] = panopoly
+
+projects[panopoly_magic][version] = 1.0-rc5
+projects[panopoly_magic][subdir] = panopoly
+
+projects[panopoly_widgets][version] = 1.0-rc5
+projects[panopoly_widgets][subdir] = panopoly
+
+; We don't want the admin module. We have our own.
+;projects[panopoly_admin][version] = 1.0-rc5
+;projects[panopoly_admin][subdir] = panopoly
+
+projects[panopoly_users][version] = 1.0-rc5
+projects[panopoly_users][subdir] = panopoly
+
+; The Panopoly Toolset
+; We don't care about the pages.
+;projects[panopoly_pages][version] = 1.0-rc5
+;projects[panopoly_pages][subdir] = panopoly
+
+; We have our own WYSIWYG.
+;projects[panopoly_wysiwyg][version] = 1.0-r5
+;projects[panopoly_wysiwyg][subdir] = panopoly
+
+projects[panopoly_search][version] = 1.0-rc5
+projects[panopoly_search][subdir] = panopoly

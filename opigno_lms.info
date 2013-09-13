@@ -1,6 +1,7 @@
 name = Opigno LMS
 description = Install Opigno with commonly used features pre-configured.
 core = 7.x
+exclusive = TRUE
 
 ; Drupal core modules
 dependencies[] = block
@@ -16,6 +17,20 @@ dependencies[] = number
 dependencies[] = options
 dependencies[] = list
 
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+;dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+;dependencies[] = panopoly_pages
+dependencies[] = panopoly_search
+;dependencies[] = panopoly_wysiwyg
+
 ; Contrib
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
@@ -24,17 +39,28 @@ dependencies[] = apps
 dependencies[] = og
 dependencies[] = og_ui
 dependencies[] = og_massadd
-dependencies[] = og_quiz
 dependencies[] = og_create_perms
 dependencies[] = views
 dependencies[] = rules
 dependencies[] = rules_conditional
+dependencies[] = module_filter
+dependencies[] = date_popup_authored
 
 ; Only for dev phase
+dependencies[] = devel
 dependencies[] = drupal_reset
 
 ; Opigno
 dependencies[] = opigno
+
+; Opigno apps
+dependencies[] = opigno_quiz_app
+dependencies[] = opigno_wt_app
+dependencies[] = opigno_certificate_app
+dependencies[] = opigno_calendar_app
+dependencies[] = opigno_messaging_app
+dependencies[] = opigno_notitifications_app
+dependencies[] = opigno_forum_app
 
 ; Features
 dependencies[] = opigno_features_og_roles

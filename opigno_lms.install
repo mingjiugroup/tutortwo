@@ -8,10 +8,36 @@
  * Implements hook_install().
  */
 function opigno_lms_install() {
-  drupal_set_message('Install hook is called');
-  // Enable some standard blocks.
-  variable_set('theme_default', 'platon')
-  $default_theme = 'platon';
+  // Set the default theme.
+  variable_set('theme_default', 'platon');
+
+  // Set the jQuery version we want to use.
+  variable_set('jquery_update_jquery_version', '1.8');
+
+  // Set the DOMPDF library for the certificates, but display a message encouraging the users
+  // to use wkhtml.
+  variable_set('print_pdf_pdf_tool', 'profiles/opigno_lms/libraries/dompdf/dompdf_config.inc.php');
+  drupal_set_message(st("Please note that Opigno ships with the !dompdf library for generating certificates in PDF format. This works fine, but we strongly recommend to use !wkhtml instead, if you can. !wkhtml is much more powerful, and will allow you to make nicer certificates. However, !wkhtml requires manual installation, and your server might not be compatible.. Please refer to these <a href='!url'>instructions</a> for more information, or visit our support forums.", array('!dompdf' => '<a href="https://github.com/dompdf/dompdf" target="_blank">DomPDF</a>', '!wkhtml' => '<a href="https://code.google.com/p/wkhtmltopdf/" target="_blank">WKHTML</a>', '!url' => 'https://drupal.org/node/306882')), 'warning');
+
+  // Enable blocks.  
+  _opigno_lms_install_enable_blocks();
+
+  // Set default user settings.
+  _opigno_lms_install_user_settings();
+
+  // Set default OG settings.
+  _opigno_lms_install_og_settings();
+
+  // Create default entries in the menu.
+  _opigno_lms_install_menu();
+}
+
+/** 
+ * Helper function to enable default blocks.
+ */
+function _opigno_lms_install_enable_blocks() {
+  $default_theme = variable_get('theme_default', 'platon');
+  
   $blocks = array(
     array(
       'module' => 'system',
@@ -29,7 +55,7 @@ function opigno_lms_install() {
       'theme' => $default_theme,
       'status' => 1,
       'weight' => -1,
-      'region' => 'sidebar_first',
+      'region' => 'search_box',
       'pages' => '',
       'cache' => -1,
     ),
@@ -59,7 +85,12 @@ function opigno_lms_install() {
     $query->values($block);
   }
   $query->execute();
+}
 
+/**
+ * Helper function to set default user settings and roles.
+ */
+function _opigno_lms_install_user_settings() {
   // Enable user picture support and set the default to a square thumbnail option.
   variable_set('user_pictures', '1');
   variable_set('user_picture_dimensions', '1024x1024');
@@ -78,6 +109,7 @@ function opigno_lms_install() {
   $admin_role->weight = 2;
   user_role_save($admin_role);
   user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
+
   // Set this as the administrator role.
   variable_set('user_admin_role', $admin_role->rid);
 
@@ -86,14 +118,109 @@ function opigno_lms_install() {
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
 
+  // Create a default role for student managers.
+  $student_manager_role = new stdClass();
+  $student_manager_role->name = 'student manager';
+  $student_manager_role->weight = 3;
+  user_role_save($student_manager_role);
+  user_role_grant_permissions($student_manager_role->rid);
+
+  variable_set('opigno_lms_student_manager_role', $student_manager_role->rid);
+}
+
+/**
+ * Helper function to enable default menu entries.
+ */
+function _opigno_lms_install_menu() {
   // Create a Home link in the main menu.
   $item = array(
     'link_title' => st('Home'),
     'link_path' => '<front>',
     'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-home'),
+      ),
+    ),
+    'weight' => -50,
+  );
+  menu_link_save($item);
+
+  // Create links for the apps.
+  $item = array(
+    'link_title' => st('Forum'),
+    'link_path' => 'forum',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-forum'),
+      ),
+    ),
+    'weight' => -40,
+  );
+  menu_link_save($item);
+
+  $item = array(
+    'link_title' => st('Calendar'),
+    'link_path' => 'opigno-calendar',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-calendar'),
+      ),
+    ),
+    'weight' => -30,
+  );
+  menu_link_save($item);
+
+  $item = array(
+    'link_title' => st('Messages'),
+    'link_path' => 'messages',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-message'),
+      ),
+    ),
+    'weight' => -20,
+  );
+  menu_link_save($item);
+
+  $item = array(
+    'link_title' => st('My achievements'),
+    'link_path' => 'my-achievements',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-certificate'),
+      ),
+    ),
+    'weight' => -10,
+  );
+  menu_link_save($item);
+
+  // Create an administration link in the main menu.
+  $item = array(
+    'link_title' => st('Administration'),
+    'link_path' => 'admin/opigno',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-settings'),
+      ),
+    ),
+    'weight' => 50,
   );
   menu_link_save($item);
 
   // Update the menu router information.
   menu_rebuild();
+}
+
+/**
+ * Helper function to set default OG settings.
+ */
+function _opigno_lms_install_og_settings() {
+  $roles = og_roles('node', OPIGNO_COURSE_BUNDLE);
+  dpm($roles, 'roles');
 }

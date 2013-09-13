@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Enables modules and site configuration for a standard site installation.
@@ -6,18 +7,9 @@
  * user experience.
  */
 
-/**
- * Implements hook_install_tasks()
- */
-function opigno_lms_install_tasks(&$install_state) {
-  $tasks = array();
-
-  // Add the Opigno app selection to the installation process
-  require_once(drupal_get_path('module', 'apps') . '/apps.profile.inc');
-  $tasks = $tasks + apps_profile_install_tasks($install_state, array('machine name' => 'opigno', 'default apps' => array('opigno_quiz_app', 'opigno_wt_app')));
-
-  return $tasks;
-}
+define('OPIGNO_LMS_COURSE_STUDENT_ROLE', variable_get('opigno_lms_student_role_rid', 0));
+define('OPIGNO_LMS_COURSE_TEACHER_ROLE', variable_get('opigno_lms_teacher_role_rid', 0));
+define('OPIGNO_LMS_COURSE_ADMIN_ROLE',   variable_get('opigno_lms_admin_role_rid', 0));
 
 /**
  * Implements hook_form_FORM_ID_alter() for install_configure_form().
@@ -48,11 +40,12 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
   $form['opigno_lms'] = array(
     '#type' => 'fieldset',
     '#title' => st("LMS settings"),
+    '#tree' => TRUE,
   );
   $form['opigno_lms']['simple_ui'] = array(
     '#type' => 'checkbox',
     '#title' => st("Enable the Opigno Simple UI"),
-    '#description' => st("The default interfaces provided by Drupal can sometimes be difficult to use. Opigno Simple UI enhances many aspects of the user interface. It makes it more intuitive and much easier to use. If you are a seasoned Drupal user, you may want to disable this. If you're not familiar with some of Drupal's specificities, you are encouraged to use this as it will make your life easier. You can always disable it later."),
+    '#description' => st("The default interfaces provided by Drupal can sometimes be difficult to use. Opigno Simple UI enhances many aspects of the user interface. It makes it more intuitive and much easier to use. If you are a seasoned Drupal user, you may want to disable this. If you're not familiar with some of Drupal's specificities, or a new user, you are encouraged to use this as it will make your life easier. It will not prevent you from using functionality or hinder you. And you can always disable it later."),
     '#default_value' => 1,
   );
   $form['opigno_lms']['demo_content'] = array(
@@ -61,28 +54,19 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
     '#description' => st("You can enable demo content on your platform to get you started. This will create several user accounts, courses, certificates and quizzes to get you started."),
     '#default_value' => 0,
   );
+  $form['#submit'][] = 'opigno_lms_form_install_configure_form_alter_submit';
 }
 
-/**
- * Implements hook_form_FORM_ID_alter()
+/** 
+ * Submit callback for opigno_lms_form_install_configure_form_alter().
  */
-function opigno_lms_form_apps_profile_apps_select_form_alter(&$form, $form_state) {
-  // For some things there are no need
-  $form['apps_message']['#access'] = FALSE;
-  $form['apps_fieldset']['apps']['#title'] = NULL;
-
-  // Improve style of apps selection form
-  if (isset($form['apps_fieldset'])) {
-    $manifest = apps_manifest(apps_servers('panopoly'));
-    foreach ($manifest['apps'] as $name => $app) {
-      if ($name != '#theme') {
-        $form['apps_fieldset']['apps']['#options'][$name] = '<strong>' . $app['name'] . '</strong><p><div class="admin-options"><div class="form-item">' . theme('image', array('path' => $app['logo']['path'], 'height' => '32', 'width' => '32')) . '</div>' . $app['description'] . '</div></p>';
-      }
-    }
+function opigno_lms_form_install_configure_form_alter_submit($form, $form_state) {
+  if (!empty($form_state['values']['opigno_lms']['simple_ui'])) {
+    module_enable(array('opigno_simple_ui'));
   }
-
-  // Remove the demo content selection option since this is handled through the Panopoly demo module.
-  $form['default_content_fieldset']['#access'] = FALSE;
+  if (!empty($form_state['values']['opigno_lms']['demo_content'])) {
+    // @todo
+  }
 }
 
 /**
@@ -102,7 +86,7 @@ function opigno_lms_update_status_alter(&$projects) {
     UPDATE_NOT_SUPPORTED,
   );
 
-  $make_filepath = drupal_get_path('module', 'opigno_lms') . '/drupal-org.make';
+  $make_filepath = drupal_get_path('profile', 'opigno_lms') . '/drupal-org.make';
   if (!file_exists($make_filepath)) {
     return;
   }
@@ -158,17 +142,40 @@ function opigno_lms_form_update_manager_update_form_alter(&$form, &$form_state, 
   }
 }
 
+/**
+ * @defgroup opigno_lms_api Opigno LMS API
+ * @{
+ * Opigno LMS provides an API that modules can use when inside the Opigno distribution context. These functions are meant
+ * to simplify the life of end users by allowing modules to set sensible defaults when installed. This is especially useful
+ * for apps and permissions. Many less-technical users will expect apps/modules to work out of the box. They will not expect
+ * to have to dig through long permission lists to check boxes for specific roles.
+ *
+ * When a new app/module is coded, developers should think about the different permissions and to which kind of users they
+ * would -- in most cases -- apply. Opigno ships with default OG roles, which are available as constants. Modules that provide
+ * other group bundles are encouraged to expose similar constants so that the same API can be used for similar purposes.
+ *
+ * The available role constants Opigno LMS provides apply to the course bundle:
+ *  - OPIGNO_LMS_COURSE_STUDENT_ROLE
+ *  - OPIGNO_LMS_COURSE_TEACHER_ROLE
+ *  - OPIGNO_LMS_COURSE_ADMIN_ROLE
+ */
 
 /**
- * Set permissions for a specific bundle and specific roles.
- * This function is globally available and modules and apps should use it to set default permissions,
- * simplifying module installation and site management.
+ * Set OG permissions for a specific bundle and specific roles.
+ * This function is globally available and modules and apps should use it to set default permissions, simplifying module
+ * installation and site management.
  *
  * @param  string $bundle
  * @param  array $permissions
+ *               An array of permissions, keyed by group role ID. Modules that define group types are encouraged to
+ *               expose constants for their default group roles so other modules can use this function for the same purpose.
  */
 function opigno_lms_set_og_permissions($bundle, $permissions) {
   foreach ($permissions as $role => $role_permissions) {
-
+    
   }
 }
+
+/**
+ * @} End of "defgroup opigno_lms_api".
+ */
