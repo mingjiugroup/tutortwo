@@ -7,17 +7,14 @@ core = 7.x
 projects[opigno][version] = 1.x-dev
 projects[opigno][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version] = 1.x-dev
-projects[opigno_quiz_app][subdir]  = "opigno"
-
-projects[opigno_wt_app][version] = 1.x-dev
-projects[opigno_wt_app][subdir]  = "opigno"
+projects[opigno_calendar_app][version] = 1.x-dev
+projects[opigno_calendar_app][subdir]  = "opigno"
 
 projects[opigno_certificate_app][version] = 1.x-dev
 projects[opigno_certificate_app][subdir]  = "opigno"
 
-projects[opigno_calendar_app][version] = 1.x-dev
-projects[opigno_calendar_app][subdir]  = "opigno"
+projects[opigno_forum_app][version] = 1.x-dev
+projects[opigno_forum_app][subdir]  = "opigno"
 
 projects[opigno_messaging_app][version] = 1.x-dev
 projects[opigno_messaging_app][subdir]  = "opigno"
@@ -25,17 +22,26 @@ projects[opigno_messaging_app][subdir]  = "opigno"
 projects[opigno_notifications_app][version] = 1.x-dev
 projects[opigno_notifications_app][subdir]  = "opigno"
 
-projects[opigno_forum_app][version] = 1.x-dev
-projects[opigno_forum_app][subdir]  = "opigno"
+projects[opigno_poll_app][version] = 1.0-rc1
+projects[opigno_poll_app][subdir]  = "opigno"
+
+projects[opigno_quiz_import_app][version] = 1.0-rc1
+projects[opigno_quiz_import_app][subdir]  = "opigno"
+
+projects[opigno_quiz_app][version] = 1.0-rc1
+projects[opigno_quiz_app][subdir]  = "opigno"
+
+projects[opigno_wt_app][version] = 1.0-rc1
+projects[opigno_wt_app][subdir]  = "opigno"
 
 
 ; Opigno themes ================================================================
 
 projects[] = platon
 
-projects[open_framework][type] = theme
-projects[open_framework][download][type] = get
-projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework/archive/7.x-2.04.tar.gz"
+;projects[open_framework][type] = theme
+;projects[open_framework][download][type] = get
+;projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework/archive/7.x-2.04.tar.gz"
 
 
 ; Third-party modules that need to be patched ==================================
@@ -153,6 +159,9 @@ projects[privatemsg][version] = 1.4
 projects[jquery_update][subdir]  = "contrib"
 projects[jquery_update][version] = 2.3
 
+projects[phpexcel][subdir]  = "contrib"
+projects[phpexcel][version] = 3.7
+
 
 ; Third-patry libraries ========================================================
 
@@ -165,6 +174,12 @@ libraries[dompdf][download][type] = get
 libraries[dompdf][download][url]  = "https://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
 libraries[dompdf][destination]    = "libraries"
 libraries[dompdf][directory_name] = "dompdf"
+
+libraries[PHPExcel][download][type] = "get"
+libraries[PHPExcel][download][url]  = "https://github.com/PHPOffice/PHPExcel/archive/PHPExcel_1.7.8.tar.gz"
+libraries[dompdf][destination]      = "libraries"
+libraries[dompdf][directory_name]   = "PHPExcel"
+libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
 
 
 ; Panopoly base distribution ===================================================
