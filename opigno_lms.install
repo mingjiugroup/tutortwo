@@ -8,6 +8,7 @@
  * Implements hook_install().
  */
 function opigno_lms_install() {
+  drupal_set_message('Install hook is called');
   // Enable some standard blocks.
   variable_set('theme_default', 'platon')
   $default_theme = 'platon';
