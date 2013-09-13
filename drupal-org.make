@@ -34,6 +34,9 @@ projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_wt_app][version] = 1.0-rc1
 projects[opigno_wt_app][subdir]  = "opigno"
 
+projects[opigno_course_categories_app][version] = 1.0-rc1
+projects[opigno_course_categories_app][subdir]  = "opigno"
+
 
 ; Opigno themes ================================================================
 
