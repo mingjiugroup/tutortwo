@@ -38,6 +38,7 @@ dependencies[] = crumbs
 dependencies[] = apps
 dependencies[] = og
 dependencies[] = og_ui
+dependencies[] = og_access
 dependencies[] = og_massadd
 dependencies[] = og_create_perms
 dependencies[] = views
