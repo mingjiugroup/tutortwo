@@ -1,0 +1,11 @@
+name = Opigno Features Field Groups
+core = 7.x
+package = Opigno Features
+dependencies[] = ctools
+dependencies[] = field_group
+dependencies[] = strongarm
+features[ctools][] = field_group:field_group:1
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[field_group][] = group_course_settings|node|course|form
+features[variable][] = field_bundle_settings_node__course
