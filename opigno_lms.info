@@ -64,7 +64,7 @@ dependencies[] = opigno_poll_app
 dependencies[] = opigno_quiz_import_app
 dependencies[] = opigno_quiz_app
 dependencies[] = opigno_wt_app
-;dependencies[] = opigno_course_categories_app
+dependencies[] = opigno_course_categories_app
 
 ; Features
 dependencies[] = opigno_features_og_roles
