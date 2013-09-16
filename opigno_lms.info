@@ -46,6 +46,7 @@ dependencies[] = rules
 dependencies[] = rules_conditional
 dependencies[] = module_filter
 dependencies[] = date_popup_authored
+dependencies[] = jquery_update
 
 ; Only for dev phase
 dependencies[] = devel
@@ -66,6 +67,6 @@ dependencies[] = opigno_quiz_app
 dependencies[] = opigno_wt_app
 dependencies[] = opigno_course_categories_app
 
-; Features
-dependencies[] = opigno_features_og_roles
+; Opigno features
+;dependencies[] = opigno_features_og_roles
 dependencies[] = opigno_features_wysiwyg

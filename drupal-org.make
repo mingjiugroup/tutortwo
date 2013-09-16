@@ -173,6 +173,9 @@ projects[phpexcel][version] = 3.7
 projects[login_redirect][subdir]  = "contrib"
 projects[login_redirect][version] = 1.1
 
+projects[homebox][subdir]  = "contrib"
+projects[homebox][version] = 2.0-beta6
+
 
 ; For dev phase (disable on production) ========================================
 
