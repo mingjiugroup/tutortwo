@@ -20,8 +20,8 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
   // Hide some messages from various modules that are just too chatty.
   drupal_get_messages('status');
   drupal_get_messages('warning');
-  
-  drupal_set_message(st("Please note that Opigno ships with the !dompdf library for generating certificates in PDF format. This works fine, but we strongly recommend to use !wkhtml instead, if you can. !wkhtml is much more powerful, and will allow you to make nicer certificates. However, !wkhtml requires manual installation, and your server might not be compatible.. Please refer to these <a href='!url'>instructions</a> for more information, or visit our support forums.", array('!dompdf' => '<a href="https://github.com/dompdf/dompdf" target="_blank">DomPDF</a>', '!wkhtml' => '<a href="https://code.google.com/p/wkhtmltopdf/" target="_blank">WKHTML</a>', '!url' => 'https://drupal.org/node/306882')), 'warning');
+
+  drupal_set_message(st("Please note that Opigno ships with the !dompdf library for generating certificates in PDF format. This works fine, but we strongly recommend to use !wkhtml instead, if you can. !wkhtml is much more powerful, and will allow you to make nicer certificates. However, !wkhtml requires manual installation, and your server might not be compatible. Please refer to these <a href='!url' target='_blank'>instructions</a> for more information, or visit our support forums.", array('!dompdf' => '<a href="https://github.com/dompdf/dompdf" target="_blank">DomPDF</a>', '!wkhtml' => '<a href="https://code.google.com/p/wkhtmltopdf/" target="_blank">WKHTML</a>', '!url' => 'https://drupal.org/node/306882')), 'warning');
 
   // Pre-populate the site name with the server name.
   $form['site_information']['site_name']['#default_value'] = st('Opigno LMS');
@@ -47,15 +47,17 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
   $form['opigno_lms']['simple_ui'] = array(
     '#type' => 'checkbox',
     '#title' => st("Enable the Opigno Simple UI"),
-    '#description' => st("The default interfaces provided by Drupal can sometimes be difficult to use. Opigno Simple UI enhances many aspects of the user interface. It makes it more intuitive and much easier to use. If you are a seasoned Drupal user, you may want to disable this. If you're not familiar with some of Drupal's specificities, or a new user, you are encouraged to use this as it will make your life easier. It will not prevent you from using functionality or hinder you. And you can always disable it later."),
+    '#description' => st("The default interfaces provided by Drupal can sometimes be difficult to use. Opigno Simple UI enhances many aspects of the user interface. It makes it more intuitive and much easier to use. If you are a seasoned Drupal user, you can ignore this. If you're not familiar with some of Drupal's specificities, or a new user, you are encouraged to use this as it will make your life easier. It will not prevent you from using functionality or hinder you. And you can always disable it later."),
     '#default_value' => 1,
   );
+  /* @todo
   $form['opigno_lms']['demo_content'] = array(
     '#type' => 'checkbox',
     '#title' => st("Enable demo content"),
     '#description' => st("You can enable demo content on your platform to get you started. This will create several user accounts, courses, certificates and quizzes to get you started."),
     '#default_value' => 0,
   );
+  */
   $form['#submit'][] = 'opigno_lms_form_install_configure_form_alter_submit';
 }
 
