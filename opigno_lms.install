@@ -107,25 +107,33 @@ function _opigno_lms_install_user_settings() {
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
 
   // Create a default role for site administrators, with all available permissions assigned.
-  $admin_role = new stdClass();
-  $admin_role->name = 'administrator';
-  $admin_role->weight = 2;
-  user_role_save($admin_role);
+  $admin_role = user_role_load_by_name('administrator');
+  if (empty($admin_role)) {
+    $admin_role = new stdClass();
+    $admin_role->name = 'administrator';
+    $admin_role->weight = 2;
+    user_role_save($admin_role);
+  }
+
   user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
 
   // Set this as the administrator role.
   variable_set('user_admin_role', $admin_role->rid);
 
   // Assign user 1 the "administrator" role.
-  db_insert('users_roles')
+  db_merge('users_roles')
+    ->key(array('uid' => 1, 'rid' => $admin_role->rid))
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
 
   // Create a default role for student managers.
-  $student_manager_role = new stdClass();
-  $student_manager_role->name = 'student manager';
-  $student_manager_role->weight = 3;
-  user_role_save($student_manager_role);
+  $student_manager_role = user_role_load_by_name('student manager');
+  if (empty($student_manager_role)) {
+    $student_manager_role = new stdClass();
+    $student_manager_role->name = 'student manager';
+    $student_manager_role->weight = 3;
+    user_role_save($student_manager_role);
+  }
   user_role_grant_permissions($student_manager_role->rid);
 
   variable_set('opigno_lms_student_manager_role', $student_manager_role->rid);
@@ -250,6 +258,6 @@ function _opigno_lms_install_menu() {
  * Helper function to set default OG settings.
  */
 function _opigno_lms_install_og_settings() {
-  $roles = og_roles('node', OPIGNO_COURSE_BUNDLE);
-  dpm($roles, 'roles');
+  //$roles = og_roles('node', OPIGNO_COURSE_BUNDLE);
+  //dpm($roles, 'roles');
 }
