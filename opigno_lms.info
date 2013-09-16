@@ -69,4 +69,7 @@ dependencies[] = opigno_course_categories_app
 
 ; Opigno features
 ;dependencies[] = opigno_features_og_roles
+dependencies[] = opigno_features_field_groups
+dependencies[] = opigno_features_panels
 dependencies[] = opigno_features_wysiwyg
+dependencies[] = opigno_features_homebox
