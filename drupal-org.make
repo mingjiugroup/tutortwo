@@ -165,6 +165,9 @@ projects[jquery_update][version] = 2.3
 projects[phpexcel][subdir]  = "contrib"
 projects[phpexcel][version] = 3.7
 
+projects[login_redirect][subdir]  = "contrib"
+projects[login_redirect][version] = 1.1
+
 
 ; For dev phase (disable on production) ========================================
 
