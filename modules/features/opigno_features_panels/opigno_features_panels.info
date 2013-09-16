@@ -3,6 +3,7 @@ core = 7.x
 package = Opigno Features
 dependencies[] = ctools
 dependencies[] = panelizer
+dependencies[] = panopoly_widgets
 features[ctools][] = panelizer:panelizer:1
 features[defaultconfig][] = field_default_fields:fieldable_panels_pane-basic_file-field_basic_file_file
 features[defaultconfig][] = field_default_fields:fieldable_panels_pane-basic_file-field_basic_file_text
