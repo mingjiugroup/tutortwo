@@ -75,6 +75,7 @@ projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-18441
 ; Views linkarea
 projects[views_linkarea][subdir]  = "contrib"
 projects[views_linkarea][version] = 1.0
+projects[views_linkarea][patch][] = "http://drupal.org/files/permissions.patch"
 projects[views_linkarea][patch][] = "http://drupal.org/files/0001-Issue-1451266-Improved-Links-should-not-render-if-us.patch"
 
 
