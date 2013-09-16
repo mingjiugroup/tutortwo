@@ -148,6 +148,32 @@ function _opigno_lms_install_menu() {
 
   // Create links for the apps.
   $item = array(
+    'link_title' => st('My courses'),
+    'link_path' => 'my-courses',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-courses'),
+      ),
+    ),
+    'weight' => -45,
+  );
+  menu_link_save($item);
+
+  $item = array(
+    'link_title' => st('Course catalogue'),
+    'link_path' => 'course-catalogue',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array(
+        'class' => array('icon', 'icon-catalogue'),
+      ),
+    ),
+    'weight' => -40,
+  );
+  menu_link_save($item);
+
+  $item = array(
     'link_title' => st('Forum'),
     'link_path' => 'forum',
     'menu_name' => 'main-menu',
@@ -156,7 +182,7 @@ function _opigno_lms_install_menu() {
         'class' => array('icon', 'icon-forum'),
       ),
     ),
-    'weight' => -40,
+    'weight' => -35,
   );
   menu_link_save($item);
 
