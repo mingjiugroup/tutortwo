@@ -9,6 +9,7 @@
  */
 function opigno_lms_install() {
   // Set the default theme.
+  theme_enable(array('platon'));
   variable_set('theme_default', 'platon');
 
   // Set the jQuery version we want to use.
@@ -219,7 +220,7 @@ function _opigno_lms_install_menu() {
     'menu_name' => 'main-menu',
     'options' => array(
       'attributes' => array(
-        'class' => array('icon', 'icon-message'),
+        'class' => array('icon', 'icon-messages'),
       ),
     ),
     'weight' => -20,
@@ -232,7 +233,7 @@ function _opigno_lms_install_menu() {
     'menu_name' => 'main-menu',
     'options' => array(
       'attributes' => array(
-        'class' => array('icon', 'icon-certificate'),
+        'class' => array('icon', 'icon-certificates'),
       ),
     ),
     'weight' => -10,
