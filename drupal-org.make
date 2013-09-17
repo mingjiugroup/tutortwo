@@ -40,7 +40,7 @@ projects[opigno_course_categories_app][subdir]  = "opigno"
 
 ; Opigno themes ================================================================
 
-projects[] = platon
+projects[platon][version] = 1.0-beta2
 
 ;projects[open_framework][type] = theme
 ;projects[open_framework][download][type] = get
