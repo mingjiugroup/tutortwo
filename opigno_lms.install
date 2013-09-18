@@ -12,6 +12,9 @@ function opigno_lms_install() {
   theme_enable(array('platon'));
   variable_set('theme_default', 'platon');
 
+  // Deactivate Notices
+  variable_set('error_level', ERROR_REPORTING_DISPLAY_SOME);
+
   // Set the jQuery version we want to use.
   variable_set('jquery_update_jquery_version', '1.8');
 
