@@ -17,6 +17,50 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:course:add user'
+  $permissions['node:course:add user'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:administer group'
+  $permissions['node:course:administer group'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:approve and deny subscription'
+  $permissions['node:course:approve and deny subscription'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:cancel own vote'
+  $permissions['node:course:cancel own vote'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:create calendar_event content'
+  $permissions['node:course:create calendar_event content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'coach member' => 'coach member',
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:create forum content'
+  $permissions['node:course:create forum content'] = array(
+    'roles' => array(
+      'member' => 'member',
+    ),
+  );
+
   // Exported og permission: 'node:course:create long_answer content'
   $permissions['node:course:create long_answer content'] = array(
     'roles' => array(
@@ -35,6 +79,22 @@ function opigno_features_og_roles_og_features_default_permissions() {
 
   // Exported og permission: 'node:course:create multichoice content'
   $permissions['node:course:create multichoice content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:create notification content'
+  $permissions['node:course:create notification content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:create poll content'
+  $permissions['node:course:create poll content'] = array(
     'roles' => array(
       'administrator member' => 'administrator member',
       'teacher member' => 'teacher member',
@@ -89,6 +149,21 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:course:delete any calendar_event content'
+  $permissions['node:course:delete any calendar_event content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:delete any forum content'
+  $permissions['node:course:delete any forum content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'forum administrator' => 'forum administrator',
+    ),
+  );
+
   // Exported og permission: 'node:course:delete any long_answer content'
   $permissions['node:course:delete any long_answer content'] = array(
     'roles' => array(
@@ -110,6 +185,20 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:course:delete any notification content'
+  $permissions['node:course:delete any notification content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:delete any poll content'
+  $permissions['node:course:delete any poll content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
   // Exported og permission: 'node:course:delete any quiz content'
   $permissions['node:course:delete any quiz content'] = array(
     'roles' => array(
@@ -121,6 +210,7 @@ function opigno_features_og_roles_og_features_default_permissions() {
   $permissions['node:course:delete any quiz results'] = array(
     'roles' => array(
       'administrator member' => 'administrator member',
+      'teacher member' => 'teacher member',
     ),
   );
 
@@ -159,6 +249,19 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:course:delete own calendar_event content'
+  $permissions['node:course:delete own calendar_event content'] = array(
+    'roles' => array(
+      'coach member' => 'coach member',
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:delete own forum content'
+  $permissions['node:course:delete own forum content'] = array(
+    'roles' => array(),
+  );
+
   // Exported og permission: 'node:course:delete own long_answer content'
   $permissions['node:course:delete own long_answer content'] = array(
     'roles' => array(
@@ -175,6 +278,20 @@ function opigno_features_og_roles_og_features_default_permissions() {
 
   // Exported og permission: 'node:course:delete own multichoice content'
   $permissions['node:course:delete own multichoice content'] = array(
+    'roles' => array(
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:delete own notification content'
+  $permissions['node:course:delete own notification content'] = array(
+    'roles' => array(
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:delete own poll content'
+  $permissions['node:course:delete own poll content'] = array(
     'roles' => array(
       'teacher member' => 'teacher member',
     ),
@@ -224,23 +341,66 @@ function opigno_features_og_roles_og_features_default_permissions() {
 
   // Exported og permission: 'node:course:delete results for own quiz'
   $permissions['node:course:delete results for own quiz'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:course:import quiz questions xls'
+  $permissions['node:course:import quiz questions xls'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:course:inspect all votes'
+  $permissions['node:course:inspect all votes'] = array(
     'roles' => array(
-      'teacher member' => 'teacher member',
+      'administrator member' => 'administrator member',
     ),
+  );
+
+  // Exported og permission: 'node:course:manage members'
+  $permissions['node:course:manage members'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:manage permissions'
+  $permissions['node:course:manage permissions'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:manage roles'
+  $permissions['node:course:manage roles'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:moderate'
+  $permissions['node:course:moderate'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'forum administrator' => 'forum administrator',
+    ),
+  );
+
+  // Exported og permission: 'node:course:notify group members'
+  $permissions['node:course:notify group members'] = array(
+    'roles' => array(),
   );
 
   // Exported og permission: 'node:course:score any quiz'
   $permissions['node:course:score any quiz'] = array(
     'roles' => array(
       'administrator member' => 'administrator member',
+      'teacher member' => 'teacher member',
     ),
   );
 
   // Exported og permission: 'node:course:score own quiz'
   $permissions['node:course:score own quiz'] = array(
-    'roles' => array(
-      'teacher member' => 'teacher member',
-    ),
+    'roles' => array(),
   );
 
   // Exported og permission: 'node:course:score taken quiz answer'
@@ -248,6 +408,57 @@ function opigno_features_og_roles_og_features_default_permissions() {
     'roles' => array(
       'administrator member' => 'administrator member',
       'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:skip display of results'
+  $permissions['node:course:skip display of results'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'coach member' => 'coach member',
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:sort quizzes'
+  $permissions['node:course:sort quizzes'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:subscribe'
+  $permissions['node:course:subscribe'] = array(
+    'roles' => array(
+      'non-member' => 'non-member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:subscribe without approval'
+  $permissions['node:course:subscribe without approval'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:course:unsubscribe'
+  $permissions['node:course:unsubscribe'] = array(
+    'roles' => array(
+      'member' => 'member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:update any calendar_event content'
+  $permissions['node:course:update any calendar_event content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:update any forum content'
+  $permissions['node:course:update any forum content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'forum administrator' => 'forum administrator',
     ),
   );
 
@@ -267,6 +478,20 @@ function opigno_features_og_roles_og_features_default_permissions() {
 
   // Exported og permission: 'node:course:update any multichoice content'
   $permissions['node:course:update any multichoice content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:update any notification content'
+  $permissions['node:course:update any notification content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:update any poll content'
+  $permissions['node:course:update any poll content'] = array(
     'roles' => array(
       'administrator member' => 'administrator member',
     ),
@@ -314,6 +539,29 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:course:update group'
+  $permissions['node:course:update group'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:update own calendar_event content'
+  $permissions['node:course:update own calendar_event content'] = array(
+    'roles' => array(
+      'coach member' => 'coach member',
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:update own forum content'
+  $permissions['node:course:update own forum content'] = array(
+    'roles' => array(
+      'member' => 'member',
+    ),
+  );
+
   // Exported og permission: 'node:course:update own long_answer content'
   $permissions['node:course:update own long_answer content'] = array(
     'roles' => array(
@@ -330,6 +578,20 @@ function opigno_features_og_roles_og_features_default_permissions() {
 
   // Exported og permission: 'node:course:update own multichoice content'
   $permissions['node:course:update own multichoice content'] = array(
+    'roles' => array(
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:update own notification content'
+  $permissions['node:course:update own notification content'] = array(
+    'roles' => array(
+      'teacher member' => 'teacher member',
+    ),
+  );
+
+  // Exported og permission: 'node:course:update own poll content'
+  $permissions['node:course:update own poll content'] = array(
     'roles' => array(
       'teacher member' => 'teacher member',
     ),
@@ -381,6 +643,7 @@ function opigno_features_og_roles_og_features_default_permissions() {
   $permissions['node:course:view any quiz results'] = array(
     'roles' => array(
       'administrator member' => 'administrator member',
+      'teacher member' => 'teacher member',
     ),
   );
 
@@ -393,8 +656,13 @@ function opigno_features_og_roles_og_features_default_permissions() {
 
   // Exported og permission: 'node:course:view results for own quiz'
   $permissions['node:course:view results for own quiz'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:course:vote on polls'
+  $permissions['node:course:vote on polls'] = array(
     'roles' => array(
-      'teacher member' => 'teacher member',
+      'member' => 'member',
     ),
   );
 
