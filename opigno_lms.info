@@ -46,7 +46,6 @@ dependencies[] = rules
 dependencies[] = rules_conditional
 dependencies[] = module_filter
 dependencies[] = date_popup_authored
-dependencies[] = jquery_update
 
 ; Only for dev phase
 dependencies[] = devel
