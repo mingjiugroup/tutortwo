@@ -1,7 +1,6 @@
 name = Opigno Features Homebox
 core = 7.x
 package = Opigno Features
-version = 7.x-1.0-alpha9
 project = opigno_features_homebox
 dependencies[] = homebox
 datestamp = 1379503745
