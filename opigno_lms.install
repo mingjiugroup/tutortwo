@@ -12,14 +12,19 @@ function opigno_lms_install() {
   theme_enable(array('platon'));
   variable_set('theme_default', 'platon');
 
-  // Deactivate Notices
+  // Set the default settings for the theme.
+  $default_theme_settings = variable_get('theme_platon_settings', array());
+  $default_theme_settings['front_heading_classes'] = 'show-title '; // Note the space ! Surely a typo in OF.
+  $default_theme_settings['breadcrumb_classes'] = 'show-breadcrumb '; // Note the space ! Surely a typo in OF.
+  variable_set('theme_platon_settings', $default_theme_settings);
+
+  // Deactivate Notices, as Drupal (and modules) have many of them.
   variable_set('error_level', ERROR_REPORTING_DISPLAY_SOME);
 
   // Set the jQuery version we want to use.
   variable_set('jquery_update_jquery_version', '1.8');
 
-  // Set the DOMPDF library for the certificates, but display a message encouraging the users
-  // to use wkhtml.
+  // Set the DOMPDF library for the certificates.
   variable_set('print_pdf_pdf_tool', 'profiles/opigno_lms/libraries/dompdf/dompdf_config.inc.php');
 
   // Set login redirect.

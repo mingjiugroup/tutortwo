@@ -83,6 +83,11 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.4
 projects[calendar][patch][] = "http://drupal.org/files/calendar-php54-1471400-58.patch"
 
+; Rules
+projects[rules][subdir]  = "contrib"
+projects[rules][version] = 2.3
+projects[rules][patch][] = "http://drupal.org/files/system.rules_.inc_.patch"
+
 
 ; Third-party modules ==========================================================
 
@@ -115,9 +120,6 @@ projects[variable][version] = 2.3
 
 projects[i18n][subdir]  = "contrib"
 projects[i18n][version] = 1.10
-
-projects[rules][subdir]  = "contrib"
-projects[rules][version] = 2.3
 
 projects[rules_conditional][subdir]  = "contrib"
 projects[rules_conditional][version] = 1.0-beta2
