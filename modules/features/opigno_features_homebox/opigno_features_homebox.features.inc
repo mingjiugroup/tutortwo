@@ -25,47 +25,11 @@ function opigno_features_homebox_homebox() {
     ),
     'blocks' => 
     array (
-      'views_notification_view-block_1' => 
-      array (
-        'module' => 'views',
-        'delta' => 'notification_view-block_1',
-        'region' => 3,
-        'movable' => 1,
-        'status' => 1,
-        'open' => 1,
-        'closable' => 1,
-        'title' => '',
-        'weight' => -23,
-      ),
       'user_online' => 
       array (
         'module' => 'user',
         'delta' => 'online',
         'region' => 3,
-        'movable' => 1,
-        'status' => 1,
-        'open' => 1,
-        'closable' => 1,
-        'title' => '',
-        'weight' => -22,
-      ),
-      'views_calendar_dashboard-block_1' => 
-      array (
-        'module' => 'views',
-        'delta' => 'calendar_dashboard-block_1',
-        'region' => 1,
-        'movable' => 1,
-        'status' => 1,
-        'open' => 1,
-        'closable' => 1,
-        'title' => '',
-        'weight' => -22,
-      ),
-      'views_dashboard_new_content-block' => 
-      array (
-        'module' => 'views',
-        'delta' => 'dashboard_new_content-block',
-        'region' => 2,
         'movable' => 1,
         'status' => 1,
         'open' => 1,
@@ -85,17 +49,53 @@ function opigno_features_homebox_homebox() {
         'title' => '',
         'weight' => -21,
       ),
-      'views_calendar_dashboard-block_2' => 
+      'forum_active' => 
       array (
-        'module' => 'views',
-        'delta' => 'calendar_dashboard-block_2',
+        'module' => 'forum',
+        'delta' => 'active',
         'region' => 1,
         'movable' => 1,
         'status' => 1,
         'open' => 1,
         'closable' => 1,
         'title' => '',
-        'weight' => -21,
+        'weight' => -22,
+      ),
+      'poll_recent' => 
+      array (
+        'module' => 'poll',
+        'delta' => 'recent',
+        'region' => 2,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -22,
+      ),
+      'views_calendar-block_1' => 
+      array (
+        'module' => 'views',
+        'delta' => 'calendar-block_1',
+        'region' => 3,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -22,
+      ),
+      'views_Notifications-block_1' => 
+      array (
+        'module' => 'views',
+        'delta' => 'Notifications-block_1',
+        'region' => 1,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -22,
       ),
     ),
     'widths' => 
@@ -103,16 +103,13 @@ function opigno_features_homebox_homebox() {
     ),
     'title' => 'Dashboard',
     'path' => 'dashboard',
-    'menu' => 1,
+    'menu' => 0,
     'enabled' => 1,
     'auto_save' => 1,
     'full' => 0,
     'roles' => 
     array (
-      0 => 'administrateur',
-      1 => 'authenticated user',
-      2 => 'enseignant',
-      3 => 'étudiant',
+      0 => 'authenticated user',
     ),
   );
 
