@@ -78,6 +78,11 @@ projects[views_linkarea][version] = 1.0
 projects[views_linkarea][patch][] = "http://drupal.org/files/permissions.patch"
 projects[views_linkarea][patch][] = "http://drupal.org/files/0001-Issue-1451266-Improved-Links-should-not-render-if-us.patch"
 
+; Calendar (prevent warnings)
+projects[calendar][subdir]  = "contrib"
+projects[calendar][version] = 3.4
+projects[calendar][patch][] = "http://drupal.org/files/calendar-php54-1471400-58.patch"
+
 
 ; Third-party modules ==========================================================
 
@@ -152,9 +157,6 @@ projects[print][version] = 1.2
 
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.6
-
-projects[calendar][subdir]  = "contrib"
-projects[calendar][version] = 3.4
 
 projects[advanced_forum][subdir]  = "contrib"
 projects[advanced_forum][version] = 2.3
