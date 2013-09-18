@@ -56,6 +56,7 @@ dependencies[] = drupal_reset
 dependencies[] = opigno
 
 ; Opigno apps
+dependencies[] = opigno_class_app
 dependencies[] = opigno_calendar_app
 dependencies[] = opigno_certificate_app
 dependencies[] = opigno_forum_app
