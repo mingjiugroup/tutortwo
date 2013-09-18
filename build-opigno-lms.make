@@ -3,4 +3,4 @@ core = 7.x
 
 projects[drupal][version] = 7.23
 
-projects[opigno_lms][version] = 1.0-alpha8
+projects[opigno_lms][version] = 1.0-alpha9

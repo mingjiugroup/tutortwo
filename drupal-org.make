@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0-rc2
+projects[opigno][version] = 1.0-rc3
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.x-dev
@@ -40,7 +40,7 @@ projects[opigno_course_categories_app][subdir]  = "opigno"
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 1.0-beta2
+projects[platon][version] = 1.0-beta3
 
 ;projects[open_framework][type] = theme
 ;projects[open_framework][download][type] = get
