@@ -42,6 +42,9 @@ function opigno_lms_install() {
 
   // Create default entries in the menu.
   _opigno_lms_install_menu();
+
+  // Rebuild permissions. Don't use the batch process, we're already in one.
+  node_access_rebuild(FALSE);
 }
 
 /** 
@@ -286,6 +289,26 @@ function _opigno_lms_install_menu() {
  * Helper function to set default OG settings.
  */
 function _opigno_lms_install_og_settings() {
-  //$roles = og_roles('node', OPIGNO_COURSE_BUNDLE);
-  //dpm($roles, 'roles');
+  // Get the role IDs to set them as variables.
+  $roles = array();
+  foreach (array(
+    OPIGNO_LMS_COURSE_ADMIN_ROLE   => 'administrator member',
+    OPIGNO_LMS_COURSE_COACH_ROLE   => 'coach member',
+    OPIGNO_LMS_COURSE_TEACHER_ROLE => 'teacher member',
+    OPIGNO_LMS_COURSE_STUDENT_ROLE => 'student member',
+  ) as $key => $role_name) {
+    $rid  = db_select('og_role', 'r')
+              ->fields('r', array('rid'))
+              ->condition('r.name', $role_name)
+              ->condition('group_bundle', OPIGNO_COURSE_BUNDLE)
+              ->execute()
+              ->fetchField();
+
+    if (empty($rid)) {
+      // Set a default value to prevent notices.
+      $rid = 0;
+    }
+    $roles[$key] = $rid;
+  }
+  variable_set('opigno_lms_default_og_roles', $roles);
 }

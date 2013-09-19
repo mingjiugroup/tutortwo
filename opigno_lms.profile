@@ -7,9 +7,10 @@
  * user experience.
  */
 
-define('OPIGNO_LMS_COURSE_STUDENT_ROLE', variable_get('opigno_lms_student_role_rid', 0));
-define('OPIGNO_LMS_COURSE_TEACHER_ROLE', variable_get('opigno_lms_teacher_role_rid', 0));
-define('OPIGNO_LMS_COURSE_ADMIN_ROLE',   variable_get('opigno_lms_admin_role_rid', 0));
+define('OPIGNO_LMS_COURSE_STUDENT_ROLE', 'course student member');
+define('OPIGNO_LMS_COURSE_COACH_ROLE',   'course coach member');
+define('OPIGNO_LMS_COURSE_TEACHER_ROLE', 'course teacher member');
+define('OPIGNO_LMS_COURSE_ADMIN_ROLE',   'course admin member');
 
 /**
  * Implements hook_form_FORM_ID_alter() for install_configure_form().
@@ -161,8 +162,26 @@ function opigno_lms_form_update_manager_update_form_alter(&$form, &$form_state, 
  * The available role constants Opigno LMS provides apply to the course bundle:
  *  - OPIGNO_LMS_COURSE_STUDENT_ROLE
  *  - OPIGNO_LMS_COURSE_TEACHER_ROLE
+ *  - OPIGNO_LMS_COURSE_COACH_ROLE
  *  - OPIGNO_LMS_COURSE_ADMIN_ROLE
  */
+
+/**
+ * Get the default OG role ids.
+ *
+ * @param  string $key
+ *
+ * @return int
+ */
+function opigno_lms_get_role_id($key) {
+  $roles = &drupal_static(__FUNCTION__);
+
+  if (empty($roles)) {
+    $roles = variable_get('opigno_lms_default_og_roles', array());
+  }
+
+  return !empty($roles[$key]) ? $roles[$key] : 0;
+}
 
 /**
  * Set OG permissions for a specific bundle and specific roles.
