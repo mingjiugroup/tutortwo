@@ -537,7 +537,9 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'administer panelizer node course content'.
   $permissions['administer panelizer node course content'] = array(
     'name' => 'administer panelizer node course content',
-    'roles' => array(),
+    'roles' => array(
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'panelizer',
   );
 
@@ -558,7 +560,9 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'administer panelizer node course layout'.
   $permissions['administer panelizer node course layout'] = array(
     'name' => 'administer panelizer node course layout',
-    'roles' => array(),
+    'roles' => array(
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'panelizer',
   );
 
@@ -581,6 +585,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer taxonomy_term panopoly_categories breadcrumbs',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -590,6 +595,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer taxonomy_term panopoly_categories content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -599,6 +605,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer taxonomy_term panopoly_categories context',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -608,6 +615,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer taxonomy_term panopoly_categories defaults',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -617,6 +625,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer taxonomy_term panopoly_categories layout',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -626,6 +635,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer taxonomy_term panopoly_categories overview',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -635,6 +645,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer taxonomy_term panopoly_categories settings',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -653,6 +664,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer user user content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -680,6 +692,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer panelizer user user layout',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -2725,7 +2738,9 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'use text format html'.
   $permissions['use text format html'] = array(
     'name' => 'use text format html',
-    'roles' => array(),
+    'roles' => array(
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'filter',
   );
 
