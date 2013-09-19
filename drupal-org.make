@@ -82,6 +82,7 @@ projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_a
 projects[og_forum_D7][version] = 2.0-alpha1
 projects[og_forum_D7][subdir]  = "contrib"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
+projects[og_forum_D7][patch][] = "https://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
 
 ; Views linkarea
 projects[views_linkarea][subdir]  = "contrib"
