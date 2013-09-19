@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0-rc5
+projects[opigno][version] = 1.0-rc6
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.x-dev
@@ -40,10 +40,18 @@ projects[opigno_wt_app][subdir]  = "opigno"
 projects[opigno_course_categories_app][version] = 1.0-rc2
 projects[opigno_course_categories_app][subdir]  = "opigno"
 
+projects[tft][type]               = module
+projects[tft][subdir]             = "opigno"
+projects[tft][download][type]     = git
+projects[tft][download][branch]   = "7.x-1.x"
+projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
+projects[tft][download][revision] = 0b060a4dc646d6837b8a659ea909aa03535d7057
+projects[tft][directory_name]     = "tft"
+
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 1.0-beta3
+projects[platon][version] = 1.0-beta4
 
 ;projects[open_framework][type] = theme
 ;projects[open_framework][download][type] = get
