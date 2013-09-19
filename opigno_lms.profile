@@ -13,6 +13,15 @@ define('OPIGNO_LMS_COURSE_TEACHER_ROLE', 'course teacher member');
 define('OPIGNO_LMS_COURSE_ADMIN_ROLE',   'course admin member');
 
 /**
+ * Implements hook_install_tasks()
+ */
+function opigno_lms_install_tasks(&$install_state) {
+  // Add our custom CSS file for the installation process
+  drupal_add_css(drupal_get_path('profile', 'opigno_lms') . '/css/opigno_lms.css');
+  return array();
+}
+
+/**
  * Implements hook_form_FORM_ID_alter() for install_configure_form().
  *
  * Allows the profile to alter the site configuration form.

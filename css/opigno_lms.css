@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Stylesheet for Opigno LMS distribution
+ */
+
+body.maintenance-page #logo {
+  background: transparent url(../img/opigno_lms.png) no-repeat top left;
+  height: 0;
+  overflow: hidden;
+  padding-top: 180px; /* height of logo  */
+  width: 180px; /* width of logo  */
+}
