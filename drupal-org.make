@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0-rc3
+projects[opigno][version] = 1.0-rc5
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.x-dev
@@ -34,10 +34,10 @@ projects[opigno_class_app][subdir]  = "opigno"
 projects[opigno_quiz_app][version] = 1.0-rc4
 projects[opigno_quiz_app][subdir]  = "opigno"
 
-projects[opigno_wt_app][version] = 1.0-rc1
+projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
 
-projects[opigno_course_categories_app][version] = 1.0-rc1
+projects[opigno_course_categories_app][version] = 1.0-rc2
 projects[opigno_course_categories_app][subdir]  = "opigno"
 
 
@@ -91,6 +91,11 @@ projects[rules][subdir]  = "contrib"
 projects[rules][version] = 2.3
 projects[rules][patch][] = "http://drupal.org/files/system.rules_.inc_.patch"
 
+; Apps
+projects[apps][subdir]  = "contrib"
+projects[apps][version] = 1.0-beta7
+projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.patch"
+
 
 ; Third-party modules ==========================================================
 
@@ -126,9 +131,6 @@ projects[i18n][version] = 1.10
 
 projects[rules_conditional][subdir]  = "contrib"
 projects[rules_conditional][version] = 1.0-beta2
-
-projects[apps][subdir]  = "contrib"
-projects[apps][version] = 1.0-beta7
 
 projects[features][subdir]  = "contrib"
 projects[features][version] = 2.0-rc3
