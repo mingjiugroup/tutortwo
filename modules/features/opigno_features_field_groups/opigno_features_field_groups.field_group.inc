@@ -21,7 +21,7 @@ function opigno_features_field_groups_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Course settings',
-    'weight' => '34',
+    'weight' => '10',
     'children' => array(
       0 => 'group_access',
       1 => 'opigno_course_tools',
