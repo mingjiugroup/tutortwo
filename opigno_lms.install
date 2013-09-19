@@ -58,6 +58,7 @@ function _opigno_lms_install_enable_blocks() {
       'status' => 1,
       'weight' => 0,
       'region' => 'content',
+      'visibility' => 0,
       'pages' => '',
       'cache' => -1,
     ),
@@ -68,6 +69,7 @@ function _opigno_lms_install_enable_blocks() {
       'status' => 1,
       'weight' => -1,
       'region' => 'search_box',
+      'visibility' => 0,
       'pages' => '',
       'cache' => -1,
     ),
@@ -78,6 +80,7 @@ function _opigno_lms_install_enable_blocks() {
       'status' => 1,
       'weight' => 0,
       'region' => 'sidebar_first',
+      'visibility' => 0,
       'pages' => '',
       'cache' => -1,
     ),
@@ -88,11 +91,23 @@ function _opigno_lms_install_enable_blocks() {
       'status' => 1,
       'weight' => 0,
       'region' => 'sidebar_first',
+      'visibility' => 0,
       'pages' => '',
       'cache' => -1,
     ),
+    array(
+      'module' => 'tft',
+      'delta' => 'tft_file_tree',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_first',
+      'visibility' => 1,
+      'pages' => "node/*/tft\nnode/*/tft/*",
+      'cache' => -1,
+    ),
   );
-  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'visibility', 'pages', 'cache'));
   foreach ($blocks as $block) {
     $query->values($block);
   }
