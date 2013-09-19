@@ -40,7 +40,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'system',
   );
@@ -50,7 +49,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access all certificates',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'certificate',
   );
@@ -69,7 +67,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access class results',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'opigno_class_app',
   );
@@ -108,8 +105,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access contextual links',
     'roles' => array(
       'administrator' => 'administrator',
-      'forum administrator' => 'forum administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'contextual',
   );
@@ -126,7 +121,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access opigno administration pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'opigno',
   );
@@ -179,7 +173,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access student results',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'opigno_quiz_app',
   );
@@ -189,7 +182,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access teacher results',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'opigno_quiz_app',
   );
@@ -269,7 +261,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer comments',
     'roles' => array(
       'administrator' => 'administrator',
-      'forum administrator' => 'forum administrator',
     ),
     'module' => 'comment',
   );
@@ -357,7 +348,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer forums',
     'roles' => array(
       'administrator' => 'administrator',
-      'forum administrator' => 'forum administrator',
     ),
     'module' => 'forum',
   );
@@ -584,98 +574,126 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'administer panelizer taxonomy_term panopoly_categories breadcrumbs'.
   $permissions['administer panelizer taxonomy_term panopoly_categories breadcrumbs'] = array(
     'name' => 'administer panelizer taxonomy_term panopoly_categories breadcrumbs',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer taxonomy_term panopoly_categories content'.
   $permissions['administer panelizer taxonomy_term panopoly_categories content'] = array(
     'name' => 'administer panelizer taxonomy_term panopoly_categories content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer taxonomy_term panopoly_categories context'.
   $permissions['administer panelizer taxonomy_term panopoly_categories context'] = array(
     'name' => 'administer panelizer taxonomy_term panopoly_categories context',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer taxonomy_term panopoly_categories defaults'.
   $permissions['administer panelizer taxonomy_term panopoly_categories defaults'] = array(
     'name' => 'administer panelizer taxonomy_term panopoly_categories defaults',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer taxonomy_term panopoly_categories layout'.
   $permissions['administer panelizer taxonomy_term panopoly_categories layout'] = array(
     'name' => 'administer panelizer taxonomy_term panopoly_categories layout',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer taxonomy_term panopoly_categories overview'.
   $permissions['administer panelizer taxonomy_term panopoly_categories overview'] = array(
     'name' => 'administer panelizer taxonomy_term panopoly_categories overview',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer taxonomy_term panopoly_categories settings'.
   $permissions['administer panelizer taxonomy_term panopoly_categories settings'] = array(
     'name' => 'administer panelizer taxonomy_term panopoly_categories settings',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer user user breadcrumbs'.
   $permissions['administer panelizer user user breadcrumbs'] = array(
     'name' => 'administer panelizer user user breadcrumbs',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer user user content'.
   $permissions['administer panelizer user user content'] = array(
     'name' => 'administer panelizer user user content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer user user context'.
   $permissions['administer panelizer user user context'] = array(
     'name' => 'administer panelizer user user context',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer user user defaults'.
   $permissions['administer panelizer user user defaults'] = array(
     'name' => 'administer panelizer user user defaults',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer user user layout'.
   $permissions['administer panelizer user user layout'] = array(
     'name' => 'administer panelizer user user layout',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer user user overview'.
   $permissions['administer panelizer user user overview'] = array(
     'name' => 'administer panelizer user user overview',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panelizer user user settings'.
   $permissions['administer panelizer user user settings'] = array(
     'name' => 'administer panelizer user user settings',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'panelizer',
   );
 
@@ -955,7 +973,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'create certificate content',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'node',
   );
@@ -1460,7 +1477,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'delete own certificate content',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'node',
   );
@@ -1675,9 +1691,7 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'delete terms in panopoly_categories'.
   $permissions['delete terms in panopoly_categories'] = array(
     'name' => 'delete terms in panopoly_categories',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'taxonomy',
   );
 
@@ -2044,7 +2058,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own certificate content',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'node',
   );
@@ -2063,7 +2076,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own comments',
     'roles' => array(
       'administrator' => 'administrator',
-      'forum administrator' => 'forum administrator',
     ),
     'module' => 'comment',
   );
@@ -2251,9 +2263,7 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'edit terms in panopoly_categories'.
   $permissions['edit terms in panopoly_categories'] = array(
     'name' => 'edit terms in panopoly_categories',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'taxonomy',
   );
 
@@ -2479,6 +2489,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'search content',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'search',
@@ -2685,10 +2696,7 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'use text format html'.
   $permissions['use text format html'] = array(
     'name' => 'use text format html',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'student manager' => 'student manager',
-    ),
+    'roles' => array(),
     'module' => 'filter',
   );
 
@@ -2706,7 +2714,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'view all user certificates',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
     ),
     'module' => 'certificate',
   );
