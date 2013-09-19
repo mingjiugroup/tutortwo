@@ -10,6 +10,11 @@
 function opigno_features_og_roles_og_features_default_permissions() {
   $permissions = array();
 
+  // Exported og permission: 'node:course:access class results'
+  $permissions['node:course:access class results'] = array(
+    'roles' => array(),
+  );
+
   // Exported og permission: 'node:course:access quiz'
   $permissions['node:course:access quiz'] = array(
     'roles' => array(
