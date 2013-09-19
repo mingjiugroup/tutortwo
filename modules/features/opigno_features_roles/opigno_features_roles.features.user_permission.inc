@@ -40,6 +40,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'system',
   );
@@ -67,6 +68,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access class results',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'opigno_class_app',
   );
@@ -121,6 +123,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access opigno administration pages',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'opigno',
   );
@@ -173,6 +176,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access student results',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'opigno_quiz_app',
   );
@@ -182,6 +186,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access teacher results',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'opigno_quiz_app',
   );
@@ -964,6 +969,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'create calendar_event content',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'node',
   );
@@ -1072,6 +1078,8 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'create forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'node',
   );
@@ -1108,6 +1116,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'create notification content',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'node',
   );
@@ -1252,6 +1261,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'delete any forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'node',
   );
@@ -1468,6 +1478,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'delete own calendar_event content',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'node',
   );
@@ -1558,6 +1569,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'delete own notification content',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'node',
   );
@@ -1842,6 +1854,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit any forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'node',
   );
@@ -2049,6 +2062,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own calendar_event content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2067,6 +2081,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own class content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2085,6 +2100,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own course content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2103,6 +2119,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2121,6 +2138,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own long_answer content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2130,6 +2148,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own matching content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2139,6 +2158,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own multichoice content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2148,6 +2168,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own notification content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2157,6 +2178,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own poll content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2166,6 +2188,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own quiz content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2175,6 +2198,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own quiz_ddlines content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2184,6 +2208,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own quiz_directions content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2193,6 +2218,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own scale content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2202,6 +2228,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own short_answer content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2211,6 +2238,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own tft_file content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2220,6 +2248,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit own truefalse content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -2796,6 +2825,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'view own unpublished content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
