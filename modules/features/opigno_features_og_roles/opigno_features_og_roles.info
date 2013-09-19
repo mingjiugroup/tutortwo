@@ -2,7 +2,6 @@ name = Opigno Features OG Roles
 description = Provides sensible defaults for OG roles and permissions.
 core = 7.x
 package = Opigno Features
-version = 7.x-1.0-alpha11
 project = opigno_lms
 dependencies[] = features
 dependencies[] = og
