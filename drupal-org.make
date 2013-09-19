@@ -10,25 +10,25 @@ projects[opigno][subdir]  = "opigno"
 projects[opigno_calendar_app][version] = 1.x-dev
 projects[opigno_calendar_app][subdir]  = "opigno"
 
-projects[opigno_certificate_app][version] = 1.x-dev
+projects[opigno_certificate_app][version] = 1.0-rc1
 projects[opigno_certificate_app][subdir]  = "opigno"
 
-projects[opigno_forum_app][version] = 1.x-dev
+projects[opigno_forum_app][version] = 1.0-rc1
 projects[opigno_forum_app][subdir]  = "opigno"
 
-projects[opigno_messaging_app][version] = 1.x-dev
+projects[opigno_messaging_app][version] = 1.0-rc1
 projects[opigno_messaging_app][subdir]  = "opigno"
 
-projects[opigno_notifications_app][version] = 1.x-dev
+projects[opigno_notifications_app][version] = 1.0-rc1
 projects[opigno_notifications_app][subdir]  = "opigno"
 
 projects[opigno_poll_app][version] = 1.0-rc4
 projects[opigno_poll_app][subdir]  = "opigno"
 
-projects[opigno_quiz_import_app][version] = 1.0-rc2
+projects[opigno_quiz_import_app][version] = 1.0-rc1
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.x-dev
+projects[opigno_class_app][version] = 1.0-rc1
 projects[opigno_class_app][subdir]  = "opigno"
 
 projects[opigno_quiz_app][version] = 1.0-rc4
