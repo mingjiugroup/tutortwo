@@ -7,7 +7,7 @@ core = 7.x
 projects[opigno][version] = 1.0-rc6
 projects[opigno][subdir]  = "opigno"
 
-projects[opigno_calendar_app][version] = 1.x-dev
+projects[opigno_calendar_app][version] = 1.0-rc1
 projects[opigno_calendar_app][subdir]  = "opigno"
 
 projects[opigno_certificate_app][version] = 1.0-rc1
