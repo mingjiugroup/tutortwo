@@ -75,3 +75,4 @@ dependencies[] = opigno_features_field_groups
 dependencies[] = opigno_features_panels
 dependencies[] = opigno_features_wysiwyg
 dependencies[] = opigno_features_homebox
+dependencies[] = opigno_features_pathauto
