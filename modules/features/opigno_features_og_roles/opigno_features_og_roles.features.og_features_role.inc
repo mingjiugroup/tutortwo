@@ -18,14 +18,6 @@ function opigno_features_og_roles_og_features_default_roles() {
     'name' => 'coach member',
   );
 
-  // Exported OG Role: 'node:course:student member'.
-  $roles['node:course:student member'] = array(
-    'gid' => 0,
-    'group_type' => 'node',
-    'group_bundle' => 'course',
-    'name' => 'student member',
-  );
-
   // Exported OG Role: 'node:course:teacher member'.
   $roles['node:course:teacher member'] = array(
     'gid' => 0,
