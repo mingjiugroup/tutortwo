@@ -37,16 +37,14 @@ br,span,em,strong,cite,code,blockquote,ul,ol,li,dl,dt,dd,table,theah,tbody,col,c
 @[style|class|id]',
           'allow_comments' => 0,
           'nofollow_policy' => 'whitelist',
-          'nofollow_domains' => array(
-            0 => 'dev.opigno.org',
-          ),
+          'nofollow_domains' => array(),
           'style_color' => array(
             'color' => 'color',
             'background' => 'background',
             'background-color' => 'background-color',
-            'background-image' => 'background-image',
             'background-repeat' => 'background-repeat',
             'background-position' => 'background-position',
+            'background-image' => 0,
             'background-attachment' => 0,
           ),
           'style_font' => array(
