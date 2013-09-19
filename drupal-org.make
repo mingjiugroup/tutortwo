@@ -64,6 +64,7 @@ projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-
 projects[og][version] = 2.3
 projects[og][subdir]  = "contrib"
 projects[og][patch][] = "http://drupal.org/files/og_add_role_rules_2076125_1.patch"
+projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
 
 ; OG Create Permissions
 projects[og_create_perms][version] = 1.0
