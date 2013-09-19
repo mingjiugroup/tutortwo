@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0-rc6
+projects[opigno][version] = 1.0-rc7
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0-rc1
@@ -22,7 +22,7 @@ projects[opigno_messaging_app][subdir]  = "opigno"
 projects[opigno_notifications_app][version] = 1.0-rc1
 projects[opigno_notifications_app][subdir]  = "opigno"
 
-projects[opigno_poll_app][version] = 1.0-rc4
+projects[opigno_poll_app][version] = 1.0-rc5
 projects[opigno_poll_app][subdir]  = "opigno"
 
 projects[opigno_quiz_import_app][version] = 1.0-rc1
@@ -31,7 +31,7 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.0-rc1
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version] = 1.0-rc4
+projects[opigno_quiz_app][version] = 1.0-rc5
 projects[opigno_quiz_app][subdir]  = "opigno"
 
 projects[opigno_wt_app][version] = 1.0-rc3
@@ -50,7 +50,7 @@ projects[tft][download][revision] = 0b060a4dc646d6837b8a659ea909aa03535d7057
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 1.0-beta4
+projects[platon][version] = 1.0-beta6
 
 ;projects[open_framework][type] = theme
 ;projects[open_framework][download][type] = get
