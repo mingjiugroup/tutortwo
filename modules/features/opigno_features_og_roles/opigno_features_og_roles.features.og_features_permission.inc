@@ -10,6 +10,52 @@
 function opigno_features_og_roles_og_features_default_permissions() {
   $permissions = array();
 
+  // Exported og permission: 'node:class:access class results'
+  $permissions['node:class:access class results'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'coach' => 'coach',
+    ),
+  );
+
+  // Exported og permission: 'node:class:add user'
+  $permissions['node:class:add user'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:class:administer group'
+  $permissions['node:class:administer group'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'coach' => 'coach',
+    ),
+  );
+
+  // Exported og permission: 'node:class:manage members'
+  $permissions['node:class:manage members'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
+  // Exported og permission: 'node:class:notify group members'
+  $permissions['node:class:notify group members'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'coach' => 'coach',
+    ),
+  );
+
+  // Exported og permission: 'node:class:update group'
+  $permissions['node:class:update group'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+      'coach' => 'coach',
+    ),
+  );
+
   // Exported og permission: 'node:course:access class results'
   $permissions['node:course:access class results'] = array(
     'roles' => array(),
@@ -146,15 +192,6 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
-  // Exported og permission: 'node:course:create tft_file content'
-  $permissions['node:course:create tft_file content'] = array(
-    'roles' => array(
-      'administrator member' => 'administrator member',
-      'coach member' => 'coach member',
-      'teacher member' => 'teacher member',
-    ),
-  );
-
   // Exported og permission: 'node:course:create truefalse content'
   $permissions['node:course:create truefalse content'] = array(
     'roles' => array(
@@ -256,14 +293,6 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
-  // Exported og permission: 'node:course:delete any tft_file content'
-  $permissions['node:course:delete any tft_file content'] = array(
-    'roles' => array(
-      'administrator member' => 'administrator member',
-      'teacher member' => 'teacher member',
-    ),
-  );
-
   // Exported og permission: 'node:course:delete any truefalse content'
   $permissions['node:course:delete any truefalse content'] = array(
     'roles' => array(
@@ -351,13 +380,6 @@ function opigno_features_og_roles_og_features_default_permissions() {
   $permissions['node:course:delete own short_answer content'] = array(
     'roles' => array(
       'teacher member' => 'teacher member',
-    ),
-  );
-
-  // Exported og permission: 'node:course:delete own tft_file content'
-  $permissions['node:course:delete own tft_file content'] = array(
-    'roles' => array(
-      'coach member' => 'coach member',
     ),
   );
 
@@ -475,54 +497,6 @@ function opigno_features_og_roles_og_features_default_permissions() {
     'roles' => array(),
   );
 
-  // Exported og permission: 'node:course:tft access full tree'
-  $permissions['node:course:tft access full tree'] = array(
-    'roles' => array(
-      'member' => 'member',
-    ),
-  );
-
-  // Exported og permission: 'node:course:tft add a file to any term'
-  $permissions['node:course:tft add a file to any term'] = array(
-    'roles' => array(
-      'administrator member' => 'administrator member',
-      'coach member' => 'coach member',
-      'teacher member' => 'teacher member',
-    ),
-  );
-
-  // Exported og permission: 'node:course:tft add child terms'
-  $permissions['node:course:tft add child terms'] = array(
-    'roles' => array(
-      'administrator member' => 'administrator member',
-      'teacher member' => 'teacher member',
-    ),
-  );
-
-  // Exported og permission: 'node:course:tft archive child terms'
-  $permissions['node:course:tft archive child terms'] = array(
-    'roles' => array(
-      'administrator member' => 'administrator member',
-      'teacher member' => 'teacher member',
-    ),
-  );
-
-  // Exported og permission: 'node:course:tft delete child terms'
-  $permissions['node:course:tft delete child terms'] = array(
-    'roles' => array(
-      'administrator member' => 'administrator member',
-      'teacher member' => 'teacher member',
-    ),
-  );
-
-  // Exported og permission: 'node:course:tft reorder terms'
-  $permissions['node:course:tft reorder terms'] = array(
-    'roles' => array(
-      'administrator member' => 'administrator member',
-      'teacher member' => 'teacher member',
-    ),
-  );
-
   // Exported og permission: 'node:course:unsubscribe'
   $permissions['node:course:unsubscribe'] = array(
     'roles' => array(
@@ -612,14 +586,6 @@ function opigno_features_og_roles_og_features_default_permissions() {
   $permissions['node:course:update any short_answer content'] = array(
     'roles' => array(
       'administrator member' => 'administrator member',
-    ),
-  );
-
-  // Exported og permission: 'node:course:update any tft_file content'
-  $permissions['node:course:update any tft_file content'] = array(
-    'roles' => array(
-      'administrator member' => 'administrator member',
-      'teacher member' => 'teacher member',
     ),
   );
 
@@ -720,13 +686,6 @@ function opigno_features_og_roles_og_features_default_permissions() {
   $permissions['node:course:update own short_answer content'] = array(
     'roles' => array(
       'teacher member' => 'teacher member',
-    ),
-  );
-
-  // Exported og permission: 'node:course:update own tft_file content'
-  $permissions['node:course:update own tft_file content'] = array(
-    'roles' => array(
-      'coach member' => 'coach member',
     ),
   );
 
