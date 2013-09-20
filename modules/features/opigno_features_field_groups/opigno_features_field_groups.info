@@ -1,9 +1,12 @@
 name = Opigno Features Field Groups
 core = 7.x
 package = Opigno Features
+version = 7.x-1.0-alpha12
+project = opigno_lms
 dependencies[] = ctools
 dependencies[] = field_group
 dependencies[] = strongarm
+datestamp = 1379610178
 features[ctools][] = field_group:field_group:1
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
