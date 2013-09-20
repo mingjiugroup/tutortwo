@@ -154,7 +154,7 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[og_quiz][subdir]  = "contrib"
-projects[og_quiz][version] = 1.0-beta4
+projects[og_quiz][version] = 1.0-beta5
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
