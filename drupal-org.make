@@ -50,7 +50,7 @@ projects[tft][download][revision] = 0b060a4dc646d6837b8a659ea909aa03535d7057
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 1.0-beta6
+projects[platon][version] = 1.0-beta7
 
 ;projects[open_framework][type] = theme
 ;projects[open_framework][download][type] = get
