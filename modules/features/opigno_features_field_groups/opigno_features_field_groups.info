@@ -1,4 +1,5 @@
 name = Opigno Features Field Groups
+description = Groups all course fields.
 core = 7.x
 package = Opigno Features
 version = 7.x-1.0-alpha12
