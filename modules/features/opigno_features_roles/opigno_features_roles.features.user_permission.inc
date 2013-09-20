@@ -175,8 +175,7 @@ function opigno_features_roles_user_default_permissions() {
   $permissions['access student results'] = array(
     'name' => 'access student results',
     'roles' => array(
-      'administrator' => 'administrator',
-      'student manager' => 'student manager',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'opigno_quiz_app',
   );
