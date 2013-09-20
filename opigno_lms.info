@@ -47,6 +47,7 @@ dependencies[] = rules_conditional
 dependencies[] = module_filter
 dependencies[] = date_popup_authored
 dependencies[] = entityreference_prepopulate
+dependencies[] = menu_attributes
 
 ; Only for dev phase
 dependencies[] = devel
