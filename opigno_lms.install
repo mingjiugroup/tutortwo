@@ -220,19 +220,6 @@ function _opigno_lms_install_menu() {
   menu_link_save($item);
 
   $item = array(
-    'link_title' => st('My results'),
-    'link_path' => 'my-results',
-    'menu_name' => 'main-menu',
-    'options' => array(
-      'attributes' => array(
-        'class' => array('icon', 'icon-clipboard'),
-      ),
-    ),
-    'weight' => -10,
-  );
-  menu_link_save($item);
-
-  $item = array(
     'link_title' => st('My achievements'),
     'link_path' => 'my-achievements',
     'menu_name' => 'main-menu',
