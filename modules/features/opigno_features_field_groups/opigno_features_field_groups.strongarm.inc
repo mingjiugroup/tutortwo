@@ -41,7 +41,7 @@ function opigno_features_field_groups_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'certificate' => array(
-          'weight' => '7',
+          'weight' => '6',
         ),
         'title' => array(
           'weight' => '-5',

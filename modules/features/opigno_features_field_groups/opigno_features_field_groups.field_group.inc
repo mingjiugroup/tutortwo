@@ -27,7 +27,8 @@ function opigno_features_field_groups_field_group_info() {
       1 => 'opigno_course_tools',
       2 => 'opigno_course_categories',
       3 => 'course_required_quiz_ref',
-      4 => 'certificate',
+      4 => 'course_required_course_ref',
+      5 => 'certificate',
     ),
     'format_type' => 'tab',
     'format_settings' => array(
