@@ -31,7 +31,7 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.0-rc2
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version] = 1.0-rc7
+projects[opigno_quiz_app][version] = 1.0-rc8
 projects[opigno_quiz_app][subdir]  = "opigno"
 
 projects[opigno_wt_app][version] = 1.0-rc3
@@ -50,7 +50,7 @@ projects[tft][download][revision] = 0b060a4dc646d6837b8a659ea909aa03535d7057
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 1.0-beta7
+projects[platon][version] = 1.0-beta8
 
 ;projects[open_framework][type] = theme
 ;projects[open_framework][download][type] = get
