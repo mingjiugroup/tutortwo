@@ -200,13 +200,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: 'add media from remote sources'.
-  $permissions['add media from remote sources'] = array(
-    'name' => 'add media from remote sources',
-    'roles' => array(),
-    'module' => 'media_internet',
-  );
-
   // Exported permission: 'administer actions'.
   $permissions['administer actions'] = array(
     'name' => 'administer actions',
@@ -223,15 +216,6 @@ function opigno_features_roles_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'advanced_forum',
-  );
-
-  // Exported permission: 'administer advanced pane settings'.
-  $permissions['administer advanced pane settings'] = array(
-    'name' => 'administer advanced pane settings',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panels',
   );
 
   // Exported permission: 'administer apps'.
@@ -293,25 +277,11 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'defaultconfig',
   );
 
-  // Exported permission: 'administer facets'.
-  $permissions['administer facets'] = array(
-    'name' => 'administer facets',
-    'roles' => array(),
-    'module' => 'facetapi',
-  );
-
   // Exported permission: 'administer features'.
   $permissions['administer features'] = array(
     'name' => 'administer features',
     'roles' => array(),
     'module' => 'features',
-  );
-
-  // Exported permission: 'administer fieldable panels panes'.
-  $permissions['administer fieldable panels panes'] = array(
-    'name' => 'administer fieldable panels panes',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
   );
 
   // Exported permission: 'administer fieldgroups'.
@@ -393,15 +363,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'locale',
   );
 
-  // Exported permission: 'administer media browser'.
-  $permissions['administer media browser'] = array(
-    'name' => 'administer media browser',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'media',
-  );
-
   // Exported permission: 'administer menu'.
   $permissions['administer menu'] = array(
     'name' => 'administer menu',
@@ -441,296 +402,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer page manager',
     'roles' => array(),
     'module' => 'page_manager',
-  );
-
-  // Exported permission: 'administer pane access'.
-  $permissions['administer pane access'] = array(
-    'name' => 'administer pane access',
-    'roles' => array(),
-    'module' => 'panels',
-  );
-
-  // Exported permission: 'administer panelizer'.
-  $permissions['administer panelizer'] = array(
-    'name' => 'administer panelizer',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane basic_file defaults'.
-  $permissions['administer panelizer fieldable_panels_pane basic_file defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane basic_file defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane fieldable_panels_pane defaults'.
-  $permissions['administer panelizer fieldable_panels_pane fieldable_panels_pane defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane fieldable_panels_pane defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane image defaults'.
-  $permissions['administer panelizer fieldable_panels_pane image defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane image defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane map defaults'.
-  $permissions['administer panelizer fieldable_panels_pane map defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane map defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane quick_links defaults'.
-  $permissions['administer panelizer fieldable_panels_pane quick_links defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane quick_links defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane spotlight defaults'.
-  $permissions['administer panelizer fieldable_panels_pane spotlight defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane spotlight defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane table defaults'.
-  $permissions['administer panelizer fieldable_panels_pane table defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane table defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane text defaults'.
-  $permissions['administer panelizer fieldable_panels_pane text defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane text defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer fieldable_panels_pane video defaults'.
-  $permissions['administer panelizer fieldable_panels_pane video defaults'] = array(
-    'name' => 'administer panelizer fieldable_panels_pane video defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node calendar_event defaults'.
-  $permissions['administer panelizer node calendar_event defaults'] = array(
-    'name' => 'administer panelizer node calendar_event defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node course breadcrumbs'.
-  $permissions['administer panelizer node course breadcrumbs'] = array(
-    'name' => 'administer panelizer node course breadcrumbs',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node course content'.
-  $permissions['administer panelizer node course content'] = array(
-    'name' => 'administer panelizer node course content',
-    'roles' => array(
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node course context'.
-  $permissions['administer panelizer node course context'] = array(
-    'name' => 'administer panelizer node course context',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node course defaults'.
-  $permissions['administer panelizer node course defaults'] = array(
-    'name' => 'administer panelizer node course defaults',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node course layout'.
-  $permissions['administer panelizer node course layout'] = array(
-    'name' => 'administer panelizer node course layout',
-    'roles' => array(
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node course overview'.
-  $permissions['administer panelizer node course overview'] = array(
-    'name' => 'administer panelizer node course overview',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node course settings'.
-  $permissions['administer panelizer node course settings'] = array(
-    'name' => 'administer panelizer node course settings',
-    'roles' => array(),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer taxonomy_term panopoly_categories breadcrumbs'.
-  $permissions['administer panelizer taxonomy_term panopoly_categories breadcrumbs'] = array(
-    'name' => 'administer panelizer taxonomy_term panopoly_categories breadcrumbs',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer taxonomy_term panopoly_categories content'.
-  $permissions['administer panelizer taxonomy_term panopoly_categories content'] = array(
-    'name' => 'administer panelizer taxonomy_term panopoly_categories content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer taxonomy_term panopoly_categories context'.
-  $permissions['administer panelizer taxonomy_term panopoly_categories context'] = array(
-    'name' => 'administer panelizer taxonomy_term panopoly_categories context',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer taxonomy_term panopoly_categories defaults'.
-  $permissions['administer panelizer taxonomy_term panopoly_categories defaults'] = array(
-    'name' => 'administer panelizer taxonomy_term panopoly_categories defaults',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer taxonomy_term panopoly_categories layout'.
-  $permissions['administer panelizer taxonomy_term panopoly_categories layout'] = array(
-    'name' => 'administer panelizer taxonomy_term panopoly_categories layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer taxonomy_term panopoly_categories overview'.
-  $permissions['administer panelizer taxonomy_term panopoly_categories overview'] = array(
-    'name' => 'administer panelizer taxonomy_term panopoly_categories overview',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer taxonomy_term panopoly_categories settings'.
-  $permissions['administer panelizer taxonomy_term panopoly_categories settings'] = array(
-    'name' => 'administer panelizer taxonomy_term panopoly_categories settings',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer user user breadcrumbs'.
-  $permissions['administer panelizer user user breadcrumbs'] = array(
-    'name' => 'administer panelizer user user breadcrumbs',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer user user content'.
-  $permissions['administer panelizer user user content'] = array(
-    'name' => 'administer panelizer user user content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer user user context'.
-  $permissions['administer panelizer user user context'] = array(
-    'name' => 'administer panelizer user user context',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer user user defaults'.
-  $permissions['administer panelizer user user defaults'] = array(
-    'name' => 'administer panelizer user user defaults',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer user user layout'.
-  $permissions['administer panelizer user user layout'] = array(
-    'name' => 'administer panelizer user user layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer user user overview'.
-  $permissions['administer panelizer user user overview'] = array(
-    'name' => 'administer panelizer user user overview',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer user user settings'.
-  $permissions['administer panelizer user user settings'] = array(
-    'name' => 'administer panelizer user user settings',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panels layouts'.
-  $permissions['administer panels layouts'] = array(
-    'name' => 'administer panels layouts',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panels',
-  );
-
-  // Exported permission: 'administer panels styles'.
-  $permissions['administer panels styles'] = array(
-    'name' => 'administer panels styles',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panels',
   );
 
   // Exported permission: 'administer pathauto'.
@@ -797,15 +468,6 @@ function opigno_features_roles_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'search',
-  );
-
-  // Exported permission: 'administer search_api'.
-  $permissions['administer search_api'] = array(
-    'name' => 'administer search_api',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'search_api',
   );
 
   // Exported permission: 'administer site configuration'.
@@ -952,15 +614,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'poll',
   );
 
-  // Exported permission: 'change layouts in place editing'.
-  $permissions['change layouts in place editing'] = array(
-    'name' => 'change layouts in place editing',
-    'roles' => array(
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'panels',
-  );
-
   // Exported permission: 'change own username'.
   $permissions['change own username'] = array(
     'name' => 'change own username',
@@ -968,13 +621,6 @@ function opigno_features_roles_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'user',
-  );
-
-  // Exported permission: 'configure tablefield'.
-  $permissions['configure tablefield'] = array(
-    'name' => 'configure tablefield',
-    'roles' => array(),
-    'module' => 'tablefield',
   );
 
   // Exported permission: 'create calendar_event content'.
@@ -1012,69 +658,6 @@ function opigno_features_roles_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
-  );
-
-  // Exported permission: 'create fieldable basic_file'.
-  $permissions['create fieldable basic_file'] = array(
-    'name' => 'create fieldable basic_file',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'create fieldable fieldable_panels_pane'.
-  $permissions['create fieldable fieldable_panels_pane'] = array(
-    'name' => 'create fieldable fieldable_panels_pane',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'create fieldable image'.
-  $permissions['create fieldable image'] = array(
-    'name' => 'create fieldable image',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'create fieldable map'.
-  $permissions['create fieldable map'] = array(
-    'name' => 'create fieldable map',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'create fieldable quick_links'.
-  $permissions['create fieldable quick_links'] = array(
-    'name' => 'create fieldable quick_links',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'create fieldable spotlight'.
-  $permissions['create fieldable spotlight'] = array(
-    'name' => 'create fieldable spotlight',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'create fieldable table'.
-  $permissions['create fieldable table'] = array(
-    'name' => 'create fieldable table',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'create fieldable text'.
-  $permissions['create fieldable text'] = array(
-    'name' => 'create fieldable text',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'create fieldable video'.
-  $permissions['create fieldable video'] = array(
-    'name' => 'create fieldable video',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
   );
 
   // Exported permission: 'create files'.
@@ -1414,69 +997,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'file_entity',
   );
 
-  // Exported permission: 'delete fieldable basic_file'.
-  $permissions['delete fieldable basic_file'] = array(
-    'name' => 'delete fieldable basic_file',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'delete fieldable fieldable_panels_pane'.
-  $permissions['delete fieldable fieldable_panels_pane'] = array(
-    'name' => 'delete fieldable fieldable_panels_pane',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'delete fieldable image'.
-  $permissions['delete fieldable image'] = array(
-    'name' => 'delete fieldable image',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'delete fieldable map'.
-  $permissions['delete fieldable map'] = array(
-    'name' => 'delete fieldable map',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'delete fieldable quick_links'.
-  $permissions['delete fieldable quick_links'] = array(
-    'name' => 'delete fieldable quick_links',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'delete fieldable spotlight'.
-  $permissions['delete fieldable spotlight'] = array(
-    'name' => 'delete fieldable spotlight',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'delete fieldable table'.
-  $permissions['delete fieldable table'] = array(
-    'name' => 'delete fieldable table',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'delete fieldable text'.
-  $permissions['delete fieldable text'] = array(
-    'name' => 'delete fieldable text',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'delete fieldable video'.
-  $permissions['delete fieldable video'] = array(
-    'name' => 'delete fieldable video',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
   // Exported permission: 'delete own audio files'.
   $permissions['delete own audio files'] = array(
     'name' => 'delete own audio files',
@@ -1710,13 +1230,6 @@ function opigno_features_roles_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
     ),
-    'module' => 'taxonomy',
-  );
-
-  // Exported permission: 'delete terms in panopoly_categories'.
-  $permissions['delete terms in panopoly_categories'] = array(
-    'name' => 'delete terms in panopoly_categories',
-    'roles' => array(),
     'module' => 'taxonomy',
   );
 
@@ -1998,69 +1511,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'file_entity',
   );
 
-  // Exported permission: 'edit fieldable basic_file'.
-  $permissions['edit fieldable basic_file'] = array(
-    'name' => 'edit fieldable basic_file',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'edit fieldable fieldable_panels_pane'.
-  $permissions['edit fieldable fieldable_panels_pane'] = array(
-    'name' => 'edit fieldable fieldable_panels_pane',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'edit fieldable image'.
-  $permissions['edit fieldable image'] = array(
-    'name' => 'edit fieldable image',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'edit fieldable map'.
-  $permissions['edit fieldable map'] = array(
-    'name' => 'edit fieldable map',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'edit fieldable quick_links'.
-  $permissions['edit fieldable quick_links'] = array(
-    'name' => 'edit fieldable quick_links',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'edit fieldable spotlight'.
-  $permissions['edit fieldable spotlight'] = array(
-    'name' => 'edit fieldable spotlight',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'edit fieldable table'.
-  $permissions['edit fieldable table'] = array(
-    'name' => 'edit fieldable table',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'edit fieldable text'.
-  $permissions['edit fieldable text'] = array(
-    'name' => 'edit fieldable text',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
-  // Exported permission: 'edit fieldable video'.
-  $permissions['edit fieldable video'] = array(
-    'name' => 'edit fieldable video',
-    'roles' => array(),
-    'module' => 'fieldable_panels_panes',
-  );
-
   // Exported permission: 'edit own audio files'.
   $permissions['edit own audio files'] = array(
     'name' => 'edit own audio files',
@@ -2302,13 +1752,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
-  // Exported permission: 'edit terms in panopoly_categories'.
-  $permissions['edit terms in panopoly_categories'] = array(
-    'name' => 'edit terms in panopoly_categories',
-    'roles' => array(),
-    'module' => 'taxonomy',
-  );
-
   // Exported permission: 'edit terms in tft_tree'.
   $permissions['edit terms in tft_tree'] = array(
     'name' => 'edit terms in tft_tree',
@@ -2325,13 +1768,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'devel',
   );
 
-  // Exported permission: 'export tablefield'.
-  $permissions['export tablefield'] = array(
-    'name' => 'export tablefield',
-    'roles' => array(),
-    'module' => 'tablefield',
-  );
-
   // Exported permission: 'flush caches'.
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
@@ -2346,15 +1782,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'generate features',
     'roles' => array(),
     'module' => 'features',
-  );
-
-  // Exported permission: 'import media'.
-  $permissions['import media'] = array(
-    'name' => 'import media',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'media',
   );
 
   // Exported permission: 'import quiz questions xls'.
@@ -2465,13 +1892,6 @@ function opigno_features_roles_user_default_permissions() {
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'privatemsg',
-  );
-
-  // Exported permission: 'rebuild tablefield'.
-  $permissions['rebuild tablefield'] = array(
-    'name' => 'rebuild tablefield',
-    'roles' => array(),
-    'module' => 'tablefield',
   );
 
   // Exported permission: 'reply only privatemsg'.
@@ -2680,50 +2100,11 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'search',
   );
 
-  // Exported permission: 'use ipe with page manager'.
-  $permissions['use ipe with page manager'] = array(
-    'name' => 'use ipe with page manager',
-    'roles' => array(
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'panels',
-  );
-
   // Exported permission: 'use page manager'.
   $permissions['use page manager'] = array(
     'name' => 'use page manager',
     'roles' => array(),
     'module' => 'page_manager',
-  );
-
-  // Exported permission: 'use panels caching features'.
-  $permissions['use panels caching features'] = array(
-    'name' => 'use panels caching features',
-    'roles' => array(),
-    'module' => 'panels',
-  );
-
-  // Exported permission: 'use panels dashboard'.
-  $permissions['use panels dashboard'] = array(
-    'name' => 'use panels dashboard',
-    'roles' => array(),
-    'module' => 'panels',
-  );
-
-  // Exported permission: 'use panels in place editing'.
-  $permissions['use panels in place editing'] = array(
-    'name' => 'use panels in place editing',
-    'roles' => array(
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'panels',
-  );
-
-  // Exported permission: 'use panels locks'.
-  $permissions['use panels locks'] = array(
-    'name' => 'use panels locks',
-    'roles' => array(),
-    'module' => 'panels',
   );
 
   // Exported permission: 'use regex for short answer'.
@@ -2738,9 +2119,7 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'use text format html'.
   $permissions['use text format html'] = array(
     'name' => 'use text format html',
-    'roles' => array(
-      'authenticated user' => 'authenticated user',
-    ),
+    'roles' => array(),
     'module' => 'filter',
   );
 
@@ -2843,13 +2222,6 @@ function opigno_features_roles_user_default_permissions() {
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
-  );
-
-  // Exported permission: 'view pane admin links'.
-  $permissions['view pane admin links'] = array(
-    'name' => 'view pane admin links',
-    'roles' => array(),
-    'module' => 'panels',
   );
 
   // Exported permission: 'view private files'.
