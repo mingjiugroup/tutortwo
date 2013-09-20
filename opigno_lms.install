@@ -28,6 +28,9 @@ function opigno_lms_install() {
   variable_set('login_redirect_status', 1);
   variable_get('login_redirect_parameter_name', 'dashboard');
 
+  // Make class certifiable by default.
+  variable_set('certificate_certifiable_class', 1);  
+
   // Set front page.
   variable_set('site_frontpage', 'dashboard');
 
