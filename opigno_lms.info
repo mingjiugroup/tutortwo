@@ -48,6 +48,7 @@ dependencies[] = module_filter
 dependencies[] = date_popup_authored
 dependencies[] = entityreference_prepopulate
 dependencies[] = menu_attributes
+dependencies[] = quizfileupload
 
 ; Only for dev phase
 dependencies[] = devel
