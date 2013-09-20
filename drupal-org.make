@@ -69,7 +69,7 @@ projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-
 projects[quiz][patch][] = "http://drupal.org/files/quizfileupload.patch"
 
 ; Quiz File Upload
-projects[quizfileupload][version] = 
+projects[quizfileupload][version] = 1.0
 projects[quizfileupload][subdir]  = "contrib"
 projects[quizfileupload][patch][] = "http://drupal.org/files/Adding_manual_scoring_and_extension_validation-2092275-2.patch"
 
