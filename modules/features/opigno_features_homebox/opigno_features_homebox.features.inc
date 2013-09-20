@@ -5,6 +5,13 @@
  */
 
 /**
+ * Implements hook_views_api().
+ */
+function opigno_features_homebox_views_api($module = NULL, $api = NULL) {
+  return array("api" => "3.0");
+}
+
+/**
  * Implements hook_homebox().
  */
 function opigno_features_homebox_homebox() {
@@ -25,30 +32,6 @@ function opigno_features_homebox_homebox() {
     ),
     'blocks' => 
     array (
-      'user_online' => 
-      array (
-        'module' => 'user',
-        'delta' => 'online',
-        'region' => 3,
-        'movable' => 1,
-        'status' => 1,
-        'open' => 1,
-        'closable' => 1,
-        'title' => '',
-        'weight' => -22,
-      ),
-      'user_new' => 
-      array (
-        'module' => 'user',
-        'delta' => 'new',
-        'region' => 3,
-        'movable' => 1,
-        'status' => 1,
-        'open' => 1,
-        'closable' => 1,
-        'title' => '',
-        'weight' => -21,
-      ),
       'forum_active' => 
       array (
         'module' => 'forum',
@@ -73,11 +56,35 @@ function opigno_features_homebox_homebox() {
         'title' => '',
         'weight' => -22,
       ),
+      'privatemsg_privatemsg-new' => 
+      array (
+        'module' => 'privatemsg',
+        'delta' => 'privatemsg-new',
+        'region' => 3,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -22,
+      ),
       'views_calendar-block_1' => 
       array (
         'module' => 'views',
         'delta' => 'calendar-block_1',
         'region' => 3,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -22,
+      ),
+      'views_dashboard_new_content-block' => 
+      array (
+        'module' => 'views',
+        'delta' => 'dashboard_new_content-block',
+        'region' => 1,
         'movable' => 1,
         'status' => 1,
         'open' => 1,
@@ -96,6 +103,30 @@ function opigno_features_homebox_homebox() {
         'closable' => 1,
         'title' => '',
         'weight' => -22,
+      ),
+      'user_online' => 
+      array (
+        'module' => 'user',
+        'delta' => 'online',
+        'region' => 2,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -22,
+      ),
+      'user_new' => 
+      array (
+        'module' => 'user',
+        'delta' => 'new',
+        'region' => 3,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -21,
       ),
     ),
     'widths' => 
