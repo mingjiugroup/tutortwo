@@ -18,8 +18,8 @@ function opigno_lms_install() {
   $default_theme_settings['breadcrumb_classes'] = 'show-breadcrumb '; // Note the space ! Surely a typo in OF.
   variable_set('theme_platon_settings', $default_theme_settings);
 
-  // Deactivate Notices, as Drupal (and modules) have many of them.
-  variable_set('error_level', ERROR_REPORTING_DISPLAY_SOME);
+  // Deactivate error display.
+  variable_set('error_level', ERROR_REPORTING_HIDE);
 
   // Set the DOMPDF library for the certificates.
   variable_set('print_pdf_pdf_tool', 'profiles/opigno_lms/libraries/dompdf/dompdf_config.inc.php');

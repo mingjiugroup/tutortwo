@@ -18,17 +18,17 @@ dependencies[] = options
 dependencies[] = list
 
 ; Panopoly Foundation
-dependencies[] = panopoly_core
-dependencies[] = panopoly_images
-dependencies[] = panopoly_theme
-dependencies[] = panopoly_magic
-dependencies[] = panopoly_widgets
+;dependencies[] = panopoly_core
+;dependencies[] = panopoly_images
+;dependencies[] = panopoly_theme
+;dependencies[] = panopoly_magic
+;dependencies[] = panopoly_widgets
 ;dependencies[] = panopoly_admin
-dependencies[] = panopoly_users
+;dependencies[] = panopoly_users
 
 ; Panopoly Toolset
 ;dependencies[] = panopoly_pages
-dependencies[] = panopoly_search
+;dependencies[] = panopoly_search
 ;dependencies[] = panopoly_wysiwyg
 
 ; Contrib
@@ -46,6 +46,7 @@ dependencies[] = rules
 dependencies[] = rules_conditional
 dependencies[] = module_filter
 dependencies[] = date_popup_authored
+dependencies[] = entityreference_prepopulate
 
 ; Only for dev phase
 dependencies[] = devel
@@ -53,6 +54,7 @@ dependencies[] = drupal_reset
 
 ; Opigno
 dependencies[] = opigno
+dependencies[] = opigno_og_prereq
 
 ; Opigno apps
 dependencies[] = opigno_class_app
@@ -72,7 +74,7 @@ dependencies[] = tft
 dependencies[] = opigno_features_roles
 dependencies[] = opigno_features_og_roles
 dependencies[] = opigno_features_field_groups
-dependencies[] = opigno_features_panels
+;dependencies[] = opigno_features_panels
 dependencies[] = opigno_features_wysiwyg
 dependencies[] = opigno_features_homebox
 dependencies[] = opigno_features_pathauto

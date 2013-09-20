@@ -84,12 +84,6 @@ projects[og_forum_D7][subdir]  = "contrib"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
 projects[og_forum_D7][patch][] = "https://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
 
-; Views linkarea
-projects[views_linkarea][subdir]  = "contrib"
-projects[views_linkarea][version] = 1.0
-projects[views_linkarea][patch][] = "http://drupal.org/files/permissions.patch"
-projects[views_linkarea][patch][] = "http://drupal.org/files/0001-Issue-1451266-Improved-Links-should-not-render-if-us.patch"
-
 ; Calendar (prevent warnings)
 projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.4
@@ -110,6 +104,18 @@ projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
+
+projects[devel][subdir] = "contrib"
+projects[devel][version] = 1.3
+
+projects[ctools][subdir] = "contrib"
+projects[ctools][version] = 1.3
+
+projects[views][subdir] = "contrib"
+projects[views][version] = 3.7
+
+projects[defaultconfig][subdir] = "contrib"
+projects[defaultconfig][version] = 1.0-alpha9
 
 projects[module_filter][subdir]  = "contrib"
 projects[module_filter][version] = 1.7
@@ -221,27 +227,27 @@ libraries[DOMPDF][directory_name] = "dompdf"
 ; Panopoly base distribution ===================================================
 
 ; The Panopoly Foundation
-projects[panopoly_core][version] = 1.0-rc5
-projects[panopoly_core][subdir] = panopoly
+;projects[panopoly_core][version] = 1.0-rc5
+;projects[panopoly_core][subdir] = panopoly
 
-projects[panopoly_images][version] = 1.0-rc5
-projects[panopoly_images][subdir] = panopoly
+;projects[panopoly_images][version] = 1.0-rc5
+;projects[panopoly_images][subdir] = panopoly
 
-projects[panopoly_theme][version] = 1.0-rc5
-projects[panopoly_theme][subdir] = panopoly
+;projects[panopoly_theme][version] = 1.0-rc5
+;projects[panopoly_theme][subdir] = panopoly
 
-projects[panopoly_magic][version] = 1.0-rc5
-projects[panopoly_magic][subdir] = panopoly
+;projects[panopoly_magic][version] = 1.0-rc5
+;projects[panopoly_magic][subdir] = panopoly
 
-projects[panopoly_widgets][version] = 1.0-rc5
-projects[panopoly_widgets][subdir] = panopoly
+;projects[panopoly_widgets][version] = 1.0-rc5
+;projects[panopoly_widgets][subdir] = panopoly
 
 ; We don't want the admin module. We have our own.
 ;projects[panopoly_admin][version] = 1.0-rc5
 ;projects[panopoly_admin][subdir] = panopoly
 
-projects[panopoly_users][version] = 1.0-rc5
-projects[panopoly_users][subdir] = panopoly
+;projects[panopoly_users][version] = 1.0-rc5
+;projects[panopoly_users][subdir] = panopoly
 
 ; The Panopoly Toolset
 ; We don't care about the pages.
@@ -252,5 +258,5 @@ projects[panopoly_users][subdir] = panopoly
 ;projects[panopoly_wysiwyg][version] = 1.0-r5
 ;projects[panopoly_wysiwyg][subdir] = panopoly
 
-projects[panopoly_search][version] = 1.0-rc5
-projects[panopoly_search][subdir] = panopoly
+;projects[panopoly_search][version] = 1.0-rc5
+;projects[panopoly_search][subdir] = panopoly
