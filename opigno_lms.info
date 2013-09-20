@@ -61,7 +61,6 @@ dependencies[] = opigno_og_prereq
 ; Opigno apps
 dependencies[] = opigno_class_app
 dependencies[] = opigno_calendar_app
-dependencies[] = opigno_certificate_app
 dependencies[] = opigno_forum_app
 dependencies[] = opigno_messaging_app
 dependencies[] = opigno_notifications_app
@@ -71,6 +70,7 @@ dependencies[] = opigno_quiz_app
 dependencies[] = opigno_wt_app
 dependencies[] = opigno_course_categories_app
 dependencies[] = tft
+dependencies[] = opigno_certificate_app
 
 ; Opigno features
 dependencies[] = opigno_features_roles
