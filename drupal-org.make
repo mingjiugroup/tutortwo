@@ -7,7 +7,7 @@ core = 7.x
 projects[opigno][version] = 1.0-rc9
 projects[opigno][subdir]  = "opigno"
 
-projects[opigno_calendar_app][version] = 1.0-rc1
+projects[opigno_calendar_app][version] = 1.0-rc2
 projects[opigno_calendar_app][subdir]  = "opigno"
 
 projects[opigno_certificate_app][version] = 1.0-rc1
@@ -19,7 +19,7 @@ projects[opigno_forum_app][subdir]  = "opigno"
 projects[opigno_messaging_app][version] = 1.0-rc1
 projects[opigno_messaging_app][subdir]  = "opigno"
 
-projects[opigno_notifications_app][version] = 1.0-rc1
+projects[opigno_notifications_app][version] = 1.0-rc2
 projects[opigno_notifications_app][subdir]  = "opigno"
 
 projects[opigno_poll_app][version] = 1.0-rc5
@@ -28,7 +28,7 @@ projects[opigno_poll_app][subdir]  = "opigno"
 projects[opigno_quiz_import_app][version] = 1.0-rc1
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.0-rc1
+projects[opigno_class_app][version] = 1.0-rc2
 projects[opigno_class_app][subdir]  = "opigno"
 
 projects[opigno_quiz_app][version] = 1.0-rc7
@@ -66,6 +66,12 @@ projects[quiz][patch][] = "http://drupal.org/files/hide_save_button_when_no_righ
 projects[quiz][patch][] = "http://drupal.org/files/quiz.module.correct_delete_access_1529302.patch"
 projects[quiz][patch][] = "http://drupal.org/files/prevent_user_from_clicking_on_question_title_2076873_0.patch"
 projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-integration.patch"
+projects[quiz][patch][] = "http://drupal.org/files/quizfileupload.patch"
+
+; Quiz File Upload
+projects[quizfileupload][version] = 
+projects[quizfileupload][subdir]  = "contrib"
+projects[quizfileupload][patch][] = "http://drupal.org/files/Adding_manual_scoring_and_extension_validation-2092275-2.patch"
 
 ; OG
 projects[og][version] = 2.3
