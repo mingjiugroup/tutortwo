@@ -204,6 +204,21 @@ projects[login_redirect][version] = 1.1
 projects[homebox][subdir]  = "contrib"
 projects[homebox][version] = 2.0-beta6
 
+projects[views_bulk_operations][subdir]  = "contrib"
+projects[views_bulk_operations][version] = 3.1
+
+projects[libraries][subdir]  = "contrib"
+projects[libraries][version] = 2.1
+
+projects[pathauto][subdir]  = "contrib"
+projects[pathauto][version] = 1.2
+
+projects[strongarm][subdir]  = "contrib"
+projects[strongarm][version] = 2.0
+
+projects[file_entity][subdir]  = "contrib"
+projects[file_entity][version] = 2.0-alpha2
+
 
 ; For dev phase (disable on production) ========================================
 
