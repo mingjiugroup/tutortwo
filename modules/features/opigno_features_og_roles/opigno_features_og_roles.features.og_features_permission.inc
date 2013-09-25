@@ -216,7 +216,7 @@ function opigno_features_og_roles_og_features_default_permissions() {
   // Exported og permission: 'node:course:delete any forum content'
   $permissions['node:course:delete any forum content'] = array(
     'roles' => array(
-      'forum moderator' => 'forum moderator',
+      'forum administrator' => 'forum administrator',
       'manager' => 'manager',
     ),
   );
@@ -450,7 +450,7 @@ function opigno_features_og_roles_og_features_default_permissions() {
   // Exported og permission: 'node:course:moderate'
   $permissions['node:course:moderate'] = array(
     'roles' => array(
-      'forum moderator' => 'forum moderator',
+      'forum administrator' => 'forum administrator',
       'manager' => 'manager',
     ),
   );
@@ -560,7 +560,7 @@ function opigno_features_og_roles_og_features_default_permissions() {
   // Exported og permission: 'node:course:update any forum content'
   $permissions['node:course:update any forum content'] = array(
     'roles' => array(
-      'forum moderator' => 'forum moderator',
+      'forum administrator' => 'forum administrator',
       'manager' => 'manager',
     ),
   );
