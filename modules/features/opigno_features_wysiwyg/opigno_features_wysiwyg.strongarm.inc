@@ -1,24 +1,13 @@
 <?php
 /**
  * @file
- * opigno_features_wysiwyg.features.defaultconfig.inc
+ * opigno_features_wysiwyg.strongarm.inc
  */
 
 /**
- * Implements hook_defaultconfig_features().
+ * Implements hook_strongarm().
  */
-function opigno_features_wysiwyg_defaultconfig_features() {
-  return array(
-    'opigno_features_wysiwyg' => array(
-      'strongarm' => 'strongarm',
-    ),
-  );
-}
-
-/**
- * Implements hook_defaultconfig_strongarm().
- */
-function opigno_features_wysiwyg_defaultconfig_strongarm() {
+function opigno_features_wysiwyg_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
