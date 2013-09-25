@@ -260,9 +260,9 @@ function _opigno_lms_install_og_settings() {
   // Get the role IDs to set them as variables.
   $roles = array();
   foreach (array(
-    OPIGNO_LMS_COURSE_ADMIN_ROLE   => 'course manager',
-    OPIGNO_LMS_COURSE_COACH_ROLE   => 'class coach',
-    OPIGNO_LMS_COURSE_TEACHER_ROLE => 'course teacher',
+    OPIGNO_LMS_COURSE_ADMIN_ROLE   => 'manager',
+    OPIGNO_LMS_COURSE_COACH_ROLE   => 'coach',
+    OPIGNO_LMS_COURSE_TEACHER_ROLE => 'teacher',
     OPIGNO_LMS_COURSE_STUDENT_ROLE => 'student',
   ) as $key => $role_name) {
     $rid = _opigno_lms_install_get_role_by_name($role_name, OPIGNO_COURSE_BUNDLE);
@@ -271,14 +271,28 @@ function _opigno_lms_install_og_settings() {
   variable_set('opigno_lms_default_og_roles', $roles);
 
   // Remove roles that are enabled by default.
-  foreach (array(
+  /*foreach (array(
     'class'  => array('forum administrator'),
-    'course' => array('forum administrator'),
   ) as $type => $roles) {
     foreach ($roles as $role_name) {
       $rid = _opigno_lms_install_get_role_by_name($role_name, $type);
       if ($rid) {
         og_role_delete($rid);
+      }
+    }
+  }*/
+
+  // Rename roles that are enabled by default.
+  foreach (array(
+    'class'  => array('forum administrator' => 'forum moderator'),
+    'course' => array('forum administrator' => 'forum moderator'),
+  ) as $type => $roles) {
+    foreach ($roles as $role_name => $new_role_name) {
+      $rid = _opigno_lms_install_get_role_by_name($role_name, $type);
+      if ($rid) {
+        $role = og_role_load($rid);
+        $role->name = $new_role_name;
+        og_role_save($role);
       }
     }
   }
