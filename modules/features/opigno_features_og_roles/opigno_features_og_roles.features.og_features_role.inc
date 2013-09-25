@@ -18,28 +18,28 @@ function opigno_features_og_roles_og_features_default_roles() {
     'name' => 'coach',
   );
 
-  // Exported OG Role: 'node:course:course forum administrator'.
-  $roles['node:course:course forum administrator'] = array(
+  // Exported OG Role: 'node:course:forum moderator'.
+  $roles['node:course:forum moderator'] = array(
     'gid' => 0,
     'group_type' => 'node',
     'group_bundle' => 'course',
-    'name' => 'course forum administrator',
+    'name' => 'forum moderator',
   );
 
-  // Exported OG Role: 'node:course:course manager'.
-  $roles['node:course:course manager'] = array(
+  // Exported OG Role: 'node:course:manager'.
+  $roles['node:course:manager'] = array(
     'gid' => 0,
     'group_type' => 'node',
     'group_bundle' => 'course',
-    'name' => 'course manager',
+    'name' => 'manager',
   );
 
-  // Exported OG Role: 'node:course:course teacher'.
-  $roles['node:course:course teacher'] = array(
+  // Exported OG Role: 'node:course:teacher'.
+  $roles['node:course:teacher'] = array(
     'gid' => 0,
     'group_type' => 'node',
     'group_bundle' => 'course',
-    'name' => 'course teacher',
+    'name' => 'teacher',
   );
 
   // Exported OG Role: 'node:course:student'.
