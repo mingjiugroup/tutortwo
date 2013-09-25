@@ -50,6 +50,9 @@ function opigno_features_wysiwyg_wysiwyg_default_profiles() {
           'RemoveFormat' => 1,
           'Format' => 1,
         ),
+        'imce' => array(
+          'imce' => 1,
+        ),
         'templates' => array(
           'Templates' => 1,
         ),
