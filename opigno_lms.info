@@ -42,6 +42,7 @@ dependencies[] = og_access
 dependencies[] = og_massadd
 dependencies[] = og_create_perms
 dependencies[] = views
+dependencies[] = views_ui
 dependencies[] = rules
 dependencies[] = rules_conditional
 dependencies[] = module_filter
