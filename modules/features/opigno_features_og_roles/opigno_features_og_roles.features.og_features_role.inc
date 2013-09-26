@@ -18,12 +18,12 @@ function opigno_features_og_roles_og_features_default_roles() {
     'name' => 'coach',
   );
 
-  // Exported OG Role: 'node:course:forum administrator'.
-  $roles['node:course:forum administrator'] = array(
+  // Exported OG Role: 'node:course:forum moderator'.
+  $roles['node:course:forum moderator'] = array(
     'gid' => 0,
     'group_type' => 'node',
     'group_bundle' => 'course',
-    'name' => 'forum administrator',
+    'name' => 'forum moderator',
   );
 
   // Exported OG Role: 'node:course:manager'.
