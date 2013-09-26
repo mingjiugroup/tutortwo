@@ -10,6 +10,14 @@
 function opigno_features_og_roles_og_features_default_roles() {
   $roles = array();
 
+  // Exported OG Role: 'node:class:manager'.
+  $roles['node:class:manager'] = array(
+    'gid' => 0,
+    'group_type' => 'node',
+    'group_bundle' => 'class',
+    'name' => 'manager',
+  );
+
   // Exported OG Role: 'node:course:coach'.
   $roles['node:course:coach'] = array(
     'gid' => 0,
@@ -34,20 +42,20 @@ function opigno_features_og_roles_og_features_default_roles() {
     'name' => 'manager',
   );
 
-  // Exported OG Role: 'node:course:teacher'.
-  $roles['node:course:teacher'] = array(
-    'gid' => 0,
-    'group_type' => 'node',
-    'group_bundle' => 'course',
-    'name' => 'teacher',
-  );
-
   // Exported OG Role: 'node:course:student'.
   $roles['node:course:student'] = array(
     'gid' => 0,
     'group_type' => 'node',
     'group_bundle' => 'course',
     'name' => 'student',
+  );
+
+  // Exported OG Role: 'node:course:teacher'.
+  $roles['node:course:teacher'] = array(
+    'gid' => 0,
+    'group_type' => 'node',
+    'group_bundle' => 'course',
+    'name' => 'teacher',
   );
 
   return $roles;
