@@ -7,10 +7,11 @@
  * user experience.
  */
 
-define('OPIGNO_LMS_COURSE_STUDENT_ROLE', 'course student member');
-define('OPIGNO_LMS_COURSE_COACH_ROLE',   'course coach member');
-define('OPIGNO_LMS_COURSE_TEACHER_ROLE', 'course teacher member');
-define('OPIGNO_LMS_COURSE_ADMIN_ROLE',   'course admin member');
+define('OPIGNO_LMS_COURSE_STUDENT_ROLE',  'course student member');
+define('OPIGNO_LMS_COURSE_COACH_ROLE',    'course coach member');
+define('OPIGNO_LMS_COURSE_TEACHER_ROLE',  'course teacher member');
+define('OPIGNO_LMS_COURSE_ADMIN_ROLE',    'course admin member');
+define('OPIGNO_LMS_COURSE_MODERATOR_ROLE', 'course forum moderator');
 
 /**
  * Implements hook_install_tasks()
@@ -154,6 +155,10 @@ function opigno_lms_form_update_manager_update_form_alter(&$form, &$form_state, 
       $form['message']['#markup'] = t('All of your projects are up to date.');
     }
   }
+}
+
+function opigno_lms_form_og_ui_add_users_alter(&$form, $form_state) {
+  $form['roles']['#options'][OPIGNO_LMS_COURSE_COACH_ROLE] = 'hi';
 }
 
 /**
