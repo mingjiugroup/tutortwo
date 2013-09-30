@@ -66,7 +66,7 @@ projects[quiz][patch][] = "http://drupal.org/files/hide_save_button_when_no_righ
 projects[quiz][patch][] = "http://drupal.org/files/quiz.module.correct_delete_access_1529302.patch"
 projects[quiz][patch][] = "http://drupal.org/files/prevent_user_from_clicking_on_question_title_2076873_0.patch"
 projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-integration.patch"
-projects[quiz][patch][] = "https://drupal.org/files/QuizQuestion_FileUpload.patch"
+projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -229,7 +229,7 @@ projects[file_entity][version] = 2.0-alpha2
 ; For dev phase (disable on production) ========================================
 
 projects[drupal_reset][subdir]  = "contrib"
-projects[drupal_reset][version] = 1.3 
+projects[drupal_reset][version] = 1.3
 
 
 ; Third-patry libraries ========================================================
