@@ -225,6 +225,9 @@ projects[strongarm][version] = 2.0
 projects[file_entity][subdir]  = "contrib"
 projects[file_entity][version] = 2.0-alpha2
 
+projects[user_import][subdir]  = "contrib"
+projects[user_import][version] = 2.1
+
 
 ; For dev phase (disable on production) ========================================
 

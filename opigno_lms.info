@@ -51,14 +51,16 @@ dependencies[] = module_filter
 dependencies[] = date_popup_authored
 dependencies[] = entityreference_prepopulate
 dependencies[] = menu_attributes
-;dependencies[] = quizfileupload
+dependencies[] = quizfileupload
+dependencies[] = user_import
 
 ; Only for dev phase
 dependencies[] = devel
 dependencies[] = drupal_reset
 
-; Opigno
+; Opigno core
 dependencies[] = opigno
+dependencies[] = opigno_simple_ui
 dependencies[] = opigno_og_prereq
 
 ; Opigno apps

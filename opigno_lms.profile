@@ -87,18 +87,12 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
   }
 
   // Opigno LMS options
+  /* @todo
   $form['opigno_lms'] = array(
     '#type' => 'fieldset',
     '#title' => st("LMS settings"),
     '#tree' => TRUE,
   );
-  $form['opigno_lms']['simple_ui'] = array(
-    '#type' => 'checkbox',
-    '#title' => st("Enable the Opigno Simple UI"),
-    '#description' => st("The default interfaces provided by Drupal can sometimes be difficult to use. Opigno Simple UI enhances many aspects of the user interface. It makes it more intuitive and much easier to use. If you are a seasoned Drupal user, you can ignore this. If you're not familiar with some of Drupal's specificities, or a new user, you are encouraged to use this as it will make your life easier. It will not prevent you from using functionality or hinder you. And you can always disable it later."),
-    '#default_value' => 1,
-  );
-  /* @todo
   $form['opigno_lms']['demo_content'] = array(
     '#type' => 'checkbox',
     '#title' => st("Enable demo content"),
@@ -113,9 +107,6 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
  * Submit callback for opigno_lms_form_install_configure_form_alter().
  */
 function opigno_lms_form_install_configure_form_alter_submit($form, $form_state) {
-  if (!empty($form_state['values']['opigno_lms']['simple_ui'])) {
-    module_enable(array('opigno_simple_ui'));
-  }
   if (!empty($form_state['values']['opigno_lms']['demo_content'])) {
     // @todo
   }
