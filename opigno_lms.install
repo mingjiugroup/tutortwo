@@ -29,12 +29,12 @@ function opigno_lms_install() {
   variable_get('login_redirect_parameter_name', 'dashboard');
 
   // Make class certifiable by default.
-  variable_set('certificate_certifiable_class', 1);  
+  variable_set('certificate_certifiable_class', 1);
 
   // Set front page.
   variable_set('site_frontpage', 'dashboard');
 
-  // Enable blocks.  
+  // Enable blocks.
   _opigno_lms_install_enable_blocks();
 
   // Set default user settings.
@@ -50,12 +50,12 @@ function opigno_lms_install() {
   node_access_rebuild(FALSE);
 }
 
-/** 
+/**
  * Helper function to enable default blocks.
  */
 function _opigno_lms_install_enable_blocks() {
   $default_theme = variable_get('theme_default', 'platon');
-  
+
   $blocks = array(
     array(
       'module' => 'system',
@@ -269,20 +269,6 @@ function _opigno_lms_install_og_settings() {
       }
     }
   }
-
-  // Get the role IDs to set them as variables.
-  $roles = array();
-  foreach (array(
-    OPIGNO_LMS_COURSE_ADMIN_ROLE     => 'manager',
-    OPIGNO_LMS_COURSE_COACH_ROLE     => 'coach',
-    OPIGNO_LMS_COURSE_TEACHER_ROLE   => 'teacher',
-    OPIGNO_LMS_COURSE_STUDENT_ROLE   => 'student',
-    OPIGNO_LMS_COURSE_MODERATOR_ROLE => 'forum moderator',
-  ) as $key => $role_name) {
-    $rid = _opigno_lms_install_get_role_by_name($role_name, OPIGNO_COURSE_BUNDLE);
-    $roles[$key] = $rid;
-  }
-  variable_set('opigno_lms_default_og_roles', $roles);
 }
 
 /**

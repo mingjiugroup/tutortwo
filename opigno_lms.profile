@@ -14,6 +14,43 @@ define('OPIGNO_LMS_COURSE_ADMIN_ROLE',    'course admin member');
 define('OPIGNO_LMS_COURSE_MODERATOR_ROLE', 'course forum moderator');
 
 /**
+ * Implements hook_init().
+ */
+function opigno_lms_init() {
+  // We need to store the default OG roles so other modules can use them easily.
+  // Using this in hook_install() does not work, as the feature is not completely
+  // done installing at that point (or so it seems - it doesn't make any sense).
+  // Check the roles are found and set. If not, get them now.
+  // Make sure we find at least one of them. If not, don't store anything and wait
+  // for the next page load.
+  $roles = variable_get('opigno_lms_default_og_roles', array());
+  if (empty($roles)) {
+    module_load_include('install', 'opigno_lms');
+
+    // Get the role IDs to set them as variables.
+    // If not a single role is found, then we still haven't finished installing the roles.
+    // In that case, don't store the variable so we re-run this logic on the next page load.
+    $found = FALSE;
+    foreach (array(
+      OPIGNO_LMS_COURSE_ADMIN_ROLE     => 'manager',
+      OPIGNO_LMS_COURSE_COACH_ROLE     => 'coach',
+      OPIGNO_LMS_COURSE_TEACHER_ROLE   => 'teacher',
+      OPIGNO_LMS_COURSE_STUDENT_ROLE   => 'student',
+      OPIGNO_LMS_COURSE_MODERATOR_ROLE => 'forum moderator',
+    ) as $role_key => $role_name) {
+      $rid = _opigno_lms_install_get_role_by_name($role_name, OPIGNO_COURSE_BUNDLE);
+      if (!empty($rid)) {
+        $roles[$role_key] = $rid;
+        $found = TRUE;
+      }
+    }
+    if ($found) {
+      variable_set('opigno_lms_default_og_roles', $roles);
+    }
+  }
+}
+
+/**
  * Implements hook_install_tasks()
  */
 function opigno_lms_install_tasks(&$install_state) {
@@ -72,7 +109,7 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
   $form['#submit'][] = 'opigno_lms_form_install_configure_form_alter_submit';
 }
 
-/** 
+/**
  * Submit callback for opigno_lms_form_install_configure_form_alter().
  */
 function opigno_lms_form_install_configure_form_alter_submit($form, $form_state) {
@@ -157,8 +194,45 @@ function opigno_lms_form_update_manager_update_form_alter(&$form, &$form_state, 
   }
 }
 
+/**
+ * Implements hook_form_FORM_ID_alter() for og_ui_add_users().
+ */
 function opigno_lms_form_og_ui_add_users_alter(&$form, $form_state) {
-  $form['roles']['#options'][OPIGNO_LMS_COURSE_COACH_ROLE] = 'hi';
+  $gid = $form['gid']['#value'];
+  $node = node_load($gid);
+  _opigno_lms_hide_coach_checkbox($node);
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter() for og_ui_edit_membership().
+ */
+function opigno_lms_form_og_ui_edit_membership_alter(&$form, $form_state) {
+  $gid = $form['gid']['#value'];
+  $node = node_load($gid);
+  _opigno_lms_hide_coach_checkbox($node);
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter() for og_massadd_massadd_form().
+ */
+function opigno_lms_form_og_massadd_massadd_form_alter(&$form, $form_state) {
+  $gid = current($form['group_ids']['#value']);
+  $node = node_load($gid);
+  _opigno_lms_hide_coach_checkbox($node);
+}
+
+/**
+ * Hides the coach role checkbox by adding some inline CSS. This is only to simplify the administration interface.
+ *
+ * @param  object $node
+ */
+function _opigno_lms_hide_coach_checkbox($node) {
+  if (module_exists('opigno_simple_ui') && !empty($node->nid) && $node->type === OPIGNO_COURSE_BUNDLE) {
+    $rid = opigno_lms_get_role_id(OPIGNO_LMS_COURSE_COACH_ROLE);
+    if (!empty($rid)) {
+      drupal_add_css(".form-type-checkbox.form-item-roles-$rid { display: none; }", array('type' => 'inline'));
+    }
+  }
 }
 
 /**
@@ -209,7 +283,7 @@ function opigno_lms_get_role_id($key) {
  */
 function opigno_lms_set_og_permissions($bundle, $permissions) {
   foreach ($permissions as $role => $role_permissions) {
-    
+
   }
 }
 
