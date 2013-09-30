@@ -11,6 +11,7 @@ function opigno_features_field_settings_defaultconfig_features() {
   return array(
     'opigno_features_field_settings' => array(
       'field_default_fields' => 'field_default_fields',
+      'strongarm' => 'strongarm',
     ),
   );
 }
@@ -134,9 +135,8 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
+          'type' => 'hidden',
           'weight' => 2,
         ),
         'teaser' => array(
@@ -181,14 +181,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -229,10 +222,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'og_ui',
           'settings' => array(),
-          'type' => 'og_list_default',
-          'weight' => 1,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -326,7 +318,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
             'multiple_to' => '',
           ),
           'type' => 'date_default',
-          'weight' => 2,
+          'weight' => 1,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -548,10 +540,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 2,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -717,10 +708,10 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'module' => 'entityreference',
           'settings' => array(
-            'link' => FALSE,
+            'link' => 1,
           ),
           'type' => 'entityreference_label',
-          'weight' => 6,
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -783,16 +774,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'date',
-          'settings' => array(
-            'format_type' => 'long',
-            'fromto' => 'both',
-            'multiple_from' => '',
-            'multiple_number' => '',
-            'multiple_to' => '',
-          ),
-          'type' => 'date_default',
-          'weight' => 7,
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 4,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1312,7 +1296,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 11,
+          'weight' => 0,
         ),
         'teaser' => array(
           'label' => 'hidden',
@@ -1385,10 +1369,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 13,
+          'type' => 'hidden',
+          'weight' => 1,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1432,14 +1415,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -1480,10 +1456,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'og_ui',
           'settings' => array(),
-          'type' => 'og_list_default',
-          'weight' => 12,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1573,10 +1548,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'taxonomy',
           'settings' => array(),
-          'type' => 'taxonomy_term_reference_link',
-          'weight' => 10,
+          'type' => 'hidden',
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1683,14 +1657,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -1863,14 +1830,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -2043,14 +2003,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -2182,10 +2135,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 1,
+          'type' => 'hidden',
+          'weight' => 5,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2259,10 +2211,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 4,
+          'type' => 'hidden',
+          'weight' => 6,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2328,7 +2279,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 1,
+          'weight' => 0,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2395,10 +2346,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 7,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2465,10 +2415,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 3,
+          'type' => 'hidden',
+          'weight' => 7,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2542,7 +2491,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
             'multiple_to' => '',
           ),
           'type' => 'date_default',
-          'weight' => 5,
+          'weight' => 1,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2587,14 +2536,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -2635,10 +2577,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'og_ui',
           'settings' => array(),
-          'type' => 'og_list_default',
-          'weight' => 0,
+          'type' => 'hidden',
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2723,16 +2664,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'date',
-          'settings' => array(
-            'format_type' => 'long',
-            'fromto' => 'both',
-            'multiple_from' => '',
-            'multiple_number' => '',
-            'multiple_to' => '',
-          ),
-          'type' => 'date_default',
-          'weight' => 2,
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 4,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2809,10 +2743,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 1,
+          'type' => 'hidden',
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2845,14 +2778,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -2893,10 +2819,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'og_ui',
           'settings' => array(),
-          'type' => 'og_list_default',
-          'weight' => 0,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3057,10 +2982,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 4,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3104,14 +3028,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -3152,10 +3069,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'og_ui',
           'settings' => array(),
-          'type' => 'og_list_default',
-          'weight' => 3,
+          'type' => 'hidden',
+          'weight' => 4,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3242,10 +3158,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 2,
+          'type' => 'hidden',
+          'weight' => 5,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3300,15 +3215,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'number',
-          'settings' => array(
-            'decimal_separator' => '.',
-            'prefix_suffix' => TRUE,
-            'scale' => 2,
-            'thousand_separator' => ' ',
-          ),
-          'type' => 'number_decimal',
-          'weight' => 1,
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 6,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3510,14 +3419,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -3690,14 +3592,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -3870,14 +3765,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -4050,14 +3938,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -4262,10 +4143,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 4,
+          'type' => 'hidden',
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -4309,14 +4189,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -4357,10 +4230,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'og_ui',
           'settings' => array(),
-          'type' => 'og_list_default',
-          'weight' => 3,
+          'type' => 'hidden',
+          'weight' => 4,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -4522,10 +4394,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'taxonomy',
           'settings' => array(),
-          'type' => 'taxonomy_term_reference_link',
-          'weight' => 2,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -4632,14 +4503,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -4744,14 +4608,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'og_group_ref',
-      'foreign keys' => array(
-        'node' => array(
-          'columns' => array(
-            'target_id' => 'nid',
-          ),
-          'table' => 'node',
-        ),
-      ),
+      'foreign keys' => array(),
       'indexes' => array(
         'target_id' => array(
           0 => 'target_id',
@@ -4881,4 +4738,263 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
   t('Sets the weight of this quiz for the final course assessment. Leave at 0 if this quiz should not be taken into account for the final grade.');
 
   return $fields;
+}
+
+/**
+ * Implements hook_defaultconfig_strongarm().
+ */
+function opigno_features_field_settings_defaultconfig_strongarm() {
+  $export = array();
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'certificate_certifiable_class';
+  $strongarm->value = 1;
+  $export['certificate_certifiable_class'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'certificate_certifiable_course';
+  $strongarm->value = 1;
+  $export['certificate_certifiable_course'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_node__calendar_event';
+  $strongarm->value = array(
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_index' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_result' => array(
+        'custom_settings' => FALSE,
+      ),
+      'print' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
+    'extra_fields' => array(
+      'form' => array(),
+      'display' => array(),
+    ),
+  );
+  $export['field_bundle_settings_node__calendar_event'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_node__class';
+  $strongarm->value = array(
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_index' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_result' => array(
+        'custom_settings' => FALSE,
+      ),
+      'print' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
+    'extra_fields' => array(
+      'form' => array(),
+      'display' => array(),
+    ),
+  );
+  $export['field_bundle_settings_node__class'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_node__notification';
+  $strongarm->value = array(
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_index' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_result' => array(
+        'custom_settings' => FALSE,
+      ),
+      'print' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
+    'extra_fields' => array(
+      'form' => array(),
+      'display' => array(),
+    ),
+  );
+  $export['field_bundle_settings_node__notification'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_node__poll';
+  $strongarm->value = array(
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_index' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_result' => array(
+        'custom_settings' => FALSE,
+      ),
+      'print' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
+    'extra_fields' => array(
+      'form' => array(),
+      'display' => array(
+        'poll_view_voting' => array(
+          'default' => array(
+            'weight' => '1',
+            'visible' => TRUE,
+          ),
+        ),
+        'poll_view_results' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+        ),
+      ),
+    ),
+  );
+  $export['field_bundle_settings_node__poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_node__quiz';
+  $strongarm->value = array(
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_index' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_result' => array(
+        'custom_settings' => FALSE,
+      ),
+      'print' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
+    'extra_fields' => array(
+      'form' => array(),
+      'display' => array(
+        'take' => array(
+          'default' => array(
+            'weight' => '2',
+            'visible' => TRUE,
+          ),
+        ),
+        'stats' => array(
+          'default' => array(
+            'weight' => '1',
+            'visible' => TRUE,
+          ),
+        ),
+      ),
+    ),
+  );
+  $export['field_bundle_settings_node__quiz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_node__tft_file';
+  $strongarm->value = array(
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_index' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_result' => array(
+        'custom_settings' => FALSE,
+      ),
+      'print' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
+    'extra_fields' => array(
+      'form' => array(),
+      'display' => array(),
+    ),
+  );
+  $export['field_bundle_settings_node__tft_file'] = $strongarm;
+
+  return $export;
 }
