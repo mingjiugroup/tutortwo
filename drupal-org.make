@@ -67,6 +67,7 @@ projects[quiz][patch][] = "http://drupal.org/files/quiz.module.correct_delete_ac
 projects[quiz][patch][] = "http://drupal.org/files/prevent_user_from_clicking_on_question_title_2076873_0.patch"
 projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-integration.patch"
 projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch"
+projects[quiz][patch][] = "http://drupal.org/files/modify-quiz-to-lesson-in-ui-strings-2101063-1.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -247,11 +248,11 @@ libraries[DOMPDF][download][url]  = "http://dompdf.googlecode.com/files/dompdf_0
 libraries[DOMPDF][destination]    = "libraries"
 libraries[DOMPDF][directory_name] = "dompdf"
 
-;libraries[PHPExcel][download][type] = "get"
-;libraries[PHPExcel][download][url]  = "http://github.com/PHPOffice/PHPExcel/archive/PHPExcel_1.7.8.tar.gz"
-;libraries[PHPExcel][destination]    = "libraries"
-;libraries[PHPExcel][directory_name] = "PHPExcel"
-;libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
+libraries[PHPExcel][download][type] = "get"
+libraries[PHPExcel][download][url]  = "http://github.com/PHPOffice/PHPExcel/archive/1.7.9.tar.gz"
+libraries[PHPExcel][destination]    = "libraries"
+libraries[PHPExcel][directory_name] = "PHPExcel"
+libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
 
 
 ; Panopoly base distribution ===================================================
