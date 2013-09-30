@@ -45,7 +45,7 @@ projects[tft][subdir]             = "opigno"
 projects[tft][download][type]     = git
 projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
-projects[tft][download][revision] = 0b060a4dc646d6837b8a659ea909aa03535d7057
+projects[tft][download][revision] = 3230b929898c45c33e913f835cce8be1eb604f92
 
 
 ; Opigno themes ================================================================
@@ -72,7 +72,7 @@ projects[quiz][patch][] = "http://drupal.org/files/modify-quiz-to-lesson-in-ui-s
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
 projects[quizfileupload][subdir]  = "contrib"
-projects[quizfileupload][patch][] = "http://drupal.org/files/Adding_manual_scoring_and_extension_validation-2092275-4.patch"
+projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
 
 ; OG
 projects[og][version] = 2.3
