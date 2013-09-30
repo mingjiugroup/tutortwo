@@ -1,24 +1,13 @@
 <?php
 /**
  * @file
- * opigno_features_content_type_settings.features.defaultconfig.inc
+ * opigno_features_content_type_settings.strongarm.inc
  */
 
 /**
- * Implements hook_defaultconfig_features().
+ * Implements hook_strongarm().
  */
-function opigno_features_content_type_settings_defaultconfig_features() {
-  return array(
-    'opigno_features_content_type_settings' => array(
-      'strongarm' => 'strongarm',
-    ),
-  );
-}
-
-/**
- * Implements hook_defaultconfig_strongarm().
- */
-function opigno_features_content_type_settings_defaultconfig_strongarm() {
+function opigno_features_content_type_settings_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
@@ -115,20 +104,6 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
     0 => 'status',
   );
   $export['node_options_truefalse'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_preview_quiz';
-  $strongarm->value = '0';
-  $export['node_preview_quiz'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_submitted_quiz';
-  $strongarm->value = 0;
-  $export['node_submitted_quiz'] = $strongarm;
 
   return $export;
 }
