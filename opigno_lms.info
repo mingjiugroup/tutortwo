@@ -3,6 +3,8 @@ description = Install Opigno with commonly used features pre-configured.
 core = 7.x
 exclusive = TRUE
 
+stylesheets[all][] = css/opigno_lms.css
+
 ; Drupal core modules
 dependencies[] = block
 dependencies[] = contextual
