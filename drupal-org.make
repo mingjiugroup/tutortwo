@@ -45,7 +45,7 @@ projects[tft][subdir]             = "opigno"
 projects[tft][download][type]     = git
 projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
-projects[tft][download][revision] = 3230b929898c45c33e913f835cce8be1eb604f92
+projects[tft][download][revision] = b2528b7ec8573a8361bafe7e1d44e0aac3b85b2b
 
 
 ; Opigno themes ================================================================
