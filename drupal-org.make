@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0-rc12
+projects[opigno][version] = 1.0-rc13
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0-rc2
@@ -45,7 +45,7 @@ projects[tft][subdir]             = "opigno"
 projects[tft][download][type]     = git
 projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
-projects[tft][download][revision] = b2528b7ec8573a8361bafe7e1d44e0aac3b85b2b
+projects[tft][download][revision] = 218f8230bec73c38223ee006d08576f85a554dc4
 
 
 ; Opigno themes ================================================================
@@ -83,7 +83,7 @@ projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_progra
 ; OG Create Permissions
 projects[og_create_perms][version] = 1.0
 projects[og_create_perms][subdir]  = "contrib"
-projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_api_2077031.patch"
+projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og2.x_api-2077031-2.patch"
 
 ; OG forum
 projects[og_forum_D7][version] = 2.0-alpha1
