@@ -182,7 +182,7 @@ function _opigno_lms_install_menu() {
   menu_link_save($item);
 
   $item = array(
-    'link_title' => st('Course catalogue'),
+    'link_title' => st('Training catalogue'),
     'link_path' => 'course-catalogue',
     'menu_name' => 'main-menu',
     'options' => array(
