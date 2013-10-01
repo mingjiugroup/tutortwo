@@ -112,6 +112,17 @@ function _opigno_lms_install_enable_blocks() {
       'pages' => "node/*/tft\nnode/*/tft/*",
       'cache' => -1,
     ),
+    array(
+      'module' => 'views',
+      'delta' => 'views_opigno_polls-block_2',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_first',
+      'visibility' => 1,
+      'pages' => "node/*",
+      'cache' => -1,
+    ),
   );
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'visibility', 'pages', 'cache'));
   foreach ($blocks as $block) {
