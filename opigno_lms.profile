@@ -46,6 +46,7 @@ function opigno_lms_init() {
     }
     if ($found) {
       variable_set('opigno_lms_default_og_roles', $roles);
+      variable_set('og_group_manager_default_rids_node_course', array($roles[OPIGNO_LMS_COURSE_ADMIN_ROLE]));
     }
   }
 }

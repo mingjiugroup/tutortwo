@@ -46,6 +46,9 @@ function opigno_lms_install() {
   // Create default entries in the menu.
   _opigno_lms_install_menu();
 
+  // Enhance translations, if needed.
+  _opigno_lms_install_i18n();
+
   // Rebuild permissions. Don't use the batch process, we're already in one.
   node_access_rebuild(FALSE);
 }
@@ -268,6 +271,9 @@ function _opigno_lms_install_menu() {
  * Helper function to set default OG settings.
  */
 function _opigno_lms_install_og_settings() {
+  // Don't give full permissions to OG group manager.
+  variable_set('og_group_manager_full_access', 0);
+
   // Remove roles that are enabled by default.
   foreach (array(
     'course' => array('forum administrator', 'administrator member'),
@@ -279,6 +285,17 @@ function _opigno_lms_install_og_settings() {
         og_role_delete($rid);
       }
     }
+  }
+}
+
+/**
+ * Helper function to enable several other modules if locale is enabled (which means
+ * Opigno LMS got installed in another language).
+ */
+function _opigno_lms_install_i18n() {
+  if (module_exists('locale')) {
+    // We want to activate the field translations as well.
+    module_enable(array('i18n_field'), TRUE);
   }
 }
 
