@@ -807,5 +807,44 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:course:vote on polls'
+  $permissions['node:course:vote on polls'] = array(
+    'roles' => array(
+      'member' => 'member',
+    ),
+  );
+
+  $permissions['node:class:can be messaged'] = array(
+    'roles' => array(
+      'student' => 'student',
+      'coach' => 'coach',
+    ),
+  );
+
+  $permissions['node:class:can message anyone'] = array(
+    'roles' => array(
+      'forum administrator' => 'forum administrator',
+      'manager' => 'manager',
+      'coach' => 'coach',
+    ),
+  );
+
+  $permissions['node:course:can be messaged'] = array(
+    'roles' => array(
+      'student' => 'student',
+      'coach' => 'coach',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:can message anyone'] = array(
+    'roles' => array(
+      'forum moderator' => 'forum moderator',
+      'manager' => 'manager',
+      'coach' => 'coach',
+      'teacher' => 'teacher',
+    ),
+  );
+
   return $permissions;
 }
