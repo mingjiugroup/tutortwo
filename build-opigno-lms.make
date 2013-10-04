@@ -3,4 +3,12 @@ core = 7.x
 
 projects[drupal][version] = 7.23
 
-projects[opigno_lms][version] = 1.0-beta4
+; For building dev.
+;projects[opigno_lms][type]               = profile
+;projects[opigno_lms][download][type]     = git
+;projects[opigno_lms][download][branch]   = "7.x-1.x"
+;projects[opigno_lms][download][url]      = "http://git.drupal.org/project/opigno_lms.git"
+;projects[opigno_lms][download][revision] = 8e01c8517993c76b2851df89e4375656b5696618
+
+; For building a precise release.
+projects[opigno_lms][version] = 1.0-beta8

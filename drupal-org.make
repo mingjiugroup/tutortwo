@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0-rc11
+projects[opigno][version] = 1.0-rc14
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0-rc2
@@ -16,19 +16,19 @@ projects[opigno_certificate_app][subdir]  = "opigno"
 projects[opigno_forum_app][version] = 1.0-rc1
 projects[opigno_forum_app][subdir]  = "opigno"
 
-projects[opigno_messaging_app][version] = 1.0-rc1
+projects[opigno_messaging_app][version] = 1.0-rc2
 projects[opigno_messaging_app][subdir]  = "opigno"
 
 projects[opigno_notifications_app][version] = 1.0-rc3
 projects[opigno_notifications_app][subdir]  = "opigno"
 
-projects[opigno_poll_app][version] = 1.0-rc5
+projects[opigno_poll_app][version] = 1.0-rc7
 projects[opigno_poll_app][subdir]  = "opigno"
 
 projects[opigno_quiz_import_app][version] = 1.0-rc1
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.0-rc2
+projects[opigno_class_app][version] = 1.0-rc5
 projects[opigno_class_app][subdir]  = "opigno"
 
 projects[opigno_quiz_app][version] = 1.0-rc11
@@ -37,7 +37,7 @@ projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
 
-projects[opigno_course_categories_app][version] = 1.0-rc2
+projects[opigno_course_categories_app][version] = 1.0-rc4
 projects[opigno_course_categories_app][subdir]  = "opigno"
 
 projects[tft][type]               = module
@@ -45,7 +45,7 @@ projects[tft][subdir]             = "opigno"
 projects[tft][download][type]     = git
 projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
-projects[tft][download][revision] = 0b060a4dc646d6837b8a659ea909aa03535d7057
+projects[tft][download][revision] = 218f8230bec73c38223ee006d08576f85a554dc4
 
 
 ; Opigno themes ================================================================
@@ -66,12 +66,13 @@ projects[quiz][patch][] = "http://drupal.org/files/hide_save_button_when_no_righ
 projects[quiz][patch][] = "http://drupal.org/files/quiz.module.correct_delete_access_1529302.patch"
 projects[quiz][patch][] = "http://drupal.org/files/prevent_user_from_clicking_on_question_title_2076873_0.patch"
 projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-integration.patch"
-;projects[quiz][patch][] = "http://drupal.org/files/quizfileupload.patch"
+projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch"
+projects[quiz][patch][] = "http://drupal.org/files/modify-quiz-to-lesson-in-ui-strings-2101063-1.patch"
 
 ; Quiz File Upload
-;projects[quizfileupload][version] = 1.0
-;projects[quizfileupload][subdir]  = "contrib"
-;projects[quizfileupload][patch][] = "http://drupal.org/files/Adding_manual_scoring_and_extension_validation-2092275-2.patch"
+projects[quizfileupload][version] = 1.0
+projects[quizfileupload][subdir]  = "contrib"
+projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
 
 ; OG
 projects[og][version] = 2.3
@@ -82,7 +83,7 @@ projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_progra
 ; OG Create Permissions
 projects[og_create_perms][version] = 1.0
 projects[og_create_perms][subdir]  = "contrib"
-projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og_2.x_api_2077031.patch"
+projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og2.x_api-2077031-2.patch"
 
 ; OG forum
 projects[og_forum_D7][version] = 2.0-alpha1
@@ -171,6 +172,12 @@ projects[wysiwyg_template][version] = 2.9
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc2
 
+projects[imce][subdir]  = "contrib"
+projects[imce][version] = 1.7
+
+projects[imce_wysiwyg][subdir]  = "contrib"
+projects[imce_wysiwyg][version] = 1.0
+
 projects[field_group][subdir]  = "contrib"
 projects[field_group][version] = 1.2
 
@@ -204,11 +211,29 @@ projects[login_redirect][version] = 1.1
 projects[homebox][subdir]  = "contrib"
 projects[homebox][version] = 2.0-beta6
 
+projects[views_bulk_operations][subdir]  = "contrib"
+projects[views_bulk_operations][version] = 3.1
+
+projects[libraries][subdir]  = "contrib"
+projects[libraries][version] = 2.1
+
+projects[pathauto][subdir]  = "contrib"
+projects[pathauto][version] = 1.2
+
+projects[strongarm][subdir]  = "contrib"
+projects[strongarm][version] = 2.0
+
+projects[file_entity][subdir]  = "contrib"
+projects[file_entity][version] = 2.0-alpha2
+
+projects[user_import][subdir]  = "contrib"
+projects[user_import][version] = 2.1
+
 
 ; For dev phase (disable on production) ========================================
 
 projects[drupal_reset][subdir]  = "contrib"
-projects[drupal_reset][version] = 1.3 
+projects[drupal_reset][version] = 1.3
 
 
 ; Third-patry libraries ========================================================
@@ -223,11 +248,11 @@ libraries[DOMPDF][download][url]  = "http://dompdf.googlecode.com/files/dompdf_0
 libraries[DOMPDF][destination]    = "libraries"
 libraries[DOMPDF][directory_name] = "dompdf"
 
-;libraries[PHPExcel][download][type] = "get"
-;libraries[PHPExcel][download][url]  = "http://github.com/PHPOffice/PHPExcel/archive/PHPExcel_1.7.8.tar.gz"
-;libraries[PHPExcel][destination]    = "libraries"
-;libraries[PHPExcel][directory_name] = "PHPExcel"
-;libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
+libraries[PHPExcel][download][type] = "get"
+libraries[PHPExcel][download][url]  = "https://github.com/PHPOffice/PHPExcel/archive/1.7.9.tar.gz"
+libraries[PHPExcel][destination]    = "libraries"
+libraries[PHPExcel][directory_name] = "PHPExcel"
+libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
 
 
 ; Panopoly base distribution ===================================================

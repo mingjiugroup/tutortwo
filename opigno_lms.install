@@ -29,12 +29,12 @@ function opigno_lms_install() {
   variable_get('login_redirect_parameter_name', 'dashboard');
 
   // Make class certifiable by default.
-  variable_set('certificate_certifiable_class', 1);  
+  variable_set('certificate_certifiable_class', 1);
 
   // Set front page.
   variable_set('site_frontpage', 'dashboard');
 
-  // Enable blocks.  
+  // Enable blocks.
   _opigno_lms_install_enable_blocks();
 
   // Set default user settings.
@@ -46,16 +46,19 @@ function opigno_lms_install() {
   // Create default entries in the menu.
   _opigno_lms_install_menu();
 
+  // Enhance translations, if needed.
+  _opigno_lms_install_i18n();
+
   // Rebuild permissions. Don't use the batch process, we're already in one.
   node_access_rebuild(FALSE);
 }
 
-/** 
+/**
  * Helper function to enable default blocks.
  */
 function _opigno_lms_install_enable_blocks() {
   $default_theme = variable_get('theme_default', 'platon');
-  
+
   $blocks = array(
     array(
       'module' => 'system',
@@ -110,6 +113,17 @@ function _opigno_lms_install_enable_blocks() {
       'region' => 'sidebar_first',
       'visibility' => 1,
       'pages' => "node/*/tft\nnode/*/tft/*",
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'views',
+      'delta' => 'views_opigno_polls-block_2',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_first',
+      'visibility' => 1,
+      'pages' => "node/*",
       'cache' => -1,
     ),
   );
@@ -171,7 +185,7 @@ function _opigno_lms_install_menu() {
   menu_link_save($item);
 
   $item = array(
-    'link_title' => st('Course catalogue'),
+    'link_title' => st('Training catalogue'),
     'link_path' => 'course-catalogue',
     'menu_name' => 'main-menu',
     'options' => array(
@@ -257,26 +271,48 @@ function _opigno_lms_install_menu() {
  * Helper function to set default OG settings.
  */
 function _opigno_lms_install_og_settings() {
-  // Get the role IDs to set them as variables.
-  $roles = array();
+  // Don't give full permissions to OG group manager.
+  variable_set('og_group_manager_full_access', 0);
+
+  // Remove roles that are enabled by default.
   foreach (array(
-    OPIGNO_LMS_COURSE_ADMIN_ROLE   => 'administrator member',
-    OPIGNO_LMS_COURSE_COACH_ROLE   => 'coach member',
-    OPIGNO_LMS_COURSE_TEACHER_ROLE => 'teacher member',
-    OPIGNO_LMS_COURSE_STUDENT_ROLE => 'student member',
-  ) as $key => $role_name) {
-    $rid  = db_select('og_role', 'r')
+    'course' => array('forum administrator', 'administrator member'),
+    'class'  => array('forum administrator', 'administrator member'),
+  ) as $type => $roles) {
+    foreach ($roles as $role_name) {
+      $rid = _opigno_lms_install_get_role_by_name($role_name, $type);
+      if ($rid) {
+        og_role_delete($rid);
+      }
+    }
+  }
+}
+
+/**
+ * Helper function to enable several other modules if locale is enabled (which means
+ * Opigno LMS got installed in another language).
+ */
+function _opigno_lms_install_i18n() {
+  if (module_exists('locale')) {
+    // We want to activate the field translations as well.
+    module_enable(array('i18n_field'), TRUE);
+  }
+}
+
+/**
+ * Helper function to fetch an OG role by name.
+ *
+ * @param  string $role_mame
+ * @param  string $bundle
+ *
+ * @return string
+ */
+function _opigno_lms_install_get_role_by_name($role_name, $bundle) {
+  $rid  = db_select('og_role', 'r')
               ->fields('r', array('rid'))
               ->condition('r.name', $role_name)
-              ->condition('group_bundle', OPIGNO_COURSE_BUNDLE)
+              ->condition('group_bundle', $bundle)
               ->execute()
               ->fetchField();
-
-    if (empty($rid)) {
-      // Set a default value to prevent notices.
-      $rid = 0;
-    }
-    $roles[$key] = $rid;
-  }
-  variable_set('opigno_lms_default_og_roles', $roles);
+  return !empty($rid) ? $rid : 0;
 }

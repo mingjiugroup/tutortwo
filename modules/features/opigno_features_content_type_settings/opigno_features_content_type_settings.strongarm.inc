@@ -1,284 +1,119 @@
 <?php
 /**
  * @file
- * opigno_features_content_type_settings.features.defaultconfig.inc
+ * opigno_features_content_type_settings.strongarm.inc
  */
 
 /**
- * Implements hook_defaultconfig_features().
+ * Implements hook_strongarm().
  */
-function opigno_features_content_type_settings_defaultconfig_features() {
-  return array(
-    'opigno_features_content_type_settings' => array(
-      'strongarm' => 'strongarm',
-    ),
-  );
-}
-
-/**
- * Implements hook_defaultconfig_strongarm().
- */
-function opigno_features_content_type_settings_defaultconfig_strongarm() {
+function opigno_features_content_type_settings_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_calendar_event';
-  $strongarm->value = 0;
-  $export['comment_anonymous_calendar_event'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_certificate';
-  $strongarm->value = 0;
-  $export['comment_anonymous_certificate'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_class';
-  $strongarm->value = 0;
-  $export['comment_anonymous_class'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_course';
-  $strongarm->value = 0;
-  $export['comment_anonymous_course'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_forum';
-  $strongarm->value = 0;
-  $export['comment_anonymous_forum'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_long_answer';
-  $strongarm->value = 0;
-  $export['comment_anonymous_long_answer'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_matching';
-  $strongarm->value = 0;
-  $export['comment_anonymous_matching'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_multichoice';
-  $strongarm->value = 0;
-  $export['comment_anonymous_multichoice'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_notification';
-  $strongarm->value = 0;
-  $export['comment_anonymous_notification'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_poll';
-  $strongarm->value = 0;
-  $export['comment_anonymous_poll'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_quizfileupload';
-  $strongarm->value = 0;
-  $export['comment_anonymous_quizfileupload'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_quiz_ddlines';
-  $strongarm->value = 0;
-  $export['comment_anonymous_quiz_ddlines'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_quiz_directions';
-  $strongarm->value = 0;
-  $export['comment_anonymous_quiz_directions'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_scale';
-  $strongarm->value = 0;
-  $export['comment_anonymous_scale'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_short_answer';
-  $strongarm->value = 0;
-  $export['comment_anonymous_short_answer'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_tft_file';
-  $strongarm->value = 0;
-  $export['comment_anonymous_tft_file'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_anonymous_truefalse';
-  $strongarm->value = 0;
-  $export['comment_anonymous_truefalse'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_calendar_event';
-  $strongarm->value = 1;
-  $export['comment_default_mode_calendar_event'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_certificate';
-  $strongarm->value = 1;
-  $export['comment_default_mode_certificate'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_class';
-  $strongarm->value = 1;
-  $export['comment_default_mode_class'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_course';
-  $strongarm->value = 1;
-  $export['comment_default_mode_course'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_forum';
-  $strongarm->value = 1;
-  $export['comment_default_mode_forum'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_long_answer';
-  $strongarm->value = 1;
-  $export['comment_default_mode_long_answer'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_matching';
-  $strongarm->value = 1;
-  $export['comment_default_mode_matching'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_multichoice';
-  $strongarm->value = 1;
-  $export['comment_default_mode_multichoice'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_notification';
-  $strongarm->value = 1;
-  $export['comment_default_mode_notification'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_poll';
-  $strongarm->value = 1;
-  $export['comment_default_mode_poll'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_quizfileupload';
-  $strongarm->value = 1;
-  $export['comment_default_mode_quizfileupload'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_quiz_ddlines';
-  $strongarm->value = 1;
-  $export['comment_default_mode_quiz_ddlines'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_quiz_directions';
-  $strongarm->value = 1;
-  $export['comment_default_mode_quiz_directions'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_scale';
-  $strongarm->value = 1;
-  $export['comment_default_mode_scale'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_short_answer';
-  $strongarm->value = 1;
-  $export['comment_default_mode_short_answer'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_tft_file';
-  $strongarm->value = 1;
-  $export['comment_default_mode_tft_file'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_default_mode_truefalse';
-  $strongarm->value = 1;
-  $export['comment_default_mode_truefalse'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_forum';
-  $strongarm->value = '2';
-  $export['comment_forum'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'comment_quizfileupload';
+  $strongarm->name = 'comment_calendar_event';
   $strongarm->value = '0';
-  $export['comment_quizfileupload'] = $strongarm;
+  $export['comment_calendar_event'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'comment_tft_file';
-  $strongarm->value = '1';
-  $export['comment_tft_file'] = $strongarm;
+  $strongarm->name = 'comment_certificate';
+  $strongarm->value = '0';
+  $export['comment_certificate'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_class';
+  $strongarm->value = '0';
+  $export['comment_class'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_course';
+  $strongarm->value = '0';
+  $export['comment_course'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_long_answer';
+  $strongarm->value = '0';
+  $export['comment_long_answer'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_matching';
+  $strongarm->value = '0';
+  $export['comment_matching'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_multichoice';
+  $strongarm->value = '0';
+  $export['comment_multichoice'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_notification';
+  $strongarm->value = '0';
+  $export['comment_notification'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_poll';
+  $strongarm->value = '0';
+  $export['comment_poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_quiz';
+  $strongarm->value = '0';
+  $export['comment_quiz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_quiz_ddlines';
+  $strongarm->value = '0';
+  $export['comment_quiz_ddlines'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_quiz_directions';
+  $strongarm->value = '0';
+  $export['comment_quiz_directions'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_scale';
+  $strongarm->value = '0';
+  $export['comment_scale'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_short_answer';
+  $strongarm->value = '0';
+  $export['comment_short_answer'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_truefalse';
+  $strongarm->value = '0';
+  $export['comment_truefalse'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -353,6 +188,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'menu_options_quiz';
+  $strongarm->value = array();
+  $export['menu_options_quiz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_quizfileupload';
   $strongarm->value = array();
   $export['menu_options_quizfileupload'] = $strongarm;
@@ -402,11 +244,27 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'menu_parent_quiz';
+  $strongarm->value = 'main-menu:0';
+  $export['menu_parent_quiz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_options_calendar_event';
   $strongarm->value = array(
     0 => 'status',
   );
   $export['node_options_calendar_event'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_certificate';
+  $strongarm->value = array(
+    0 => 'revision',
+  );
+  $export['node_options_certificate'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -429,6 +287,42 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_forum';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_forum'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_long_answer';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_long_answer'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_matching';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_matching'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_multichoice';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_multichoice'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_options_notification';
   $strongarm->value = array(
     0 => 'status',
@@ -443,6 +337,15 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
     0 => 'status',
   );
   $export['node_options_poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_quiz';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_quiz'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -474,11 +377,38 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_scale';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_scale'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_short_answer';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_short_answer'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_options_tft_file';
   $strongarm->value = array(
     0 => 'status',
   );
   $export['node_options_tft_file'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_truefalse';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_truefalse'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -549,6 +479,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm->name = 'node_preview_poll';
   $strongarm->value = '0';
   $export['node_preview_poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_preview_quiz';
+  $strongarm->value = '0';
+  $export['node_preview_quiz'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -668,6 +605,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm->name = 'node_submitted_poll';
   $strongarm->value = 0;
   $export['node_submitted_poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_submitted_quiz';
+  $strongarm->value = 0;
+  $export['node_submitted_quiz'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -812,6 +756,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'print_display_comment_quiz';
+  $strongarm->value = 0;
+  $export['print_display_comment_quiz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'print_display_comment_quizfileupload';
   $strongarm->value = 0;
   $export['print_display_comment_quizfileupload'] = $strongarm;
@@ -906,6 +857,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm->name = 'print_display_poll';
   $strongarm->value = 0;
   $export['print_display_poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'print_display_quiz';
+  $strongarm->value = 0;
+  $export['print_display_quiz'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -1029,6 +987,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'print_display_urllist_quiz';
+  $strongarm->value = 0;
+  $export['print_display_urllist_quiz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'print_display_urllist_quizfileupload';
   $strongarm->value = 0;
   $export['print_display_urllist_quizfileupload'] = $strongarm;
@@ -1074,6 +1039,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm->name = 'print_display_urllist_truefalse';
   $strongarm->value = 0;
   $export['print_display_urllist_truefalse'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'print_html_link_pos';
+  $strongarm->value = '{}';
+  $export['print_html_link_pos'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -1165,6 +1137,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm->name = 'print_pdf_display_comment_poll';
   $strongarm->value = 0;
   $export['print_pdf_display_comment_poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'print_pdf_display_comment_quiz';
+  $strongarm->value = 0;
+  $export['print_pdf_display_comment_quiz'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -1263,6 +1242,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm->name = 'print_pdf_display_poll';
   $strongarm->value = 0;
   $export['print_pdf_display_poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'print_pdf_display_quiz';
+  $strongarm->value = 0;
+  $export['print_pdf_display_quiz'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -1386,6 +1372,13 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'print_pdf_display_urllist_quiz';
+  $strongarm->value = 0;
+  $export['print_pdf_display_urllist_quiz'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'print_pdf_display_urllist_quizfileupload';
   $strongarm->value = 0;
   $export['print_pdf_display_urllist_quizfileupload'] = $strongarm;
@@ -1431,6 +1424,20 @@ function opigno_features_content_type_settings_defaultconfig_strongarm() {
   $strongarm->name = 'print_pdf_display_urllist_truefalse';
   $strongarm->value = 0;
   $export['print_pdf_display_urllist_truefalse'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'print_pdf_link_pos';
+  $strongarm->value = '{}';
+  $export['print_pdf_link_pos'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'print_pdf_pdf_tool';
+  $strongarm->value = 'profiles/opigno_lms/libraries/dompdf/dompdf_config.inc.php';
+  $export['print_pdf_pdf_tool'] = $strongarm;
 
   return $export;
 }

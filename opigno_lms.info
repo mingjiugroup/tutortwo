@@ -3,6 +3,8 @@ description = Install Opigno with commonly used features pre-configured.
 core = 7.x
 exclusive = TRUE
 
+stylesheets[all][] = css/opigno_lms.css
+
 ; Drupal core modules
 dependencies[] = block
 dependencies[] = contextual
@@ -42,6 +44,7 @@ dependencies[] = og_access
 dependencies[] = og_massadd
 dependencies[] = og_create_perms
 dependencies[] = views
+dependencies[] = views_ui
 dependencies[] = rules
 dependencies[] = rules_conditional
 dependencies[] = module_filter
@@ -49,13 +52,15 @@ dependencies[] = date_popup_authored
 dependencies[] = entityreference_prepopulate
 dependencies[] = menu_attributes
 dependencies[] = quizfileupload
+dependencies[] = user_import
 
 ; Only for dev phase
 dependencies[] = devel
 dependencies[] = drupal_reset
 
-; Opigno
+; Opigno core
 dependencies[] = opigno
+dependencies[] = opigno_simple_ui
 dependencies[] = opigno_og_prereq
 
 ; Opigno apps
@@ -77,6 +82,7 @@ dependencies[] = opigno_features_roles
 dependencies[] = opigno_features_og_roles
 dependencies[] = opigno_features_field_groups
 dependencies[] = opigno_features_field_settings
+dependencies[] = opigno_features_content_type_settings
 ;dependencies[] = opigno_features_panels
 dependencies[] = opigno_features_wysiwyg
 dependencies[] = opigno_features_homebox

@@ -126,7 +126,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'bundle' => 'calendar_event',
       'default_value' => array(
         0 => array(
-          'value' => 2,
+          'value' => 0,
         ),
       ),
       'deleted' => 0,
@@ -134,9 +134,8 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
+          'type' => 'hidden',
           'weight' => 2,
         ),
         'teaser' => array(
@@ -149,7 +148,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'group_content_access',
       'label' => 'Group content visibility',
-      'required' => 1,
+      'required' => TRUE,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -164,7 +163,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 1,
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
@@ -212,9 +210,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -231,10 +227,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'og_ui',
           'settings' => array(),
-          'type' => 'og_list_default',
-          'weight' => 1,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -337,7 +332,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
             'multiple_to' => '',
           ),
           'type' => 'date_default',
-          'weight' => 2,
+          'weight' => 1,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -561,7 +556,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 2,
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -634,13 +629,13 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'description' => 'Determine if this is an OG group.',
       'display' => array(
         'default' => array(
-          'label' => 'hidden',
+          'label' => 'above',
           'module' => 'og_ui',
           'settings' => array(
             'field_name' => FALSE,
           ),
           'type' => 'og_group_subscribe',
-          'weight' => 3,
+          'weight' => 1,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -725,9 +720,12 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => 4,
+          'module' => 'entityreference',
+          'settings' => array(
+            'link' => 1,
+          ),
+          'type' => 'entityreference_label',
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -792,7 +790,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 1,
+          'weight' => 4,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -945,8 +943,11 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'settings' => array(),
-          'type' => 'hidden',
+          'module' => 'entityreference',
+          'settings' => array(
+            'link' => 1,
+          ),
+          'type' => 'entityreference_label',
           'weight' => 3,
         ),
         'teaser' => array(
@@ -958,7 +959,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'course_required_quiz_ref',
-      'label' => 'Required quiz',
+      'label' => 'Lesson required for the course validation',
       'required' => FALSE,
       'settings' => array(
         'user_register_form' => FALSE,
@@ -1017,7 +1018,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 4,
+          'weight' => 6,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1090,7 +1091,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'description' => 'Determine if this is an OG group.',
       'display' => array(
         'default' => array(
-          'label' => 'hidden',
+          'label' => 'above',
           'module' => 'og_ui',
           'settings' => array(
             'field_name' => FALSE,
@@ -1141,7 +1142,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
   $fields['node-course-opigno_course_categories'] = array(
     'field_config' => array(
       'active' => 1,
-      'cardinality' => -1,
+      'cardinality' => 1,
       'deleted' => 0,
       'entity_types' => array(),
       'field_name' => 'opigno_course_categories',
@@ -1199,12 +1200,12 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       ),
       'widget' => array(
         'active' => 0,
-        'module' => 'taxonomy',
+        'module' => 'options',
         'settings' => array(
           'autocomplete_path' => 'taxonomy/autocomplete',
           'size' => 60,
         ),
-        'type' => 'taxonomy_autocomplete',
+        'type' => 'options_select',
         'weight' => 3,
       ),
     ),
@@ -1240,11 +1241,11 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'description' => 'Activate tools for this course. Deactivated tools will be hidden from users.',
       'display' => array(
         'default' => array(
-          'label' => 'hidden',
+          'label' => 'above',
           'module' => 'opigno',
           'settings' => array(),
           'type' => 'opigno_tools_tool',
-          'weight' => 2,
+          'weight' => 4,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1309,7 +1310,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 1,
+          'weight' => 0,
         ),
         'teaser' => array(
           'label' => 'hidden',
@@ -1337,7 +1338,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'summary_rows' => 5,
         ),
         'type' => 'text_textarea_with_summary',
-        'weight' => -3,
+        'weight' => 1,
       ),
     ),
   );
@@ -1384,7 +1385,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 2,
+          'weight' => 1,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1414,7 +1415,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
-        'weight' => -1,
+        'weight' => 3,
       ),
       'widget_type' => 'options_select',
     ),
@@ -1458,9 +1459,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -1471,7 +1470,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'forum',
       'default_value' => NULL,
-      'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -1491,7 +1489,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -1502,14 +1500,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => 'none',
-            'action_on_edit' => 0,
-            'fallback' => 'none',
-            'og_context' => 0,
-            'skip_perm' => 0,
-            'status' => 1,
           ),
         ),
         'user_register_form' => FALSE,
@@ -1527,11 +1517,10 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
-        'weight' => -2,
+        'weight' => 2,
       ),
     ),
   );
@@ -1578,10 +1567,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'taxonomy',
           'settings' => array(),
-          'type' => 'taxonomy_term_reference_link',
-          'weight' => 0,
+          'type' => 'hidden',
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -1602,7 +1590,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
-        'weight' => -4,
+        'weight' => 0,
       ),
     ),
   );
@@ -1718,9 +1706,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -1731,7 +1717,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'long_answer',
       'default_value' => NULL,
-      'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -1752,7 +1737,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -1763,14 +1748,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => 'none',
-            'action_on_edit' => 0,
-            'fallback' => 'none',
-            'og_context' => 0,
-            'skip_perm' => 0,
-            'status' => 1,
           ),
         ),
         'user_register_form' => FALSE,
@@ -1788,7 +1765,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
@@ -1908,9 +1884,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -1921,7 +1895,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'matching',
       'default_value' => NULL,
-      'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -1942,7 +1915,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -1953,14 +1926,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => 'none',
-            'action_on_edit' => 0,
-            'fallback' => 'none',
-            'og_context' => 0,
-            'skip_perm' => 0,
-            'status' => 1,
           ),
         ),
         'user_register_form' => FALSE,
@@ -1978,7 +1943,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
@@ -2098,9 +2062,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -2111,7 +2073,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'multichoice',
       'default_value' => NULL,
-      'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -2132,7 +2093,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -2143,14 +2104,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => 'none',
-            'action_on_edit' => 0,
-            'fallback' => 'none',
-            'og_context' => 0,
-            'skip_perm' => 0,
-            'status' => 1,
           ),
         ),
         'user_register_form' => FALSE,
@@ -2168,7 +2121,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
@@ -2209,7 +2161,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'bundle' => 'notification',
       'default_value' => array(
         0 => array(
-          'value' => 2,
+          'value' => 0,
         ),
       ),
       'deleted' => 0,
@@ -2217,10 +2169,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 1,
+          'type' => 'hidden',
+          'weight' => 5,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2232,7 +2183,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'group_content_access',
       'label' => 'Group content visibility',
-      'required' => 1,
+      'required' => TRUE,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -2247,7 +2198,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 1,
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
@@ -2295,10 +2245,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 4,
+          'type' => 'hidden',
+          'weight' => 6,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2364,7 +2313,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 1,
+          'weight' => 0,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2431,10 +2380,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 7,
+          'type' => 'hidden',
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2501,10 +2449,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 3,
+          'type' => 'hidden',
+          'weight' => 7,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2578,7 +2525,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
             'multiple_to' => '',
           ),
           'type' => 'date_default',
-          'weight' => 5,
+          'weight' => 1,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2653,9 +2600,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -2672,10 +2617,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'og_ui',
           'settings' => array(),
-          'type' => 'og_list_default',
-          'weight' => 0,
+          'type' => 'hidden',
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2769,16 +2713,9 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'display' => array(
         'default' => array(
           'label' => 'above',
-          'module' => 'date',
-          'settings' => array(
-            'format_type' => 'long',
-            'fromto' => 'both',
-            'multiple_from' => '',
-            'multiple_number' => '',
-            'multiple_to' => '',
-          ),
-          'type' => 'date_default',
-          'weight' => 2,
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 4,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2857,7 +2794,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 3,
+          'weight' => 2,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -2920,9 +2857,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -2941,7 +2876,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 2,
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3103,7 +3038,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'bundle' => 'quiz',
       'default_value' => array(
         0 => array(
-          'value' => 2,
+          'value' => 0,
         ),
       ),
       'deleted' => 0,
@@ -3113,7 +3048,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 4,
+          'weight' => 3,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3125,7 +3060,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'group_content_access',
       'label' => 'Group content visibility',
-      'required' => 1,
+      'required' => TRUE,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -3140,7 +3075,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 1,
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
@@ -3188,9 +3122,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -3209,7 +3141,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 5,
+          'weight' => 4,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3307,7 +3239,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 6,
+          'weight' => 5,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3318,7 +3250,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'quiz_type',
-      'label' => 'Quiz type',
+      'label' => 'Lesson type',
       'required' => TRUE,
       'settings' => array(
         'user_register_form' => FALSE,
@@ -3364,7 +3296,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => 3,
+          'weight' => 6,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -3375,7 +3307,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       ),
       'entity_type' => 'node',
       'field_name' => 'quiz_weight',
-      'label' => 'Quiz weight',
+      'label' => 'Lesson weight',
       'required' => TRUE,
       'settings' => array(
         'max' => '',
@@ -3596,9 +3528,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -3609,7 +3539,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'quiz_ddlines',
       'default_value' => NULL,
-      'default_value_function' => '',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -3630,7 +3559,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -3641,14 +3570,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => '',
-            'action_on_edit' => 0,
-            'fallback' => '',
-            'og_context' => 0,
-            'skip_perm' => '',
-            'status' => 0,
           ),
         ),
         'user_register_form' => FALSE,
@@ -3666,7 +3587,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
@@ -3786,9 +3706,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -3799,7 +3717,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'quiz_directions',
       'default_value' => NULL,
-      'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -3820,7 +3737,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -3831,14 +3748,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => 'none',
-            'action_on_edit' => 0,
-            'fallback' => 'none',
-            'og_context' => 0,
-            'skip_perm' => 0,
-            'status' => 1,
           ),
         ),
         'user_register_form' => FALSE,
@@ -3856,7 +3765,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
@@ -3976,9 +3884,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -3989,7 +3895,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'scale',
       'default_value' => NULL,
-      'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -4010,7 +3915,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -4021,14 +3926,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => 'none',
-            'action_on_edit' => 0,
-            'fallback' => 'none',
-            'og_context' => 0,
-            'skip_perm' => 0,
-            'status' => 1,
           ),
         ),
         'user_register_form' => FALSE,
@@ -4046,7 +3943,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
@@ -4166,9 +4062,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -4179,7 +4073,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'short_answer',
       'default_value' => NULL,
-      'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -4200,7 +4093,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -4211,14 +4104,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => 'none',
-            'action_on_edit' => 0,
-            'fallback' => 'none',
-            'og_context' => 0,
-            'skip_perm' => 0,
-            'status' => 1,
           ),
         ),
         'user_register_form' => FALSE,
@@ -4236,7 +4121,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
@@ -4350,7 +4234,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'bundle' => 'tft_file',
       'default_value' => array(
         0 => array(
-          'value' => 2,
+          'value' => 0,
         ),
       ),
       'deleted' => 0,
@@ -4372,7 +4256,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'group_content_access',
       'label' => 'Group content visibility',
-      'required' => 1,
+      'required' => TRUE,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -4387,7 +4271,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 1,
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
@@ -4435,9 +4318,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -4570,7 +4451,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'settings' => array(
         'description_field' => 0,
         'file_directory' => '',
-        'file_extensions' => 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp',
+        'file_extensions' => 'jpg jpeg gif png txt doc docx xls xlsx pdf ppt pptx pps odt ods odp',
         'max_filesize' => '',
         'user_register_form' => FALSE,
       ),
@@ -4766,9 +4647,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -4779,7 +4658,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'truefalse',
       'default_value' => NULL,
-      'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => 0,
       'description' => '',
       'display' => array(
@@ -4800,7 +4678,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'og_group_ref',
       'label' => 'Groups audience',
-      'required' => 0,
+      'required' => FALSE,
       'settings' => array(
         'behaviors' => array(
           'og_widget' => array(
@@ -4811,14 +4689,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
               'widget_type' => 'options_select',
             ),
             'status' => TRUE,
-          ),
-          'prepopulate' => array(
-            'action' => 'none',
-            'action_on_edit' => 0,
-            'fallback' => 'none',
-            'og_context' => 0,
-            'skip_perm' => 0,
-            'status' => 1,
           ),
         ),
         'user_register_form' => FALSE,
@@ -4836,7 +4706,6 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
         ),
       ),
       'widget' => array(
-        'active' => 0,
         'module' => 'og',
         'settings' => array(),
         'type' => 'og_complex',
@@ -4883,9 +4752,7 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
           'sort' => array(
             'type' => 'none',
           ),
-          'target_bundles' => array(
-            'course' => 'course',
-          ),
+          'target_bundles' => array(),
         ),
         'handler_submit' => 'Change handler',
         'target_type' => 'node',
@@ -4978,13 +4845,13 @@ function opigno_features_field_settings_defaultconfig_field_default_fields() {
   t('Group content visibility');
   t('Group visibility');
   t('Groups audience');
+  t('Lesson required for the course validation');
+  t('Lesson type');
+  t('Lesson weight');
   t('Message');
   t('Notification validity');
   t('Notify everyone');
   t('Question');
-  t('Quiz type');
-  t('Quiz weight');
-  t('Required quiz');
   t('Send Email');
   t('Sets the type of this quiz. Can be <em>theory</em> (not shown in results be default), <em>quiz</em> (always shown in results) and <em>mix</em>.');
   t('Sets the weight of this quiz for the final course assessment. Leave at 0 if this quiz should not be taken into account for the final grade.');
