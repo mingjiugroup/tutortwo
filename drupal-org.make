@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0-rc14
+projects[opigno][version] = 1.0-rc15
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0-rc2
@@ -13,7 +13,7 @@ projects[opigno_calendar_app][subdir]  = "opigno"
 projects[opigno_certificate_app][version] = 1.0-rc5
 projects[opigno_certificate_app][subdir]  = "opigno"
 
-projects[opigno_forum_app][version] = 1.0-rc1
+projects[opigno_forum_app][version] = 1.0-rc2
 projects[opigno_forum_app][subdir]  = "opigno"
 
 projects[opigno_messaging_app][version] = 1.0-rc2
@@ -28,7 +28,7 @@ projects[opigno_poll_app][subdir]  = "opigno"
 projects[opigno_quiz_import_app][version] = 1.0-rc1
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.0-rc5
+projects[opigno_class_app][version] = 1.0-rc6
 projects[opigno_class_app][subdir]  = "opigno"
 
 projects[opigno_quiz_app][version] = 1.0-rc11
@@ -125,7 +125,7 @@ projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha9
 
 projects[module_filter][subdir]  = "contrib"
-projects[module_filter][version] = 1.7
+projects[module_filter][version] = 1.8
 
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = 1.2
@@ -155,7 +155,7 @@ projects[rules_conditional][subdir]  = "contrib"
 projects[rules_conditional][version] = 1.0-beta2
 
 projects[features][subdir]  = "contrib"
-projects[features][version] = 2.0-rc3
+projects[features][version] = 2.0-rc5
 
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
@@ -179,7 +179,7 @@ projects[imce_wysiwyg][subdir]  = "contrib"
 projects[imce_wysiwyg][version] = 1.0
 
 projects[field_group][subdir]  = "contrib"
-projects[field_group][version] = 1.2
+projects[field_group][version] = 1.3
 
 projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0-rc2
