@@ -238,6 +238,22 @@ function _opigno_lms_install_menu() {
  * Helper function to set default OG settings.
  */
 function _opigno_lms_install_og_settings() {
+  // Set OG context handling.
+  variable_set('og_context_negotiation_group_context', array(
+    'opigno_tool' => array(),
+    'url' => array(),
+    'node' => array(),
+  ));
+  variable_set('og_context_providers_weight_group_context', array(
+    'opigno_tool' => -10,
+    'url' => -9,
+    'node' => -8,
+    'user-view' => -7,
+    'comment' => -6,
+    'og_forum' => -5,
+    'user-edit' => -4,
+  ));
+
   // Don't give full permissions to OG group manager.
   variable_set('og_group_manager_full_access', 0);
 
