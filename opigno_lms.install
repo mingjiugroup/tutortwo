@@ -279,6 +279,9 @@ function _opigno_lms_install_i18n() {
   if (module_exists('locale')) {
     // We want to activate the field translations as well.
     module_enable(array('i18n_field'), TRUE);
+
+    // Make sure the source language is english !
+    variable_set('i18n_string_source_language', 'en');
   }
 }
 
