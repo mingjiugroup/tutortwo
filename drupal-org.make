@@ -19,8 +19,8 @@ projects[opigno][download][revision] = 14d7fd1a71cc218b32738a4af3f4c6da2b9879c1
 projects[opigno_calendar_app][version] = 1.0-rc2
 projects[opigno_calendar_app][subdir]  = "opigno"
 
-projects[opigno_certificate_app][type] = module
-projects[opigno_certificate_app][subdir]  = "opigno"
+projects[opigno_certificate_app][type]               = module
+projects[opigno_certificate_app][subdir]             = "opigno"
 projects[opigno_certificate_app][download][type]     = git
 projects[opigno_certificate_app][download][branch]   = "7.x-1.x"
 projects[opigno_certificate_app][download][url]      = "http://git.drupal.org/project/opigno_certificate_app.git"
@@ -29,8 +29,8 @@ projects[opigno_certificate_app][download][revision] = c27a7d4b9f1c919260d8e696f
 projects[opigno_forum_app][version] = 1.0-rc2
 projects[opigno_forum_app][subdir]  = "opigno"
 
-projects[opigno_messaging_app][type] = module
-projects[opigno_messaging_app][subdir]  = "opigno"
+projects[opigno_messaging_app][type]               = module
+projects[opigno_messaging_app][subdir]             = "opigno"
 projects[opigno_messaging_app][download][type]     = git
 projects[opigno_messaging_app][download][branch]   = "7.x-1.x"
 projects[opigno_messaging_app][download][url]      = "http://git.drupal.org/project/opigno_messaging_app.git"
@@ -140,9 +140,10 @@ projects[apps][subdir]  = "contrib"
 projects[apps][version] = 1.0-beta7
 projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.patch"
 
+; Certificate
 projects[certificate][subdir]  = "contrib"
 projects[certificate][version] = 2.0-beta4
-projects[certificate][patch][] = "https://drupal.org/files/certificate-orientation_description_translatable-2111237-2.patch"
+projects[certificate][patch][] = "http://drupal.org/files/certificate-orientation_description_translatable-2111237-2.patch"
 
 ; Third-party modules ==========================================================
 
