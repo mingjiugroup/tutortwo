@@ -22,22 +22,22 @@ projects[opigno_messaging_app][subdir]  = "opigno"
 projects[opigno_notifications_app][version] = 1.0-rc3
 projects[opigno_notifications_app][subdir]  = "opigno"
 
-projects[opigno_poll_app][version] = 1.0-rc7
+projects[opigno_poll_app][version] = 1.0-rc8
 projects[opigno_poll_app][subdir]  = "opigno"
 
 projects[opigno_quiz_import_app][version] = 1.0-rc1
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.0-rc7
+projects[opigno_class_app][version] = 1.0-rc8
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version] = 1.0-rc11
+projects[opigno_quiz_app][version] = 1.0-rc12
 projects[opigno_quiz_app][subdir]  = "opigno"
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
 
-projects[opigno_course_categories_app][version] = 1.0-rc4
+projects[opigno_course_categories_app][version] = 1.0-rc5
 projects[opigno_course_categories_app][subdir]  = "opigno"
 
 projects[tft][type]               = module
