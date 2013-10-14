@@ -68,6 +68,7 @@ projects[quiz][patch][] = "http://drupal.org/files/prevent_user_from_clicking_on
 projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-integration.patch"
 projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch"
 projects[quiz][patch][] = "http://drupal.org/files/modify-quiz-to-lesson-in-ui-strings-2101063-1.patch"
+projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
