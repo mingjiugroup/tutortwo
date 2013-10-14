@@ -3,6 +3,11 @@ core = 7.x
 
 
 ; Opigno modules ===============================================================
+; Drupal.org is very slow at refreshing the update XML feed. This means we often
+; have to wait hours after publishing a new Opigno module before being able to
+; release a new distribution version. In case of security releases, this is
+; unacceptable. Use GIT revision checksums instead of real tags, as drush does
+; not require the release XML feed for those.
 
 projects[opigno][version] = 1.0-rc15
 projects[opigno][subdir]  = "opigno"
