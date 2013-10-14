@@ -75,7 +75,7 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-1.x"
 projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = 18da01ad10698913780a0dc8bea35f5eb78560df
+projects[platon][download][revision] = c526c059479339c1fd8901459f709fe20918df7d
 
 
 ;projects[open_framework][type] = theme
