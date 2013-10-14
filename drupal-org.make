@@ -9,8 +9,12 @@ core = 7.x
 ; unacceptable. Use GIT revision checksums instead of real tags, as drush does
 ; not require the release XML feed for those.
 
-projects[opigno][version] = 1.0-rc15
-projects[opigno][subdir]  = "opigno"
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = "7.x-1.x"
+projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
+projects[opigno][download][revision] = 14d7fd1a71cc218b32738a4af3f4c6da2b9879c1
 
 projects[opigno_calendar_app][version] = 1.0-rc2
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -76,11 +80,6 @@ projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-1.x"
 projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
 projects[platon][download][revision] = c526c059479339c1fd8901459f709fe20918df7d
-
-
-;projects[open_framework][type] = theme
-;projects[open_framework][download][type] = get
-;projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework/archive/7.x-2.04.tar.gz"
 
 
 ; Third-party modules that need to be patched ==================================
