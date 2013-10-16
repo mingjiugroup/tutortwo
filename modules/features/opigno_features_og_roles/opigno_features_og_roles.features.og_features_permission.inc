@@ -846,5 +846,13 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  $permissions['node:course:skip pre-required group when added'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'coach' => 'coach',
+      'teacher' => 'teacher',
+    ),
+  );
+
   return $permissions;
 }
