@@ -2286,5 +2286,14 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'privatemsg',
   );
 
+  // Exported permission: 'use text format html'.
+  $permissions['use text format html'] = array(
+    'name' => 'use text format html',
+    'roles' => array(
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'filter',
+  );
+
   return $permissions;
 }
