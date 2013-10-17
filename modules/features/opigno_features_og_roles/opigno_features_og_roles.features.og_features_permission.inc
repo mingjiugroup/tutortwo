@@ -807,13 +807,8 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
-  // Exported og permission: 'node:course:vote on polls'
-  $permissions['node:course:vote on polls'] = array(
-    'roles' => array(
-      'member' => 'member',
-    ),
-  );
 
+  // Exported og permission: 'node:class:can be messaged'
   $permissions['node:class:can be messaged'] = array(
     'roles' => array(
       'student' => 'student',
@@ -821,6 +816,7 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:class:can message anyone'
   $permissions['node:class:can message anyone'] = array(
     'roles' => array(
       'forum administrator' => 'forum administrator',
@@ -829,6 +825,7 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:course:can be messaged'
   $permissions['node:course:can be messaged'] = array(
     'roles' => array(
       'student' => 'student',
@@ -837,6 +834,7 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:course:can message anyone
   $permissions['node:course:can message anyone'] = array(
     'roles' => array(
       'forum moderator' => 'forum moderator',
@@ -846,7 +844,8 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
-  $permissions['node:course:skip pre-required group when added'] = array(
+  // Exported og permission: 'skip pre-required group when added as a member'
+  $permissions['node:course:skip pre-required group when added as a member'] = array(
     'roles' => array(
       'manager' => 'manager',
       'coach' => 'coach',
