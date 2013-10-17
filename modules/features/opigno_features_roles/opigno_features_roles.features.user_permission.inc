@@ -2101,7 +2101,6 @@ function opigno_features_roles_user_default_permissions() {
   $permissions['use text format html'] = array(
     'name' => 'use text format html',
     'roles' => array(
-      'administrator' => 'administrator',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'filter',

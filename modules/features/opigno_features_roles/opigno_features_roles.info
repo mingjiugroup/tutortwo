@@ -54,6 +54,7 @@ dependencies[] = tft
 dependencies[] = user
 dependencies[] = views
 dependencies[] = wysiwyg_template
+dependencies[] = opigno_wt_app
 datestamp = 1381770876
 features[features_api][] = api:2
 features[user_permission][] = Edit global presets
