@@ -1991,15 +1991,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'devel',
   );
 
-  // Exported permission: 'tft access full tree'.
-  $permissions['tft access full tree'] = array(
-    'name' => 'tft access full tree',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'tft',
-  );
-
   // Exported permission: 'tft add a file to any term'.
   $permissions['tft add a file to any term'] = array(
     'name' => 'tft add a file to any term',
@@ -2012,15 +2003,6 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'tft add child terms'.
   $permissions['tft add child terms'] = array(
     'name' => 'tft add child terms',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'tft',
-  );
-
-  // Exported permission: 'tft aminister'.
-  $permissions['tft aminister'] = array(
-    'name' => 'tft aminister',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -2118,7 +2100,10 @@ function opigno_features_roles_user_default_permissions() {
   // Exported permission: 'use text format html'.
   $permissions['use text format html'] = array(
     'name' => 'use text format html',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'filter',
   );
 
@@ -2284,15 +2269,6 @@ function opigno_features_roles_user_default_permissions() {
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'privatemsg',
-  );
-
-  // Exported permission: 'use text format html'.
-  $permissions['use text format html'] = array(
-    'name' => 'use text format html',
-    'roles' => array(
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'filter',
   );
 
   return $permissions;

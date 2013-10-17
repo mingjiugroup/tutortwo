@@ -33,6 +33,16 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:class:can be messaged'
+  $permissions['node:class:can be messaged'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:class:can message anyone'
+  $permissions['node:class:can message anyone'] = array(
+    'roles' => array(),
+  );
+
   // Exported og permission: 'node:class:manage members'
   $permissions['node:class:manage members'] = array(
     'roles' => array(
@@ -87,6 +97,25 @@ function opigno_features_og_roles_og_features_default_permissions() {
   $permissions['node:course:approve and deny subscription'] = array(
     'roles' => array(
       'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:course:can be messaged'
+  $permissions['node:course:can be messaged'] = array(
+    'roles' => array(
+      'coach' => 'coach',
+      'student' => 'student',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  // Exported og permission: 'node:course:can message anyone'
+  $permissions['node:course:can message anyone'] = array(
+    'roles' => array(
+      'coach' => 'coach',
+      'forum moderator' => 'forum moderator',
+      'manager' => 'manager',
+      'teacher' => 'teacher',
     ),
   );
 
@@ -520,13 +549,6 @@ function opigno_features_og_roles_og_features_default_permissions() {
     'roles' => array(),
   );
 
-  // Exported og permission: 'node:course:tft access full tree'
-  $permissions['node:course:tft access full tree'] = array(
-    'roles' => array(
-      'member' => 'member',
-    ),
-  );
-
   // Exported og permission: 'node:course:tft add a file to any term'
   $permissions['node:course:tft add a file to any term'] = array(
     'roles' => array(
@@ -804,52 +826,6 @@ function opigno_features_og_roles_og_features_default_permissions() {
   $permissions['node:course:vote on polls'] = array(
     'roles' => array(
       'member' => 'member',
-    ),
-  );
-
-
-  // Exported og permission: 'node:class:can be messaged'
-  $permissions['node:class:can be messaged'] = array(
-    'roles' => array(
-      'student' => 'student',
-      'coach' => 'coach',
-    ),
-  );
-
-  // Exported og permission: 'node:class:can message anyone'
-  $permissions['node:class:can message anyone'] = array(
-    'roles' => array(
-      'forum administrator' => 'forum administrator',
-      'manager' => 'manager',
-      'coach' => 'coach',
-    ),
-  );
-
-  // Exported og permission: 'node:course:can be messaged'
-  $permissions['node:course:can be messaged'] = array(
-    'roles' => array(
-      'student' => 'student',
-      'coach' => 'coach',
-      'teacher' => 'teacher',
-    ),
-  );
-
-  // Exported og permission: 'node:course:can message anyone
-  $permissions['node:course:can message anyone'] = array(
-    'roles' => array(
-      'forum moderator' => 'forum moderator',
-      'manager' => 'manager',
-      'coach' => 'coach',
-      'teacher' => 'teacher',
-    ),
-  );
-
-  // Exported og permission: 'skip pre-required group when added as a member'
-  $permissions['node:course:skip pre-required group when added as a member'] = array(
-    'roles' => array(
-      'manager' => 'manager',
-      'coach' => 'coach',
-      'teacher' => 'teacher',
     ),
   );
 
