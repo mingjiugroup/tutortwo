@@ -829,5 +829,14 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'skip pre-required group when added as a member'
+  $permissions['node:course:skip pre-required group when added as a member'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'coach' => 'coach',
+      'teacher' => 'teacher',
+    ),
+  );
+
   return $permissions;
 }

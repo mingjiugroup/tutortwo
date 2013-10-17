@@ -131,6 +131,7 @@ features[og_features_permission][] = node:course:view any quiz results
 features[og_features_permission][] = node:course:view own quiz results
 features[og_features_permission][] = node:course:view results for own quiz
 features[og_features_permission][] = node:course:vote on polls
+features[og_features_permission][] = node:course:skip pre-required group when added as a member
 features[og_features_role][] = node:class:coach
 features[og_features_role][] = node:class:manager
 features[og_features_role][] = node:course:coach
