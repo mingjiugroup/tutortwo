@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-10-14 17:42+0200\n"
-"PO-Revision-Date: 2013-10-14 17:42+0200\n"
+"POT-Creation-Date: 2013-10-18 15:35+0200\n"
+"PO-Revision-Date: 2013-10-18 15:35+0200\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -11234,6 +11234,1521 @@ msgstr ""
 msgid ""
 "Question d'appariement pour le module leçons.  Permet de créer des "
 "questions d'appariement nécessitant de relier entre eux des termes."
+msgstr ""
+
+#: /node/19/edit?destination=admin/content
+msgid ""
+"The current revision has been answered. We create a new revision so "
+"that the reports from the existing answers stays correct."
+msgstr ""
+
+#: /node/19/edit?destination=admin/content
+msgid ""
+"Some of the updated settings may not apply to lesson being taken "
+"already. To see all changes in action you need to start again."
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid ""
+"You have created a new revision of a question that belongs to %num "
+"lessons. Choose what you want to do with the different lessons."
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid "unanswered"
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid "Update, revise and unpublish"
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid "Update and revise"
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid "Update and Unpublish"
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid "Update, revise and publish"
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid "Update and publish"
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid "Revise"
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid ""
+"If a lesson has been answered you should make a new revision to ensure "
+"that existing answer statistics and reports remain correct."
+msgstr ""
+
+#: /node/22/edit?destination=node/19/questions
+msgid ""
+"If the new revision of the question only correct spelling errors etc. "
+"you don't need to revise."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/
+msgid "Video Details"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/install
+msgid "Downloading modules"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/install
+msgid "Preparing to download needed modules"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/install/install
+msgid "Update Library"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video id, the primary identifier"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Start timestamp of transcodings"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "This field stores the ID of a video file as an integer value."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video Upload"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video player"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Allows the user the view the videos"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Allows the creation of new videos"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "HTML5 Player"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Divx Player"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Quicktime"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Real Media Player"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "FLV Flash Players"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "SWF Flash Player"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Director/Shockwave"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Windows Media Player"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Theora Player"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "video from !field_name"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "video thumbnail from !field_name"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "The widthXheight of the video."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video conversion status."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video playtime."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video conversion start"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "The time that conversion process started."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video conversion end"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "The time that the conversion process completed."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Relate each @entity with a @field set to the video."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Bypass video conversion"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Convert video on submit"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Change default player dimensions"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid ""
+"Warning: Give to trusted roles only; this permission has usability "
+"implications."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Use default thumbnail"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Use the default video thumbnail as the thumbnail for the video."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Re queue video"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Convert videos back again if failed or not."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Administer video presets"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Perform administration tasks for the video presets."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video presets"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "After video conversion success"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "video success"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "After video conversion failed."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "video failed"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "calendar_node_completed"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "calendar_node_started"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "calendar_file_completed"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "calendar_file_started"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Converts video tags to embedded code"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "This filter will convert [content:video] tag into markup."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid ""
+"This must be enabled for the WYSIWYG integration to work correctly "
+"with this text filter."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Please go to !homelink to see the new app in action. "
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_video_app/
+msgid "A Video"
+msgstr ""
+
+#: /node/3
+msgid "Add a new Video"
+msgstr ""
+
+#: /file/ajax/opigno_video/und/0/form-dUtppd6ks98-2hH-gtDBkuOee_YnM-uST5aTIADfWZE
+msgid "Output video dimensions"
+msgstr ""
+
+#: /node/add/video?og_group_ref=15
+msgid "enable or create a preset"
+msgstr ""
+
+#: /content/asdadad
+msgid "No flash player has been set up."
+msgstr ""
+
+#: /content/asdadad
+msgid "Please select a player to play Flash videos."
+msgstr ""
+
+#: /admin/config
+msgid "Video transcoder: @transcoder"
+msgstr ""
+
+#: /admin/config
+msgid ""
+"Missing the transcoder library. Please <a href=\"@url\">install "
+"FFmpeg</a> in to your server if you intend to transcode or to auto "
+"create thumbnails."
+msgstr ""
+
+#: /admin/modules
+msgid "Opigno Video App"
+msgstr ""
+
+#: /admin/modules
+msgid "Upload and manage video content with Drupal"
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"Administrative interface to Video. Without this module you cannot "
+"configure the video module."
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"This module provides the Zencoder API. Only enable this module when "
+"another module needs it."
+msgstr ""
+
+#: /admin/modules
+msgid "Configure different aspects of the video module and its plugins"
+msgstr ""
+
+#: /admin/modules
+msgid "Players"
+msgstr ""
+
+#: /admin/modules
+msgid "Configure your player settings for each video extension."
+msgstr ""
+
+#: /admin/modules
+msgid "Manage and configure the presets for Video."
+msgstr ""
+
+#: /admin/modules
+msgid "Add preset"
+msgstr ""
+
+#: /admin/modules
+msgid "Add a new video conversion preset."
+msgstr ""
+
+#: /admin/modules
+msgid "Import preset"
+msgstr ""
+
+#: /admin/modules
+msgid "Import a video conversion preset."
+msgstr ""
+
+#: /admin/modules
+msgid "Scheduling"
+msgstr ""
+
+#: /admin/modules
+msgid "Configure your Video transcoding scheduling settings."
+msgstr ""
+
+#: /admin/modules
+msgid "Transcoders"
+msgstr ""
+
+#: /admin/modules
+msgid "Configure your transcoder to convert your videos or extra thumbnails."
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Automatically start video on page load"
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Start the video when the page and video loads"
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Automatically start video buffering"
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Start buffering video when the page and video loads"
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Bypass video conversion when creating videos."
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Video convert on node submit"
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Convert videos on node submit will enable by default for all users."
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Override video thumbnails with default thumbnail"
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Override auto thumbnails with default thumbnail."
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Publish when conversion complete"
+msgstr ""
+
+#: /admin/config/media/video
+msgid ""
+"This feature is now fully controlled by !rules module. Download the "
+"module and configure rules to take effect when video conversions have "
+"completed or failed."
+msgstr ""
+
+#: /admin/config/media/video
+msgid "Available dimensions for converting and displaying videos"
+msgstr ""
+
+#: /admin/config/media/video
+msgid ""
+"Enter one dimension per line. Each resolution must be in the form of "
+"<code>width</code>x<code>height</code>. Example dimensions: "
+"<code>1280x720</code>."
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Video extensions"
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Here you can map specific players to each video extension type."
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid ""
+"This player will be selected when you choose the !formatter formatter "
+"for a Video field."
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Plain HTML5 video player with Flash fallback"
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Plain HTML5 audio player with Flash fallback"
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Extension:"
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Flowplayer API"
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "JW Player"
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid ""
+"No Flash players detected.<br />You need to install !flowplayer or "
+"!jwplayer."
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "HTML5 player for @extension"
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Video.js"
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Additional HTML5 players module.<br />You can install !videojs."
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Player settings"
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"Adds a theme function which allows theme developers to use the JW "
+"Player"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "preset"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "presets"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "JW Player preset"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "JW Player presets"
+msgstr ""
+
+#: /admin/modules
+msgid "JW player"
+msgstr ""
+
+#: /admin/modules
+msgid "administer JW Player presets"
+msgstr ""
+
+#: /admin/modules
+msgid "Perform administration of JW Player presets"
+msgstr ""
+
+#: /admin/modules
+msgid "Administer JW Player presets."
+msgstr ""
+
+#: /admin/modules
+msgid "JW Player general settings"
+msgstr ""
+
+#: /admin/config
+msgid "The file %file is not present in the directory %directory"
+msgstr ""
+
+#: /admin/config
+msgid "Please consult INSTALL.txt for installation instructions."
+msgstr ""
+
+#: /admin/config/media/video/players
+msgid "Flash player for @extension"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "No transcoder"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid ""
+"You must install and enable the Zencoder API module to use Zencoder to "
+"transcode videos."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "@name is unavailable: !errormessage"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Path to FFmpeg or avconv executable"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Absolute path to the FFmpeg or avconv executable."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid ""
+"When you install a new FFmpeg version, please <a "
+"href=\"@performance-page\">clear the caches</a> to let Drupal detect "
+"the updated codec support."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Path to save thumbnails"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Path to save video thumbnails extracted from videos."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Number of thumbnails"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Number of thumbnails to extract from video."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Helper programs"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Path to qt-faststart"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid ""
+"When you enter the path to @toolname here, it will be run after any "
+"@filetype files are transcoded. It improves the loading time of "
+"@filetype videos. On Linux, the default for this field is "
+"%default_value."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Path to flvtool2"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "Video transcoder"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid ""
+"Select a video transcoder will help you convert videos and generate "
+"thumbnails."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "The unique ID for this @export."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Preset name"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Enter name for the preset."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid ""
+"Enter the machine name for the preset. It must be unique and contain "
+"only alphanumeric characters and underscores."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Summary for the preset."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Embed mode"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid ""
+"Select your primary embed mode. Choosing HTML5 primary means that "
+"modern browsers that also support flash will use the HTML5 player "
+"first where possible. While this is desirable, the Flash based player "
+"supports more features and is generally more reliable."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Flash primary, HTML5 failover"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "HTML5 primary, Flash failover"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Enter the width for this player."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Enter the height for this player."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Controlbar Position"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Where the controlbar should be positioned."
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Over"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Skin"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "None (default skin)"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Autoplay"
+msgstr ""
+
+#: /admin/config/media/jw_player/add
+msgid "Set the video to autoplay on page load"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid ""
+"Visit the <a href=\"@ffmpeg-debug-page\">FFmpeg debug page</a> for "
+"information thay may help you find the cause of this problem."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "documentation"
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid ""
+"FFmpeg not found at %path. To convert videos and create thumbnails you "
+"have to install FFmpeg on your server. For more information please see "
+"the !documentation.<br/>Visit the <a "
+"href=\"/admin/config/media/video/ffmpeg-info?ffmpegpath=/usr/bin/ffmpeg\">FFmpeg "
+"debug page</a> for information thay may help you find the cause of "
+"this problem."
+msgstr ""
+
+#: /admin/modules
+msgid "Provides integration with the Flowplayer video player."
+msgstr ""
+
+#: /admin/modules
+msgid "Flowplayer"
+msgstr ""
+
+#: /admin/modules
+msgid "Manage how Flowplayer is used on your site."
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "License Key"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid ""
+"The optional <a href=\"!commercial\">commercial license key</a> "
+"associated with your Flowplayer account."
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Behavior"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Scaling"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Fit to window: Preserves aspect ratio"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Half size: Preserves aspect ratio"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Original size: Scaled to fit if too large"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Scale: Fill all available space, ignoring metadata"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid ""
+"The <a href=\"@options\">scaling-property</a> for the video. Scale is "
+"the default option."
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Player colors"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Control bar"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Sliders"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Buttons"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Mouseover"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Total time"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Progress"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Buffer"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Controlbar styling"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Stop"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Play/Pause"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Scrubber"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Mute"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Volume"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Gradient"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Low"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "High"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid "Border Radius"
+msgstr ""
+
+#: /admin/config/media/flowplayer
+msgid ""
+"The following provides the default Flowplayer settings when the player "
+"is displayed. This does not mean it is how it will be displayed "
+"everywhere, it will just be the defaults if these settings are not "
+"explicitly sent through to the player."
+msgstr ""
+
+#: /admin/config/media/jw_player/settings
+msgid "Use inline javascript"
+msgstr ""
+
+#: /admin/config/media/jw_player/settings
+msgid ""
+"With this option enabled JW Player configuration will be printed "
+"inline directly after the player markup. This can be useful if the "
+"player markup is cached as otherwise JW Player will not be loaded. The "
+"downside is that the player itself will be loaded on all pages."
+msgstr ""
+
+#: /admin/reports/dblog
+msgid "transcoder"
+msgstr ""
+
+#: /admin/config
+msgid "Installed correctly"
+msgstr ""
+
+#: /content/asdadad
+msgid "Adobe Flash plugin"
+msgstr ""
+
+#: /content/asdadad
+msgid "No video? Get the !plugin"
+msgstr ""
+
+#: /admin/people
+msgid "create video content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any video content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own video content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any video content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own video content"
+msgstr ""
+
+#: /admin/people
+msgid "administer video presets"
+msgstr ""
+
+#: /admin/people
+msgid "bypass conversion video"
+msgstr ""
+
+#: /admin/people
+msgid "override player dimensions"
+msgstr ""
+
+#: /admin/people
+msgid "convert on submission"
+msgstr ""
+
+#: /admin/people
+msgid "re convert video"
+msgstr ""
+
+#: /admin/people
+msgid "use default thumb"
+msgstr ""
+
+#: /group/node/3/admin/people/edit-membership/36?destination=node/3/group
+msgid "Edit a group membership in %group"
+msgstr ""
+
+#: /group/node/3/admin/people/edit-membership/36?destination=node/3/group
+msgid "Opigno user membership expire"
+msgstr ""
+
+#: /group/node/3/admin/people/edit-membership/36?destination=node/3/group
+msgid "The membership has been updated."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid "%ffmpegoravconv version %version found on your system."
+msgstr ""
+
+#: /admin/config/media/video/transcoders
+msgid ""
+"Because the selected transcoder was changed, you need to update the "
+"codec settings for your presets."
+msgstr ""
+
+#: /admin/config/media/video/presets
+msgid "Use preset dimensions for video conversion."
+msgstr ""
+
+#: /admin/config/media/video/presets
+msgid ""
+"Override the user selected dimensions with the value from the presets "
+"(recommended)."
+msgstr ""
+
+#: /admin/config/media/video/presets
+msgid ""
+"No presets were found. Please use the <a href=\"@create-preset\">Add "
+"preset</a> link to create a new Video preset or upload an existing "
+"Video preset feature module to your modules directory."
+msgstr ""
+
+#: /file/ajax/opigno_video/und/0/form-WaSuvvqaBVRQtFADXkTc3U2cZVKKvMPdtGVymHJevvk
+msgid "Matches ratio of original file"
+msgstr ""
+
+#: /file/ajax/opigno_video/und/0/form-WaSuvvqaBVRQtFADXkTc3U2cZVKKvMPdtGVymHJevvk
+msgid "Matches resolution of original file"
+msgstr ""
+
+#: /file/ajax/opigno_video/und/0/form-WaSuvvqaBVRQtFADXkTc3U2cZVKKvMPdtGVymHJevvk
+msgid ""
+"The original video size is %size. If you choose a higher resolution, "
+"this could cause video distortion. You are shown dimensions that match "
+"your aspect ratio, if you choose dimensions that do not match your "
+"ratio, black bars will be added to maintain the original aspect ratio."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Preset information"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The only permitted punctuation is space, period, hyphen, apostrophe, "
+"and underscore."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Add a brief description to your preset name."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video settings"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video output extension"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Extension of the output video."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video codec"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The video codec used in the video file can affect the ability to play "
+"the video on certain devices."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "FFmpeg video preset"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "FFmpeg documentation"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"A preset file contains a sequence of option=value pairs, one for each "
+"line, specifying a sequence of options which would be awkward to "
+"specify on the command line. Lines starting with the hash ('#') "
+"character are ignored and are used to provide comments. Check the "
+"&quot;presets&quot; directory in the FFmpeg source tree for examples. "
+"See the !doc. Newer FFmpeg installations do not supply libx264 presets "
+"anymore, so &quot;!optionnamenone&quot; should be selected. If FFmpeg "
+"fails with an error related to presets, please also select "
+"&quot;!optionnamenone&quot;. In other cases, an error message may "
+"suggest that you should select one of the available options. This "
+"setting requires some experimentation."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video quality"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "A target video quality. Affects bitrate and file size."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "default"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video speed"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Speed of encoding. Affects compression."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video module settings"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Select the desired widthxheight of the video player. You can add your "
+"own dimensions from !settings."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Aspect mode"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"What to do when aspect ratio of input file does not match the target "
+"width/height aspect ratio."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Preserve aspect ratio"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Crop to fit output aspect ratio"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Pad (letterbox) to fit output aspect ratio"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Stretch (distort) to output aspect ratio"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Upscale"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"If the input file is smaller than the target output, should the file "
+"be upscaled to the target size?"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Audio settings"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Audio codec"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "The audio codec to be used."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Audio quality"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "A target audio quality. Affects bitrate and file size."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Advanced video settings"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Deinterlace"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Note that detect mode will auto-detect and deinterlace interlaced "
+"content."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Maximum frame rate"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "A maximum frame rate cap (in frames per second)."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Frame rate"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Force a specific output frame rate (in frames per second). For best "
+"quality, do not use this setting."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Key frame interval"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"By default, a keyframe will be created at most every 250 frames. "
+"Specifying a different keyframe interval will allow you to create more "
+"or fewer keyframes in your video. A greater number of keyframes will "
+"increase the size of your output file, but will allow for more precise "
+"scrubbing in most players. Keyframe interval should be specified as a "
+"positive integer. For example, a value of 100 will create a keyframe "
+"every 100 frames."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video bitrate"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"A target bitrate in kbps. Not necessary if you select a Video Quality "
+"setting, unless you want to target a specific bitrate."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Bitrate cap"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "A bitrate cap in kbps, used for streaming servers."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Buffer size"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "The buffer size for the bitrate cap in kbps."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Force one-pass encoding"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Skip video"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The video track will be omitted from the output. You can still specify "
+"a video format, however, no video track will be present in the "
+"resulting file."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Same as input video"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Pixel format"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The pixel format of the output file. Yuv420p is a safe choice, "
+"yuvj420p is not supported by at least Google Chrome. If you select "
+"<em>!optionname</em> and the input video is yuvj420p, the output video "
+"will not be playable on Chrome."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "H.264 profile"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Use Baseline for maximum compatibility with players. Select "
+"!optionnamenone when this is not an H.264 preset or when setting the "
+"profile causes errors."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Advanced audio settings"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Audio bitrate"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The overall audio bitrate specified as kilobits per second (kbps, e.g. "
+"96 or 160). This value can't exceed 160 kbps per channel. 96-160 is "
+"usually a good range for stereo output."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Audio channels"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"By default we will choose the lesser of the number of audio channels "
+"in the input file or 2 (stereo)."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Audio sample rate"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The sample rate of the audio in hertz. Manually setting this may cause "
+"problems, depending on the selected bitrate and number of channels."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Skip audio"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The audio track will be omitted from the output. You must specify a "
+"video format and no audio track will be present in the resulting file."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video watermark"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "At this moment this only works when using the Zencoder transcoder."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Enable watermark video"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Upload watermark image"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Watermark image should be a PNG or JPG image. The file will be "
+"uploaded to %destination."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Left position"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Where to place the watermark relative to the left of the video. Use a "
+"negative number to place the watermark relative to the right of the "
+"video."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Top position"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Where to place the watermark relative to the top of the video. Use a "
+"negative number to place the watermark relative to the bottom of the "
+"video."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The width of the watermark. Use pixels or append a % sign to indicate "
+"a percentage relative to the width of the video. If left empty, the "
+"width will be the original width maximized by the video width."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"The height of the watermark. Use pixels or append a % sign to indicate "
+"a percentage relative to the height of the video. If left empty, the "
+"width will be the original height maximized by the video height."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Origin"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "content: visible video area"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "frame: video area including padding"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Video optimization"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Autolevels"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Automatic brightness / contrast correction."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Deblock"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Apply deblocking filter. Useful for highly compressed or blocky input "
+"videos."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Denoise"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid ""
+"Apply denoise filter. Generally results in slightly better compression "
+"and slightly slower encoding. Beware of any value higher than \"Weak\" "
+"(unless you're encoding animation)."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Create clip"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Start clip"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "The starting point of a subclip (in hh:mm:ss.s or number of seconds)."
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "Clip length"
+msgstr ""
+
+#: /admin/config/media/video/presets/add
+msgid "The length of the subclip (in hh:mm:ss.s or number of seconds)."
+msgstr ""
+
+#: /admin/modules
+msgid "Provides an HTML5-compatible with Flash-fallback audio player."
+msgstr ""
+
+#: /admin/modules
+msgid "Prevent direct access to media files."
+msgstr ""
+
+#: /admin/structure/types/manage/video
+msgid ""
+"To unset the group content definition or change the settings you "
+"should delete the \"Groups audience\" field via !url."
+msgstr ""
+
+#: /admin/structure/views/view/dashboard_new_content/edit
+msgid "Diapositive"
+msgstr ""
+
+#: /node/15/quizzes
+msgid "Add a new @quiz_name"
+msgstr ""
+
+#: /admin/structure/types/manage/video/fields
+msgid "Vidéo"
+msgstr ""
+
+#: /admin/structure/types/manage/video/display
+msgid "Player dimensions: @widthxheight"
+msgstr ""
+
+#: /admin/structure/types/manage/quiz/fields
+msgid "Réel (Float)"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "Éléments par page"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "- Tout -"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "Décalage"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "« premier"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "‹ précédent"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "suivant ›"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "dernier »"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "Tout"
+msgstr ""
+
+#: /node/3/videos
+msgid "The Video group"
+msgstr ""
+
+#: /node/3/videos
+msgid "The Video weight (as in order) inside a group"
+msgstr ""
+
+#: /node/3/videos
+msgid "Quiz Video (as in order)"
+msgstr ""
+
+#: /node/3/videos
+msgid "The Video of the quiz inside a specific group"
+msgstr ""
+
+#: /admin/structure/views/view/opigno_quiz_teacher_views/edit
+msgid "@perm, getting the group ID from argument position @arg"
+msgstr ""
+
+#: /node/15/videos
+msgid "Trier les vidéos"
+msgstr ""
+
+#: /node/15/videos
+msgid "Trier les vidéos au sein du cours"
+msgstr ""
+
+#: /node/3/sort-videos?destination=node/3/videos
+msgid "VIDEO_NAME"
+msgstr ""
+
+#: /admin/structure/views/view/videos/edit
+msgid "Video (as in order)"
+msgstr ""
+
+#: /admin/config/regional/language
+msgid "The Video of the video inside a specific group"
+msgstr ""
+
+#: /admin/structure/views/view/opigno_quizzes/edit
+msgid "Volets de vue"
 msgstr ""
 
 #: ; misc/drupal.js
@@ -62822,4 +64337,88 @@ msgstr "La conférence n'a pas encore débuté (veuillez patienter)"
 #: /node/15/WebEx
 msgid "Join Meeting"
 msgstr "Rejoindre la conférence"
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Video thumbnail"
+msgstr "Vignette"
+
+#: /admin/apps/opigno/app/opigno_video_app/enable
+msgid "Videos"
+msgstr "Vidéos"
+
+#: /node/3
+msgid "The videos for this course"
+msgstr "Les vidéos de ce cours"
+
+#: /node/3/videos
+msgid "Add video"
+msgstr "Ajouter une vidéo"
+
+#: /file/ajax/opigno_video/und/0/form-dUtppd6ks98-2hH-gtDBkuOee_YnM-uST5aTIADfWZE
+msgid "Set the size of the converted video."
+msgstr "Définit la taille de la vidéo convertie."
+
+#: /file/ajax/opigno_video/und/0/form-dUtppd6ks98-2hH-gtDBkuOee_YnM-uST5aTIADfWZE
+msgid "Bypass auto conversion"
+msgstr "Eviter la conversion automatique"
+
+#: /file/ajax/opigno_video/und/0/form-dUtppd6ks98-2hH-gtDBkuOee_YnM-uST5aTIADfWZE
+msgid ""
+"This video will not convert your video when you save, and it will not "
+"be scheduled for cron."
+msgstr ""
+"Votre vidéo ne sera pas convertie en sauvegardant cette page, et la "
+"conversion ne sera pas planifiée via une tâche CRON."
+
+#: /file/ajax/opigno_video/und/0/form-dUtppd6ks98-2hH-gtDBkuOee_YnM-uST5aTIADfWZE
+msgid "Convert video on save"
+msgstr "Convertir la vidéo en sauvegardant"
+
+#: /file/ajax/opigno_video/und/0/form-dUtppd6ks98-2hH-gtDBkuOee_YnM-uST5aTIADfWZE
+msgid ""
+"This will convert your video on save, instead of scheduling it for "
+"cron."
+msgstr ""
+"Votre vidéo sera convertie immédiatement lors de l'enregistrement de "
+"la page, au lieu d'être planifiée pour une conversion ultérieure "
+"(tâche CRON)."
+
+#: /file/ajax/opigno_video/und/0/form-dUtppd6ks98-2hH-gtDBkuOee_YnM-uST5aTIADfWZE
+msgid "The uploaded image will be used as video thumbnail on this video."
+msgstr ""
+"L'image chargée ici servira de vignette pour présenter la vidéo au "
+"sein de la galerie."
+
+#: /node/add/video?og_group_ref=15
+msgid ""
+"Something went wrong with transcoding %video-name. Please check your "
+"<a href=\"@log-page\">recent log entries</a> for further debugging."
+msgstr ""
+"Une erreur est apparue lors de la conversion de %video-name. Veuillez "
+"contrôler les <a href=\"@log-page\">entrées récentes du log</a> "
+"pour plus d'informations."
+
+#: /content/emboitage
+msgid ""
+"The video conversion process has failed. You might want to submit a "
+"simpler video format like <em>mpeg</em> or <em>divx avi</em>.<br />If "
+"the problem persists contact your website administrator. Please check "
+"logs for further debugging."
+msgstr ""
+"Le processus de conversion de cette vidéo a échoué. Vous devriez "
+"essayer de soumettre une format de vidéo plus répandu comme "
+"<em>mpeg</em> ou <em>divx</em>.<br />Si le problème persiste, "
+"veuillez contacter l'administrateur de la plateforme."
+
+#: /admin_menu/flush-cache?token=s3zTl8RGp2LN3MW9HlZWI8PGPmpuiwgKJbejXSGn9JI&destination=node/15
+msgid "Sort videos"
+msgstr "Trier les vidéos"
+
+#: /admin_menu/flush-cache?token=s3zTl8RGp2LN3MW9HlZWI8PGPmpuiwgKJbejXSGn9JI&destination=node/15
+msgid "Sort videos inside the course"
+msgstr "Trier les vidéos au sein du cours"
+
+#: /admin_menu/flush-cache?token=s3zTl8RGp2LN3MW9HlZWI8PGPmpuiwgKJbejXSGn9JI&destination=node/15
+msgid "Sort videos inside this course"
+msgstr "Trier les vidéos au sein de ce cours"
 
