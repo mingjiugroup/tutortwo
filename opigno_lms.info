@@ -18,6 +18,7 @@ dependencies[] = text
 dependencies[] = number
 dependencies[] = options
 dependencies[] = list
+dependencies[] = filter
 
 ; Panopoly Foundation
 ;dependencies[] = panopoly_core
