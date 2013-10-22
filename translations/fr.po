@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2013-10-18 15:35+0200\n"
-"PO-Revision-Date: 2013-10-18 15:35+0200\n"
+"POT-Creation-Date: 2013-10-22 10:59+0200\n"
+"PO-Revision-Date: 2013-10-22 10:59+0200\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -1812,10 +1812,6 @@ msgid "OG membership from node"
 msgstr ""
 
 #: /my-courses
-msgid "<a href=\"/user/quiz/[result_id]/userresults\">See details</a>"
-msgstr ""
-
-#: /my-courses
 msgid "Leçons"
 msgstr ""
 
@@ -1926,12 +1922,6 @@ msgid ""
 "Sets the type of this quiz. Can be <em>theory</em> (not shown in "
 "results be default), <em>quiz</em> (always shown in results) and "
 "<em>mix</em>."
-msgstr ""
-
-#: /
-msgid ""
-"Sets the weight of this quiz for the final course assessment. Leave at "
-"0 if this quiz should not be taken into account for the final grade."
 msgstr ""
 
 #: /
@@ -6525,10 +6515,6 @@ msgid ""
 ".pdf extension will be appended automatically."
 msgstr ""
 
-#: /node/add/quiz?og_group_ref=15
-msgid "Show this result for scored lessons in this range (0-100)."
-msgstr ""
-
 #: /node/3
 msgid "Download certificate"
 msgstr ""
@@ -6585,14 +6571,6 @@ msgstr ""
 msgid ""
 "Leçon permettant aux utilisateurs de répondre par vrai ou faux à "
 "une affirmation."
-msgstr ""
-
-#: /node/17/questions
-msgid "You can filter questions by using the textfields and select boxes."
-msgstr ""
-
-#: /node/17/questions
-msgid "You can sort by pressing the table headers."
 msgstr ""
 
 #: /node/17/questions
@@ -6666,21 +6644,6 @@ msgstr ""
 
 #: /node/add/matching?destination=node/19/questions&quiz_nid=19&quiz_vid=21
 msgid "Question 5"
-msgstr ""
-
-#: /node/20/edit?destination=node/19/questions
-msgid "This question is already a member of"
-msgstr ""
-
-#: /node/20/edit?destination=node/19/questions
-msgid ""
-"If you uncheck any of the checkboxes this question will be removed "
-"from the corresponding @quiz. If the @quiz has been answered a new "
-"revision of the @quiz will be created automatically."
-msgstr ""
-
-#: /node/add/multichoice?destination=node/19/questions&quiz_nid=19&quiz_vid=21
-msgid "Present alternatives in random order when lesson is being taken."
 msgstr ""
 
 #: /node/add/multichoice?destination=node/19/questions&quiz_nid=19&quiz_vid=21
@@ -6990,10 +6953,6 @@ msgid ""
 "Enter a comma separated list of top level domain names. Note that all "
 "subdomains will also be included. Example: example.com will match "
 "example.com, www.example.com, etc."
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields/opigno_course_tools
-msgid "This field supports tokens."
 msgstr ""
 
 #: /admin/config/content/wysiwyg-templates
@@ -12749,6 +12708,13 @@ msgstr ""
 
 #: /admin/structure/views/view/opigno_quizzes/edit
 msgid "Volets de vue"
+msgstr ""
+
+#: /node/19/take
+msgid ""
+"Parts of this @quiz have not been evaluated yet. The score below is "
+"not final. <a class=\"self-score\" href=\"!result_url\">Click here</a> "
+"to give scores on your own."
 msgstr ""
 
 #: ; misc/drupal.js
@@ -63908,6 +63874,10 @@ msgstr ""
 msgid "Create meeting"
 msgstr "Organiser une vidéoconférence"
 
+#: /my-courses
+msgid "<a href=\"/user/quiz/[result_id]/userresults\">See details</a>"
+msgstr "<a href=\"/user/quiz/[result_id]/userresults\">Voir détails</a> "
+
 #: /
 msgid "register"
 msgstr "s'enregistrer"
@@ -63950,6 +63920,15 @@ msgid "Makes this course dependent on another one."
 msgstr ""
 "Permet de conditionner l'accès à ce cours au succès préalable "
 "d'autres cours."
+
+#: /
+msgid ""
+"Sets the weight of this quiz for the final course assessment. Leave at "
+"0 if this quiz should not be taken into account for the final grade."
+msgstr ""
+"Définit la pondération de ce quiz pour l'évaluation du cours. "
+"Laissez à 0 si ce quiz ne doit pas être pris en compte dans la note "
+"finale."
 
 #: /node/3/quizzes
 msgid "Start lesson"
@@ -64078,6 +64057,10 @@ msgstr ""
 "de la leçon."
 
 #: /node/add/quiz?og_group_ref=15
+msgid "Show this result for scored lessons in this range (0-100)."
+msgstr "Affiche ce texte en cas de score compris dans cette plage (0-100)."
+
+#: /node/add/quiz?og_group_ref=15
 msgid ""
 "If this box is checked most of the lesson specific settings you have "
 "made will be remembered and will be your default settings next time "
@@ -64101,6 +64084,16 @@ msgstr ""
 "questions existantes en utilisant le navigateur de questions "
 "ci-dessous. Vous pouvez aussi utiliser les liens ci-dessus pour créer "
 "de nouvelles questions."
+
+#: /node/17/questions
+msgid "You can filter questions by using the textfields and select boxes."
+msgstr ""
+"Vous pouvez filtrer les questions en utilisant les champs texte et les "
+"listes de sélection."
+
+#: /node/17/questions
+msgid "You can sort by pressing the table headers."
+msgstr "Vous pouvez les trier en cliquant sur les en-têtes du tableau."
 
 #: /node/add/quiz-ddlines?destination=node/19/questions&quiz_nid=19&quiz_vid=21
 msgid ""
@@ -64147,6 +64140,26 @@ msgstr ""
 "dans le canevas pour\\n"
 "ajouter une alternative "
 
+#: /node/20/edit?destination=node/19/questions
+msgid "This question is already a member of"
+msgstr "Cette question fait déjà partie de"
+
+#: /node/20/edit?destination=node/19/questions
+msgid ""
+"If you uncheck any of the checkboxes this question will be removed "
+"from the corresponding @quiz. If the @quiz has been answered a new "
+"revision of the @quiz will be created automatically."
+msgstr ""
+"Si vous décochez l'une des cases la question sera retirée de la "
+"leçon correspondante. Si la leçon a déjà reçu des réponses, une "
+"nouvelle révision de la leçon sera automatiquement créée."
+
+#: /node/add/multichoice?destination=node/19/questions&quiz_nid=19&quiz_vid=21
+msgid "Present alternatives in random order when lesson is being taken."
+msgstr ""
+"Présente les réponses dans un ordre aléatoire lorsque l'utilisateur "
+"effectue l'exercice."
+
 #: /node/19/take
 msgid ""
 "Answer this question by dragging each rectangular label to the correct "
@@ -64180,6 +64193,10 @@ msgstr "Statut de l'utilisateur"
 #: /admin/people/user_import/add
 msgid "!path needs to be set before users can be imported."
 msgstr "!path doit être activé avant de pouvoir importer des utilisateurs."
+
+#: /admin/structure/types/manage/course/fields/opigno_course_tools
+msgid "This field supports tokens."
+msgstr "Ce champ permet l'utilisation de jetons."
 
 #: /admin/structure/types/manage/course/fields/opigno_course_tools
 msgid "Browse available tokens."
@@ -64421,4 +64438,8 @@ msgstr "Trier les vidéos au sein du cours"
 #: /admin_menu/flush-cache?token=s3zTl8RGp2LN3MW9HlZWI8PGPmpuiwgKJbejXSGn9JI&destination=node/15
 msgid "Sort videos inside this course"
 msgstr "Trier les vidéos au sein de ce cours"
+
+#: /admin/opigno/content/class-administration
+msgid "Add a new class"
+msgstr "Ajouter une nouvelle classe"
 
