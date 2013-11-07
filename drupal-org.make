@@ -215,7 +215,7 @@ projects[rules_conditional][subdir]  = "contrib"
 projects[rules_conditional][version] = 1.0-beta2
 
 projects[features][subdir]  = "contrib"
-projects[features][version] = 2.0-rc5
+projects[features][version] = 2.0
 
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
@@ -227,7 +227,7 @@ projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
 
 projects[wysiwyg_template][subdir]  = "contrib"
-projects[wysiwyg_template][version] = 2.9
+projects[wysiwyg_template][version] = 2.10
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc2
