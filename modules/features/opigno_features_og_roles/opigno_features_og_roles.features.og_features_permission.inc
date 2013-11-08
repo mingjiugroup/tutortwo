@@ -549,6 +549,13 @@ function opigno_features_og_roles_og_features_default_permissions() {
     'roles' => array(),
   );
 
+  // Exported og permission: 'node:course:create tft_file content'
+  $permissions['node:course:tft access file tree'] = array(
+    'roles' => array(
+      'manager' => 'member',
+    ),
+  );
+
   // Exported og permission: 'node:course:tft add a file to any term'
   $permissions['node:course:tft add a file to any term'] = array(
     'roles' => array(

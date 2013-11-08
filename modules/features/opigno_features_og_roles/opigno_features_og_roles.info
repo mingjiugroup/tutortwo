@@ -94,6 +94,7 @@ features[og_features_permission][] = node:course:skip display of results
 features[og_features_permission][] = node:course:sort quizzes
 features[og_features_permission][] = node:course:subscribe
 features[og_features_permission][] = node:course:subscribe without approval
+features[og_features_permission][] = node:course:tft access file tree
 features[og_features_permission][] = node:course:tft add a file to any term
 features[og_features_permission][] = node:course:tft add child terms
 features[og_features_permission][] = node:course:tft archive child terms
