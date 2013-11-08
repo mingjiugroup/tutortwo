@@ -10,15 +10,15 @@ core = 7.x
 ; not require the release XML feed for those.
 
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][download][type]     = git
-;projects[opigno][download][branch]   = "7.x-1.x"
-;projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-;projects[opigno][download][revision] = 3a0fa1a2f4a1ae264bfc6a82a83cb8628e91fe09
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = "7.x-1.x"
+projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
+projects[opigno][download][revision] = 85570bb6a4adb5218e1ff08d1f453d095f7ba6ae
 
-projects[opigno][version] = 1.0-rc16
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.0-rc16
+;projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0-rc2
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -72,15 +72,15 @@ projects[opigno_class_app][subdir]  = "opigno"
 ;projects[opigno_class_app][download][url]      = "http://git.drupal.org/project/opigno_class_app.git"
 ;projects[opigno_class_app][download][revision] = 8636776f9b6ae4b704d4a66c59041fce3641abd2
 
-projects[opigno_quiz_app][version] = 1.0-rc13
-projects[opigno_quiz_app][subdir]  = "opigno"
+;projects[opigno_quiz_app][version] = 1.0-rc13
+;projects[opigno_quiz_app][subdir]  = "opigno"
 
-;projects[opigno_quiz_app][type]               = module
-;projects[opigno_quiz_app][subdir]             = "opigno"
-;projects[opigno_quiz_app][download][type]     = git
-;projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
-;projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-;projects[opigno_quiz_app][download][revision] = ff92e1f08d83f8b4f56058316cc32bcd079b21eb
+projects[opigno_quiz_app][type]               = module
+projects[opigno_quiz_app][subdir]             = "opigno"
+projects[opigno_quiz_app][download][type]     = git
+projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
+projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
+projects[opigno_quiz_app][download][revision] = e70e20909422d1409636fd1a354a30cb20277410
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"

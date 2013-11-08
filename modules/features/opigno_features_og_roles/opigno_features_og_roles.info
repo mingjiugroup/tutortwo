@@ -17,6 +17,7 @@ dependencies[] = opigno_quiz_app
 dependencies[] = opigno_quiz_import_app
 dependencies[] = tft
 dependencies[] = opigno_og_prereq
+dependencies[] = opigno_quiz_helper
 datestamp = 1381770876
 features[features_api][] = api:2
 features[og_features_permission][] = node:class:access class results
