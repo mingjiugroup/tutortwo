@@ -115,7 +115,7 @@ projects[platon][download][revision] = 43f3bc756a1500db9e514c9890685306a1a8e2fa
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-projects[quiz][version] = 4.0-beta1
+projects[quiz][version] = 4.0-beta2
 projects[quiz][subdir]  = "contrib"
 projects[quiz][patch][] = "http://drupal.org/files/hide_save_button_when_no_rights_2076853.patch"
 ;projects[quiz][patch][] = "http://drupal.org/files/quiz.module.correct_delete_access_1529302.patch"
