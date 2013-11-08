@@ -118,11 +118,11 @@ projects[platon][download][revision] = 43f3bc756a1500db9e514c9890685306a1a8e2fa
 projects[quiz][version] = 4.0-beta1
 projects[quiz][subdir]  = "contrib"
 projects[quiz][patch][] = "http://drupal.org/files/hide_save_button_when_no_rights_2076853.patch"
-projects[quiz][patch][] = "http://drupal.org/files/quiz.module.correct_delete_access_1529302.patch"
-projects[quiz][patch][] = "http://drupal.org/files/prevent_user_from_clicking_on_question_title_2076873_0.patch"
-projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-integration.patch"
+;projects[quiz][patch][] = "http://drupal.org/files/quiz.module.correct_delete_access_1529302.patch"
+;projects[quiz][patch][] = "http://drupal.org/files/prevent_user_from_clicking_on_question_title_2076873_0.patch"
+;projects[quiz][patch][] = "http://drupal.org/files/quiz_question.module.og_quiz-integration.patch"
 projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch"
-projects[quiz][patch][] = "http://drupal.org/files/modify-quiz-to-lesson-in-ui-strings-2101063-1.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/modify-quiz-to-lesson-in-ui-strings-2101063-for-4-0-beta2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 
 ; Quiz File Upload
