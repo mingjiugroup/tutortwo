@@ -124,6 +124,7 @@ projects[quiz][patch][] = "http://drupal.org/files/hide_save_button_when_no_righ
 projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/modify-quiz-to-lesson-in-ui-strings-2101063-for-4-0-beta2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_question_render_node_teaser_when_taking_quiz_2133347_2.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -279,9 +280,6 @@ projects[pathauto][version] = 1.2
 
 projects[strongarm][subdir]  = "contrib"
 projects[strongarm][version] = 2.0
-
-projects[file_entity][subdir]  = "contrib"
-projects[file_entity][version] = 2.0-alpha2
 
 projects[user_import][subdir]  = "contrib"
 projects[user_import][version] = 2.1
