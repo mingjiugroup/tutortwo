@@ -17,7 +17,6 @@ dependencies[] = devel
 dependencies[] = drupal_reset
 dependencies[] = features
 dependencies[] = field_group
-dependencies[] = file_entity
 dependencies[] = wysiwyg
 dependencies[] = wysiwyg_template
 dependencies[] = opigno_wt_app
