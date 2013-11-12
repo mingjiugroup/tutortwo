@@ -1175,6 +1175,7 @@ function opigno_features_roles_user_default_permissions() {
     ),
     'module' => 'node',
   );
+
   // Exported permission: 'edit any forum content'.
   $permissions['edit any forum content'] = array(
     'name' => 'edit any forum content',
