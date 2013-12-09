@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = 7.23
+projects[drupal][version] = 7.24
 
 
 ; Opigno modules ===============================================================
@@ -101,7 +101,7 @@ projects[quizfileupload][subdir]  = "contrib"
 projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
 
 ; OG
-projects[og][version] = 2.3
+projects[og][version] = 2.4
 projects[og][subdir]  = "contrib"
 projects[og][patch][] = "http://drupal.org/files/og_add_role_rules_2076125_1.patch"
 projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
@@ -161,7 +161,7 @@ projects[entity][subdir]  = "contrib"
 projects[entity][version] = 1.2
 
 projects[entityreference][subdir]  = "contrib"
-projects[entityreference][version] = 1.0
+projects[entityreference][version] = 1.1
 
 projects[entityreference_prepopulate][subdir]  = "contrib"
 projects[entityreference_prepopulate][version] = 1.3
