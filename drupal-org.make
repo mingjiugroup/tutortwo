@@ -15,14 +15,14 @@ projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = "7.x-1.x"
 projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = 9eec64bd16564c93df33f108b1b29e9a17bf0c72
+projects[opigno][download][revision] = 102ea86229a40d3c04fd1e93fda5385aebc4c64e
 
 projects[opigno_calendar_app][type]               = module
 projects[opigno_calendar_app][subdir]             = "opigno"
 projects[opigno_calendar_app][download][type]     = git
 projects[opigno_calendar_app][download][branch]   = "7.x-1.x"
 projects[opigno_calendar_app][download][url]      = "http://git.drupal.org/project/opigno_calendar_app.git"
-projects[opigno_calendar_app][download][revision] = 6a3a783076c7ed52b124588eb50ee4e946d22d9c
+projects[opigno_calendar_app][download][revision] = 8347a3457d96dbda5538a08ff805da8d8bfbe1b8
 
 projects[opigno_certificate_app][type]               = module
 projects[opigno_certificate_app][subdir]             = "opigno"
