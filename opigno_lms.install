@@ -310,7 +310,7 @@ function opigno_lms_update_7102(&$sandbox) {
 
     if (!empty($mlid)) {
       $item = menu_link_load($mlid);
-      $item['options']['attributes'] += $attributes;
+      $item['options']['attributes'] = $attributes;
       menu_link_save($item);
     }
   }
