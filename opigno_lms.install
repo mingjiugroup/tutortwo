@@ -286,3 +286,32 @@ function _opigno_lms_install_get_role_by_name($role_name, $bundle) {
               ->fetchField();
   return !empty($rid) ? $rid : 0;
 }
+
+/**
+ * Implements hook_update_N() for 7.x-1.2.
+ */
+function opigno_lms_update_7102(&$sandbox) {
+  foreach (array(
+    '<front>' => array('id' => 'main-navigation-item-home'),
+    'my-courses' => array('id' => 'main-navigation-item-my-courses'),
+    'course-catalogue' => array('id' => 'main-navigation-item-training-catalogue'),
+    'forum' => array('id' => 'main-navigation-item-forum'),
+    'opigno-calendar' => array('id' => 'main-navigation-item-calendar'),
+    'messages' => array('id' => 'main-navigation-item-messages'),
+    'my-achievements' => array('id' => 'main-navigation-item-my-achievements'),
+    'admin/opigno' => array('id' => 'main-navigation-item-administration'),
+  ) as $path => $attributes) {
+    $mlid = db_select('menu_links', 'ml')
+              ->fields('ml', array('mlid'))
+              ->condition('path', $path)
+              ->condition('menu_name', 'main-menu')
+              ->execute()
+              ->fetchField();
+
+    if (!empty($mlid)) {
+      $item = menu_link_load($mlid);
+      $item['options']['attributes'] += $attributes;
+      menu_link_save($item);
+    }
+  }
+}
