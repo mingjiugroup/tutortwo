@@ -14,8 +14,7 @@ function opigno_lms_install() {
 
   // Set the default settings for the theme.
   $default_theme_settings = variable_get('theme_platon_settings', array());
-  $default_theme_settings['front_heading_classes'] = 'show-title '; // Note the space ! Surely a typo in OF.
-  $default_theme_settings['breadcrumb_classes'] = 'show-breadcrumb '; // Note the space ! Surely a typo in OF.
+  $default_theme_settings['platon_menu_source'] = 'main-menu';
   variable_set('theme_platon_settings', $default_theme_settings);
 
   // Deactivate error display.
