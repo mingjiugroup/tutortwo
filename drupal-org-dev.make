@@ -103,7 +103,6 @@ projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scori
 ; OG
 projects[og][version] = 2.4
 projects[og][subdir]  = "contrib"
-projects[og][patch][] = "http://drupal.org/files/og_add_role_rules_2076125_1.patch"
 projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
 
 ; OG Create Permissions
