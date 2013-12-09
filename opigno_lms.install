@@ -129,7 +129,7 @@ function _opigno_lms_install_menu() {
     'link_path' => '<front>',
     'menu_name' => 'main-menu',
     'options' => array(
-      'id' => 'main-navigation-item-home',
+      'attributes' => array('id' => 'main-navigation-item-home'),
     ),
     'weight' => -50,
   );
@@ -141,7 +141,7 @@ function _opigno_lms_install_menu() {
     'link_path' => 'my-courses',
     'menu_name' => 'main-menu',
     'options' => array(
-      'id' => 'main-navigation-item-my-courses',
+      'attributes' => array('id' => 'main-navigation-item-my-courses'),
     ),
     'weight' => -45,
   );
@@ -152,7 +152,7 @@ function _opigno_lms_install_menu() {
     'link_path' => 'course-catalogue',
     'menu_name' => 'main-menu',
     'options' => array(
-      'id' => 'main-navigation-item-training-catalogue',
+      'attributes' => array('id' => 'main-navigation-item-training-catalogue'),
     ),
     'weight' => -40,
   );
@@ -163,7 +163,7 @@ function _opigno_lms_install_menu() {
     'link_path' => 'forum',
     'menu_name' => 'main-menu',
     'options' => array(
-      'id' => 'main-navigation-item-forum',
+      'attributes' => array('id' => 'main-navigation-item-forum'),
     ),
     'weight' => -35,
   );
@@ -174,7 +174,7 @@ function _opigno_lms_install_menu() {
     'link_path' => 'opigno-calendar',
     'menu_name' => 'main-menu',
     'options' => array(
-      'id' => 'main-navigation-item-calendar',
+      'attributes' => array('id' => 'main-navigation-item-calendar'),
     ),
     'weight' => -30,
   );
@@ -185,7 +185,7 @@ function _opigno_lms_install_menu() {
     'link_path' => 'messages',
     'menu_name' => 'main-menu',
     'options' => array(
-      'id' => 'main-navigation-item-messages',
+      'attributes' => array('id' => 'main-navigation-item-messages'),
     ),
     'weight' => -20,
   );
@@ -196,7 +196,7 @@ function _opigno_lms_install_menu() {
     'link_path' => 'my-achievements',
     'menu_name' => 'main-menu',
     'options' => array(
-      'id' => 'main-navigation-item-my-achievements',
+      'attributes' => array('id' => 'main-navigation-item-my-achievements'),
     ),
     'weight' => -10,
   );
@@ -208,7 +208,7 @@ function _opigno_lms_install_menu() {
     'link_path' => 'admin/opigno',
     'menu_name' => 'main-menu',
     'options' => array(
-      'id' => 'main-navigation-item-administration',
+      'attributes' => array('id' => 'main-navigation-item-administration'),
     ),
     'weight' => 50,
   );

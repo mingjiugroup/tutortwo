@@ -107,7 +107,7 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-2.x"
 projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = ff2de65414546e6994aa30004a53dd826ecab820
+projects[platon][download][revision] = 2f1059d20f0309b9f862f2e759906d31286e49bb
 
 
 ; Third-party modules that need to be patched ==================================
