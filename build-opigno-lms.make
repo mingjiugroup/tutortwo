@@ -9,5 +9,5 @@ projects[drupal][version] = 7.24
 ;projects[opigno_lms][download][branch]   = "7.x-1.x"
 
 ; For building a precise release.
-projects[opigno_lms][version] = 1.0
+projects[opigno_lms][version] = 1.1
 
