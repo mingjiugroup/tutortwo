@@ -17,7 +17,7 @@ core = 7.x
 ;projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
 ;projects[opigno][download][revision] = 102ea86229a40d3c04fd1e93fda5385aebc4c64e
 
-projects[opigno][version] = 1.0-rc17
+projects[opigno][version] = 1.0-rc18
 projects[opigno][subdir]  = "opigno"
 
 ;projects[opigno_calendar_app][type]               = module
@@ -112,12 +112,13 @@ projects[tft][download][revision] = 421f84959c9f2899361a8383f17edf36422a99fc
 
 ; Opigno themes ================================================================
 
-projects[platon][type]               = theme
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-2.x"
-projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = 2f1059d20f0309b9f862f2e759906d31286e49bb
+;projects[platon][type]               = theme
+;projects[platon][download][type]     = git
+;projects[platon][download][branch]   = "7.x-2.x"
+;projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
+;projects[platon][download][revision] = 2f1059d20f0309b9f862f2e759906d31286e49bb
 
+projects[platon][version] = 2.3
 
 ; Third-party modules that need to be patched ==================================
 
