@@ -288,7 +288,8 @@ function _opigno_lms_install_get_role_by_name($role_name, $bundle) {
 }
 
 /**
- * Implements hook_update_N() for 7.x-1.2.
+ * Switch the hard-coded tile menu to using the Drupal Main Menu.
+ * Add correct IDs for the CSS to be applied to this instead.
  */
 function opigno_lms_update_7102(&$sandbox) {
   foreach (array(
@@ -303,7 +304,7 @@ function opigno_lms_update_7102(&$sandbox) {
   ) as $path => $attributes) {
     $mlid = db_select('menu_links', 'ml')
               ->fields('ml', array('mlid'))
-              ->condition('path', $path)
+              ->condition('link_path', $path)
               ->condition('menu_name', 'main-menu')
               ->execute()
               ->fetchField();
@@ -314,4 +315,8 @@ function opigno_lms_update_7102(&$sandbox) {
       menu_link_save($item);
     }
   }
+
+  $default_theme_settings = variable_get('theme_platon_settings', array());
+  $default_theme_settings['platon_menu_source'] = 'main-menu';
+  variable_set('theme_platon_settings', $default_theme_settings);
 }
