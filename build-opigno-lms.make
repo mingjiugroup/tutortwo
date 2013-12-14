@@ -11,5 +11,5 @@ projects[drupal][version] = 7.24
 ;projects[opigno_lms][download][revision] = 4f64ad4232bd72387ead2ccb046a3febbc5412ae
 
 ; For building a precise release.
-projects[opigno_lms][version] = 1.2
+projects[opigno_lms][version] = 1.3
 

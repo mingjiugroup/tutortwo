@@ -118,7 +118,7 @@ projects[tft][download][revision] = 421f84959c9f2899361a8383f17edf36422a99fc
 ;projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
 ;projects[platon][download][revision] = 2f1059d20f0309b9f862f2e759906d31286e49bb
 
-projects[platon][version] = 2.3
+projects[platon][version] = 2.4
 
 ; Third-party modules that need to be patched ==================================
 
