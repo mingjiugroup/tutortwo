@@ -196,7 +196,7 @@ projects[module_filter][subdir]  = "contrib"
 projects[module_filter][version] = 1.8
 
 projects[entity][subdir]  = "contrib"
-projects[entity][version] = 1.2
+projects[entity][version] = 1.3
 
 projects[entityreference][subdir]  = "contrib"
 projects[entityreference][version] = 1.1
