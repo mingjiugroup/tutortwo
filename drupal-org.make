@@ -79,7 +79,7 @@ projects[opigno_class_app][subdir]  = "opigno"
 ;projects[opigno_class_app][download][url]      = "http://git.drupal.org/project/opigno_class_app.git"
 ;projects[opigno_class_app][download][revision] = 97719d86e8513c437a546a29a646e6831f089425
 
-projects[opigno_quiz_app][version] = 1.0-rc14
+projects[opigno_quiz_app][version] = 1.0
 projects[opigno_quiz_app][subdir]  = "opigno"
 
 ;projects[opigno_quiz_app][type]               = module
