@@ -15,6 +15,8 @@ function opigno_lms_install() {
   // Set the default settings for the theme.
   $default_theme_settings = variable_get('theme_platon_settings', array());
   $default_theme_settings['platon_menu_source'] = 'main-menu';
+  $default_theme_settings['platon_use_home_page_markup'] = 1;
+  $default_theme_settings['platon_home_page_markup'] = st("<h2>Welcome to your new Opigno platform</h2><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>");
   variable_set('theme_platon_settings', $default_theme_settings);
 
   // Deactivate error display.
@@ -32,6 +34,9 @@ function opigno_lms_install() {
 
   // Set front page.
   variable_set('site_frontpage', 'dashboard');
+
+  // Use the jQuery Count Down library for Quiz.
+  variable_set('quiz_has_timer', 1);
 
   // Enable blocks.
   _opigno_lms_install_enable_blocks();

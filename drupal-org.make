@@ -3,39 +3,12 @@ core = 7.x
 
 
 ; Opigno modules ===============================================================
-; Drupal.org is very slow at refreshing the update XML feed. This means we often
-; have to wait hours after publishing a new Opigno module before being able to
-; release a new distribution version. In case of security releases, this is
-; unacceptable. Use GIT revision checksums instead of real tags, as drush does
-; not require the release XML feed for those.
-
-
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][download][type]     = git
-;projects[opigno][download][branch]   = "7.x-1.x"
-;projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-;projects[opigno][download][revision] = 102ea86229a40d3c04fd1e93fda5385aebc4c64e
 
 projects[opigno][version] = 1.0-rc18
 projects[opigno][subdir]  = "opigno"
 
-;projects[opigno_calendar_app][type]               = module
-;projects[opigno_calendar_app][subdir]             = "opigno"
-;projects[opigno_calendar_app][download][type]     = git
-;projects[opigno_calendar_app][download][branch]   = "7.x-1.x"
-;projects[opigno_calendar_app][download][url]      = "http://git.drupal.org/project/opigno_calendar_app.git"
-;projects[opigno_calendar_app][download][revision] = 8347a3457d96dbda5538a08ff805da8d8bfbe1b8
-
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
-
-;projects[opigno_certificate_app][type]               = module
-;projects[opigno_certificate_app][subdir]             = "opigno"
-;projects[opigno_certificate_app][download][type]     = git
-;projects[opigno_certificate_app][download][branch]   = "7.x-1.x"
-;projects[opigno_certificate_app][download][url]      = "http://git.drupal.org/project/opigno_certificate_app.git"
-;projects[opigno_certificate_app][download][revision] = c27a7d4b9f1c919260d8e696f5eedce0a5fc4249
 
 projects[opigno_certificate_app][version] = 1.0-rc6
 projects[opigno_certificate_app][subdir]  = "opigno"
@@ -46,25 +19,11 @@ projects[opigno_forum_app][subdir]  = "opigno"
 projects[opigno_messaging_app][version] = 1.0-rc3
 projects[opigno_messaging_app][subdir]  = "opigno"
 
-;projects[opigno_messaging_app][type]               = module
-;projects[opigno_messaging_app][subdir]             = "opigno"
-;projects[opigno_messaging_app][download][type]     = git
-;projects[opigno_messaging_app][download][branch]   = "7.x-1.x"
-;projects[opigno_messaging_app][download][url]      = "http://git.drupal.org/project/opigno_messaging_app.git"
-;projects[opigno_messaging_app][download][revision] = 0079d8f9c51bc2eb7d5198f94b5bf234156cf95a
-
 projects[opigno_notifications_app][version] = 1.0-rc3
 projects[opigno_notifications_app][subdir]  = "opigno"
 
 projects[opigno_poll_app][version] = 1.0-rc9
 projects[opigno_poll_app][subdir]  = "opigno"
-
-;projects[opigno_poll_app][type]               = module
-;projects[opigno_poll_app][subdir]             = "opigno"
-;projects[opigno_poll_app][download][type]     = git
-;projects[opigno_poll_app][download][branch]   = "7.x-1.x"
-;projects[opigno_poll_app][download][url]      = "http://git.drupal.org/project/opigno_poll_app.git"
-;projects[opigno_poll_app][download][revision] = 6773cbee54072a48186925ebe7fadb09e39e8038
 
 projects[opigno_quiz_import_app][version] = 1.0-rc1
 projects[opigno_quiz_import_app][subdir]  = "opigno"
@@ -72,35 +31,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.0-rc8
 projects[opigno_class_app][subdir]  = "opigno"
 
-;projects[opigno_class_app][type]               = module
-;projects[opigno_class_app][subdir]             = "opigno"
-;projects[opigno_class_app][download][type]     = git
-;projects[opigno_class_app][download][branch]   = "7.x-1.x"
-;projects[opigno_class_app][download][url]      = "http://git.drupal.org/project/opigno_class_app.git"
-;projects[opigno_class_app][download][revision] = 97719d86e8513c437a546a29a646e6831f089425
-
 projects[opigno_quiz_app][version] = 1.0
 projects[opigno_quiz_app][subdir]  = "opigno"
-
-;projects[opigno_quiz_app][type]               = module
-;projects[opigno_quiz_app][subdir]             = "opigno"
-;projects[opigno_quiz_app][download][type]     = git
-;projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
-;projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-;projects[opigno_quiz_app][download][revision] = e70e20909422d1409636fd1a354a30cb20277410
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
 
 projects[opigno_course_categories_app][version] = 1.0-rc5
 projects[opigno_course_categories_app][subdir]  = "opigno"
-
-;projects[opigno_course_categories_app][type]               = module
-;projects[opigno_course_categories_app][subdir]             = "opigno"
-;projects[opigno_course_categories_app][download][type]     = git
-;projects[opigno_course_categories_app][download][branch]   = "7.x-1.x"
-;projects[opigno_course_categories_app][download][url]      = "http://git.drupal.org/project/opigno_course_categories_app.git"
-;projects[opigno_course_categories_app][download][revision] = 570673b4ec5449b694b4f111741cdc1b7e6fc1c3
 
 projects[tft][type]               = module
 projects[tft][subdir]             = "opigno"
@@ -112,13 +50,8 @@ projects[tft][download][revision] = 421f84959c9f2899361a8383f17edf36422a99fc
 
 ; Opigno themes ================================================================
 
-;projects[platon][type]               = theme
-;projects[platon][download][type]     = git
-;projects[platon][download][branch]   = "7.x-2.x"
-;projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-;projects[platon][download][revision] = 2f1059d20f0309b9f862f2e759906d31286e49bb
-
 projects[platon][version] = 2.4
+
 
 ; Third-party modules that need to be patched ==================================
 
@@ -290,6 +223,9 @@ projects[strongarm][version] = 2.0
 
 projects[user_import][subdir]  = "contrib"
 projects[user_import][version] = 2.1
+
+projects[jquery_countdown][subdir]  = "contrib"
+projects[jquery_countdown][version] = 1.1
 
 
 ; For dev phase (disable on production) ========================================
