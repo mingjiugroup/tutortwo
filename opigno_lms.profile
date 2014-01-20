@@ -284,39 +284,41 @@ function opigno_lms_set_og_permissions($bundle, $permissions) {
   }
 }
 
-/**
- * @} End of "defgroup opigno_lms_api".
- */
-
-function opigno_lms_refresh_strings_and_import($groups)
-{
-  $languages=language_list();
-  if (isset($languages['fr']))
-  {
-  module_load_include('inc', 'i18n_string', 'i18n_string.admin');
-  opigno_lms_i18n_string_refresh_batch($groups);
+function opigno_lms_refresh_strings_and_import($groups) {
+  $languages = language_list();
+  if (isset($languages['fr'])) {
+    module_load_include('inc', 'i18n_string', 'i18n_string.admin');
+    opigno_lms_i18n_string_refresh_batch($groups);
   }
 }
 
 function opigno_lms_i18n_string_refresh_batch($groups) {
-    module_load_include('inc', 'i18n_string', 'i18n_string.admin');
-    $operations = array();
-    foreach ($groups as $group)
-    {
-    $context=null;
-    _i18n_string_batch_refresh_prepare($group,$context);
+  module_load_include('inc', 'i18n_string', 'i18n_string.admin');
+  $operations = array();
+  foreach ($groups as $group) {
+    $context = NULL;
+    _i18n_string_batch_refresh_prepare($group, $context);
     // First try to find string list
-    _i18n_string_batch_refresh_list($group,$context);
+    _i18n_string_batch_refresh_list($group, $context);
     // Then invoke refresh callback
-    _i18n_string_batch_refresh_callback($group,$context);
+    _i18n_string_batch_refresh_callback($group, $context);
     // Output group summary
-    _i18n_string_batch_refresh_summary($group,$context);
-    $path=file_unmanaged_copy('group_translations/fr-'.$group.'.po',NULL,FILE_EXISTS_REPLACE);
-    $file = new stdClass();
-    $file->status=0;
-    $file->uri=$path;
-    $file->filename="fr.po";
-    $file=file_save($file);
-    _locale_import_po($file,'fr',1,$group);
+    _i18n_string_batch_refresh_summary($group, $context);
+    $path = file_unmanaged_copy('group_translations/fr-' . $group . '.po', NULL, FILE_EXISTS_REPLACE);
+    $files = file_load_multiple(array(), array('uri' => $path));
+    $file = reset($files);
+    if (empty($file)) {
+      $file = new stdClass();
+      $file->status = 0;
+      $file->uri = $path;
+      $file->filename = "fr.po";
+      $file = file_save($file);
     }
+    _locale_import_po($file, 'fr', 1, $group);
+  }
 }
+
+/**
+ * @} End of "defgroup opigno_lms_api".
+ */
+
