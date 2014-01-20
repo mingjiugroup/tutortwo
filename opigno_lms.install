@@ -16,7 +16,7 @@ function opigno_lms_install() {
   $default_theme_settings = variable_get('theme_platon_settings', array());
   $default_theme_settings['platon_menu_source'] = 'main-menu';
   $default_theme_settings['platon_use_home_page_markup'] = 1;
-  $default_theme_settings['platon_home_page_markup'] = t("<h2>Welcome to your new Opigno platform</h2><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>");
+  $default_theme_settings['platon_home_page_markup'] = st("<h2>Welcome to your new Opigno platform</h2><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>");
   variable_set('theme_platon_settings', $default_theme_settings);
 
   // Deactivate error display.
