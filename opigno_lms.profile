@@ -311,7 +311,7 @@ function opigno_lms_i18n_string_refresh_batch($groups) {
     _i18n_string_batch_refresh_callback($group,$context);
     // Output group summary
     _i18n_string_batch_refresh_summary($group,$context);
-    $path=file_unmanaged_copy('translations/fr-'.$group.'.po',NULL,FILE_EXISTS_REPLACE);
+    $path=file_unmanaged_copy('group_translations/fr-'.$group.'.po',NULL,FILE_EXISTS_REPLACE);
     $file = new stdClass();
     $file->status=0;
     $file->uri=$path;
