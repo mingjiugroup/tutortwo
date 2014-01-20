@@ -299,6 +299,7 @@ function opigno_lms_refresh_strings_and_import($groups)
 }
 
 function opigno_lms_i18n_string_refresh_batch($groups) {
+    module_load_include('inc', 'i18n_string', 'i18n_string.admin');
     $operations = array();
     foreach ($groups as $group)
     {

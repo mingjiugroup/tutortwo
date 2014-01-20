@@ -41,6 +41,7 @@ function opigno_features_roles_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'student manager' => 'student manager',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'system',
   );
