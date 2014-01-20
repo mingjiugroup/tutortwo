@@ -105,8 +105,7 @@ projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.
 
 ; Certificate
 projects[certificate][subdir]  = "contrib"
-projects[certificate][version] = 2.0-beta4
-projects[certificate][patch][] = "http://drupal.org/files/certificate-orientation_description_translatable-2111237-3.patch"
+projects[certificate][version] = 2.0
 
 ; Third-party modules ==========================================================
 
