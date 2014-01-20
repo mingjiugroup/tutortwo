@@ -28,7 +28,7 @@ projects[opigno_poll_app][subdir]  = "opigno"
 projects[opigno_quiz_import_app][version] = 1.0-rc1
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.0-rc8
+projects[opigno_class_app][version] = 1.0
 projects[opigno_class_app][subdir]  = "opigno"
 
 projects[opigno_quiz_app][version] = 1.0
@@ -50,7 +50,7 @@ projects[tft][download][revision] = 421f84959c9f2899361a8383f17edf36422a99fc
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 2.4
+projects[platon][version] = 2.5
 
 
 ; Third-party modules that need to be patched ==================================
