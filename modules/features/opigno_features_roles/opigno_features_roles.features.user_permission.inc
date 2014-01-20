@@ -124,6 +124,7 @@ function opigno_features_roles_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'student manager' => 'student manager',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'opigno',
   );
@@ -213,6 +214,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer advanced forum',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'advanced_forum',
   );
@@ -304,6 +306,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer forums',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'forum',
   );
@@ -474,6 +477,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer taxonomy',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'taxonomy',
   );
@@ -966,6 +970,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'delete own forum content',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'node',
   );
@@ -1120,6 +1125,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'delete terms in forums',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'taxonomy',
   );
@@ -1495,6 +1501,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'edit terms in forums',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'taxonomy',
   );
@@ -1895,6 +1902,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'view forum statistics',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'advanced_forum',
   );
@@ -1904,6 +1912,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'view last edited notice',
     'roles' => array(
       'administrator' => 'administrator',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'advanced_forum',
   );
