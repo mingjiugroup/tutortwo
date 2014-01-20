@@ -35,6 +35,9 @@ function opigno_lms_install() {
   // Set front page.
   variable_set('site_frontpage', 'dashboard');
 
+  // Use the jQuery Count Down library for Quiz.
+  variable_set('quiz_has_timer', 1);
+
   // Enable blocks.
   _opigno_lms_install_enable_blocks();
 
