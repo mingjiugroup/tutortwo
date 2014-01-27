@@ -112,13 +112,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'contextual',
   );
 
-  // Exported permission: 'access devel information'.
-  $permissions['access devel information'] = array(
-    'name' => 'access devel information',
-    'roles' => array(),
-    'module' => 'devel',
-  );
-
   // Exported permission: 'access opigno administration pages'.
   $permissions['access opigno administration pages'] = array(
     'name' => 'access opigno administration pages',
@@ -1516,13 +1509,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
-  // Exported permission: 'execute php code'.
-  $permissions['execute php code'] = array(
-    'name' => 'execute php code',
-    'roles' => array(),
-    'module' => 'devel',
-  );
-
   // Exported permission: 'flush caches'.
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
@@ -1658,13 +1644,6 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'privatemsg',
   );
 
-  // Exported permission: 'reset drupal'.
-  $permissions['reset drupal'] = array(
-    'name' => 'reset drupal',
-    'roles' => array(),
-    'module' => 'drupal_reset',
-  );
-
   // Exported permission: 'revert revisions'.
   $permissions['revert revisions'] = array(
     'name' => 'revert revisions',
@@ -1738,13 +1717,6 @@ function opigno_features_roles_user_default_permissions() {
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'comment',
-  );
-
-  // Exported permission: 'switch users'.
-  $permissions['switch users'] = array(
-    'name' => 'switch users',
-    'roles' => array(),
-    'module' => 'devel',
   );
 
   // Exported permission: 'tft add a file to any term'.
