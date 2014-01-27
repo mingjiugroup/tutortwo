@@ -20,20 +20,6 @@ dependencies[] = options
 dependencies[] = list
 dependencies[] = filter
 
-; Panopoly Foundation
-;dependencies[] = panopoly_core
-;dependencies[] = panopoly_images
-;dependencies[] = panopoly_theme
-;dependencies[] = panopoly_magic
-;dependencies[] = panopoly_widgets
-;dependencies[] = panopoly_admin
-;dependencies[] = panopoly_users
-
-; Panopoly Toolset
-;dependencies[] = panopoly_pages
-;dependencies[] = panopoly_search
-;dependencies[] = panopoly_wysiwyg
-
 ; Contrib
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
@@ -56,10 +42,6 @@ dependencies[] = menu_attributes
 dependencies[] = quizfileupload
 dependencies[] = user_import
 dependencies[] = jquery_countdown
-
-; Only for dev phase
-dependencies[] = devel
-dependencies[] = drupal_reset
 
 ; Opigno core
 dependencies[] = opigno
@@ -87,7 +69,6 @@ dependencies[] = opigno_features_og_roles
 dependencies[] = opigno_features_field_groups
 dependencies[] = opigno_features_field_settings
 dependencies[] = opigno_features_content_type_settings
-;dependencies[] = opigno_features_panels
 dependencies[] = opigno_features_wysiwyg
 dependencies[] = opigno_features_homebox
 dependencies[] = opigno_features_pathauto
