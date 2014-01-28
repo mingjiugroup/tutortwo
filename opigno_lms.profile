@@ -57,6 +57,23 @@ function opigno_lms_init() {
 }
 
 /**
+ * Implements hook_form_node_form_alter().
+ *
+ * If Drupal locale module is enabled, it forces all nodes - and its fields - to have the default
+ * language (usually 'en'). This is stupid beyond words, and breaks many modules that try to theme
+ * their own fields, but only expect to find the 'und' (LANGUAGE_NONE) key.
+ *
+ * If the site has only one language, and entity translation is not enabled, force the node to
+ * be LANGUAGE_NONE, as one would expect.
+ */
+function opigno_lms_form_node_form_alter(&$form, $form_state) {
+  $languages = language_list();
+  if (count($languages) == 1 && !module_exists('entity_translation')) {
+    $form['language']['#value'] = LANGUAGE_NONE;
+  }
+}
+
+/**
  * Implements hook_install_tasks()
  */
 function opigno_lms_install_tasks(&$install_state) {
