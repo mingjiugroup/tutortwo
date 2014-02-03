@@ -76,6 +76,10 @@ function opigno_features_og_roles_og_features_default_permissions() {
     'roles' => array(
       'member' => 'member',
       'student' => 'student',
+      'coach' => 'coach',
+      'forum moderator' => 'forum moderator',
+      'manager' => 'manager',
+      'teacher' => 'teacher',
     ),
   );
 
