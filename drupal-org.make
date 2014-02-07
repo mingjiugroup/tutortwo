@@ -50,7 +50,7 @@ projects[tft][download][revision] = dd0f24643f6e62e313a79625547b1d251b5376a2
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 2.5
+projects[platon][version] = 2.6
 
 
 ; Third-party modules that need to be patched ==================================
