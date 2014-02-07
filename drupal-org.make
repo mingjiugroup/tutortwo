@@ -67,6 +67,7 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/modify-quiz-to-lesson-
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_question_render_node_teaser_when_taking_quiz_2133347_2.patch"
 projects[quiz][patch][] = "https://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
+projects[quiz][patch][] = "https://drupal.org/files/issues/quiz_2190283.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
