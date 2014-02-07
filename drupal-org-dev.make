@@ -94,6 +94,7 @@ projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch
 projects[quiz][patch][] = "http://drupal.org/files/issues/modify-quiz-to-lesson-in-ui-strings-2101063-for-4-0-beta2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_question_render_node_teaser_when_taking_quiz_2133347_2.patch"
+projects[quiz][patch][] = "https://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
