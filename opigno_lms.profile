@@ -102,6 +102,7 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
 
   // Hide Update Notifications.
   $form['update_notifications']['#access'] = FALSE;
+  $form['update_notifications']['#default_value'] = TRUE;
 
   // Define a default email address if we can guess a valid one
   if (valid_email_address('admin@' . $_SERVER['HTTP_HOST'])) {
