@@ -19,6 +19,7 @@ dependencies[] = number
 dependencies[] = options
 dependencies[] = list
 dependencies[] = filter
+dependencies[] = color
 
 ; Contrib
 dependencies[] = admin_menu

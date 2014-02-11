@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0-rc19
+projects[opigno][version] = 1.0-rc20
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0-rc3
@@ -31,7 +31,7 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.0
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version] = 1.0
+projects[opigno_quiz_app][version] = 1.3
 projects[opigno_quiz_app][subdir]  = "opigno"
 
 projects[opigno_wt_app][version] = 1.0-rc3
@@ -45,12 +45,12 @@ projects[tft][subdir]             = "opigno"
 projects[tft][download][type]     = git
 projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
-projects[tft][download][revision] = 6a665db876f0d03a852fee2014c4c908334f6703
+projects[tft][download][revision] = f609b8a058a0fcacac40a4dd609e0fc9a2dd2ee8
 
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 2.5
+projects[platon][version] = 2.6
 
 
 ; Third-party modules that need to be patched ==================================
@@ -66,6 +66,8 @@ projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch
 projects[quiz][patch][] = "http://drupal.org/files/issues/modify-quiz-to-lesson-in-ui-strings-2101063-for-4-0-beta2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_question_render_node_teaser_when_taking_quiz_2133347_2.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2190283.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -161,7 +163,7 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[og_quiz][subdir]  = "contrib"
-projects[og_quiz][version] = 1.0
+projects[og_quiz][version] = 1.1
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
