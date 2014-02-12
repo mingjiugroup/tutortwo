@@ -41,7 +41,7 @@ function opigno_lms_install() {
   // Use the jQuery Count Down library for Quiz.
   variable_set('quiz_has_timer', 1);
 
-  // Better save button for module filter.
+  // Enhance module filter.
   variable_set('module_filter_dynamic_save_position', 1);
 
   // Enable blocks.

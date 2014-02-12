@@ -10,4 +10,4 @@ projects[drupal][version] = 7.26
 ;projects[opigno_lms][download][url]      = "http://git.drupal.org/project/opigno_lms.git"
 
 ; For building a precise release.
-projects[opigno_lms][version] = 1.4
+projects[opigno_lms][version] = 1.5
