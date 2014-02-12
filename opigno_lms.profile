@@ -13,18 +13,23 @@ define('OPIGNO_LMS_COURSE_TEACHER_ROLE',  'course teacher member');
 define('OPIGNO_LMS_COURSE_ADMIN_ROLE',    'course admin member');
 define('OPIGNO_LMS_COURSE_MODERATOR_ROLE', 'course forum moderator');
 
+// Platform roles.
+define('OPIGNO_LMS_STUDENT_MANAGER_ROLE',     'student manager');
+define('OPIGNO_LMS_ADMIN_ROLE',               'administrator');
+define('OPIGNO_LMS_FORUM_ADMINISTRATOR_ROLE', 'forum administrator');
+
 /**
  * Implements hook_init().
  */
 function opigno_lms_init() {
-  // We need to store the default OG roles so other modules can use them easily.
+  // We need to store the default roles so other modules can use them easily.
   // Using this in hook_install() does not work, as the feature is not completely
   // done installing at that point (or so it seems - it doesn't make any sense).
   // Check the roles are found and set. If not, get them now.
   // Make sure we find at least one of them. If not, don't store anything and wait
   // for the next page load.
-  $roles = variable_get('opigno_lms_default_og_roles', array());
-  if (empty($roles)) {
+  $og_roles = variable_get('opigno_lms_default_og_roles', array());
+  if (empty($og_roles)) {
     module_load_include('install', 'opigno_lms');
 
     // Get the role IDs to set them as variables.
@@ -40,18 +45,43 @@ function opigno_lms_init() {
     ) as $role_key => $role_name) {
       $rid = _opigno_lms_install_get_role_by_name($role_name, OPIGNO_COURSE_BUNDLE);
       if (!empty($rid)) {
-        $roles[$role_key] = $rid;
+        $og_roles[$role_key] = $rid;
         $found = TRUE;
       }
     }
     if ($found) {
-      variable_set('opigno_lms_default_og_roles', $roles);
-      variable_set('og_group_manager_default_rids_node_course', array($roles[OPIGNO_LMS_COURSE_ADMIN_ROLE]));
+      variable_set('opigno_lms_default_og_roles', $og_roles);
+      variable_set('og_group_manager_default_rids_node_course', array($og_roles[OPIGNO_LMS_COURSE_ADMIN_ROLE]));
 
       $rid = _opigno_lms_install_get_role_by_name('manager', 'class');
       if (!empty($rid)) {
         variable_set('og_group_manager_default_rids_node_class', array($rid));
       }
+    }
+  }
+
+  $platform_roles = variable_get('opigno_lms_default_platform_roles', array());
+  if (empty($platform_roles)) {
+    module_load_include('install', 'opigno_lms');
+
+    // Get the role IDs to set them as variables.
+    // If not a single role is found, then we still haven't finished installing the roles.
+    // In that case, don't store the variable so we re-run this logic on the next page load.
+    $found = FALSE;
+    foreach (array(
+      OPIGNO_LMS_STUDENT_MANAGER_ROLE => 'student manager',
+      OPIGNO_LMS_ADMIN_ROLE => 'administrator',
+      OPIGNO_LMS_FORUM_ADMINISTRATOR_ROLE => 'forum administrator',
+    ) as $role_key => $role_name) {
+      $role = user_role_load_by_name($role_name);
+      if (!empty($role->rid)) {
+        $platform_roles[$role_key] = $role->rid;
+        $found = TRUE;
+      }
+    }
+    if ($found) {
+      variable_set('opigno_lms_default_platform_roles', $platform_roles);
+      variable_set('og_group_manager_default_rids_node_course', array($platform_roles[OPIGNO_LMS_ADMIN_ROLE]));
     }
   }
 }
@@ -271,15 +301,45 @@ function _opigno_lms_hide_coach_checkbox($node) {
 /**
  * Get the default OG role ids.
  *
+ * @deprecated Use the opigno_lms_get_og_role_id() function instead.
+ *
  * @param  string $key
  *
  * @return int
  */
 function opigno_lms_get_role_id($key) {
+  return opigno_lms_get_og_role_id($key);
+}
+
+/**
+ * Get the default OG role ids.
+ *
+ * @param  string $key
+ *
+ * @return int
+ */
+function opigno_lms_get_og_role_id($key) {
   $roles = &drupal_static(__FUNCTION__);
 
   if (empty($roles)) {
     $roles = variable_get('opigno_lms_default_og_roles', array());
+  }
+
+  return !empty($roles[$key]) ? $roles[$key] : 0;
+}
+
+/**
+ * Get the default platform role ids.
+ *
+ * @param  string $key
+ *
+ * @return int
+ */
+function opigno_lms_get_platform_role_id($key) {
+  $roles = &drupal_static(__FUNCTION__);
+
+  if (empty($roles)) {
+    $roles = variable_get('opigno_lms_default_platform_roles', array());
   }
 
   return !empty($roles[$key]) ? $roles[$key] : 0;
@@ -296,8 +356,24 @@ function opigno_lms_get_role_id($key) {
  *               expose constants for their default group roles so other modules can use this function for the same purpose.
  */
 function opigno_lms_set_og_permissions($bundle, $permissions) {
-  foreach ($permissions as $role => $role_permissions) {
+  foreach ($permissions as $role_key => $role_permissions) {
+    $rid = opigno_lms_get_og_role_id($role_key);
+    og_role_grant_permissions($rid, $role_permissions);
+  }
+}
 
+/**
+ * Set platform permissions for specific roles.
+ * This function is globally available and modules and apps should use it to set default permissions, simplifying module
+ * installation and site management.
+ *
+ * @param  array $permissions
+ *               An array of permissions, keyed by role ID.
+ */
+function opigno_lms_set_platform_permissions($permissions) {
+  foreach ($permissions as $role_key => $role_permissions) {
+    $rid = opigno_lms_get_platform_role_id($role_key);
+    user_role_grant_permissions($rid, $role_permissions);
   }
 }
 
