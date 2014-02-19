@@ -118,7 +118,7 @@ projects[devel][subdir] = "contrib"
 projects[devel][version] = 1.3
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[views][subdir] = "contrib"
 projects[views][version] = 3.7
