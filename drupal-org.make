@@ -216,7 +216,7 @@ projects[views_bulk_operations][subdir]  = "contrib"
 projects[views_bulk_operations][version] = 3.1
 
 projects[libraries][subdir]  = "contrib"
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 
 projects[pathauto][subdir]  = "contrib"
 projects[pathauto][version] = 1.2
