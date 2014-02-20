@@ -213,7 +213,7 @@ projects[homebox][subdir]  = "contrib"
 projects[homebox][version] = 2.0-beta7
 
 projects[views_bulk_operations][subdir]  = "contrib"
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
 
 projects[libraries][subdir]  = "contrib"
 projects[libraries][version] = 2.2
