@@ -177,7 +177,7 @@ projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc2
 
 projects[imce][subdir]  = "contrib"
-projects[imce][version] = 1.7
+projects[imce][version] = 1.8
 
 projects[imce_wysiwyg][subdir]  = "contrib"
 projects[imce_wysiwyg][version] = 1.0
