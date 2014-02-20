@@ -77,7 +77,7 @@ projects[quizfileupload][subdir]  = "contrib"
 projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
 
 ; OG
-projects[og][version] = 2.4
+projects[og][version] = 2.5
 projects[og][subdir]  = "contrib"
 projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
 
