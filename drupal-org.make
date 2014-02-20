@@ -138,7 +138,7 @@ projects[entityreference][subdir]  = "contrib"
 projects[entityreference][version] = 1.1
 
 projects[entityreference_prepopulate][subdir]  = "contrib"
-projects[entityreference_prepopulate][version] = 1.3
+projects[entityreference_prepopulate][version] = 1.5
 
 projects[token][subdir]  = "contrib"
 projects[token][version] = 1.5
