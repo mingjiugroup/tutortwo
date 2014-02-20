@@ -68,6 +68,8 @@ projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_question_render_node_teaser_when_taking_quiz_2133347_2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2190283.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2191649.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
