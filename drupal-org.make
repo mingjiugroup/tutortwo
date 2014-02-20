@@ -210,7 +210,7 @@ projects[login_redirect][subdir]  = "contrib"
 projects[login_redirect][version] = 1.1
 
 projects[homebox][subdir]  = "contrib"
-projects[homebox][version] = 2.0-beta6
+projects[homebox][version] = 2.0-beta7
 
 projects[views_bulk_operations][subdir]  = "contrib"
 projects[views_bulk_operations][version] = 3.1
