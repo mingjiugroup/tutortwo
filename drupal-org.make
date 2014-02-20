@@ -147,7 +147,7 @@ projects[multiselect][subdir]  = "contrib"
 projects[multiselect][version] = 1.9
 
 projects[crumbs][subdir]  = "contrib"
-projects[crumbs][version] = 2.0-beta9
+projects[crumbs][version] = 2.0-beta13
 
 projects[variable][subdir]  = "contrib"
 projects[variable][version] = 2.3
