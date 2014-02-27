@@ -46,6 +46,7 @@ dependencies[] = jquery_countdown
 
 ; Opigno core
 dependencies[] = opigno
+dependencies[] = opigno_breadcrumbs
 dependencies[] = opigno_simple_ui
 dependencies[] = opigno_og_prereq
 
