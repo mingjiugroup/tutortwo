@@ -237,12 +237,14 @@ function _opigno_lms_install_og_settings() {
   variable_set('og_context_negotiation_group_context', array(
     'opigno_tool' => array(),
     'opigno_entity_reference' => array(),
+    'opigno_quiz_app_question_add' => array(),
     'url' => array(),
     'node' => array(),
   ));
   variable_set('og_context_providers_weight_group_context', array(
     'opigno_tool' => -10,
     'opigno_entity_reference' => -5,
+    'opigno_quiz_app_question_add' => -3,
     'url' => 0,
     'node' => 5,
     'user-view' => 10,
