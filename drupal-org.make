@@ -13,7 +13,7 @@ projects[opigno_calendar_app][subdir]  = "opigno"
 projects[opigno_certificate_app][version] = 1.0-rc6
 projects[opigno_certificate_app][subdir]  = "opigno"
 
-projects[opigno_forum_app][version] = 1.0-rc2
+projects[opigno_forum_app][version] = 1.0
 projects[opigno_forum_app][subdir]  = "opigno"
 
 projects[opigno_messaging_app][version] = 1.0-rc3
