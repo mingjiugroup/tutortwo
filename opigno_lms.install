@@ -241,6 +241,7 @@ function _opigno_lms_install_og_settings() {
     'tft' => array(),
     'url' => array(),
     'node' => array(),
+    'og_forum' => array(),
   ));
   variable_set('og_context_providers_weight_group_context', array(
     'opigno_tool' => -10,
