@@ -236,17 +236,19 @@ function _opigno_lms_install_og_settings() {
   // Set OG context handling.
   variable_set('og_context_negotiation_group_context', array(
     'opigno_tool' => array(),
+    'opigno_entity_reference' => array(),
     'url' => array(),
     'node' => array(),
   ));
   variable_set('og_context_providers_weight_group_context', array(
     'opigno_tool' => -10,
-    'url' => -9,
-    'node' => -8,
-    'user-view' => -7,
-    'comment' => -6,
-    'og_forum' => -5,
-    'user-edit' => -4,
+    'opigno_entity_reference' => -5,
+    'url' => 0,
+    'node' => 5,
+    'user-view' => 10,
+    'comment' => 15,
+    'og_forum' => 20,
+    'user-edit' => 25,
   ));
 
   // Don't give full permissions to OG group manager.
