@@ -31,8 +31,10 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.0
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version] = 1.4
+projects[opigno_quiz_app][type]    = module
 projects[opigno_quiz_app][subdir]  = "opigno"
+projects[opigno_quiz_app][download][type] = git
+projects[opigno_quiz_app][download][branch] = 7.x-1.x
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
