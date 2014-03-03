@@ -338,3 +338,10 @@ function opigno_lms_update_7102(&$sandbox) {
   $default_theme_settings['platon_menu_source'] = 'main-menu';
   variable_set('theme_platon_settings', $default_theme_settings);
 }
+
+/**
+ * Enable new Opigno Breadcrumbs module.
+ */
+function opigno_lms_update_7103(&$sandbox) {
+  module_enable(array('opigno_breadcrumbs'));
+}
