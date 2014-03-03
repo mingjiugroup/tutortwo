@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.1
+projects[opigno][version] = 1.2
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0-rc3
