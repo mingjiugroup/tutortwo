@@ -39,7 +39,7 @@ projects[opigno_quiz_app][download][branch] = 7.x-1.x
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
 
-projects[opigno_course_categories_app][version] = 1.0
+projects[opigno_course_categories_app][version] = 1.1
 projects[opigno_course_categories_app][subdir]  = "opigno"
 
 projects[tft][type]               = module
