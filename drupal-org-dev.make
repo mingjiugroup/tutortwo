@@ -1,8 +1,11 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = 7.24
+projects[drupal][version] = 7.26
 
+projects[opigno_lms][type]             = profile
+projects[opigno_lms][download][type]   = git
+projects[opigno_lms][download][branch] = 7.x-1.x
 
 ; Opigno modules ===============================================================
 
@@ -102,7 +105,7 @@ projects[quizfileupload][subdir]  = "contrib"
 projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
 
 ; OG
-projects[og][version] = 2.4
+projects[og][version] = 2.5
 projects[og][subdir]  = "contrib"
 projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
 
@@ -137,6 +140,7 @@ projects[certificate][subdir]  = "contrib"
 projects[certificate][version] = 2.0-beta4
 projects[certificate][patch][] = "http://drupal.org/files/certificate-orientation_description_translatable-2111237-3.patch"
 
+
 ; Third-party modules ==========================================================
 
 projects[admin_menu][subdir] = "contrib"
@@ -146,7 +150,7 @@ projects[devel][subdir] = "contrib"
 projects[devel][version] = 1.3
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[views][subdir] = "contrib"
 projects[views][version] = 3.7
@@ -158,13 +162,13 @@ projects[module_filter][subdir]  = "contrib"
 projects[module_filter][version] = 1.8
 
 projects[entity][subdir]  = "contrib"
-projects[entity][version] = 1.2
+projects[entity][version] = 1.3
 
 projects[entityreference][subdir]  = "contrib"
 projects[entityreference][version] = 1.1
 
 projects[entityreference_prepopulate][subdir]  = "contrib"
-projects[entityreference_prepopulate][version] = 1.3
+projects[entityreference_prepopulate][version] = 1.5
 
 projects[token][subdir]  = "contrib"
 projects[token][version] = 1.5
@@ -173,10 +177,10 @@ projects[multiselect][subdir]  = "contrib"
 projects[multiselect][version] = 1.9
 
 projects[crumbs][subdir]  = "contrib"
-projects[crumbs][version] = 2.0-beta9
+projects[crumbs][version] = 2.0-beta13
 
 projects[variable][subdir]  = "contrib"
-projects[variable][version] = 2.3
+projects[variable][version] = 2.4
 
 projects[i18n][subdir]  = "contrib"
 projects[i18n][version] = 1.10
@@ -191,7 +195,7 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[og_quiz][subdir]  = "contrib"
-projects[og_quiz][version] = 1.0-beta6
+projects[og_quiz][version] = 1.1
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
@@ -203,7 +207,7 @@ projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc2
 
 projects[imce][subdir]  = "contrib"
-projects[imce][version] = 1.7
+projects[imce][version] = 1.8
 
 projects[imce_wysiwyg][subdir]  = "contrib"
 projects[imce_wysiwyg][version] = 1.0
@@ -218,7 +222,7 @@ projects[print][subdir]  = "contrib"
 projects[print][version] = 1.2
 
 projects[date][subdir]  = "contrib"
-projects[date][version] = 2.6
+projects[date][version] = 2.7
 
 projects[advanced_forum][subdir]  = "contrib"
 projects[advanced_forum][version] = 2.3
@@ -236,13 +240,13 @@ projects[login_redirect][subdir]  = "contrib"
 projects[login_redirect][version] = 1.1
 
 projects[homebox][subdir]  = "contrib"
-projects[homebox][version] = 2.0-beta6
+projects[homebox][version] = 2.0-beta7
 
 projects[views_bulk_operations][subdir]  = "contrib"
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
 
 projects[libraries][subdir]  = "contrib"
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 
 projects[pathauto][subdir]  = "contrib"
 projects[pathauto][version] = 1.2
@@ -253,11 +257,17 @@ projects[strongarm][version] = 2.0
 projects[user_import][subdir]  = "contrib"
 projects[user_import][version] = 2.1
 
+projects[jquery_countdown][subdir]  = "contrib"
+projects[jquery_countdown][version] = 1.1
+
 
 ; For dev phase (disable on production) ========================================
 
 projects[drupal_reset][subdir]  = "contrib"
 projects[drupal_reset][version] = 1.3
+
+projects[devel][subdir]  = "contrib"
+projects[devel][version] = 1.3
 
 
 ; Third-patry libraries ========================================================
@@ -277,41 +287,3 @@ libraries[PHPExcel][download][url]  = "https://github.com/PHPOffice/PHPExcel/arc
 libraries[PHPExcel][destination]    = "libraries"
 libraries[PHPExcel][directory_name] = "PHPExcel"
 libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
-
-
-; Panopoly base distribution ===================================================
-
-; The Panopoly Foundation
-;projects[panopoly_core][version] = 1.0-rc5
-;projects[panopoly_core][subdir] = panopoly
-
-;projects[panopoly_images][version] = 1.0-rc5
-;projects[panopoly_images][subdir] = panopoly
-
-;projects[panopoly_theme][version] = 1.0-rc5
-;projects[panopoly_theme][subdir] = panopoly
-
-;projects[panopoly_magic][version] = 1.0-rc5
-;projects[panopoly_magic][subdir] = panopoly
-
-;projects[panopoly_widgets][version] = 1.0-rc5
-;projects[panopoly_widgets][subdir] = panopoly
-
-; We don't want the admin module. We have our own.
-;projects[panopoly_admin][version] = 1.0-rc5
-;projects[panopoly_admin][subdir] = panopoly
-
-;projects[panopoly_users][version] = 1.0-rc5
-;projects[panopoly_users][subdir] = panopoly
-
-; The Panopoly Toolset
-; We don't care about the pages.
-;projects[panopoly_pages][version] = 1.0-rc5
-;projects[panopoly_pages][subdir] = panopoly
-
-; We have our own WYSIWYG.
-;projects[panopoly_wysiwyg][version] = 1.0-r5
-;projects[panopoly_wysiwyg][subdir] = panopoly
-
-;projects[panopoly_search][version] = 1.0-rc5
-;projects[panopoly_search][subdir] = panopoly
