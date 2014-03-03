@@ -96,8 +96,7 @@ function opigno_lms_init() {
  * be LANGUAGE_NONE, as one would expect.
  */
 function opigno_lms_form_node_form_alter(&$form, $form_state) {
-  $languages = language_list();
-  if (count($languages) == 1 && !module_exists('entity_translation')) {
+  if (!(module_exists('entity_translation') || module_exists('translation'))) {
     $form['language']['#value'] = LANGUAGE_NONE;
   }
 }
