@@ -7,10 +7,10 @@
  * user experience.
  */
 
-define('OPIGNO_LMS_COURSE_STUDENT_ROLE',  'course student member');
-define('OPIGNO_LMS_COURSE_COACH_ROLE',    'course coach member');
-define('OPIGNO_LMS_COURSE_TEACHER_ROLE',  'course teacher member');
-define('OPIGNO_LMS_COURSE_ADMIN_ROLE',    'course admin member');
+define('OPIGNO_LMS_COURSE_STUDENT_ROLE',   'course student member');
+define('OPIGNO_LMS_COURSE_COACH_ROLE',     'course coach member');
+define('OPIGNO_LMS_COURSE_TEACHER_ROLE',   'course teacher member');
+define('OPIGNO_LMS_COURSE_ADMIN_ROLE',     'course admin member');
 define('OPIGNO_LMS_COURSE_MODERATOR_ROLE', 'course forum moderator');
 
 // Platform roles.
@@ -107,7 +107,9 @@ function opigno_lms_form_node_form_alter(&$form, $form_state) {
 function opigno_lms_install_tasks(&$install_state) {
   // Add our custom CSS file for the installation process
   drupal_add_css(drupal_get_path('profile', 'opigno_lms') . '/css/opigno_lms.css');
-  return array();
+  return array(
+    'opigno_lms_install_task_post_install' => array(),
+  );
 }
 
 /**
@@ -279,6 +281,13 @@ function _opigno_lms_hide_coach_checkbox($node) {
 }
 
 /**
+ * Install task: call modules that implement the opigno_lms_post_install hook to do some final tasks when installing the platform.
+ */
+function opigno_lms_install_task_post_install() {
+  module_invoke_all('opigno_lms_post_install');
+}
+
+/**
  * @defgroup opigno_lms_api Opigno LMS API
  * @{
  * Opigno LMS provides an API that modules can use when inside the Opigno distribution context. These functions are meant
@@ -295,6 +304,11 @@ function _opigno_lms_hide_coach_checkbox($node) {
  *  - OPIGNO_LMS_COURSE_TEACHER_ROLE
  *  - OPIGNO_LMS_COURSE_COACH_ROLE
  *  - OPIGNO_LMS_COURSE_ADMIN_ROLE
+ *
+ * The available role constants Opigno LMS provides for the platform:
+ *  - OPIGNO_LMS_ADMIN_ROLE
+ *  - OPIGNO_LMS_STUDENT_MANAGER_ROLE
+ *  - OPIGNO_LMS_FORUM_ADMINISTRATOR_ROLE
  */
 
 /**
