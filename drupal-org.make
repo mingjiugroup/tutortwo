@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.0
+projects[opigno][version] = 1.2
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0-rc3
@@ -31,13 +31,13 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.0
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version] = 1.4
+projects[opigno_quiz_app][version]    = 1.5
 projects[opigno_quiz_app][subdir]  = "opigno"
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
 
-projects[opigno_course_categories_app][version] = 1.0
+projects[opigno_course_categories_app][version] = 1.1
 projects[opigno_course_categories_app][subdir]  = "opigno"
 
 projects[tft][type]               = module
