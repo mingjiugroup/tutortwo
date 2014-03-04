@@ -44,6 +44,12 @@ function opigno_lms_install() {
   // Enhance module filter.
   variable_set('module_filter_dynamic_save_position', 1);
 
+  // Make sure the Opigno Simple UI cleans the Quiz module.
+  module_load_include('inc', 'opigno_simple_ui', 'includes/opigno_simple_ui.quiz');
+  if (function_exists('opigno_simple_ui_update_quiz_labels')) {
+    opigno_simple_ui_update_quiz_labels();
+  }
+
   // Enable blocks.
   _opigno_lms_install_enable_blocks();
 
