@@ -348,7 +348,11 @@ function opigno_lms_update_7103(&$sandbox) {
   module_load_install('opigno_quiz_helper');
   opigno_quiz_helper_install();
 
+  // Enable our new breadcrumbs module.
   module_enable(array('opigno_breadcrumbs'));
+
+  // Refresh translations.
+  opigno_lms_refresh_strings_and_import(array('rules', 'field', 'commerce'));
 
   // Set OG context handling.
   variable_set('og_context_negotiation_group_context', array(
