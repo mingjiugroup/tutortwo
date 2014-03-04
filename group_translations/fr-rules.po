@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-03-04 10:22+0100\n"
-"PO-Revision-Date: 2014-03-04 10:22+0100\n"
+"POT-Creation-Date: 2014-03-04 12:05+0100\n"
+"PO-Revision-Date: 2014-03-04 12:05+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -320,42 +320,46 @@ msgstr ""
 
 #: rules:rules_config:commerce_cart_add_to_cart_message:label
 msgctxt "rules_config:commerce_cart_add_to_cart_message:label"
-msgid "Display an Add to Cart message"
+msgid "Afficher un message Ajout au Panier"
 msgstr ""
 
 #: rules:rules_config:commerce_cart_order_status_reset:label
 msgctxt "rules_config:commerce_cart_order_status_reset:label"
-msgid "Reset the cart order status on product add or remove"
+msgid ""
+"Réinitialiser le statut de la commande à \"panier\" lors de l'ajout "
+"ou la suppression d'un produit"
 msgstr ""
 
 #: rules:rules_config:commerce_cart_unset_disabled_products:label
 msgctxt "rules_config:commerce_cart_unset_disabled_products:label"
-msgid "Unset the price of disabled products in the cart"
+msgid "Annuler le prix pour les produits désactivés dans le panier"
 msgstr ""
 
 #: rules:rules_config:commerce_checkout_order_status_update:label
 msgctxt "rules_config:commerce_checkout_order_status_update:label"
-msgid "Update the order status on checkout completion"
+msgid ""
+"Mettre à jour le statut de la commande lors de la finalisation du "
+"paiement"
 msgstr ""
 
 #: rules:rules_config:commerce_checkout_order_convert:label
 msgctxt "rules_config:commerce_checkout_order_convert:label"
-msgid "Assign an anonymous order to a pre-existing user"
+msgid "Attribuer une commande anonyme à un utilisateur déjà existant"
 msgstr ""
 
 #: rules:rules_config:commerce_checkout_new_account:label
 msgctxt "rules_config:commerce_checkout_new_account:label"
-msgid "Create a new account for an anonymous order"
+msgid "Créer un nouveau compte pour une commande anonyme"
 msgstr ""
 
 #: rules:rules_config:commerce_checkout_order_email:label
 msgctxt "rules_config:commerce_checkout_order_email:label"
-msgid "Send an order notification e-mail"
+msgid "Envoyer un courriel de notification de commande"
 msgstr ""
 
 #: rules:rules_config:commerce_checkout_order_email:3:subject
 msgctxt "rules_config:commerce_checkout_order_email:3:subject"
-msgid "Order [commerce-order:order-number] at [site:name]"
+msgid "Commande [commerce-order:order-number] sur [site:name]"
 msgstr ""
 
 #: rules:rules_config:commerce_checkout_order_email:3:message
