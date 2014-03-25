@@ -225,7 +225,7 @@ projects[strongarm][subdir]  = "contrib"
 projects[strongarm][version] = 2.0
 
 projects[user_import][subdir]  = "contrib"
-projects[user_import][version] = 2.1
+projects[user_import][version] = 2.2
 
 projects[jquery_countdown][subdir]  = "contrib"
 projects[jquery_countdown][version] = 1.1
