@@ -65,6 +65,9 @@ function opigno_lms_install() {
   // Enhance translations, if needed.
   _opigno_lms_install_i18n();
 
+  // Enable specific content type permissions for anonymous_users
+  _opigno_lms_install_specific_content_access();
+
   // Rebuild permissions. Don't use the batch process, we're already in one.
   node_access_rebuild(FALSE);
 }
@@ -382,4 +385,21 @@ function opigno_lms_update_7103(&$sandbox) {
     'og_forum' => 20,
     'user-edit' => 25,
   ));
+}
+
+/*
+ * Removes anonymous permissions to view content for forums calendar_event and notification content types
+ */
+function _opigno_lms_install_specific_content_access() {
+  $types = array('forum', 'calendar_event', 'notification');
+  foreach ($types as $type) {
+    $defaults = array();
+    foreach (_content_access_get_operations($type) as $op => $label) {
+      $defaults[$op] = content_access_get_settings($op, $type);
+    }
+    if ($defaults['view'][0] == 1) {
+      unset($defaults['view'][0]);
+    }
+    content_access_set_settings($defaults, $type);
+  }
 }
