@@ -88,8 +88,11 @@ function opigno_features_roles_user_default_permissions() {
   $permissions['access content'] = array(
     'name' => 'access content',
     'roles' => array(
-      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
+      'administrator' => 'administrator',
+      'student manager' => 'student manager',
+      'forum administrator' => 'forum administrator',
     ),
     'module' => 'node',
   );

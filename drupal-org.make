@@ -230,6 +230,9 @@ projects[user_import][version] = 2.1
 projects[jquery_countdown][subdir]  = "contrib"
 projects[jquery_countdown][version] = 1.1
 
+projects[content_access][subdir]  = "contrib"
+projects[content_access][version] = 1.2-beta2
+
 
 ; Third-patry libraries ========================================================
 
