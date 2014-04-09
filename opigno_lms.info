@@ -28,7 +28,7 @@ dependencies[] = crumbs
 dependencies[] = apps
 dependencies[] = og
 dependencies[] = og_ui
-dependencies[] = og_access
+;dependencies[] = og_access
 dependencies[] = og_massadd
 dependencies[] = og_create_perms
 dependencies[] = views
@@ -51,6 +51,7 @@ dependencies[] = opigno
 dependencies[] = opigno_breadcrumbs
 dependencies[] = opigno_simple_ui
 dependencies[] = opigno_og_prereq
+dependencies[] = opigno_og_access
 
 ; Opigno apps
 dependencies[] = opigno_class_app

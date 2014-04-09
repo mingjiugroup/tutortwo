@@ -4,8 +4,13 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.3
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.3
+;projects[opigno][subdir]  = "opigno"
+
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = 7.x-1.x
 
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -91,6 +96,8 @@ projects[og_forum_D7][version] = 2.0-alpha1
 projects[og_forum_D7][subdir]  = "contrib"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
+projects[og_forum_D7][patch][] = "http://drupal.org/files/issues/og_forum_2206711.patch"
+
 
 ; Calendar (prevent warnings)
 projects[calendar][subdir]  = "contrib"
