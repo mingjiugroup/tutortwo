@@ -54,56 +54,6 @@ function opigno_features_field_settings_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-calendar_event-group_content_access'
-  $field_instances['node-calendar_event-group_content_access'] = array(
-    'bundle' => 'calendar_event',
-    'default_value' => array(
-      0 => array(
-        'value' => 0,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 2,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'group_content_access',
-    'label' => 'Group content visibility',
-    'required' => TRUE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'view modes' => array(
-      'full' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => 2,
-    ),
-    'widget_type' => 'options_select',
-  );
-
   // Exported field_instance: 'node-calendar_event-og_group_ref'
   $field_instances['node-calendar_event-og_group_ref'] = array(
     'bundle' => 'calendar_event',
@@ -267,56 +217,6 @@ function opigno_features_field_settings_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => -4,
     ),
-  );
-
-  // Exported field_instance: 'node-class-group_access'
-  $field_instances['node-class-group_access'] = array(
-    'bundle' => 'class',
-    'default_value' => array(
-      0 => array(
-        'value' => 0,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 3,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'group_access',
-    'label' => 'Group visibility',
-    'required' => TRUE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'view modes' => array(
-      'full' => array(
-        'label' => 'above',
-        'type' => 'options_onoff',
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'type' => 'options_onoff',
-      ),
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_buttons',
-      'weight' => 1,
-    ),
-    'widget_type' => 'options_select',
   );
 
   // Exported field_instance: 'node-class-group_group'
@@ -590,56 +490,6 @@ function opigno_features_field_settings_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-course-group_access'
-  $field_instances['node-course-group_access'] = array(
-    'bundle' => 'course',
-    'default_value' => array(
-      0 => array(
-        'value' => 0,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 6,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'group_access',
-    'label' => 'Group visibility',
-    'required' => TRUE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'view modes' => array(
-      'full' => array(
-        'label' => 'above',
-        'type' => 'options_onoff',
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'type' => 'options_onoff',
-      ),
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_buttons',
-      'weight' => 1,
-    ),
-    'widget_type' => 'options_select',
-  );
-
   // Exported field_instance: 'node-course-group_group'
   $field_instances['node-course-group_group'] = array(
     'bundle' => 'course',
@@ -817,56 +667,6 @@ function opigno_features_field_settings_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-forum-group_content_access'
-  $field_instances['node-forum-group_content_access'] = array(
-    'bundle' => 'forum',
-    'default_value' => array(
-      0 => array(
-        'value' => 0,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 1,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'group_content_access',
-    'label' => 'Group content visibility',
-    'required' => TRUE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'view modes' => array(
-      'full' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => 3,
-    ),
-    'widget_type' => 'options_select',
-  );
-
   // Exported field_instance: 'node-forum-og_group_ref'
   $field_instances['node-forum-og_group_ref'] = array(
     'bundle' => 'forum',
@@ -959,56 +759,6 @@ function opigno_features_field_settings_field_default_field_instances() {
       'type' => 'options_select',
       'weight' => 0,
     ),
-  );
-
-  // Exported field_instance: 'node-notification-group_content_access'
-  $field_instances['node-notification-group_content_access'] = array(
-    'bundle' => 'notification',
-    'default_value' => array(
-      0 => array(
-        'value' => 0,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 5,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'group_content_access',
-    'label' => 'Group content visibility',
-    'required' => TRUE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'view modes' => array(
-      'full' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => -3,
-    ),
-    'widget_type' => 'options_select',
   );
 
   // Exported field_instance: 'node-notification-notification_add_calendar'
@@ -1345,45 +1095,6 @@ function opigno_features_field_settings_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-poll-group_content_access'
-  $field_instances['node-poll-group_content_access'] = array(
-    'bundle' => 'poll',
-    'default_value' => array(
-      0 => array(
-        'value' => 2,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 2,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'group_content_access',
-    'label' => 'Group content visibility',
-    'required' => FALSE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => -1,
-    ),
-  );
-
   // Exported field_instance: 'node-poll-og_group_ref'
   $field_instances['node-poll-og_group_ref'] = array(
     'bundle' => 'poll',
@@ -1494,56 +1205,6 @@ function opigno_features_field_settings_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => 1,
     ),
-  );
-
-  // Exported field_instance: 'node-quiz-group_content_access'
-  $field_instances['node-quiz-group_content_access'] = array(
-    'bundle' => 'quiz',
-    'default_value' => array(
-      0 => array(
-        'value' => 0,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 3,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'group_content_access',
-    'label' => 'Group content visibility',
-    'required' => TRUE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'view modes' => array(
-      'full' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => 5,
-    ),
-    'widget_type' => 'options_select',
   );
 
   // Exported field_instance: 'node-quiz-og_group_ref'
@@ -2091,56 +1752,6 @@ function opigno_features_field_settings_field_default_field_instances() {
       'type' => 'text_textarea_with_summary',
       'weight' => -4,
     ),
-  );
-
-  // Exported field_instance: 'node-tft_file-group_content_access'
-  $field_instances['node-tft_file-group_content_access'] = array(
-    'bundle' => 'tft_file',
-    'default_value' => array(
-      0 => array(
-        'value' => 0,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 2,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'group_content_access',
-    'label' => 'Group content visibility',
-    'required' => TRUE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'view modes' => array(
-      'full' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'type' => 'list_default',
-      ),
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => 0,
-    ),
-    'widget_type' => 'options_select',
   );
 
   // Exported field_instance: 'node-tft_file-og_group_ref'
