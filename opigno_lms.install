@@ -70,6 +70,8 @@ function opigno_lms_install() {
 
   // Rebuild permissions. Don't use the batch process, we're already in one.
   node_access_rebuild(FALSE);
+
+  opigno_lms_refresh_strings_and_import(array('rules', 'commerce', 'field'));
 }
 
 /**
@@ -302,7 +304,7 @@ function _opigno_lms_install_i18n() {
  * @param  string $role_mame
  * @param  string $bundle
  *
- * @return string
+ * @return int
  */
 function _opigno_lms_install_get_role_by_name($role_name, $bundle) {
   $rid  = db_select('og_role', 'r')
@@ -431,6 +433,9 @@ function opigno_lms_update_7104(&$sandbox) {
   }
 
   // Done.
+
+  // Refresh translations.
+  opigno_lms_refresh_strings_and_import(array('rules', 'field', 'commerce'));
 }
 
 /*
