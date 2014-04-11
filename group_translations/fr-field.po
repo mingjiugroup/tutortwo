@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-03-04 12:05+0100\n"
-"PO-Revision-Date: 2014-03-04 12:05+0100\n"
+"POT-Creation-Date: 2014-04-11 09:04+0200\n"
+"PO-Revision-Date: 2014-04-11 09:04+0200\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -158,16 +158,6 @@ msgctxt "body:quizfileupload:label"
 msgid "Question"
 msgstr ""
 
-#: field:og_membership_request:og_membership_type_default:label
-msgctxt "og_membership_request:og_membership_type_default:label"
-msgid "Request message"
-msgstr ""
-
-#: field:og_membership_request:og_membership_type_default:description
-msgctxt "og_membership_request:og_membership_type_default:description"
-msgid "This is the text a user may send to the group administrators."
-msgstr ""
-
 #: field:og_group_ref:forums:label
 msgctxt "og_group_ref:forums:label"
 msgid "Groups audience"
@@ -258,11 +248,6 @@ msgctxt "group_group:#allowed_values:1"
 msgid "Group"
 msgstr ""
 
-#: field:group_group:course:label
-msgctxt "group_group:course:label"
-msgid "Group"
-msgstr ""
-
 #: field:group_group:course:description
 msgctxt "group_group:course:description"
 msgid "Determine if this is an OG group."
@@ -333,6 +318,41 @@ msgctxt "quizfileupload_scoring:quizfileupload:label"
 msgid "Scoring"
 msgstr ""
 
+#: field:requires_validation:#allowed_values:1
+msgctxt "requires_validation:#allowed_values:1"
+msgid "1"
+msgstr ""
+
+#: field:anomymous_visibility:#allowed_values:1
+msgctxt "anomymous_visibility:#allowed_values:1"
+msgid "1"
+msgstr ""
+
+#: field:catalogue_visibility:#allowed_values:1
+msgctxt "catalogue_visibility:#allowed_values:1"
+msgid "1"
+msgstr ""
+
+#: field:og_roles_permissions:#allowed_values:0
+msgctxt "og_roles_permissions:#allowed_values:0"
+msgid "Use default roles and permissions"
+msgstr ""
+
+#: field:og_roles_permissions:#allowed_values:1
+msgctxt "og_roles_permissions:#allowed_values:1"
+msgid "Override default roles and permissions"
+msgstr ""
+
+#: field:og_roles_permissions:course:label
+msgctxt "og_roles_permissions:course:label"
+msgid "Group roles and permissions"
+msgstr ""
+
+#: field:og_roles_permissions:class:label
+msgctxt "og_roles_permissions:class:label"
+msgid "Group roles and permissions"
+msgstr ""
+
 #: field:comment_body:comment_node_audio:label
 msgctxt "comment_body:comment_node_audio:label"
 msgid "Comment"
@@ -348,14 +368,24 @@ msgctxt "og_group_ref:audio:label"
 msgid "Audience de groupes"
 msgstr ""
 
-#: field:group_content_access:audio:label
-msgctxt "group_content_access:audio:label"
-msgid "Visibilité du contenu de groupe"
-msgstr ""
-
 #: field:opigno_audio:audio:label
 msgctxt "opigno_audio:audio:label"
 msgid "Audiofile"
+msgstr ""
+
+#: field:comment_body:comment_node_opigno_scorm_quiz_question:label
+msgctxt "comment_body:comment_node_opigno_scorm_quiz_question:label"
+msgid "Comment"
+msgstr ""
+
+#: field:body:opigno_scorm_quiz_question:label
+msgctxt "body:opigno_scorm_quiz_question:label"
+msgid "Question"
+msgstr ""
+
+#: field:opigno_scorm_package:opigno_scorm_quiz_question:label
+msgctxt "opigno_scorm_package:opigno_scorm_quiz_question:label"
+msgid "SCORM"
 msgstr ""
 
 #: field:comment_body:comment_node_video:label
@@ -366,11 +396,6 @@ msgstr ""
 #: field:og_group_ref:video:label
 msgctxt "og_group_ref:video:label"
 msgid "Audience de groupes"
-msgstr ""
-
-#: field:group_content_access:video:label
-msgctxt "group_content_access:video:label"
-msgid "Visibilité du contenu de groupe"
 msgstr ""
 
 #: field:opigno_video:video:label
@@ -393,19 +418,9 @@ msgctxt "og_group_ref:webex_video_conference:label"
 msgid "Audience de groupes"
 msgstr ""
 
-#: field:group_content_access:webex_video_conference:label
-msgctxt "group_content_access:webex_video_conference:label"
-msgid "Visibilité du contenu de groupe"
-msgstr ""
-
 #: field:meeting_id:webex_video_conference:label
 msgctxt "meeting_id:webex_video_conference:label"
 msgid "Meeting ID"
-msgstr ""
-
-#: field:opigno_user_expiration_type:#allowed_values:year
-msgctxt "opigno_user_expiration_type:#allowed_values:year"
-msgid "year"
 msgstr ""
 
 #: field:opigno_user_membership_exp:og_membership_type_default:label
@@ -413,34 +428,34 @@ msgctxt "opigno_user_membership_exp:og_membership_type_default:label"
 msgid "Opigno user membership expire"
 msgstr ""
 
+#: field:og_group_ref:opigno_scorm_quiz_question:label
+msgctxt "og_group_ref:opigno_scorm_quiz_question:label"
+msgid "Audience de groupes"
+msgstr ""
+
 #: field:commerce_customer_address:billing:label
 msgctxt "commerce_customer_address:billing:label"
 msgid "Adresse"
 msgstr ""
 
-#: field:commerce_customer_address:dummy:label
-msgctxt "commerce_customer_address:dummy:label"
-msgid "Adresse"
-msgstr ""
-
 #: field:commerce_line_items:commerce_order:label
 msgctxt "commerce_line_items:commerce_order:label"
-msgid "Line items"
+msgid "Eléments de commande"
 msgstr ""
 
 #: field:commerce_order_total:commerce_order:label
 msgctxt "commerce_order_total:commerce_order:label"
-msgid "Order total"
+msgid "Total de la commande"
 msgstr ""
 
 #: field:commerce_customer_billing:commerce_order:label
 msgctxt "commerce_customer_billing:commerce_order:label"
-msgid "Billing information"
+msgid "Informations de facturation"
 msgstr ""
 
-#: field:commerce_customer_dummy:commerce_order:label
-msgctxt "commerce_customer_dummy:commerce_order:label"
-msgid "Dummy profile type"
+#: field:commerce_price:og_product:label
+msgctxt "commerce_price:og_product:label"
+msgid "Prix"
 msgstr ""
 
 #: field:opigno_commerce_product:course:label
@@ -450,7 +465,7 @@ msgstr ""
 
 #: field:commerce_unit_price:product:label
 msgctxt "commerce_unit_price:product:label"
-msgid "Unit price"
+msgid "Prix unitaire"
 msgstr ""
 
 #: field:commerce_total:product:label
@@ -465,7 +480,12 @@ msgstr ""
 
 #: field:commerce_display_path:product:label
 msgctxt "commerce_display_path:product:label"
-msgid "Display path"
+msgid "Chemin de l'affichage"
+msgstr ""
+
+#: field:commerce_price:product:label
+msgctxt "commerce_price:product:label"
+msgid "Prix"
 msgstr ""
 
 #: field:body:forum:label
@@ -498,70 +518,22 @@ msgctxt "body:tft_file:label"
 msgid "Body"
 msgstr "Description"
 
-#: field:group_content_access:#allowed_values:0
-msgctxt "group_content_access:#allowed_values:0"
-msgid "Use group defaults"
-msgstr "Valeur par défaut du groupe"
+#: field:og_membership_request:og_membership_type_default:label
+msgctxt "og_membership_request:og_membership_type_default:label"
+msgid "Request message"
+msgstr "Message de la demande"
 
-#: field:group_content_access:#allowed_values:1
-msgctxt "group_content_access:#allowed_values:1"
-msgid "Public - accessible to all site users"
-msgstr "Public - accessible à tous les utilisateurs"
+#: field:og_membership_request:og_membership_type_default:description
+msgctxt "og_membership_request:og_membership_type_default:description"
+msgid "This is the text a user may send to the group administrators."
+msgstr ""
+"Ceci est le texte qu'un utilisateur peut envoyer aux administrateurs "
+"du groupe."
 
-#: field:group_content_access:#allowed_values:2
-msgctxt "group_content_access:#allowed_values:2"
-msgid "Private - accessible only to group members"
-msgstr "Privé - accessible uniquement aux utilisateurs autorisés"
-
-#: field:group_content_access:forum:label
-msgctxt "group_content_access:forum:label"
-msgid "Group content visibility"
-msgstr "Visibilité du contenu de groupe"
-
-#: field:group_content_access:calendar_event:label
-msgctxt "group_content_access:calendar_event:label"
-msgid "Group content visibility"
-msgstr "Visibilité du contenu de groupe"
-
-#: field:group_content_access:notification:label
-msgctxt "group_content_access:notification:label"
-msgid "Group content visibility"
-msgstr "Visibilité du contenu de groupe"
-
-#: field:group_content_access:poll:label
-msgctxt "group_content_access:poll:label"
-msgid "Group content visibility"
-msgstr "Visibilité du contenu de groupe"
-
-#: field:group_content_access:quiz:label
-msgctxt "group_content_access:quiz:label"
-msgid "Group content visibility"
-msgstr "Visibilité du contenu de groupe"
-
-#: field:group_content_access:tft_file:label
-msgctxt "group_content_access:tft_file:label"
-msgid "Group content visibility"
-msgstr "Visibilité du contenu de groupe"
-
-#: field:group_access:#allowed_values:0
-msgctxt "group_access:#allowed_values:0"
-msgid "Public - accessible to all site users"
-msgstr "Public - accessible à tous les utilisateurs"
-
-#: field:group_access:#allowed_values:1
-msgctxt "group_access:#allowed_values:1"
-msgid "Private - accessible only to group members"
-msgstr "Privé - accessible uniquement aux utilisateurs autorisés"
-
-#: field:group_access:course:label
-msgctxt "group_access:course:label"
-msgid "Group visibility"
-msgstr "Paramètres de visibilité"
-
-#: field:group_access:class:label
-msgctxt "group_access:class:label"
-msgid "Group visibility"
-msgstr "Paramètres de visibilité"
+#: field:group_group:course:label
+msgctxt "group_group:course:label"
+msgid "Group"
+msgstr "Groupe"
 
 #: field:opigno_course_tools:course:label
 msgctxt "opigno_course_tools:course:label"
@@ -644,9 +616,10 @@ msgid ""
 "results by default), <em>quiz</em> (always shown in results) and "
 "<em>mix</em>."
 msgstr ""
-"Définit le type de cette leçon. Peut être <em>théorique</em> (ne "
-"comptant pas pour les résultats du cours), <em>quiz</em> (toujours "
-"affiché dans les résultats du cours) ou <em>mixte</em>."
+"Définit la typologie de cette leçon. Peut être <em>théorique</em> "
+"(par défaut, ne comptant pas dans les résultats du cours), "
+"<em>quiz</em> (toujours comptant dans les résultats du cours) ou "
+"<em>mixte</em>."
 
 #: field:quiz_weight:quiz:label
 msgctxt "quiz_weight:quiz:label"
@@ -734,6 +707,70 @@ msgctxt "quizfileupload_scoring:#allowed_values:1"
 msgid "Manual"
 msgstr "Manuel"
 
+#: field:group_access:#allowed_values:0
+msgctxt "group_access:#allowed_values:0"
+msgid "Public (World-wide open, for example for demo courses)"
+msgstr ""
+"Public (accès ouvert à tout le monde, par exemple pour un cours de "
+"démonstration)"
+
+#: field:group_access:#allowed_values:1
+msgctxt "group_access:#allowed_values:1"
+msgid "Semi-public (registered users can subscribe to the course)"
+msgstr ""
+"Semi-public (réservé aux utilisateurs enregistrés, qui peuvent "
+"souscrire au cours de façon autonome)"
+
+#: field:group_access:#allowed_values:2
+msgctxt "group_access:#allowed_values:2"
+msgid ""
+"Private (users can only be subscribed by a course administrator or a "
+"teacher ; the course is hidden from course catalogue)"
+msgstr ""
+"Privé (les inscriptions ne peuvent être faites que par un enseignant "
+"ou un administrateur ; le cours n'est pas visible dans le catalogue de "
+"formations)"
+
+#: field:group_access:course:label
+msgctxt "group_access:course:label"
+msgid "Group visibility"
+msgstr "Visibilité du groupe"
+
+#: field:group_access:class:label
+msgctxt "group_access:class:label"
+msgid "Group visibility"
+msgstr "Visibilité du groupe"
+
+#: field:requires_validation:course:label
+msgctxt "requires_validation:course:label"
+msgid "Requires validation"
+msgstr "Nécessite validation"
+
+#: field:requires_validation:class:label
+msgctxt "requires_validation:class:label"
+msgid "Requires validation"
+msgstr "Nécessite validation"
+
+#: field:anomymous_visibility:course:label
+msgctxt "anomymous_visibility:course:label"
+msgid "Hide for anonymous users"
+msgstr "Masquer pour les utilisateurs anonymes"
+
+#: field:anomymous_visibility:class:label
+msgctxt "anomymous_visibility:class:label"
+msgid "Hide for anonymous users"
+msgstr "Masquer pour les utilisateurs anonymes"
+
+#: field:catalogue_visibility:course:label
+msgctxt "catalogue_visibility:course:label"
+msgid "Hide from Catalogue"
+msgstr "Masqué du catalogue de formations"
+
+#: field:catalogue_visibility:class:label
+msgctxt "catalogue_visibility:class:label"
+msgid "Hide from Catalogue"
+msgstr "Masqué du catalogue de formations"
+
 #: field:course_pretest_ref:course:label
 msgctxt "course_pretest_ref:course:label"
 msgid "Course pre-test"
@@ -747,6 +784,38 @@ msgid ""
 msgstr ""
 "Test d'entrée que les utilisateurs devront passer avant de pouvoir "
 "accéder au contenu du cours."
+
+#: field:opigno_scorm_round_method:#allowed_values:ceil
+msgctxt "opigno_scorm_round_method:#allowed_values:ceil"
+msgid "Round up"
+msgstr "Arrondi supérieur"
+
+#: field:opigno_scorm_round_method:#allowed_values:round
+msgctxt "opigno_scorm_round_method:#allowed_values:round"
+msgid "Round to closest"
+msgstr "Arrondi au plus proche"
+
+#: field:opigno_scorm_round_method:#allowed_values:floor
+msgctxt "opigno_scorm_round_method:#allowed_values:floor"
+msgid "Round down"
+msgstr "Arrondi inférieur"
+
+#: field:opigno_scorm_round_method:opigno_scorm_quiz_question:label
+msgctxt "opigno_scorm_round_method:opigno_scorm_quiz_question:label"
+msgid "Round method"
+msgstr "Méthode d'arrondi"
+
+#: field:opigno_scorm_round_method:opigno_scorm_quiz_question:description
+msgctxt "opigno_scorm_round_method:opigno_scorm_quiz_question:description"
+msgid ""
+"Some SCORM packages use a float point number for scoring, whereas we "
+"require an integer. Choose the appropriate method for rounding the "
+"final score."
+msgstr ""
+"Certains paquets SCORM utilisent des notations contenant des "
+"décimales, alors que Opigno requiert des entiers. Veuillez choisir la "
+"méthode d'arrondi du score final à appliquer lors de la "
+"récupération des résultats dans Opigno."
 
 #: field:body:video:label
 msgctxt "body:video:label"
@@ -787,6 +856,11 @@ msgctxt "opigno_user_expiration_type:#allowed_values:month"
 msgid "month"
 msgstr "mois"
 
+#: field:opigno_user_expiration_type:#allowed_values:year
+msgctxt "opigno_user_expiration_type:#allowed_values:year"
+msgid "year"
+msgstr "année"
+
 #: field:opigno_user_expiration_type:course:label
 msgctxt "opigno_user_expiration_type:course:label"
 msgid "User expiration type"
@@ -802,7 +876,7 @@ msgstr ""
 #: field:course_quota:course:label
 msgctxt "course_quota:course:label"
 msgid "Number of allowed students"
-msgstr "Nombre de places pour le cours"
+msgstr "Nombre maximal d'utilisateurs"
 
 #: field:course_quota:course:description
 msgctxt "course_quota:course:description"
@@ -822,14 +896,4 @@ msgid ""
 msgstr ""
 "Le tarif de l'abonnement. Si laissé vide, alors l'abonnement ne "
 "pourra être vendu."
-
-#: field:body:quiz:label
-msgctxt "body:quiz:label"
-msgid "Body"
-msgstr "Description"
-
-#: field:commerce_product:product:label
-msgctxt "commerce_product:product:label"
-msgid "Product"
-msgstr "Produit"
 
