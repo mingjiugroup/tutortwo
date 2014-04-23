@@ -398,19 +398,72 @@ function opigno_lms_update_7104(&$sandbox) {
   // Keep data.
   db_rename_table('field_data_group_access', 'field_data_group_access_migr');
   db_rename_table('field_revision_group_access', 'field_revision_group_access_migr');
+
   db_create_table('field_data_group_access', array(
+    'description' => 'Fake table, just for deletion.',
     'fields' => array(
-      'field' => array(
-        'type' => 'serial',
-      )
+      'entity_type' => array(
+        'type' => 'varchar',
+        'length' => 255,
+      ),
+      'bundle' => array(
+        'type' => 'varchar',
+        'length' => 255,
+      ),
+      'deleted' => array(
+        'type' => 'int',
+      ),
+      'entity_id' => array(
+        'type' => 'int',
+      ),
+      'revision_id' => array(
+        'type' => 'int',
+      ),
+      'language' => array(
+        'type' => 'varchar',
+        'length' => 255,
+      ),
+      'delta' => array(
+        'type' => 'int',
+      ),
+      'group_access_value' => array(
+        'type' => 'int',
+      ),
     ),
+    'primary key' => array('entity_id', 'revision_id', 'delta'),
   ));
   db_create_table('field_revision_group_access', array(
+    'description' => 'Fake table, just for deletion.',
     'fields' => array(
-      'field' => array(
-        'type' => 'serial',
-      )
+      'entity_type' => array(
+        'type' => 'varchar',
+        'length' => 255,
+      ),
+      'bundle' => array(
+        'type' => 'varchar',
+        'length' => 255,
+      ),
+      'deleted' => array(
+        'type' => 'int',
+      ),
+      'entity_id' => array(
+        'type' => 'int',
+      ),
+      'revision_id' => array(
+        'type' => 'int',
+      ),
+      'language' => array(
+        'type' => 'varchar',
+        'length' => 255,
+      ),
+      'delta' => array(
+        'type' => 'int',
+      ),
+      'group_access_value' => array(
+        'type' => 'int',
+      ),
     ),
+    'primary key' => array('entity_id', 'revision_id', 'delta'),
   ));
 
   // Disable OG Access.
@@ -418,16 +471,19 @@ function opigno_lms_update_7104(&$sandbox) {
   field_delete_field('group_access');
   field_delete_field('group_content_access');
 
+  //db_drop_table('field_data_group_access');
+  //db_drop_table('field_revision_group_access');
+
   // Enable Opigno OG Access.
   module_enable(array('opigno_og_access'));
 
   // Copy data over.
-  $result = db_select('field_data_group_access_migr', 'data')->execute();
+  $result = db_select('field_data_group_access_migr', 'data')->fields('data', array())->execute();
   while ($row = $result->fetchAssoc()) {
     db_insert('field_data_group_access')->fields($row)->execute();
   }
 
-  $result = db_select('field_revision_group_access_migr', 'data')->execute();
+  $result = db_select('field_revision_group_access_migr', 'data')->fields('data', array())->execute();
   while ($row = $result->fetchAssoc()) {
     db_insert('field_revision_group_access')->fields($row)->execute();
   }
