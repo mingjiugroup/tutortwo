@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-03-04 12:04+0100\n"
-"PO-Revision-Date: 2014-03-04 12:04+0100\n"
+"POT-Creation-Date: 2014-04-11 08:55+0200\n"
+"PO-Revision-Date: 2014-04-11 08:55+0200\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -2612,205 +2612,205 @@ msgstr ""
 msgid "UTC"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "An event when jQuery Countdown is zero!"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "When countdown = 0"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "counter value"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "OG role granted to user"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "An OG role has been granted to this user."
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "OG role ID"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "The id of the OG user role."
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "OG role revoked from user"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "An OG role has been revoked from this user."
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "The type of the entity the user is getting role to"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Node id"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "User id"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Role id"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "The type of the entity the user is getting the role taken from"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgctxt "conditional rules"
 msgid "Conditional"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgctxt "conditional rules"
 msgid "If"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgctxt "conditional rules"
 msgid "Else"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgctxt "conditional rules"
 msgid "Switch"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgctxt "conditional rules"
 msgid "Case"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgctxt "conditional rules"
 msgid "Default case"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgctxt "conditional rules"
 msgid "While"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgctxt "conditional rules"
 msgid "Condition set (rule)"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "User has group role"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Quiz property is"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Quiz node"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Entity is of bundle"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "The type of the checked entity."
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "The condition is met if the entity is of one of the selected bundles."
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "User has field access"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Access operation"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid ""
 "Specifies the user account for which to check access. If left empty, "
 "the currently logged in user will be used."
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Grant OG role"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "The user who will be granted this role."
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Revoke OG role"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "The user who will have the role revoked."
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Class role id"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "The class role id"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Course role id"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Course node"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Quiz get property"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Quiz taker"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Create a root folder for a group"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Load OG Membership"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "OG Membership"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Revoke user a og role"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Give user a og role"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Get system variable of type '!type'"
 msgstr ""
 
-#: /?q=system%2Ftimezone%2F0%2F3600%2F0&date=Mon+Mar+03+2014+17%3A22%3A35+GMT%2B0100+(Europe+de+l%E2%80%99Ouest)
+#: /?q=system%2Ftimezone%2F0%2F7200%2F1&date=Wed+Apr+09+2014+15%3A55%3A21+GMT%2B0200
 msgid "Select the variable name"
 msgstr ""
 
@@ -3154,6 +3154,22 @@ msgid "TODO Add a description for 'view all user certificates'"
 msgstr ""
 
 #: /install.php?profile=opigno_lms&locale=fr
+msgid "Grant content access"
+msgstr ""
+
+#: /install.php?profile=opigno_lms&locale=fr
+msgid "View and modify content access for any nodes"
+msgstr ""
+
+#: /install.php?profile=opigno_lms&locale=fr
+msgid "Grant own content access"
+msgstr ""
+
+#: /install.php?profile=opigno_lms&locale=fr
+msgid "View and modify content access for own nodes"
+msgstr ""
+
+#: /install.php?profile=opigno_lms&locale=fr
 msgid "Administer Crumbs"
 msgstr ""
 
@@ -3318,15 +3334,15 @@ msgid "Application pour Opigno"
 msgstr ""
 
 #: /
-msgid "Manage Drupal variable settings that have been strongarmed."
-msgstr ""
-
-#: /
 msgid "Par défaut"
 msgstr ""
 
 #: /
 msgid "Apps Configuration"
+msgstr ""
+
+#: /
+msgid "Manage Drupal variable settings that have been strongarmed."
 msgstr ""
 
 #: /
@@ -3382,18 +3398,6 @@ msgid "Configure og_massadd"
 msgstr ""
 
 #: /
-msgid "User profile Homebox"
-msgstr ""
-
-#: /
-msgid "Configure the intergration of Homebox and user profiles."
-msgstr ""
-
-#: /
-msgid "Import or update users from a comma separated file (csv)."
-msgstr ""
-
-#: /
 msgid "Set up certificate field groups"
 msgstr ""
 
@@ -3434,23 +3438,19 @@ msgid "Manage customized lists of content."
 msgstr ""
 
 #: /
-msgid "Manage menu"
+msgid "User profile Homebox"
 msgstr ""
 
 #: /
-msgid "Manage the main menu items"
+msgid "Configure the intergration of Homebox and user profiles."
+msgstr ""
+
+#: /
+msgid "Import or update users from a comma separated file (csv)."
 msgstr ""
 
 #: /
 msgid "Administer all classes on the platform."
-msgstr ""
-
-#: /
-msgid "Manage forums"
-msgstr ""
-
-#: /
-msgid "Manage the different forums and forum containers."
 msgstr ""
 
 #: /
@@ -3459,6 +3459,10 @@ msgstr ""
 
 #: /
 msgid "Affiche les résultats de tous les étudiants de la classe"
+msgstr ""
+
+#: /
+msgid "Configure content access control."
 msgstr ""
 
 #: /
@@ -3561,48 +3565,80 @@ msgstr ""
 msgid "Ceci permet d'ajouter des questions de type fichier au module Quiz."
 msgstr ""
 
+#: /my-courses
+msgid ""
+msgstr ""
+
+#: /admin/opigno/content/course-administration
+msgid "Delete course(s)"
+msgstr ""
+
+#: /admin/opigno/content/course-administration
+msgid "Publish course(s)"
+msgstr ""
+
+#: /admin/opigno/content/course-administration
+msgid "Unpublish course(s)"
+msgstr ""
+
+#: /node/add/course
+msgid "- prevent certificate -"
+msgstr ""
+
+#: /node/add/course
+msgid "- no action -"
+msgstr ""
+
+#: /node/add/course
+msgid "There are no mappings available for %title."
+msgstr ""
+
+#: /node/add/course
+msgid "Manage your preset collections"
+msgstr ""
+
+#: /node/add/course
+msgid "Insert templates"
+msgstr ""
+
+#: /node/add/course
+msgid "Allowed Style properties: @properties"
+msgstr ""
+
+#: /node/add/course
+msgid "Entity Reference Autocomplete"
+msgstr ""
+
+#: /node/add/course
+msgid "Écrit le"
+msgstr ""
+
 #: /
 msgid "guest"
 msgstr ""
 
-#: /js/admin_menu/cache/042a1f596e456eb7e28060393d877000
+#: /course/3/test-cours-public
 msgid ""
+"Determine if values that should be prepopulated should \"listen\" to "
+"the OG-context."
 msgstr ""
 
-#: /admin/opigno/system/apps
-msgid "@num stars"
+#: /course/3/test-cours-public
+msgid "Prepopulate from URL"
 msgstr ""
 
-#: /admin/opigno/system/apps
-msgid "!count ratings"
+#: /course/3/test-cours-public
+msgid "OG Context"
 msgstr ""
 
-#: /admin/opigno/system/apps
-msgid "Featured app"
+#: /dashboard
+msgid "Cours"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_audio_app/
-msgid "Audio App Details"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_audio_app/
-msgid "Customer Rating"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_audio_app/
-msgid "Average rating for this version:"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_audio_app/
-msgid "Average rating: !stars stars"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_audio_app/
-msgid "Your rating: !stars stars"
-msgstr ""
-
-#: profiles/opigno_lms/modules/contrib/apps/theme/js/apps-voting.js
-msgid "Failed to save vote. Please try again later."
+#: /group/node/3/admin/permissions
+msgid ""
+"Warning: Give to trusted roles only; this permission has security "
+"implications in the group context."
 msgstr ""
 
 #: /admin/modules
@@ -3623,6 +3659,16 @@ msgstr ""
 
 #: /admin/modules
 msgid "Provides conditional control elements within action containers."
+msgstr ""
+
+#: /admin/modules
+msgid "Provides flexible content access control."
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"Integrates Rules with Content access. Allows to act on access events, "
+"conditions, and actions."
 msgstr ""
 
 #: /admin/modules
@@ -3656,10 +3702,22 @@ msgid "Drag and drop with lines question type for quiz."
 msgstr ""
 
 #: /admin/modules
+msgid "Provide a way to create drag drop type of question for quiz."
+msgstr ""
+
+#: /admin/modules
 msgid ""
 "Resets the current site by doing one or both of deleting the site "
 "files directory, and deleting all database tables and redirecting to "
 "install.php."
+msgstr ""
+
+#: /admin/modules
+msgid "Adds Node.js backend to DrupalChat"
+msgstr ""
+
+#: /admin/modules
+msgid "An experimental module. DO NOT USE IT ON PRODUCTION SITES."
 msgstr ""
 
 #: /admin/modules
@@ -3743,6 +3801,10 @@ msgid "Opigno Calendar functionality and default displays."
 msgstr ""
 
 #: /admin/modules
+msgid "Allows users to chat"
+msgstr ""
+
+#: /admin/modules
 msgid "Opigno Class App"
 msgstr ""
 
@@ -3760,6 +3822,12 @@ msgstr ""
 
 #: /admin/modules
 msgid "Allows courses to have other courses as prerequisites."
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"Opigno External Video App integrates the Video Filter module with "
+"Opigno"
 msgstr ""
 
 #: /admin/modules
@@ -3797,6 +3865,10 @@ msgid "Opigno Forum functionality and default displays."
 msgstr ""
 
 #: /admin/modules
+msgid "Tour the different functionality of the LMS"
+msgstr ""
+
+#: /admin/modules
 msgid "Opigno Private Messaging form alteration"
 msgstr ""
 
@@ -3805,7 +3877,17 @@ msgid "Opigno Notifications app"
 msgstr ""
 
 #: /admin/modules
+msgid ""
+"Enables opigno og access control, do not enable with og_access at the "
+"same time"
+msgstr ""
+
+#: /admin/modules
 msgid "Create polls inside courses"
+msgstr ""
+
+#: /admin/modules
+msgid "Define quizzes that must be passed before having access to a course"
 msgstr ""
 
 #: /admin/modules
@@ -3825,11 +3907,19 @@ msgid "Simplifies the UI to enhance the user experience"
 msgstr ""
 
 #: /admin/modules
+msgid "Allows the exportation of students"
+msgstr ""
+
+#: /admin/modules
 msgid "Allows the course user membership to expire"
 msgstr ""
 
 #: /admin/modules
 msgid "Opigno Video App"
+msgstr ""
+
+#: /admin/modules
+msgid "Integrates WebEx with Opigno"
 msgstr ""
 
 #: /admin/modules
@@ -3931,6 +4021,10 @@ msgid "Upload and manage video content with Drupal"
 msgstr ""
 
 #: /admin/modules
+msgid "Filter to include videos from Youtube, Google video etc"
+msgstr ""
+
+#: /admin/modules
 msgid ""
 "Administrative interface to Video. Without this module you cannot "
 "configure the video module."
@@ -3988,20 +4082,1109 @@ msgstr ""
 msgid "Deployment"
 msgstr ""
 
+#: /admin/modules/list/confirm
+msgid "Development link"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Développement"
+msgstr ""
+
+#: /admin/modules
+msgid "Devel settings"
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"Helper functions, pages, and blocks to assist Drupal developers. The "
+"devel blocks can be managed via the <a "
+"href=\"/admin/structure/block\">block administration</a> page."
+msgstr ""
+
+#: /admin/modules
+msgid "View developer output like variable printouts, query log, etc."
+msgstr ""
+
+#: /admin/modules
+msgid "Execute PHP code"
+msgstr ""
+
+#: /admin/modules
+msgid "Run arbitrary PHP from a block."
+msgstr ""
+
+#: /admin/modules
+msgid "Switch users"
+msgstr ""
+
+#: /admin/modules
+msgid "Become any user on the site with just a click."
+msgstr ""
+
+#: /admin/modules
+msgid "Execute PHP Code"
+msgstr ""
+
+#: /admin/modules
+msgid "Execute some PHP code"
+msgstr ""
+
+#: /admin/modules
+msgid "Function reference"
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"View a list of currently defined user functions with documentation "
+"links."
+msgstr ""
+
+#: /admin/modules
+msgid "Hook_elements()"
+msgstr ""
+
+#: /admin/modules
+msgid "View the active form/render elements for this site."
+msgstr ""
+
+#: /admin/modules
+msgid "PHPinfo()"
+msgstr ""
+
+#: /admin/modules
+msgid "View your server's PHP configuration"
+msgstr ""
+
+#: /admin/modules
+msgid "Reinstall modules"
+msgstr ""
+
+#: /admin/modules
+msgid "Run hook_uninstall() and then hook_install() for a given module."
+msgstr ""
+
+#: /admin/modules
+msgid "Session viewer"
+msgstr ""
+
+#: /admin/modules
+msgid "List the contents of $_SESSION."
+msgstr ""
+
+#: /admin/modules
+msgid "Variable editor"
+msgstr ""
+
+#: /admin/modules
+msgid "Edit and delete site variables."
+msgstr ""
+
+#: /admin/modules
+msgid "Empty cache"
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"Clear the CSS cache and all database cache tables which store page, "
+"node, theme and variable caches."
+msgstr ""
+
+#: /admin/modules
+msgid "Entity info"
+msgstr ""
+
+#: /admin/modules
+msgid "View entity information across the whole site."
+msgstr ""
+
+#: /admin/modules
+msgid "Field info"
+msgstr ""
+
+#: /admin/modules
+msgid "View fields information across the whole site."
+msgstr ""
+
+#: /admin/modules
+msgid "Menu item"
+msgstr ""
+
+#: /admin/modules
+msgid "Details about a given menu item."
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"Rebuild menu based on hook_menu() and revert any custom changes. All "
+"menu items return to their default settings."
+msgstr ""
+
+#: /admin/modules
+msgid "View a list of available theme functions across the whole site."
+msgstr ""
+
+#: /admin/modules
+msgid "This user can switch back."
+msgstr ""
+
+#: /admin/people
+msgid "administer blocks"
+msgstr ""
+
+#: /admin/people
+msgid "administer apps"
+msgstr ""
+
+#: /admin/people
+msgid "administer comments"
+msgstr ""
+
+#: /admin/people
+msgid "edit own comments"
+msgstr ""
+
+#: /admin/people
+msgid "post comments"
+msgstr ""
+
+#: /admin/people
+msgid "skip comment approval"
+msgstr ""
+
+#: /admin/people
+msgid "access comments"
+msgstr ""
+
+#: /admin/people
+msgid "grant content access"
+msgstr ""
+
+#: /admin/people
+msgid "grant own content access"
+msgstr ""
+
+#: /admin/people
+msgid "access contextual links"
+msgstr ""
+
+#: /admin/people
+msgid "administer crumbs"
+msgstr ""
+
+#: /admin/people
+msgid "administer default config"
+msgstr ""
+
+#: /admin/people
+msgid "administer filters"
+msgstr ""
+
+#: /admin/people
+msgid "use text format html"
+msgstr ""
+
+#: /admin/people
+msgid "administer homebox"
+msgstr ""
+
+#: /admin/people
+msgid "administer image styles"
+msgstr ""
+
+#: /admin/people
+msgid "administer imce"
+msgstr ""
+
+#: /admin/people
+msgid "administer jquery countdown"
+msgstr ""
+
+#: /admin/people
+msgid "administer languages"
+msgstr ""
+
+#: /admin/people
+msgid "translate interface"
+msgstr ""
+
+#: /admin/people
+msgid "administer menu"
+msgstr ""
+
+#: /admin/people
+msgid "administer module filter"
+msgstr ""
+
+#: /admin/people
+msgid "create calendar_event content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any calendar_event content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own calendar_event content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any calendar_event content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own calendar_event content"
+msgstr ""
+
+#: /admin/people
+msgid "create class content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any class content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own class content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any class content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own class content"
+msgstr ""
+
+#: /admin/people
+msgid "create matching content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any matching content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own matching content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any matching content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own matching content"
+msgstr ""
+
+#: /admin/people
+msgid "create course content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any course content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own course content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any course content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own course content"
+msgstr ""
+
+#: /admin/people
+msgid "create quiz_directions content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any quiz_directions content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own quiz_directions content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any quiz_directions content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own quiz_directions content"
+msgstr ""
+
+#: /admin/people
+msgid "create tft_file content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any tft_file content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own tft_file content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any tft_file content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own tft_file content"
+msgstr ""
+
+#: /admin/people
+msgid "create quiz content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any quiz content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own quiz content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any quiz content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own quiz content"
+msgstr ""
+
+#: /admin/people
+msgid "create notification content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any notification content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own notification content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any notification content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own notification content"
+msgstr ""
+
+#: /admin/people
+msgid "create quiz_ddlines content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any quiz_ddlines content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own quiz_ddlines content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any quiz_ddlines content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own quiz_ddlines content"
+msgstr ""
+
+#: /admin/people
+msgid "create scale content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any scale content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own scale content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any scale content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own scale content"
+msgstr ""
+
+#: /admin/people
+msgid "create quizfileupload content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any quizfileupload content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own quizfileupload content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any quizfileupload content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own quizfileupload content"
+msgstr ""
+
+#: /admin/people
+msgid "create truefalse content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any truefalse content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own truefalse content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any truefalse content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own truefalse content"
+msgstr ""
+
+#: /admin/people
+msgid "create multichoice content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any multichoice content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own multichoice content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any multichoice content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own multichoice content"
+msgstr ""
+
+#: /admin/people
+msgid "create short_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any short_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own short_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any short_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own short_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "create long_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any long_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own long_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any long_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own long_answer content"
+msgstr ""
+
+#: /admin/people
+msgid "create poll content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any poll content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own poll content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any poll content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own poll content"
+msgstr ""
+
+#: /admin/people
+msgid "create forum content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any forum content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own forum content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any forum content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own forum content"
+msgstr ""
+
+#: /admin/people
+msgid "revert revisions"
+msgstr ""
+
+#: /admin/people
+msgid "delete revisions"
+msgstr ""
+
+#: /admin/people
+msgid "view own unpublished content"
+msgstr ""
+
+#: /admin/people
+msgid "access content"
+msgstr ""
+
+#: /admin/people
+msgid "view revisions"
+msgstr ""
+
+#: /admin/people
+msgid "access content overview"
+msgstr ""
+
+#: /admin/people
+msgid "administer nodes"
+msgstr ""
+
+#: /admin/people
+msgid "administer content types"
+msgstr ""
+
+#: /admin/people
+msgid "bypass node access"
+msgstr ""
+
+#: /admin/people
+msgid "administer group"
+msgstr ""
+
+#: /admin/people
+msgid "mass add and create users"
+msgstr ""
+
+#: /admin/people
+msgid "access class results"
+msgstr ""
+
+#: /admin/people
+msgid "message all groups"
+msgstr ""
+
+#: /admin/people
+msgid "notify everyone"
+msgstr ""
+
+#: /admin/people
+msgid "access student results"
+msgstr ""
+
+#: /admin/people
+msgid "access teacher results"
+msgstr ""
+
+#: /admin/people
+msgid "import quiz questions xls"
+msgstr ""
+
+#: /admin/people
+msgid "administer url aliases"
+msgstr ""
+
+#: /admin/people
+msgid "create url aliases"
+msgstr ""
+
+#: /admin/people
+msgid "administer phpexcel"
+msgstr ""
+
+#: /admin/people
+msgid "cancel own vote"
+msgstr ""
+
+#: /admin/people
+msgid "inspect all votes"
+msgstr ""
+
+#: /admin/people
+msgid "vote on polls"
+msgstr ""
+
+#: /admin/people
+msgid "access print"
+msgstr ""
+
+#: /admin/people
+msgid "administer print"
+msgstr ""
+
+#: /admin/people
+msgid "node-specific print configuration"
+msgstr ""
+
+#: /admin/people
+msgid "administer privatemsg settings"
+msgstr ""
+
+#: /admin/people
+msgid "read privatemsg"
+msgstr ""
+
+#: /admin/people
+msgid "read all private messages"
+msgstr ""
+
+#: /admin/people
+msgid "allow disabling privatemsg"
+msgstr ""
+
+#: /admin/people
+msgid "reply only privatemsg"
+msgstr ""
+
+#: /admin/people
+msgid "delete privatemsg"
+msgstr ""
+
+#: /admin/people
+msgid "select text format for privatemsg"
+msgstr ""
+
+#: /admin/people
+msgid "use tokens in privatemsg"
+msgstr ""
+
+#: /admin/people
+msgid "write privatemsg"
+msgstr ""
+
+#: /admin/people
+msgid "delete results for own quiz"
+msgstr ""
+
+#: /admin/people
+msgid "score any quiz"
+msgstr ""
+
+#: /admin/people
+msgid "score own quiz"
+msgstr ""
+
+#: /admin/people
+msgid "delete any quiz results"
+msgstr ""
+
+#: /admin/people
+msgid "assign any action to quiz events"
+msgstr ""
+
+#: /admin/people
+msgid "edit question titles"
+msgstr ""
+
+#: /admin/people
+msgid "access quiz"
+msgstr ""
+
+#: /admin/people
+msgid "manual quiz revisioning"
+msgstr ""
+
+#: /admin/people
+msgid "view quiz question outside of a quiz"
+msgstr ""
+
+#: /admin/people
+msgid "view any quiz question correct response"
+msgstr ""
+
+#: /admin/people
+msgid "view own quiz results"
+msgstr ""
+
+#: /admin/people
+msgid "view any quiz results"
+msgstr ""
+
+#: /admin/people
+msgid "view results for own quiz"
+msgstr ""
+
+#: /admin/people
+msgid "administer quiz configuration"
+msgstr ""
+
+#: /admin/people
+msgid "Edit global presets"
+msgstr ""
+
+#: /admin/people
+msgid "administer search"
+msgstr ""
+
+#: /admin/people
+msgid "search content"
+msgstr ""
+
+#: /admin/people
+msgid "use advanced search"
+msgstr ""
+
+#: /admin/people
+msgid "administer actions"
+msgstr ""
+
+#: /admin/people
+msgid "administer modules"
+msgstr ""
+
+#: /admin/people
+msgid "administer themes"
+msgstr ""
+
+#: /admin/people
+msgid "block IP addresses"
+msgstr ""
+
+#: /admin/people
+msgid "access site in maintenance mode"
+msgstr ""
+
+#: /admin/people
+msgid "access administration pages"
+msgstr ""
+
+#: /admin/people
+msgid "access site reports"
+msgstr ""
+
+#: /admin/people
+msgid "administer site configuration"
+msgstr ""
+
+#: /admin/people
+msgid "administer software updates"
+msgstr ""
+
+#: /admin/people
+msgid "view the administration theme"
+msgstr ""
+
+#: /admin/people
+msgid "administer taxonomy"
+msgstr ""
+
+#: /admin/people
+msgid "edit terms in 2"
+msgstr ""
+
+#: /admin/people
+msgid "edit terms in 1"
+msgstr ""
+
+#: /admin/people
+msgid "edit terms in 3"
+msgstr ""
+
+#: /admin/people
+msgid "delete terms in 2"
+msgstr ""
+
+#: /admin/people
+msgid "delete terms in 1"
+msgstr ""
+
+#: /admin/people
+msgid "delete terms in 3"
+msgstr ""
+
+#: /admin/people
+msgid "tft access file tree"
+msgstr ""
+
+#: /admin/people
+msgid "aminister tft"
+msgstr ""
+
+#: /admin/people
+msgid "tft add child terms"
+msgstr ""
+
+#: /admin/people
+msgid "tft add a file to any term"
+msgstr ""
+
+#: /admin/people
+msgid "tft archive child terms"
+msgstr ""
+
+#: /admin/people
+msgid "tft reorder terms"
+msgstr ""
+
+#: /admin/people
+msgid "tft delete child terms"
+msgstr ""
+
+#: /admin/people
+msgid "change own username"
+msgstr ""
+
+#: /admin/people
+msgid "access user profiles"
+msgstr ""
+
+#: /admin/people
+msgid "administer permissions"
+msgstr ""
+
+#: /admin/people
+msgid "administer users"
+msgstr ""
+
+#: /admin/people
+msgid "cancel account"
+msgstr ""
+
+#: /admin/people
+msgid "select account cancellation method"
+msgstr ""
+
+#: /admin/people
+msgid "import users"
+msgstr ""
+
+#: /admin/people
+msgid "administer wysiwyg templates"
+msgstr ""
+
+#: /admin/people
+msgid "import wysiwyg templates"
+msgstr ""
+
+#: /admin/people
+msgid "administer fieldgroups"
+msgstr ""
+
+#: /admin/people
+msgid "administer forums"
+msgstr ""
+
+#: /admin/people
+msgid "administer pathauto"
+msgstr ""
+
+#: /admin/people
+msgid "notify of path changes"
+msgstr ""
+
+#: /admin/people
+msgid "access PDF version"
+msgstr ""
+
+#: /admin/people
+msgid "translate admin strings"
+msgstr ""
+
+#: /admin/people
+msgid "translate user-defined strings"
+msgstr ""
+
+#: /admin/people
+msgid "administer menu attributes"
+msgstr ""
+
+#: /admin/people
+msgid "administer views"
+msgstr ""
+
+#: /admin/people
+msgid "access all views"
+msgstr ""
+
+#: /admin/people
+msgid "administer advanced forum"
+msgstr ""
+
+#: /admin/people
+msgid "view last edited notice"
+msgstr ""
+
+#: /admin/people
+msgid "view forum statistics"
+msgstr ""
+
+#: /admin/people
+msgid "administer features"
+msgstr ""
+
+#: /admin/people
+msgid "generate features"
+msgstr ""
+
+#: /admin/people
+msgid "manage features"
+msgstr ""
+
+#: /admin/people
+msgid "access opigno administration pages"
+msgstr ""
+
+#: /admin/people
+msgid "access rules debug"
+msgstr ""
+
+#: /admin/people
+msgid "administer rules"
+msgstr ""
+
+#: /admin/people
+msgid "use Rules component rules_og_massadd"
+msgstr ""
+
+#: /admin/people
+msgid "bypass rules access"
+msgstr ""
+
+#: /admin/people
+msgid "access devel information"
+msgstr ""
+
+#: /admin/people
+msgid "execute php code"
+msgstr ""
+
+#: /admin/people
+msgid "switch users"
+msgstr ""
+
+#: /admin/people
+msgid "administer page manager"
+msgstr ""
+
+#: /admin/people
+msgid "use page manager"
+msgstr ""
+
+#: /admin/people
+msgid "access administration menu"
+msgstr ""
+
+#: /admin/people
+msgid "display drupal links"
+msgstr ""
+
+#: /admin/people
+msgid "flush caches"
+msgstr ""
+
+#: /users/admin
+msgid "Caution: this user will be unable to switch back."
+msgstr ""
+
+#: /node/3/quizzes
+msgid "Add a new @quiz_name"
+msgstr ""
+
+#: /node/3/quizzes
+msgid "Trier les leçons"
+msgstr ""
+
+#: /node/add/quiz?og_group_ref=3
+msgid "Lesson Addons Properties"
+msgstr ""
+
+#: /admin/opigno/system/apps
+msgid "@num stars"
+msgstr ""
+
+#: /admin/opigno/system/apps
+msgid "!count ratings"
+msgstr ""
+
+#: /admin/opigno/system/apps
+msgid "Featured app"
+msgstr ""
+
+#: /node/add/quiz?og_group_ref=3
+msgid "Calendar Date Date de début"
+msgstr ""
+
+#: /node/add/quiz?og_group_ref=3
+msgid "Calendar Date Date de fin"
+msgstr ""
+
+#: /node/9/questions
+msgid "Allow question status changes to create a new revision of the lesson?"
+msgstr ""
+
+#: /node/9/questions
+msgid "No questions were found"
+msgstr ""
+
+#: /node/9/take
+msgid "assign questions"
+msgstr ""
+
 #: /admin/apps/opigno/app/opigno_external_video_app/
 msgid "External Video App Details"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_external_video_app/
-msgid "Install App"
+msgid "Customer Rating"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_course_quota_app/
-msgid "Course Quota Details"
+#: /admin/apps/opigno/app/opigno_external_video_app/
+msgid "Average rating for this version:"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_course_quota_app/install/install
-msgid "Update Library"
+#: /admin/apps/opigno/app/opigno_external_video_app/
+msgid "Average rating: !stars stars"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_external_video_app/
+msgid "Your rating: !stars stars"
+msgstr ""
+
+#: profiles/opigno_lms/modules/contrib/apps/theme/js/apps-voting.js
+msgid "Failed to save vote. Please try again later."
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_external_video_app/enable
@@ -4010,6 +5193,10 @@ msgstr ""
 
 #: /admin/apps/opigno/app/opigno_external_video_app/
 msgid "Disable App"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_audio_app/
+msgid "Audio App Details"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_audio_app/enable
@@ -4022,16 +5209,6 @@ msgstr ""
 
 #: /admin/apps/opigno/app/opigno_audio_app/enable
 msgid "AudioJs display"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_audio_app/enable
-msgid "Determine access to the group."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_audio_app/enable
-msgid ""
-"Determine access to the group content, which may override the group "
-"settings."
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_audio_app/enable
@@ -4066,12 +5243,490 @@ msgstr ""
 msgid "The audio of the audio inside a specific group"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_audio_app/
+#: /my-courses
 msgid "A audio"
+msgstr ""
+
+#: /admin/modules
+msgid "SCORM API for Opigno"
+msgstr ""
+
+#: /admin/modules
+msgid "SCORM API integration for the Quiz module"
+msgstr ""
+
+#: /admin/modules
+msgid "User interface for the Opigno SCORM API. Provides a SCORM player."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_audio_app/
+msgid "Question using SCORM packages."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_audio_app/
+msgid "SCORM package"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_audio_app/
+msgid "This field allows users to upload SCORM packages"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_audio_app/
+msgid "SCORM player"
+msgstr ""
+
+#: /admin/reports/dblog
+msgid "page not found"
+msgstr ""
+
+#: /admin/reports/dblog
+msgid ""
+"<pre>Array\n"
+"(\n"
+"    [certificate] => stdClass Object\n"
+"        (\n"
+"            [name] => Certificat\n"
+"            [base] => certificate\n"
+"            [description] => Un modèle de certificat qui sera "
+"converti en PDF et affiché aux utilisateurs qui accomplissent les "
+"modalités de validation.\n"
+"            [has_title] => 1\n"
+"            [title_label] => Titre\n"
+"            [has_body] => 1\n"
+"            [body_label] => Contenu du certificat\n"
+"            [min_word_count] => 0\n"
+"            [help] => \n"
+"            [locked] => 1\n"
+"            [type] => certificate\n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [module] => certificate\n"
+"            [orig_type] => certificate\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [poll] => stdClass Object\n"
+"        (\n"
+"            [name] => Sondage\n"
+"            [base] => poll\n"
+"            [description] => Un <em>sondage</em> est une question avec "
+"un ensemble de réponses. Un <em>sondage</em>, une fois créé, "
+"fournit automatiquement un décompte simple du nombre de votes pour "
+"chaque réponse.\n"
+"            [title_label] => Question\n"
+"            [has_body] => \n"
+"            [type] => poll\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [module] => poll\n"
+"            [orig_type] => poll\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [quiz] => stdClass Object\n"
+"        (\n"
+"            [name] => Lesson\n"
+"            [base] => quiz\n"
+"            [description] => Create interactive lessons for site "
+"visitors\n"
+"            [type] => quiz\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz\n"
+"            [orig_type] => quiz\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [long_answer] => stdClass Object\n"
+"        (\n"
+"            [name] => Question à réponse libre (long texte)\n"
+"            [base] => quiz_question\n"
+"            [description] => Question permettant aux utilisateurs de "
+"répondre avec plusieurs paragraphes de texte libre.\n"
+"            [type] => long_answer\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => long_answer\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [matching] => stdClass Object\n"
+"        (\n"
+"            [name] => Correspondance\n"
+"            [base] => quiz_question\n"
+"            [description] => Question d'appariement pour le module "
+"leçons.  Permet de créer des questions d'appariement nécessitant de "
+"relier entre eux des termes.\n"
+"            [type] => matching\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => matching\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [multichoice] => stdClass Object\n"
+"        (\n"
+"            [name] => Question à choix multiples\n"
+"            [base] => quiz_question\n"
+"            [description] => Ceci permet d'ajouter des questions à "
+"choix multiples au sein des leçons.\n"
+"            [type] => multichoice\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => multichoice\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [quizfileupload] => stdClass Object\n"
+"        (\n"
+"            [name] => Question fichier à charger\n"
+"            [base] => quiz_question\n"
+"            [description] => Ceci permet d'ajouter des questions de "
+"type fichier au module Quiz.\n"
+"            [type] => quizfileupload\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => quizfileupload\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [quiz_ddlines] => stdClass Object\n"
+"        (\n"
+"            [name] => Question cliquer-déplacer avec lignes\n"
+"            [base] => quiz_question\n"
+"            [description] => Ceci permet d'ajouter des questions de "
+"type glisser-déplacer au sein des leçons.\n"
+"            [type] => quiz_ddlines\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => quiz_ddlines\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [quiz_directions] => stdClass Object\n"
+"        (\n"
+"            [name] => Diapositive\n"
+"            [base] => quiz_question\n"
+"            [description] => Les diapositives peuvent être insérées "
+"à l'intérieur de leçons. Elles peuvent également servir de page de "
+"confirmation en fin de leçon.\n"
+"            [type] => quiz_directions\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => quiz_directions\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [scale] => stdClass Object\n"
+"        (\n"
+"            [name] => Question d'échelle\n"
+"            [base] => quiz_question\n"
+"            [description] => Question permettant aux utilisateur de "
+"répondre en choisissant des valeurs sur une échelle.\n"
+"            [type] => scale\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => scale\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [short_answer] => stdClass Object\n"
+"        (\n"
+"            [name] => Question à réponse courte\n"
+"            [base] => quiz_question\n"
+"            [description] => Question permettant aux utilisateurs de "
+"répondre avec une ligne de texte.\n"
+"            [type] => short_answer\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => short_answer\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [truefalse] => stdClass Object\n"
+"        (\n"
+"            [name] => Question vrai/faux\n"
+"            [base] => quiz_question\n"
+"            [description] => Leçon permettant aux utilisateurs de "
+"répondre par vrai ou faux à une affirmation.\n"
+"            [type] => truefalse\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [module] => quiz_question\n"
+"            [orig_type] => truefalse\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [forum] => stdClass Object\n"
+"        (\n"
+"            [name] => Sujet de discussion\n"
+"            [base] => forum\n"
+"            [description] => Un <em>Sujet</em> commence un nouveau fil "
+"de discussion dans un forum.\n"
+"            [title_label] => Objet\n"
+"            [type] => forum\n"
+"            [help] => \n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => \n"
+"            [is_new] => 1\n"
+"            [has_title] => 1\n"
+"            [module] => forum\n"
+"            [orig_type] => forum\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [audio] => stdClass Object\n"
+"        (\n"
+"            [type] => audio\n"
+"            [name] => Audio\n"
+"            [base] => node_content\n"
+"            [module] => node\n"
+"            [description] => A audio\n"
+"            [help] => \n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => 0\n"
+"            [orig_type] => audio\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [calendar_event] => stdClass Object\n"
+"        (\n"
+"            [type] => calendar_event\n"
+"            [name] => Calendar Event\n"
+"            [base] => node_content\n"
+"            [module] => node\n"
+"            [description] => Un Calendrier, permet d'afficher des "
+"événements\n"
+"            [help] => \n"
+"            [has_title] => 1\n"
+"            [title_label] => Titre\n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => 0\n"
+"            [orig_type] => calendar_event\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [class] => stdClass Object\n"
+"        (\n"
+"            [type] => class\n"
+"            [name] => Classes\n"
+"            [base] => node_content\n"
+"            [module] => node\n"
+"            [description] => A Class, og group collection of users, "
+"courses, and a teacher\n"
+"            [help] => \n"
+"            [has_title] => 1\n"
+"            [title_label] => Titre\n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => 0\n"
+"            [orig_type] => class\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [course] => stdClass Object\n"
+"        (\n"
+"            [type] => course\n"
+"            [name] => Cours\n"
+"            [base] => node_content\n"
+"            [module] => node\n"
+"            [description] => Une entité <em>cours</em>. C'est la "
+"brique fondamentale pour Opigno. Il peut contenir des étudiants, des "
+"enseignants, des quiz, des fichiers et bien d'autres ressources.\n"
+"            [help] => \n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [custom] => 1\n"
+"            [modified] => 1\n"
+"            [locked] => 0\n"
+"            [disabled] => 0\n"
+"            [orig_type] => course\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [notification] => stdClass Object\n"
+"        (\n"
+"            [type] => notification\n"
+"            [name] => Notification\n"
+"            [base] => node_content\n"
+"            [module] => node\n"
+"            [description] => Une notification, permet aux enseignants "
+"de transmettre des communications aux étudiants, et d'ajouter des "
+"événements au calendrier.\n"
+"            [help] => \n"
+"            [has_title] => 1\n"
+"            [title_label] => Titre\n"
+"            [custom] => 0\n"
+"            [modified] => 0\n"
+"            [locked] => 1\n"
+"            [disabled] => 0\n"
+"            [orig_type] => notification\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+"    [tft_file] => stdClass Object\n"
+"        (\n"
+"            [type] => tft_file\n"
+"            [name] => Fichier\n"
+"            [base] => node_content\n"
+"            [module] => node\n"
+"            [description] => \n"
+"            [help] => \n"
+"            [has_title] => 1\n"
+"            [title_label] => Title\n"
+"            [custom] => 1\n"
+"            [modified] => 1\n"
+"            [locked] => 1\n"
+"            [disabled] => 0\n"
+"            [orig_type] => tft_file\n"
+"            [disabled_changed] => \n"
+"        )\n"
+"\n"
+")\n"
+msgstr ""
+
+#: /admin/reports/dblog
+msgid ""
+"Attempt to add body field was failed as question content type %type is "
+"not defined."
+msgstr ""
+
+#: /node/add/course
+msgid "You may insert videos with [video:URL]"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_pretest_app/
 msgid "Pre-Test Details"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid ""
+"This fieldgroup renders the inner content in a HTML element with "
+"classes and attributes."
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid ""
+"This fieldgroup renders the inner content in a simple div with the "
+"title as legend."
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "This fieldgroup renders the inner content in a semantic HTML5 wrapper"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid ""
+"This fieldgroup renders the inner content in a fieldset with the title "
+"as legend."
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "Horizontal tabs group"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "Horizontal tab"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "Multipage group"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "Label for new group"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "Parent for new group"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "Machine name for new group"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_pretest_app/enable
@@ -4082,84 +5737,165 @@ msgstr ""
 msgid "Always see the pretest, even when it has been taken already."
 msgstr ""
 
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "Fichier"
+msgstr ""
+
 #: /admin/apps/opigno/app/opigno_chat_app/
 msgid "Opigno Chat Details"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_chat_app/enable
+#: /admin/structure/types/manage/opigno-scorm-quiz-question
+msgid ""
+"Make this content type certificate-enabled. Certificate mapping "
+"selections will show on the node form."
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question
+msgid "Date Popup Authored settings"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question
+msgid "Enable datepicker for authored on date."
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question
+msgid ""
+"The default Authored On field will be replaced with a JavaScript "
+"datepicker."
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question
+msgid ""
+"Custom date formats can be added on the <a href=\"@url\">date and time "
+"formats page</a>."
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question
+msgid ""
+"The range of years to provide to the user. Default is &#x00B1;3 years, "
+"i.e. 2007-2013"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question
+msgid ""
+"Specify how OG should treat content of this type. Content may behave "
+"as a group, as group content, or may not participate in OG at all."
+msgstr ""
+
+#: /admin/reports/status
+msgid "Public files directory"
+msgstr ""
+
+#: /admin/reports/status
+msgid "Temporary files directory"
+msgstr ""
+
+#: /admin/reports/status
+msgid "Not fully protected"
+msgstr ""
+
+#: /admin/reports/status
+msgid ""
+"See <a href=\"@url\">@url</a> for information about the recommended "
+".htaccess file which should be added to the %directory directory to "
+"help protect against arbitrary code execution."
+msgstr ""
+
+#: /admin/modules
 msgid "Access DrupalChat"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_chat_app/enable
+#: /admin/modules
 msgid "Access DrupalChat UI"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_chat_app/enable
+#: /admin/modules
 msgid "Administer Drupalchat"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_chat_app/enable
+#: /admin/modules
 msgid ""
 "Administer and moderate DrupalChat. Chat moderators should be given "
 "this permission."
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_chat_app/enable
+#: /admin/modules
 msgid "Access own DrupalChat log"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_chat_app/enable
+#: /admin/modules
 msgid "Access only self private conversation with other users"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_chat_app/enable
+#: /admin/modules
 msgid "Access all DrupalChat logs"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_chat_app/enable
+#: /admin/modules
 msgid "Access conversation of all users site-wide"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_commerce_app/
-msgid "Commerce Details"
+#: /node/9/delete?destination=admin/content
+msgid "Chat Messages"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_commerce_app/enable
-msgid "Rendered product"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_commerce_app/enable
-msgid "Display the rendered products in any available view mode."
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Referenced line items"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Line items referenced by !field_name"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Relate this entity to line items referenced by its !field_name value."
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Customer profile referenced by !field_name"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
+#: /admin/structure/types/manage/quiz
 msgid ""
-"Relate this entity to the customer profile referenced by its "
-"!field_name value."
+"To unset the group content definition or change the settings you "
+"should delete the \"Groups audience\" field via !url."
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_commerce_app/enable
-msgid "Amount (decimal)"
+#: /admin/structure/types/manage/quiz/fields
+msgid "Texte long et résumé"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_commerce_app/
-msgid "Configure App"
+#: /admin/structure/types/manage/quiz/fields
+msgid "Zone de texte avec un résumé"
+msgstr ""
+
+#: /admin/structure/types/manage/quiz/fields
+msgid "Liste (texte)"
+msgstr ""
+
+#: /admin/structure/types/manage/quiz/fields
+msgid "Liste de sélection"
+msgstr ""
+
+#: /admin/structure/types/manage/quiz/fields
+msgid "Réel (Float)"
+msgstr ""
+
+#: /admin/structure/types/manage/quiz/fields
+msgid "Champ texte"
+msgstr ""
+
+#: /admin/structure/types/manage/quiz/fields
+msgid "Booléen"
+msgstr ""
+
+#: /admin/structure/types/manage/quiz/fields
+msgid "Case à cocher on/off unique"
+msgstr ""
+
+#: /admin/structure/types/manage/quiz/fields
+msgid "Pop-up calendrier"
+msgstr ""
+
+#: /node/add/long-answer?destination=node/9/questions&quiz_nid=9&quiz_vid=9
+msgid "Specify the criteria for grading the response."
+msgstr ""
+
+#: /node/add/multichoice?destination=node/9/questions&quiz_nid=9&quiz_vid=9
+msgid ""
+"This score is added to the users total score if the user chooses this "
+"alternative."
+msgstr ""
+
+#: /node/add/multichoice?destination=node/9/questions&quiz_nid=9&quiz_vid=9
+msgid ""
+"This score is added to the users total score if the user doesn't "
+"choose this alternative. Only used if multiple answers are allowed."
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/
@@ -4174,23 +5910,23 @@ msgstr ""
 msgid "Start timestamp of transcodings"
 msgstr ""
 
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
 msgid "HTML5 Player"
 msgstr ""
 
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
 msgid "SWF Flash Player"
 msgstr ""
 
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
 msgid "Director/Shockwave"
 msgstr ""
 
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
 msgid "Windows Media Player"
 msgstr ""
 
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
 msgid "Theora Player"
 msgstr ""
 
@@ -4202,112 +5938,18 @@ msgstr ""
 msgid "Video player"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_video_app/enable
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
 msgid "Video.js"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_video_app/enable
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
 msgid ""
 "Display a video file as an HTML5-compatible player with "
 "Flash-fallback."
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"The e-mail address associated with this order with illegal characters "
-"for usernames replaced."
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "The language the product was created in."
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "calendar_commerce_customer_profile_created"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "calendar_commerce_customer_profile_changed"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "calendar_commerce_line_item_created"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "calendar_commerce_line_item_changed"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "There are currently no shopping cart orders."
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Revision user"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Order Revisions"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order.order_number"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order.changed"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Adresse"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order.status"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order.operations"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "uid"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "view_order_form"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "empty_text"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order.created"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order_revision.revision_id"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order_revision.revision_timestamp"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order_revision.mail"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order_revision.status"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "Gestionnaire brisé commerce_order_revision.log"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393876732
-msgid "revision_uid"
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Video (as in order)"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/enable
@@ -4368,124 +6010,16 @@ msgstr ""
 msgid "Video presets"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The e-mail address used for correspondence about this order."
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "After video conversion success"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Displays an appropriate empty text message for order lists."
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "video success"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Commerce Order revision"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Commerce Order revision is a history of changes to an order."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The customer facing number of the order."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The revision ID of the order revision."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Latest order revision"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Relate an order revision to the user who created the revision."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The e-mail address used for correspondence about this order revision."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The workflow status of the order revision."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Revision date"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The date the order revision was created."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Display a form that redirects to the view page for an order."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The creator's user ID."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Relate this payment transaction to its creator's user account"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Payment transaction creator"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The language the product is in."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Displays an appropriate empty text message for product lists."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Commerce Product revision"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Commerce Product revision is a history of changes to a product."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The revision ID of the product revision."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Latest product revision"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The unique human-readable identifier of the product revision."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The title of the product revision used for administrative display."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Relate a product revision to the user who created the revision."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Whether or not the product was active at the time of the revision."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The date the product revision was created."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Referenced products"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Products referenced by !field_name"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Relate this entity to products referenced by its !field_name value."
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "video failed"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/enable
@@ -4502,10 +6036,6 @@ msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/enable
 msgid "The Video weight (as in order) inside a group"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Video (as in order)"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/enable
@@ -4541,69 +6071,7 @@ msgid "The time that the conversion process completed."
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Representative payment transaction"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"Obtains a single representative payment transaction for each order, "
-"according to a chosen sort criterion."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Whether or not the content functions as a product display."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Product display content type"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"Filters by the content type but only shows product display content "
-"types as options."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "@entity_type referencing products from !field_name"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Referencing @entity_type"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"Relate a product to the @entity_type referencing it through "
-"!field_name."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
 msgid "Relate each @entity with a @field set to the video."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "calendar_commerce_order_created"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "calendar_commerce_order_changed"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "calendar_commerce_order_revision_timestamp"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "calendar_commerce_product_created"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "calendar_commerce_product_changed"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "calendar_commerce_product_revision_timestamp"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/enable
@@ -4615,127 +6083,7 @@ msgid "calendar_node_started"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Numéro de commande"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Statut de la commande"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Customer profile referenced by commerce_customer_billing"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Date de création"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Identifiant (ID) de révision"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Courriel"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Message de journal"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
 msgid "Vidéo"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Order contains products of particular product types"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"The order whose line items should be checked for the specified product "
-"type. If the specified order does not exist, the comparison will act "
-"as if it is against a quantity of 0."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Product type(s)"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The product type(s) to look for in the order."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"The operator used with the quantity value below to compare against the "
-"quantity of products matching the specified product type(s) on the "
-"order."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"The value to compare against the quantity of products of the specified "
-"product type(s) on the order."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"Integer representing a value in minor currency units to compare "
-"against, such as 1000 for $10. A balance of 0 or less indicates the "
-"order has been paid in full."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Price comparison"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "First Price"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The price value that should be compared."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Second Price"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "The corresponding price value that should be compared against."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "Commerce Price"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid ""
-"Thanks for your order [commerce-order:order-number] at [site:name].\n"
-"\n"
-"If this is your first order with us, you will receive a separate "
-"e-mail with login instructions. You can view your order history with "
-"us at any time by logging into our website at:\n"
-"\n"
-"[site:login-url]\n"
-"\n"
-"You can find the status of your current order at:\n"
-"\n"
-"[commerce-order:customer-url]\n"
-"\n"
-"Please contact us if you have any questions about your order."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "After video conversion success"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "video success"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_video_app/enable
-msgid "video failed"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/enable
@@ -4775,11 +6123,531 @@ msgid "Configure the settings for the Video.js module."
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_video_app/
-msgid "Manage orders in the store."
+msgid "A Video"
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_video_app/
-msgid "A Video"
+#: /admin/people
+msgid "access drupalchat"
+msgstr ""
+
+#: /admin/people
+msgid "access drupalchat all logs"
+msgstr ""
+
+#: /admin/people
+msgid "access drupalchat own logs"
+msgstr ""
+
+#: /admin/people
+msgid "administer drupalchat"
+msgstr ""
+
+#: /admin/people
+msgid "create audio content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any audio content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own audio content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any audio content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own audio content"
+msgstr ""
+
+#: /admin/people
+msgid "create opigno_scorm_quiz_question content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any opigno_scorm_quiz_question content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own opigno_scorm_quiz_question content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any opigno_scorm_quiz_question content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own opigno_scorm_quiz_question content"
+msgstr ""
+
+#: /admin/people
+msgid "create video content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any video content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own video content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any video content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own video content"
+msgstr ""
+
+#: /admin/people
+msgid "administer video presets"
+msgstr ""
+
+#: /admin/people
+msgid "override player dimensions"
+msgstr ""
+
+#: /admin/people
+msgid "convert on submission"
+msgstr ""
+
+#: /admin/people
+msgid "bypass conversion video"
+msgstr ""
+
+#: /admin/people
+msgid "re convert video"
+msgstr ""
+
+#: /admin/people
+msgid "use default thumb"
+msgstr ""
+
+#: /course/8/test-cours-semi-priv%C3%A9-visible-pour-les-anonymes-et-sans-validation
+msgid "Add a new Video"
+msgstr ""
+
+#: /node/add/video?og_group_ref=7
+msgid ""
+"Transcoding job was successfully queued for %transcoder-name. The "
+"video %video-name will be converted soon."
+msgstr ""
+
+#: /node/7/group
+msgid "Adhésion OG"
+msgstr ""
+
+#: /node/7/group
+msgid "Rôles utilisateurs OG dans le groupe"
+msgstr ""
+
+#: /node/7/group
+msgid "Lien de suppression"
+msgstr ""
+
+#: /node/7/group
+msgid "Adhésion OG à partir de user"
+msgstr ""
+
+#: /node/7/group
+msgid "No people found matching the search criteria."
+msgstr ""
+
+#: /node/7/group
+msgid "Total content: @count"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/
+msgid "Commerce Details"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid ""
+"The e-mail address associated with this order with illegal characters "
+"for usernames replaced."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "The language the product was created in."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "The language the product was created in."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Amount (decimal)"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/
+msgid "Configure App"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid ""
+"Thanks for your order [commerce-order:order-number] at [site:name].\n"
+"\n"
+"If this is your first order with us, you will receive a separate "
+"e-mail with login instructions. You can view your order history with "
+"us at any time by logging into our website at:\n"
+"\n"
+"[site:login-url]\n"
+"\n"
+"You can find the status of your current order at:\n"
+"\n"
+"[commerce-order:customer-url]\n"
+"\n"
+"Please contact us if you have any questions about your order."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Order contains products of particular product types"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Order contains products of particular product types"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid ""
+"The order whose line items should be checked for the specified product "
+"type. If the specified order does not exist, the comparison will act "
+"as if it is against a quantity of 0."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Product type(s)"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "The product type(s) to look for in the order."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid ""
+"The operator used with the quantity value below to compare against the "
+"quantity of products matching the specified product type(s) on the "
+"order."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid ""
+"The value to compare against the quantity of products of the specified "
+"product type(s) on the order."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid ""
+"The value to compare against the quantity of products of the specified "
+"product type(s) on the order."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid ""
+"Integer representing a value in minor currency units to compare "
+"against, such as 1000 for $10. A balance of 0 or less indicates the "
+"order has been paid in full."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Price comparison"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "First Price"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "First Price"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "The price value that should be compared."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Second Price"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "The corresponding price value that should be compared against."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Commerce Price"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Commerce Price"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The e-mail address used for correspondence about this order."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Displays an appropriate empty text message for order lists."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Commerce Order revision"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Commerce Order revision is a history of changes to an order."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The customer facing number of the order."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The revision ID of the order revision."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Latest order revision"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Relate an order revision to the user who created the revision."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Revision user"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The e-mail address used for correspondence about this order revision."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The workflow status of the order revision."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Revision date"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The date the order revision was created."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Display a form that redirects to the view page for an order."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The creator's user ID."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Relate this payment transaction to its creator's user account"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Payment transaction creator"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The language the product is in."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Displays an appropriate empty text message for product lists."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Commerce Product revision"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Commerce Product revision is a history of changes to a product."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The revision ID of the product revision."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Latest product revision"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The unique human-readable identifier of the product revision."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The title of the product revision used for administrative display."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Relate a product revision to the user who created the revision."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Whether or not the product was active at the time of the revision."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "The date the product revision was created."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Referenced line items"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Line items referenced by !field_name"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Relate this entity to line items referenced by its !field_name value."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Customer profile referenced by !field_name"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid ""
+"Relate this entity to the customer profile referenced by its "
+"!field_name value."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Representative payment transaction"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid ""
+"Obtains a single representative payment transaction for each order, "
+"according to a chosen sort criterion."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Whether or not the content functions as a product display."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Product display content type"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid ""
+"Filters by the content type but only shows product display content "
+"types as options."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_customer_profile_created"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_customer_profile_changed"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_line_item_created"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_line_item_changed"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_order_created"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_order_changed"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_order_revision_timestamp"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_product_created"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_product_changed"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "calendar_commerce_product_revision_timestamp"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "There are currently no shopping cart orders."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Order Revisions"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Numéro de commande"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Adresse"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Total de la commande"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Statut de la commande"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Liens d'actions"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Auteur de la commande"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Customer profile referenced by commerce_customer_billing"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Date de création"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Identifiant (ID) de révision"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Courriel"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/disable
+msgid "Message de journal"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Rendered product"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Display the rendered products in any available view mode."
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/
+msgid "Uninstall App"
+msgstr ""
+
+#: /admin/apps/opigno/app/opigno_commerce_app/
+msgid "Manage orders in the store."
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_webex_app/
@@ -4850,75 +6718,360 @@ msgstr ""
 msgid "Allows the exportation of all student lists"
 msgstr ""
 
+#: /admin/apps/opigno/app/opigno_course_quota_app/
+msgid "Course Quota Details"
+msgstr ""
+
 #: /admin/apps/opigno/app/opigno_course_quota_app/enable
 msgid "Count user for quota"
 msgstr ""
 
-#: /admin/reports/status
-msgid "Public files directory"
+#: /admin/appearance/settings/platon
+msgid "e.g. main menu active menu link background"
 msgstr ""
 
-#: /admin/reports/status
-msgid "Temporary files directory"
+#: /admin/appearance/settings/platon
+msgid "e.g. body background color"
 msgstr ""
 
-#: /admin/reports/status
-msgid "Not fully protected"
+#: /admin/appearance/settings/platon
+msgid "e.g content background color"
 msgstr ""
 
-#: /admin/reports/status
+#: /admin/appearance/settings/platon
+msgid "e.g. title background color, table background color"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "e.g. forum tools background"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "e.g. link hover color, tabs background, fieldset titles"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "e.g. link color, tabs active/hover background color"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "e.g. header background color, footer background color"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "e.g. form submit buttons, local actions"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "e.g. form delete buttons"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Use another image for the header background"
+msgstr ""
+
+#: /admin/appearance/settings/platon
 msgid ""
-"See <a href=\"@url\">@url</a> for information about the recommended "
-".htaccess file which should be added to the %directory directory to "
-"help protect against arbitrary code execution."
+"Check here if you want the theme to use a custom image for the header "
+"background."
 msgstr ""
 
-#: /admin/reports/status
-msgid "The URL for administrators to view the order."
+#: /admin/appearance/settings/platon
+msgid "The path to the header background image."
 msgstr ""
 
-#: /admin/reports/status
+#: /admin/appearance/settings/platon
 msgid ""
-"The method_id of the payment method selected by the customer during "
-"checkout."
+"The path to the image file you would like to use as your custom header "
+"background (relative to sites/default/files). The suggested size for "
+"the header background is 3000x134."
 msgstr ""
 
-#: /admin/reports/status
+#: /admin/appearance/settings/platon
+msgid "Upload an image"
+msgstr ""
+
+#: /admin/appearance/settings/platon
 msgid ""
-"The administrative title of the payment method selected by the "
-"customer during checkout."
+"If you don't have direct file access to the server, use this field to "
+"upload your header background image."
 msgstr ""
 
-#: /admin/reports/status
+#: /admin/appearance/settings/platon
+msgid "The path to the home page background image."
+msgstr ""
+
+#: /admin/appearance/settings/platon
 msgid ""
-"The customer oriented short title of the payment method selected by "
-"the customer during checkout."
+"The path to the image file you would like to use as your custom home "
+"page background (relative to sites/default/files)."
 msgstr ""
 
-#: /admin/reports/status
+#: /admin/appearance/settings/platon
+msgid ""
+"If you don't have direct file access to the server, use this field to "
+"upload your background image."
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Main menu source"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid ""
+"The menu source to use for the tile navigation. If 'none', Platon will "
+"use a default list of tiles."
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Show menu for anonymous users"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid ""
+"Show the main menu for users that are not logged in. Only links that "
+"users have access to will show up."
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "CSS overrides"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid ""
+"You can write CSS rules here. They will be stored in a CSS file in "
+"your public files directory. Change it's content to alter the display "
+"of your site."
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Very light gray"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Light gray"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Medium gray"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Dark gray"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Dark blue"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Deep blue"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Leaf green"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Blood red"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "not used"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Platon (default)"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Socrates"
+msgstr ""
+
+#: /admin/appearance/settings/platon
+msgid "Aristoteles"
+msgstr ""
+
+#: /group/node/7/subscribe/og_user_node
+msgid "Opigno user membership expire"
+msgstr ""
+
+#: /admin/people
+msgid "create webex_video_conference content"
+msgstr ""
+
+#: /admin/people
+msgid "edit any webex_video_conference content"
+msgstr ""
+
+#: /admin/people
+msgid "edit own webex_video_conference content"
+msgstr ""
+
+#: /admin/people
+msgid "delete any webex_video_conference content"
+msgstr ""
+
+#: /admin/people
+msgid "delete own webex_video_conference content"
+msgstr ""
+
+#: /admin/people
+msgid "export student list"
+msgstr ""
+
+#: /admin/people
+msgid "export all student lists"
+msgstr ""
+
+#: /admin/people
+msgid "configure webex"
+msgstr ""
+
+#: /group/node/5/subscribe/og_user_node
+msgid "This %type is full at the moment"
+msgstr ""
+
+#: /admin/structure/types/manage/opigno-scorm-quiz-question/fields
+msgid "Cases à cocher/boutons radio"
+msgstr ""
+
+#: /node/add/truefalse?destination=node/9/questions&quiz_nid=9&quiz_vid=9
+msgid ""
+"Choose if the correct answer for this question is \"true\" or "
+"\"false\"."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397047090
+msgid "Answer hidden"
+msgstr ""
+
+#: /forum
+msgid "Forum: ID"
+msgstr ""
+
+#: /forum
+msgid "Enter the forum ID of a form for this argument"
+msgstr ""
+
+#: /forum
+msgid "A single forum object."
+msgstr ""
+
+#: /group/node/8/subscribe/og_user_node
+msgid "This @type is full at the moment"
+msgstr ""
+
+#: /admin/config
 msgid "Video transcoder: @transcoder"
 msgstr ""
 
-#: /admin/reports/status
+#: /admin/config
 msgid ""
 "Missing the Video.js library. Please <a href=\"!url\">download "
 "Video.js</a> and extract it into the %directory directory."
 msgstr ""
 
-#: /admin/opigno/content/course-administration
-msgid "Delete course(s)"
+#: /admin/structure/block
+msgid "PHP code to execute"
 msgstr ""
 
-#: /admin/opigno/content/course-administration
-msgid "Publish course(s)"
+#: /admin/structure/block
+msgid "Enter some code. Do not use <code>&lt;?php ?&gt;</code> tags."
 msgstr ""
 
-#: /admin/opigno/content/course-administration
-msgid "Unpublish course(s)"
+#: /group/node/5/admin/people/delete-membership/25
+msgid "Remove membership in group @group"
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Outils Opigno"
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Référence à un terme"
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Autocomplétion"
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Liste (entier)"
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Entier"
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Mark group as required if it contains required fields."
+msgstr ""
+
+#: /node/9/questions
+msgid ""
+"This lesson has been answered. To maintain correctnes of existing "
+"answer reports changes should be saved as a new revision."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397121072
+msgid "Product Revisions"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397121072
+msgid "Référence"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397121072
+msgid "Statut"
 msgstr ""
 
 #: /node/add/course
-msgid "Add a new Video"
+msgid "Referenced products"
+msgstr ""
+
+#: /node/add/course
+msgid "Products referenced by !field_name"
+msgstr ""
+
+#: /node/add/course
+msgid "Relate this entity to products referenced by its !field_name value."
+msgstr ""
+
+#: /node/add/course
+msgid "@entity_type referencing products from !field_name"
+msgstr ""
+
+#: /node/add/course
+msgid "Referencing @entity_type"
+msgstr ""
+
+#: /node/add/course
+msgid ""
+"Relate a product to the @entity_type referencing it through "
+"!field_name."
+msgstr ""
+
+#: /node/add/course
+msgid "Prix"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Whether the product is active or disabled"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "Set the order created date to the checkout completion date"
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid ""
+"The value to compare against the address component. Bear in mind that "
+"addresses using select lists for various components may use a value "
+"different from the option you select. For example, countries are "
+"selected by name, but the value is the two letter abbreviation. For "
+"comparisons with multiple possible values, place separate values on "
+"new lines."
 msgstr ""
 
 #: /node/add/course
@@ -4942,492 +7095,314 @@ msgid "bani"
 msgstr ""
 
 #: /node/add/course
-msgid "- prevent certificate -"
+msgid "Macedonian denar"
 msgstr ""
 
 #: /node/add/course
-msgid "- no action -"
+msgid "Deni"
 msgstr ""
 
 #: /node/add/course
-msgid "There are no mappings available for %title."
+msgid "Denari"
 msgstr ""
 
 #: /node/add/course
-msgid "Manage your preset collections"
-msgstr ""
-
-#: /node/add/course
-msgid "Chat Messages"
-msgstr ""
-
-#: /node/add/course
-msgid "Insert templates"
-msgstr ""
-
-#: /node/add/course
-msgid "Allowed Style properties: @properties"
-msgstr ""
-
-#: /node/add/course
-msgid "You may insert videos with [video:URL]"
-msgstr ""
-
-#: /node/add/course
-msgid "Entity Reference Autocomplete"
-msgstr ""
-
-#: /node/add/course
-msgid "Écrit le"
-msgstr ""
-
-#: /
-msgid "Cours"
-msgstr ""
-
-#: /admin/modules
-msgid "Provide a way to create drag drop type of question for quiz."
-msgstr ""
-
-#: /admin/modules
-msgid "Adds Node.js backend to DrupalChat"
-msgstr ""
-
-#: /admin/modules
-msgid "An experimental module. DO NOT USE IT ON PRODUCTION SITES."
-msgstr ""
-
-#: /admin/modules
-msgid "Allows users to chat"
-msgstr ""
-
-#: /admin/modules
-msgid ""
-"Opigno External Video App integrates the Video Filter module with "
-"Opigno"
-msgstr ""
-
-#: /admin/modules
-msgid "Define quizzes that must be passed before having access to a course"
-msgstr ""
-
-#: /admin/modules
-msgid "Allows the exportation of students"
-msgstr ""
-
-#: /admin/modules
-msgid "Integrates WebEx with Opigno"
-msgstr ""
-
-#: /admin/modules
-msgid "Filter to include videos from Youtube, Google video etc"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393882405
-msgid "Product Revisions"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393882405
-msgid "Statut"
-msgstr ""
-
-#: /admin/modules/list/confirm
-msgid "Prix"
-msgstr ""
-
-#: /admin/modules
 msgid "Manage products and product types in the store."
 msgstr ""
 
-#: /admin/modules
+#: /node/add/course
+msgid "Un type de produit de base."
+msgstr ""
+
+#: /node/add/course
+msgid ""
+"Product type linked to groups. Allows users to buy access to certain "
+"OG."
+msgstr ""
+
+#: /node/add/course
 msgid "Produit"
 msgstr ""
 
-#: /admin/modules
-msgid "Nœud: Accroche"
+#: /node/add/course
+msgid "Élément de commande"
 msgstr ""
 
-#: /admin/commerce/products/1/edit?destination=admin/commerce/products
-msgid ""
-"Provide an explanation of the changes you are making. This will "
-"provide a meaningful history of changes to this product."
+#: /node/add/course
+msgid "Nœud : Accroche"
 msgstr ""
 
-#: /admin/commerce/products/1/edit?destination=admin/commerce/products
-msgid "View revisions of this product."
+#: /node/add/course
+msgid "OG product"
 msgstr ""
 
-#: /admin/commerce/products/1/edit?destination=admin/commerce/products
-msgid "Whether the product is active or disabled"
+#: /admin/commerce/products
+msgid "No products have been created yet. <a href=\"!url\">Add a product</a>."
 msgstr ""
 
-#: /admin/commerce/config/line-items/product/fields
-msgid ""
-"This fieldgroup renders the inner content in a HTML element with "
-"classes and attributes."
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid ""
-"This fieldgroup renders the inner content in a simple div with the "
-"title as legend."
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid "This fieldgroup renders the inner content in a semantic HTML5 wrapper"
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid ""
-"This fieldgroup renders the inner content in a fieldset with the title "
-"as legend."
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid "Horizontal tabs group"
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid "Horizontal tab"
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid "Multipage group"
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid "Label for new group"
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid "Parent for new group"
-msgstr ""
-
-#: /admin/commerce/config/line-items/product/fields
-msgid "Machine name for new group"
-msgstr ""
-
-#: /admin/config/workflow/rules/components/manage/32
+#: /admin/config/workflow/rules/components/manage/rules_line_item_is_an_og_product
 msgid "Editing !plugin \"!label\""
 msgstr ""
 
-#: /admin/config/workflow/rules/components/manage/32
+#: /admin/config/workflow/rules/components/manage/rules_line_item_is_an_og_product
 msgid ""
 "By default, the @plugin-type for using this component may be only used "
 "by users that have access to configure the component. If checked, "
 "access is determined by a permission instead."
 msgstr ""
 
-#: /admin/config/workflow/rules/components/manage/33
-msgid "Result conditions"
+#: /admin/config/workflow/rules/components/manage/rules_fetch_og_product_price
+msgid "@plugin: @label"
 msgstr ""
 
-#: /admin/config/workflow/rules/components/manage/33
+#: /node/add/course
+msgid "The URL for administrators to view the order."
+msgstr ""
+
+#: /node/add/course
 msgid ""
-"A rule condition set evaluates the actions first. Variables provided "
-"by the actions then can be used to evaluate the result conditions (as "
-"an \"AND\", i.e. evaluating to TRUE if conditions are empty)."
+"The method_id of the payment method selected by the customer during "
+"checkout."
 msgstr ""
 
-#: /admin/structure/types/manage/course/fields
-msgid "Texte long et résumé"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Zone de texte avec un résumé"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Booléen"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Case à cocher on/off unique"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Cases à cocher/boutons radio"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Outils Opigno"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Référence à un terme"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Liste de sélection"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Autocomplétion"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Entier"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Champ texte"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Liste (texte)"
-msgstr ""
-
-#: /admin/structure/types/manage/course/fields
-msgid "Mark group as required if it contains required fields."
-msgstr ""
-
-#: /admin/config/workflow/rules/components/manage/32/export
-msgid "Export of !plugin \"!label\""
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_commerce_app/
-msgid "Uninstall App"
-msgstr ""
-
-#: /admin/modules/list/confirm
-msgid "Development link"
-msgstr ""
-
-#: /admin/modules/list/confirm
-msgid "Développement"
-msgstr ""
-
-#: /admin/structure/block
-msgid "Devel settings"
-msgstr ""
-
-#: /admin/structure/block
+#: /node/add/course
 msgid ""
-"Helper functions, pages, and blocks to assist Drupal developers. The "
-"devel blocks can be managed via the <a "
-"href=\"/admin/structure/block\">block administration</a> page."
+"The administrative title of the payment method selected by the "
+"customer during checkout."
 msgstr ""
 
-#: /admin/structure/block
-msgid "Execute PHP Code"
-msgstr ""
-
-#: /admin/structure/block
-msgid "Execute some PHP code"
-msgstr ""
-
-#: /admin/structure/block
-msgid "Function reference"
-msgstr ""
-
-#: /admin/structure/block
+#: /node/add/course
 msgid ""
-"View a list of currently defined user functions with documentation "
-"links."
+"The customer oriented short title of the payment method selected by "
+"the customer during checkout."
 msgstr ""
 
-#: /admin/structure/block
-msgid "Hook_elements()"
+#: /cart
+msgid "Chemin de l'affichage"
 msgstr ""
 
-#: /admin/structure/block
-msgid "View the active form/render elements for this site."
+#: /cart
+msgid "Prix unitaire"
 msgstr ""
 
-#: /admin/structure/block
-msgid "PHPinfo()"
+#: /cart
+msgid "Champ texte Quantité"
 msgstr ""
 
-#: /admin/structure/block
-msgid "View your server's PHP configuration"
-msgstr ""
-
-#: /admin/structure/block
-msgid "Reinstall modules"
-msgstr ""
-
-#: /admin/structure/block
-msgid "Run hook_uninstall() and then hook_install() for a given module."
-msgstr ""
-
-#: /admin/structure/block
-msgid "Session viewer"
-msgstr ""
-
-#: /admin/structure/block
-msgid "List the contents of $_SESSION."
-msgstr ""
-
-#: /admin/structure/block
-msgid "Variable editor"
-msgstr ""
-
-#: /admin/structure/block
-msgid "Edit and delete site variables."
-msgstr ""
-
-#: /admin/structure/block
-msgid "Empty cache"
-msgstr ""
-
-#: /admin/structure/block
-msgid ""
-"Clear the CSS cache and all database cache tables which store page, "
-"node, theme and variable caches."
-msgstr ""
-
-#: /admin/structure/block
-msgid "Entity info"
-msgstr ""
-
-#: /admin/structure/block
-msgid "View entity information across the whole site."
-msgstr ""
-
-#: /admin/structure/block
-msgid "Field info"
-msgstr ""
-
-#: /admin/structure/block
-msgid "View fields information across the whole site."
-msgstr ""
-
-#: /admin/structure/block
-msgid "Menu item"
-msgstr ""
-
-#: /admin/structure/block
-msgid "Details about a given menu item."
-msgstr ""
-
-#: /admin/structure/block
-msgid ""
-"Rebuild menu based on hook_menu() and revert any custom changes. All "
-"menu items return to their default settings."
-msgstr ""
-
-#: /admin/structure/block
-msgid "View a list of available theme functions across the whole site."
-msgstr ""
-
-#: /admin/structure/block
-msgid "This user can switch back."
-msgstr ""
-
-#: /admin/modules
-msgid "View developer output like variable printouts, query log, etc."
-msgstr ""
-
-#: /admin/modules
-msgid "Execute PHP code"
-msgstr ""
-
-#: /admin/modules
-msgid "Run arbitrary PHP from a block."
-msgstr ""
-
-#: /admin/modules
-msgid "Switch users"
-msgstr ""
-
-#: /admin/modules
-msgid "Become any user on the site with just a click."
-msgstr ""
-
-#: /admin/structure/block
-msgid "PHP code to execute"
-msgstr ""
-
-#: /admin/structure/block
-msgid "Enter some code. Do not use <code>&lt;?php ?&gt;</code> tags."
-msgstr ""
-
-#: /admin_menu/flush-cache?token=YUMN1NOCMtGZOCBRnv6_CQ2DKtH18E24YrP5tYtQgi4&destination=my-courses
-msgid "Dummy profile type"
-msgstr ""
-
-#: /admin_menu/flush-cache?token=YUMN1NOCMtGZOCBRnv6_CQ2DKtH18E24YrP5tYtQgi4&destination=my-courses
-msgid "Dummy profile type used for testing purposes."
-msgstr ""
-
-#: /admin_menu/flush-cache?token=YUMN1NOCMtGZOCBRnv6_CQ2DKtH18E24YrP5tYtQgi4&destination=my-courses
-msgid "Dummy Payment Method Offsite"
-msgstr ""
-
-#: /admin_menu/flush-cache?token=YUMN1NOCMtGZOCBRnv6_CQ2DKtH18E24YrP5tYtQgi4&destination=my-courses
-msgid "Dummy"
-msgstr ""
-
-#: /admin_menu/flush-cache?token=YUMN1NOCMtGZOCBRnv6_CQ2DKtH18E24YrP5tYtQgi4&destination=my-courses
-msgid "Dummy Payment Method with offsite enabled"
-msgstr ""
-
-#: /admin/reports/dblog
-msgid "page not found"
-msgstr ""
-
-#: /admin_menu/flush-cache?token=YUMN1NOCMtGZOCBRnv6_CQ2DKtH18E24YrP5tYtQgi4&destination=my-courses
-msgid "Lien de suppression"
-msgstr ""
-
-#: /my-courses
-msgid "Manage customer profiles and profile types in the store."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_commerce_app/configure
-msgid "The following payment methods are available for your site."
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_commerce_app/configure
-msgid "Enable this payment method"
-msgstr ""
-
-#: /node/3/group
-msgid "Adhésion OG"
-msgstr ""
-
-#: /node/3/group
-msgid "Rôles utilisateurs OG dans le groupe"
-msgstr ""
-
-#: /node/3/group
-msgid "Adhésion OG à partir de user"
-msgstr ""
-
-#: /node/3/group
-msgid "No people found matching the search criteria."
-msgstr ""
-
-#: /node/3/group
-msgid "Total content: @count"
-msgstr ""
-
-#: /node/3/group/add
-msgid ""
-"This %type is full at the moment , it has at the moment %over more "
-"student(s) than quota"
-msgstr ""
-
-#: /node/3/group/add
-msgid "Opigno user membership expire"
-msgstr ""
-
-#: /course/3/test-axel
-msgid ""
-"Determine if values that should be prepopulated should \"listen\" to "
-"the OG-context."
-msgstr ""
-
-#: /course/3/test-axel
-msgid "Prepopulate from URL"
-msgstr ""
-
-#: /course/3/test-axel
-msgid "OG Context"
+#: /cart
+msgid "Bouton de suppression"
 msgstr ""
 
 #: /cart
 msgid "Line items referenced by commerce_line_items"
+msgstr ""
+
+#: /admin/people
+msgid "access checkout"
+msgstr ""
+
+#: /admin/people
+msgid "administer checkout"
+msgstr ""
+
+#: /admin/people
+msgid "create commerce_customer_profile entities of bundle billing"
+msgstr ""
+
+#: /admin/people
+msgid "create commerce_customer_profile entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit own commerce_customer_profile entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit own commerce_customer_profile entities of bundle billing"
+msgstr ""
+
+#: /admin/people
+msgid "view own commerce_customer_profile entities of bundle billing"
+msgstr ""
+
+#: /admin/people
+msgid "view own commerce_customer_profile entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit any commerce_customer_profile entity of bundle billing"
+msgstr ""
+
+#: /admin/people
+msgid "edit any commerce_customer_profile entity"
+msgstr ""
+
+#: /admin/people
+msgid "view any commerce_customer_profile entity of bundle billing"
+msgstr ""
+
+#: /admin/people
+msgid "view any commerce_customer_profile entity"
+msgstr ""
+
+#: /admin/people
+msgid "administer customer profile types"
+msgstr ""
+
+#: /admin/people
+msgid "administer commerce_customer_profile entities"
+msgstr ""
+
+#: /admin/people
+msgid "administer line items"
+msgstr ""
+
+#: /admin/people
+msgid "administer line item types"
+msgstr ""
+
+#: /admin/people
+msgid "create commerce_order entities of bundle commerce_order"
+msgstr ""
+
+#: /admin/people
+msgid "create commerce_order entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit own commerce_order entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit own commerce_order entities of bundle commerce_order"
+msgstr ""
+
+#: /admin/people
+msgid "view own commerce_order entities of bundle commerce_order"
+msgstr ""
+
+#: /admin/people
+msgid "view own commerce_order entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit any commerce_order entity of bundle commerce_order"
+msgstr ""
+
+#: /admin/people
+msgid "edit any commerce_order entity"
+msgstr ""
+
+#: /admin/people
+msgid "view any commerce_order entity of bundle commerce_order"
+msgstr ""
+
+#: /admin/people
+msgid "view any commerce_order entity"
+msgstr ""
+
+#: /admin/people
+msgid "administer commerce_order entities"
+msgstr ""
+
+#: /admin/people
+msgid "configure order settings"
+msgstr ""
+
+#: /admin/people
+msgid "administer payment methods"
+msgstr ""
+
+#: /admin/people
+msgid "administer payments"
+msgstr ""
+
+#: /admin/people
+msgid "create payments"
+msgstr ""
+
+#: /admin/people
+msgid "update payments"
+msgstr ""
+
+#: /admin/people
+msgid "delete payments"
+msgstr ""
+
+#: /admin/people
+msgid "view payments"
+msgstr ""
+
+#: /admin/people
+msgid "create commerce_product entities of bundle og_product"
+msgstr ""
+
+#: /admin/people
+msgid "create commerce_product entities of bundle product"
+msgstr ""
+
+#: /admin/people
+msgid "create commerce_product entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit own commerce_product entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit own commerce_product entities of bundle og_product"
+msgstr ""
+
+#: /admin/people
+msgid "edit own commerce_product entities of bundle product"
+msgstr ""
+
+#: /admin/people
+msgid "view own commerce_product entities of bundle og_product"
+msgstr ""
+
+#: /admin/people
+msgid "view own commerce_product entities of bundle product"
+msgstr ""
+
+#: /admin/people
+msgid "view own commerce_product entities"
+msgstr ""
+
+#: /admin/people
+msgid "edit any commerce_product entity of bundle og_product"
+msgstr ""
+
+#: /admin/people
+msgid "edit any commerce_product entity of bundle product"
+msgstr ""
+
+#: /admin/people
+msgid "edit any commerce_product entity"
+msgstr ""
+
+#: /admin/people
+msgid "view any commerce_product entity of bundle og_product"
+msgstr ""
+
+#: /admin/people
+msgid "view any commerce_product entity of bundle product"
+msgstr ""
+
+#: /admin/people
+msgid "view any commerce_product entity"
+msgstr ""
+
+#: /admin/people
+msgid "administer product types"
+msgstr ""
+
+#: /admin/people
+msgid "administer commerce_product entities"
+msgstr ""
+
+#: /admin/people
+msgid "configure store"
 msgstr ""
 
 #: /checkout/1
@@ -5435,287 +7410,262 @@ msgid "Quantité"
 msgstr ""
 
 #: /checkout/1/payment
-msgid "Redirect to Offsite platform"
+msgid "Customer skipped the Payment page because no payment was required."
 msgstr ""
 
-#: /admin/commerce/config/checkout/form/pane/commerce_payment_redirect
-msgid "'!pane' checkout pane"
+#: /admin/commerce/orders/1
+msgid "Identifiant (ID) de l'élément de commande"
 msgstr ""
 
-#: /admin/commerce/config/checkout
+#: /admin/commerce/orders/1
+msgid "Étiquette"
+msgstr ""
+
+#: /admin/commerce/orders/1
+msgid "Apply pricing rules"
+msgstr ""
+
+#: /admin/commerce/orders/1
 msgid ""
-"%pane is locked in the code to the %page page and was repositioned "
-"accordingly."
+"Executes the cart order refresh used to apply all current pricing "
+"rules on the front end."
 msgstr ""
 
-#: /admin/commerce/config/checkout/rules/manage/84
-msgid "@plugin: @label"
+#: /admin/commerce/orders/1
+msgid "Simulate checkout completion"
 msgstr ""
 
-#: /admin/config/regional/translate
-msgid "Caution: this user will be unable to switch back."
+#: /admin/commerce/orders/1
+msgid "Directly invokes the checkout completion rules on the order."
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_commerce_app/configure
-msgid "Disabled the %name payment method."
+#: /admin/commerce/orders/1
+msgid "View revisions of this order."
 msgstr ""
 
-#: /admin/apps/opigno/app/opigno_commerce_app/configure
-msgid "Enabled the %name payment method."
+#: /course/5/test-cours-semi-priv%C3%A9-cach%C3%A9-anonymes-avec-validation
+msgid "The variable or parameter %name is empty."
 msgstr ""
 
-#: /checkout/3/payment
+#: /course/5/test-cours-semi-priv%C3%A9-cach%C3%A9-anonymes-avec-validation
+msgid "Unable to get variable %name, it is not defined."
+msgstr ""
+
+#: /node/add/quiz?og_group_ref=28
+msgid "Date à ajouter dans le calendrier"
+msgstr ""
+
+#: /node/add/quiz?og_group_ref=28
+msgid "Date à ajouter dans le calendrier Date de début"
+msgstr ""
+
+#: /node/add/quiz?og_group_ref=28
+msgid "Date à ajouter dans le calendrier Date de fin"
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Reacting on event %label."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Evaluating conditions of rule %label."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Evaluating @plugin %label."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "The condition %name evaluated to %bool"
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "AND evaluated to TRUE."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Finished evaluation of @plugin %label."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Rule %label fires."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Evaluating the action %name."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Added the provided variable %name of type %type"
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Rule %label has fired."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "AND evaluated to FALSE."
+msgstr ""
+
+#: /course/31/cours-tests-321
+msgid "Finished reacting on event %label."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "Unable to evaluate %name."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "Saved %selector of type %type."
+msgstr ""
+
+#: /admin/structure/views
 msgid ""
-"Customer skipped the Payment page because payment was already "
-"submitted."
+"If you install the advanced help module from !href, Views will provide "
+"more and better help. <a href=\"@hide\">You can disable this message "
+"at the Views settings page.</a>"
 msgstr ""
 
-#: /node/3/quizzes
-msgid "Add a new @quiz_name"
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Certificat"
 msgstr ""
 
-#: /node/3/quizzes
-msgid "Trier les leçons"
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Sondage"
 msgstr ""
 
-#: /node/add/quiz?og_group_ref=3
-msgid "Lesson Addons Properties"
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Question à réponse libre (long texte)"
 msgstr ""
 
-#: /node/add/quiz?og_group_ref=3
-msgid "Calendar Date Date de début"
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Correspondance"
 msgstr ""
 
-#: /node/add/quiz?og_group_ref=3
-msgid "Calendar Date Date de fin"
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Question à choix multiples"
 msgstr ""
 
-#: /node/4/questions
-msgid "Allow question status changes to create a new revision of the lesson?"
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Question fichier à charger"
 msgstr ""
 
-#: profiles/opigno_lms/modules/opigno/opigno_quiz_app/js/opigno_quiz_app.fullscreen.js
-msgid "Go fullscreen"
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Question cliquer-déplacer avec lignes"
 msgstr ""
 
-#: profiles/opigno_lms/modules/opigno/opigno_quiz_app/js/opigno_quiz_app.fullscreen.js
-msgid "Exit fullscreen"
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Diapositive"
 msgstr ""
 
-#: /node/add/multichoice?destination=node/6/questions&quiz_nid=6&quiz_vid=6
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Question d'échelle"
+msgstr ""
+
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Question à réponse courte"
+msgstr ""
+
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Question vrai/faux"
+msgstr ""
+
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Sujet de discussion"
+msgstr ""
+
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Calendar Event"
+msgstr ""
+
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "WebEx video conference"
+msgstr ""
+
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Change whether or not to display contextual links for this view."
+msgstr ""
+
+#: /admin/structure/views/ajax/config-item/opigno_course_catalgue/page/field/group_group
 msgid ""
-"This score is added to the users total score if the user chooses this "
-"alternative."
+"<p>The following tokens are available for this field. Note that due to "
+"rendering order, you cannot use fields that come after this field; if "
+"you need a field not listed here, rearrange your fields.\n"
+"If you would like to have the characters '[' and ']' please use the "
+"html entity codes '%5B' or  '%5D' or they will get replaced with empty "
+"space.</p>"
 msgstr ""
 
-#: /node/add/multichoice?destination=node/6/questions&quiz_nid=6&quiz_vid=6
+#: /admin/structure/views/ajax/config-item/opigno_course_catalgue/page/field/group_group
 msgid ""
-"This score is added to the users total score if the user doesn't "
-"choose this alternative. Only used if multiple answers are allowed."
+"Provide text to display if this field contains an empty result. You "
+"may include HTML. You may enter data from this view as per the "
+"\"Replacement patterns\" in the \"Rewrite Results\" section below."
 msgstr ""
 
-#: /node/6/take
+#: /admin/structure/views/ajax/config-item/opigno_course_catalgue/page/field/group_group
+msgid "Select the field that should register the user subscription."
+msgstr ""
+
+#: /admin/structure/views/ajax/config-item/opigno_course_catalgue/page/field/group_group
+msgid "Automatic (best matching)"
+msgstr ""
+
+#: /admin/structure/views/ajax/display/opigno_course_catalgue/page/query
+msgid ""
+"This will prevent views from adding the base column to the distinct "
+"field. If this is not selected and the base column is a primary key, "
+"then a non-pure distinct will not function properly because the "
+"primary key is always unique."
+msgstr ""
+
+#: /admin/structure/views/ajax/display/opigno_course_catalgue/page/query
+msgid ""
+"If set, these tags will be appended to the query and can be used to "
+"identify the query in a module. This can be helpful for altering "
+"queries."
+msgstr ""
+
+#: /group/node/11/admin/people/edit-membership/15?destination=node/11/group
+msgid "Edit a group membership in %group"
+msgstr ""
+
+#: /group/node/11/admin/people/edit-membership/15?destination=node/11/group
+msgid "Change the current membership status."
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Champ texte de prix"
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Référence produit"
+msgstr ""
+
+#: /admin/structure/types/manage/course/fields
+msgid "Ne pas afficher de widget"
+msgstr ""
+
+#: /course/6/test-cours-semi-priv%C3%A9-cach%C3%A9-anonymes-sans-validation
 msgid ""
 "Unable to get the data value for the variable or parameter %name. "
 "Error: !error"
 msgstr ""
 
-#: /node/4/edit
-msgid ""
-"The current revision has been answered. We create a new revision so "
-"that the reports from the existing answers stays correct."
+#: /group/node/8/admin/people/delete-membership/48
+msgid "The membership was removed."
 msgstr ""
 
-#: /node/4/edit
-msgid "Date à ajouter dans le calendrier"
+#: /group/node/8/admin/people
+msgid "Find and Add Members"
 msgstr ""
 
-#: /node/4/edit
-msgid "Date à ajouter dans le calendrier Date de début"
+#: /group/node/8/admin/people
+msgid "Mass upload of user"
 msgstr ""
 
-#: /node/4/edit
-msgid "Date à ajouter dans le calendrier Date de fin"
-msgstr ""
-
-#: /opigno-calendar
-msgid "Add a new event"
-msgstr ""
-
-#: /node/6/questions
-msgid ""
-"This lesson has been answered. To maintain correctnes of existing "
-"answer reports changes should be saved as a new revision."
-msgstr ""
-
-#: /node/add/long-answer?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Specify the criteria for grading the response."
-msgstr ""
-
-#: /node/add/matching?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Question 1"
-msgstr ""
-
-#: /node/add/matching?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Question 2"
-msgstr ""
-
-#: /node/add/matching?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Question 3"
-msgstr ""
-
-#: /node/add/matching?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Question 4"
-msgstr ""
-
-#: /node/add/matching?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Question 5"
-msgstr ""
-
-#: /node/add/quizfileupload?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Allowed extension"
-msgstr ""
-
-#: /node/add/quizfileupload?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Enter the allowed file extensions one per line."
-msgstr ""
-
-#: /node/add/scale?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Provide alternatives for the user to answer."
-msgstr ""
-
-#: /node/add/short-answer?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Automatic and case sensitive"
-msgstr ""
-
-#: /node/add/short-answer?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Automatic. Not case sensitive"
-msgstr ""
-
-#: /node/add/short-answer?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Pick an evaluation method"
-msgstr ""
-
-#: /node/add/short-answer?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid "Choose how the answer shall be evaluated."
-msgstr ""
-
-#: /node/add/short-answer?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid ""
-"Specify the answer. If this question is manually scored, no answer "
-"needs to be supplied."
-msgstr ""
-
-#: /node/add/truefalse?destination=node/6/questions&quiz_nid=6&quiz_vid=6
-msgid ""
-"Choose if the correct answer for this question is \"true\" or "
-"\"false\"."
-msgstr ""
-
-#: profiles/opigno_lms/modules/contrib/quiz/question_types/quiz_ddlines/js/quiz_ddlines.js
-msgid "Settings for"
-msgstr ""
-
-#: profiles/opigno_lms/modules/contrib/quiz/question_types/quiz_ddlines/js/quiz_ddlines.js
-msgid "save"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Videofilter"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Archive.org"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Capped"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "DailyMotion"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "GodTube"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Google Video"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Picasa Slideshows"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "You must use the URL of the RSS feed for the Picasa album:"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "View the album in Picasa (you should see thumbnails, not a slideshow)."
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Find the \"RSS\" link and click it."
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Copy the resulting URL from the browser address bar.  Example:"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Slideshare"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid ""
-"You need to construct your own URL, using the \"Wordpress Embed\" code "
-"from Slideshare, extract the \"id\", and form the URL like this: "
-"slideshare.net/1759622"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Streamhoster"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Teachertube"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Wistia"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "YouTube (Playlist)"
-msgstr ""
-
-#: /video_filter/dashboard/wysiwyg_ckeditor
-msgid "Video filter dashboard"
-msgstr ""
-
-#: /admin/modules
-msgid ""
-"Sets the type of this lesson. Can be <em>theory</em> (not shown in "
-"results by default), <em>quiz</em> (always shown in results) and "
-"<em>mix</em>."
-msgstr ""
-
-#: /batch?id=23&op=do
-msgid "Liens d'actions"
-msgstr ""
-
-#: /batch?id=23&op=do
-msgid "Auteur de la commande"
-msgstr ""
-
-#: /admin/apps/opigno/app/opigno_forum_app/
-msgid "Opigno Forum App Details"
-msgstr ""
-
-#: /drupalchat/poll?drupalchat_last_timestamp=1393912767
-msgid "You are not allowed to view the solution for this question"
+#: /course/8/test-cours-semi-priv%C3%A9-visible-pour-les-anonymes-et-sans-validation
+msgid "Number of allowed students "
 msgstr ""
 
 #: /admin/config/regional/language?render=overlay
@@ -7467,6 +9417,7 @@ msgstr "Publié"
 msgid "Whether or not the content is published."
 msgstr "Si le contenu doit être publié ou non."
 
+#: ; modules/node/node.js; modules/node/content_types.js
 msgid "Not published"
 msgstr "Non publié"
 
@@ -7974,6 +9925,7 @@ msgstr "L'ID de la réponse d'un utilisateur"
 msgid "answer"
 msgstr "réponse"
 
+#: ; profiles/opigno_lms/themes/platon/js/platon.js
 msgid "Search"
 msgstr "Rechercher"
 
@@ -9159,6 +11111,7 @@ msgstr "Valeur par défaut"
 msgid "Forum page"
 msgstr "Page de forum"
 
+#: ; profiles/opigno_lms/modules/contrib/homebox/homebox.js
 msgid "Settings"
 msgstr "Paramètres"
 
@@ -9676,9 +11629,11 @@ msgstr "Activé"
 msgid "Off"
 msgstr "Désactivé"
 
+#: ; profiles/opigno_lms/modules/contrib/date_popup_authored/date_popup_authored-node-form.js
 msgid "Enabled"
 msgstr "Activé"
 
+#: ; profiles/opigno_lms/modules/contrib/date_popup_authored/date_popup_authored-node-form.js
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -9715,6 +11670,14 @@ msgstr "Titre de la question"
 
 msgid "Questions"
 msgstr "Questions"
+
+#: /install.php?profile=opigno_lms&locale=fr&op=start&id=2
+msgid "Hide for anonymous users"
+msgstr "Masquer pour les utilisateurs anonymes"
+
+#: /install.php?profile=opigno_lms&locale=fr&op=start&id=2
+msgid "Hide from Catalogue"
+msgstr "Masqué du catalogue de formations"
 
 msgid "URL (content create)"
 msgstr "URL (création de contenu)"
@@ -10089,27 +12052,35 @@ msgstr "Message d'erreur"
 msgid "Warning message"
 msgstr "Message d'avertissement"
 
+#: ; misc/drupal.js
 msgid "An AJAX HTTP error occurred."
 msgstr "Une erreur HTTP AJAX s'est produite."
 
+#: ; misc/drupal.js
 msgid "HTTP Result Code: !status"
 msgstr "Code de statut HTTP : !status"
 
+#: ; misc/drupal.js
 msgid "An AJAX HTTP request terminated abnormally."
 msgstr "Une requête HTTP AJAX s'est terminée anormalement."
 
+#: ; misc/drupal.js
 msgid "Debugging information follows."
 msgstr "Informations de débogage ci-dessous."
 
+#: ; misc/drupal.js
 msgid "Path: !uri"
 msgstr "Chemin : !uri"
 
+#: ; misc/drupal.js
 msgid "StatusText: !statusText"
 msgstr "StatusText: !statusText"
 
+#: ; misc/drupal.js
 msgid "ResponseText: !responseText"
 msgstr "ResponseText : !responseText"
 
+#: ; misc/drupal.js
 msgid "ReadyState: !readyState"
 msgstr "ReadyState : !readyState"
 
@@ -10144,6 +12115,7 @@ msgstr "supprimer"
 msgid "Select parent"
 msgstr "Choisir le parent"
 
+#: ; profiles/opigno_lms/modules/contrib/views/js/views-admin.js
 msgid "Add"
 msgstr "Ajouter"
 
@@ -10293,10 +12265,11 @@ msgstr "Ajouter le slogan comme contenu."
 msgid "Please wait..."
 msgstr "Veuillez patienter..."
 
-#: ; profiles/opigno_lms/modules/contrib/imce/js/imce.js
+#: ; profiles/opigno_lms/modules/contrib/imce/js/imce.js; profiles/opigno_lms/modules/contrib/homebox/homebox.js
 msgid "Close"
 msgstr "Fermer"
 
+#: ; profiles/opigno_lms/modules/contrib/homebox/homebox.js
 msgid "Maximize"
 msgstr "Agrandir"
 
@@ -10304,18 +12277,23 @@ msgstr "Agrandir"
 msgid "Minimize"
 msgstr "Minimiser"
 
+#: ; profiles/opigno_lms/modules/contrib/homebox/homebox.js
 msgid "Collapse"
 msgstr "Replier"
 
+#: ; profiles/opigno_lms/modules/contrib/homebox/homebox.js
 msgid "Expand"
 msgstr "Déplier"
 
+#: ; modules/contextual/contextual.js
 msgid "Configure"
 msgstr "Configurer"
 
+#: ; misc/collapse.js
 msgid "Hide"
 msgstr "Masquer"
 
+#: ; misc/collapse.js
 msgid "Show"
 msgstr "Afficher"
 
@@ -10323,15 +12301,19 @@ msgstr "Afficher"
 msgid "(active tab)"
 msgstr "(onglet actif)"
 
+#: ; modules/block/block.js
 msgid "Not restricted"
 msgstr "Non restreint"
 
+#: ; modules/block/block.js
 msgid "Restricted to certain pages"
 msgstr "Réservé à certaines pages"
 
+#: ; modules/block/block.js
 msgid "Not customizable"
 msgstr "Non personnalisable"
 
+#: ; modules/block/block.js
 msgid ""
 "The changes to these blocks will not be saved until the <em>Save "
 "blocks</em> button is clicked."
@@ -10339,6 +12321,7 @@ msgstr ""
 "N'oubliez pas de cliquer sur <em>Enregistrer les blocs</em> pour "
 "confirmer les modifications apportées ici."
 
+#: ; modules/block/block.js
 msgid "The block cannot be placed in this region."
 msgstr "Le bloc ne peut pas être placé dans cette région."
 
@@ -10350,9 +12333,11 @@ msgstr "Terminé"
 msgid "Prev"
 msgstr "Préc."
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Next"
 msgstr "Suivant"
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Today"
 msgstr "Aujourd'hui"
 
@@ -10448,24 +12433,31 @@ msgstr "nov"
 msgid "Dec"
 msgstr "déc"
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Sunday"
 msgstr "Dimanche"
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Monday"
 msgstr "Lundi"
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Tuesday"
 msgstr "Mardi"
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Wednesday"
 msgstr "Mercredi"
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Thursday"
 msgstr "Jeudi"
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Friday"
 msgstr "Vendredi"
 
+#: ; modules/locale/locale.datepicker.js
 msgid "Saturday"
 msgstr "Samedi"
 
@@ -10533,6 +12525,7 @@ msgstr "dd/mm/yy"
 msgid "File browsing is disabled in directory %dir."
 msgstr "L'exploration des fichiers est désactivée dans le répertoire %dir."
 
+#: ; profiles/opigno_lms/modules/contrib/imce/js/imce.js
 msgid "Upload"
 msgstr "Transférer"
 
@@ -10544,6 +12537,7 @@ msgstr "Vous ne pouvez pas réaliser cette opération."
 msgid "Do you want to refresh the current directory?"
 msgstr "Souhaitez-vous rafraîchir le répertoire courant ?"
 
+#: ; profiles/opigno_lms/modules/contrib/imce/js/imce.js
 msgid "Only files with the following extensions are allowed: %files-allowed."
 msgstr ""
 "Seuls les fichiers se terminant par les extensions suivantes sont "
@@ -10633,6 +12627,7 @@ msgstr ""
 "Les changements effectués dans ce tableau ne seront pris en compte "
 "que lorsque la configuration aura été enregistrée."
 
+#: ; modules/node/node.js
 msgid "New revision"
 msgstr "Nouvelle révision"
 
@@ -10648,12 +12643,15 @@ msgstr "Par @name le @date"
 msgid "By @name"
 msgstr "Par @name"
 
+#: ; profiles/opigno_lms/modules/contrib/pathauto/pathauto.js
 msgid "Automatic alias"
 msgstr "Alias automatique"
 
+#: ; profiles/opigno_lms/modules/contrib/pathauto/pathauto.js
 msgid "Alias: @alias"
 msgstr "Alias : @alias"
 
+#: ; profiles/opigno_lms/modules/contrib/pathauto/pathauto.js
 msgid "No alias"
 msgstr "Aucun alias"
 
@@ -10667,39 +12665,51 @@ msgstr ""
 "Toute modification non sauvegardée sera perdue. Souhaitez vous "
 "continuer?"
 
+#: ; profiles/opigno_lms/modules/contrib/views/js/views-admin.js
 msgid "Remove group"
 msgstr "Supprimer le groupe"
 
+#: ; profiles/opigno_lms/modules/contrib/views/js/views-admin.js
 msgid "Apply (all displays)"
 msgstr "Appliquer (tous les affichages)"
 
+#: ; profiles/opigno_lms/modules/contrib/views/js/views-admin.js
 msgid "Revert to default"
 msgstr "Rétablir par défaut"
 
+#: ; profiles/opigno_lms/modules/contrib/views/js/views-admin.js
 msgid "Apply (this display)"
 msgstr "Appliquer (cet affichage)"
 
+#: ; modules/menu/menu.js
 msgid "Not in menu"
 msgstr "Pas dans le menu"
 
+#: ; misc/tableselect.js
 msgid "Select all rows in this table"
 msgstr "Sélectionner toutes les lignes du tableau"
 
+#: ; misc/tableselect.js
 msgid "Deselect all rows in this table"
 msgstr "Désélectionner toutes les lignes du tableau"
 
+#: ; profiles/opigno_lms/modules/contrib/module_filter/js/module_filter_tab.js
 msgid "+@count"
 msgstr "+@count"
 
+#: ; profiles/opigno_lms/modules/contrib/module_filter/js/module_filter_tab.js
 msgid "-@count"
 msgstr "-@count"
 
+#: ; modules/node/content_types.js
 msgid "Requires a title"
 msgstr "Titre obligatoire"
 
+#: ; modules/node/content_types.js
 msgid "Don't display post information"
 msgstr "Ne pas afficher les informations de la contribution"
 
+#: ; profiles/opigno_lms/modules/contrib/date_popup_authored/date_popup_authored-node-form.js
 msgid "Date format: @format"
 msgstr "Format de date: @format"
 
@@ -14495,12 +16505,15 @@ msgstr "Non sauvegardé"
 msgid "Add a block"
 msgstr "Ajouter un bloc"
 
+#: ; profiles/opigno_lms/modules/contrib/token/token.js
 msgid "Available tokens"
 msgstr "Jetons disponibles"
 
+#: ; profiles/opigno_lms/modules/contrib/token/token.js
 msgid "Insert this token into your form"
 msgstr "Insérer ce jeton dans votre formulaire"
 
+#: ; profiles/opigno_lms/modules/contrib/token/token.js
 msgid "First click a text field to insert your tokens into."
 msgstr "Cliquer d'abord dans un champ texte afin d'y insérer les jetons."
 
@@ -22350,6 +24363,7 @@ msgstr "Vérifier les mises à jour des modules et thèmes désactivés"
 msgid "Fetcher"
 msgstr "Extracteur"
 
+#: ; modules/user/user.permissions.js
 msgid "This permission is inherited from the authenticated user role."
 msgstr "Ce droit est héritée du rôle de l'utilisateur authentifié."
 
@@ -34410,6 +36424,7 @@ msgstr "Mettre en cache le menu côté client dans le navigateur"
 msgid "!title cache cleared."
 msgstr "Cache \"!title\" vidé."
 
+#: ; profiles/opigno_lms/modules/opigno/opigno/js/opigno.admin.js; profiles/opigno_lms/modules/contrib/admin_menu/admin_menu.admin.js
 msgid "Also allow !name role to !permission?"
 msgstr "Autoriser également le rôle !name à !permission ?"
 
@@ -48771,9 +50786,11 @@ msgstr ""
 msgid "Open all"
 msgstr "Tout ouvrir"
 
+#: ; profiles/opigno_lms/modules/contrib/rules/ui/rules.debug.js
 msgid "-Close all-"
 msgstr "-Tout fermer-"
 
+#: ; profiles/opigno_lms/modules/contrib/rules/ui/rules.debug.js
 msgid "-Open all-"
 msgstr "-Tout ouvrir-"
 
@@ -62028,6 +64045,7 @@ msgstr "- Devise par défaut de la boutique -"
 msgid "@code - @name"
 msgstr "@code - @name"
 
+#: ; profiles/opigno_lms/modules/contrib/token/token.js
 msgid "Loading token browser..."
 msgstr "Chargement de l'explorateur de jetons..."
 
@@ -67390,4 +69408,90 @@ msgstr "Supprimer le gabarit"
 
 msgid "The template has been deleted."
 msgstr "Le gabarit a été supprimé."
+
+#: /install.php?profile=opigno_lms&locale=fr
+msgid ""
+"Sets the type of this lesson. Can be <em>theory</em> (not shown in "
+"results by default), <em>quiz</em> (always shown in results) and "
+"<em>mix</em>."
+msgstr ""
+"Définit la typologie de cette leçon. Peut être <em>théorique</em> "
+"(par défaut, ne comptant pas dans les résultats du cours), "
+"<em>quiz</em> (toujours comptant dans les résultats du cours) ou "
+"<em>mixte</em>."
+
+#: /
+msgid "Manage menu"
+msgstr "Gérer le menu"
+
+#: /
+msgid "Manage the main menu items"
+msgstr "Gérer les éléments du menu principal"
+
+#: /
+msgid "Manage forums"
+msgstr "Gérer les forums"
+
+#: /
+msgid "Manage the different forums and forum containers."
+msgstr "Gérer les différents forums et les conteneurs."
+
+#: /admin/apps/opigno/app/opigno_audio_app/
+msgid "SCORM Package"
+msgstr "Paquet SCORM"
+
+#: /group/node/5/admin/people/delete-membership/25
+msgid ""
+"Are you sure you would like to remove the membership for the user "
+"@user"
+msgstr "Etes-vous sûr de vouloir retirer l'utilisateur @user  de ce groupe"
+
+#: /group/node/3/subscribe/og_user_node
+msgid "Do you want to buy access to @name for !price?"
+msgstr "Souhaitez-vous acheter un accès au cours @name pour !price? "
+
+#: /group/node/3/subscribe/og_user_node
+msgid ""
+"This item is already in your cart. You can go to checkout <a "
+"href='!link'>here</a>."
+msgstr ""
+"Cet article est déjà présent dans votre panier. Vous pouvez "
+"finaliser votre achat <a href='!link'>ici</a>. "
+
+#: /group/node/3/subscribe/og_user_node
+msgid ""
+"This item is already in your cart. You can finalize your order <a "
+"href='!link'>here</a>."
+msgstr ""
+"Cet article est déjà présent dans votre panier. Vous pouvez "
+"finaliser votre achat <a href='!link'>ici</a>. "
+
+#: /course/11/test-cours-semi-priv%C3%A9-payant
+msgid "No limit"
+msgstr "Illimité"
+
+#: /group/node/11/admin/people/edit-membership/15?destination=node/11/group
+msgid "The membership has been updated."
+msgstr "L'adhésion au groupe a été mise à jour."
+
+#: /course/8/test-cours-semi-priv%C3%A9-visible-pour-les-anonymes-et-sans-validation
+msgid "Semi-public (registered users can subscribe to the course)"
+msgstr ""
+"Semi-public (réservé aux utilisateurs enregistrés, qui peuvent "
+"souscrire au cours de façon autonome)"
+
+#: /course/8/test-cours-semi-priv%C3%A9-visible-pour-les-anonymes-et-sans-validation
+msgid "Public (World-wide open, for example for demo courses)"
+msgstr ""
+"Public (accès ouvert à tout le monde, par exemple pour un cours de "
+"démonstration)"
+
+#: /course/8/test-cours-semi-priv%C3%A9-visible-pour-les-anonymes-et-sans-validation
+msgid ""
+"Private (users can only be subscribed by a course administrator or a "
+"teacher ; the course is hidden from course catalogue)"
+msgstr ""
+"Privé (les inscriptions ne peuvent être faites que par un enseignant "
+"ou un administrateur ; le cours n'est pas visible dans le catalogue de "
+"formations)"
 

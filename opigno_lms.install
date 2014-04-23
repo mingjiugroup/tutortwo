@@ -427,10 +427,11 @@ function opigno_lms_update_7104(&$sandbox) {
         'type' => 'int',
       ),
       'group_access_value' => array(
-        'type' => 'int',
-      ),
+        'type' => 'varchar',
+        'length' => 255,
+      )
     ),
-    'primary key' => array('entity_id', 'revision_id', 'delta'),
+    'primary key' => array('entity_type', 'bundle', 'entity_id', 'revision_id', 'delta'),
   ));
   db_create_table('field_revision_group_access', array(
     'description' => 'Fake table, just for deletion.',
@@ -460,10 +461,11 @@ function opigno_lms_update_7104(&$sandbox) {
         'type' => 'int',
       ),
       'group_access_value' => array(
-        'type' => 'int',
-      ),
+        'type' => 'varchar',
+        'length' => 255,
+      )
     ),
-    'primary key' => array('entity_id', 'revision_id', 'delta'),
+    'primary key' => array('entity_type', 'bundle', 'entity_id', 'revision_id', 'delta'),
   ));
 
   // Disable OG Access.
@@ -488,7 +490,76 @@ function opigno_lms_update_7104(&$sandbox) {
     db_insert('field_revision_group_access')->fields($row)->execute();
   }
 
-  // Done.
+  // Add the new fields to the Course settings group.
+  $result = db_select('field_group', 'g')
+              ->fields('g', array('data'))
+              ->condition('group_name', 'group_course_settings')
+              ->condition('bundle', 'course')
+              ->condition('entity_type', 'node')
+              ->execute()
+              ->fetchField();
+
+  // Someone changed the content type. Add the new fields
+  // to the group.
+  if ($result) {
+    $data = unserialize($result);
+    $data['children'][] = 'requires_validation';
+    $data['children'][] = 'anomymous_visibility';
+    $data['children'][] = 'catalogue_visibility';
+
+    db_update('field_group')
+      ->fields(array('data' => serialize($data)))
+      ->condition('group_name', 'group_course_settings')
+      ->condition('bundle', 'course')
+      ->condition('entity_type', 'node')
+      ->execute();
+  }
+  // The content type has never changed and the field group definition
+  // is still in code.
+  // Insert a new line.
+  else {
+    $fields = array(
+      'identifier' => 'group_course_settings|node|course|form',
+      'group_name' => 'group_course_settings',
+      'entity_type' => 'node',
+      'bundle' => 'course',
+      'mode' => 'form',
+      'parent_name' => '',
+      'data' => serialize(array(
+        'label' => 'Course settings',
+        'weight' => 5,
+        'children' => array(
+          'group_access',
+          'requires_validation',
+          'anomymous_visibility',
+          'catalogue_visibility',
+          'opigno_course_tools',
+          'opigno_course_categories',
+          'course_required_quiz_ref',
+          'course_required_course_ref',
+          'certificate',
+        ),
+        'format_type' => 'tab',
+        'format_settings' => array(
+          'formatter' => 'closed',
+          'instance_settings' => array(
+            'description' => '',
+            'classes' => 'group-course-settings field-group-tab',
+            'required_fields' => 1,
+          ),
+        ),
+      )),
+    );
+    db_insert('field_group')
+      ->fields($fields)
+      ->execute();
+      
+    $instance = field_info_instance('node', 'opigno_course_tools', 'course');
+    if (!empty($instance)) {
+      $instance['widget']['weight'] = 3;
+      field_update_instance($instance);
+    }
+  }
 
   // Refresh translations.
   opigno_lms_refresh_strings_and_import(array('rules', 'field', 'commerce'));

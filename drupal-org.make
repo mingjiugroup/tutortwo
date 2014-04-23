@@ -4,18 +4,19 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][version] = 1.3
-;projects[opigno][subdir]  = "opigno"
+projects[opigno][version] = 1.4
+projects[opigno][subdir]  = "opigno"
 
-projects[opigno][type]               = module
-projects[opigno][subdir]             = "opigno"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = 7.x-1.x
+;projects[opigno][type]               = module
+;projects[opigno][subdir]             = "opigno"
+;projects[opigno][download][type]     = git
+;projects[opigno][download][branch]   = 7.x-1.x
+;projects[opigno][download][revision] = c9e115468a95b90b8ae4a6acd8a2ab888955d5d0
 
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
 
-projects[opigno_certificate_app][version] = 1.0-rc6
+projects[opigno_certificate_app][version] = 1.0
 projects[opigno_certificate_app][subdir]  = "opigno"
 
 projects[opigno_forum_app][version] = 1.0
@@ -75,6 +76,8 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-questiontostep-21
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2190283.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2191649_2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2191649.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -82,9 +85,9 @@ projects[quizfileupload][subdir]  = "contrib"
 projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
 
 ; OG
-projects[og][version] = 2.5
+projects[og][version] = 2.6
 projects[og][subdir]  = "contrib"
-projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
+;projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
 
 ; OG Create Permissions
 projects[og_create_perms][version] = 1.0
@@ -97,7 +100,6 @@ projects[og_forum_D7][subdir]  = "contrib"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/issues/og_forum_2206711.patch"
-
 
 ; Calendar (prevent warnings)
 projects[calendar][subdir]  = "contrib"
@@ -139,7 +141,7 @@ projects[module_filter][subdir]  = "contrib"
 projects[module_filter][version] = 1.8
 
 projects[entity][subdir]  = "contrib"
-projects[entity][version] = 1.3
+projects[entity][version] = 1.5
 
 projects[entityreference][subdir]  = "contrib"
 projects[entityreference][version] = 1.1
@@ -178,7 +180,7 @@ projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
 
 projects[wysiwyg_template][subdir]  = "contrib"
-projects[wysiwyg_template][version] = 2.10
+projects[wysiwyg_template][version] = 2.11
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc2
@@ -196,7 +198,7 @@ projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0-rc2
 
 projects[print][subdir]  = "contrib"
-projects[print][version] = 1.2
+projects[print][version] = 1.3
 
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.7

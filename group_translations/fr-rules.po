@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-03-04 12:05+0100\n"
-"PO-Revision-Date: 2014-03-04 12:05+0100\n"
+"POT-Creation-Date: 2014-04-11 09:03+0200\n"
+"PO-Revision-Date: 2014-04-11 09:03+0200\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -335,6 +335,11 @@ msgctxt "rules_config:commerce_cart_unset_disabled_products:label"
 msgid "Annuler le prix pour les produits désactivés dans le panier"
 msgstr ""
 
+#: rules:rules_config:commerce_checkout_order_created_date_update:label
+msgctxt "rules_config:commerce_checkout_order_created_date_update:label"
+msgid "Set the order created date to the checkout completion date"
+msgstr ""
+
 #: rules:rules_config:commerce_checkout_order_status_update:label
 msgctxt "rules_config:commerce_checkout_order_status_update:label"
 msgid ""
@@ -380,19 +385,9 @@ msgid ""
 "Please contact us if you have any questions about your order."
 msgstr ""
 
-#: rules:rules_config:commerce_payment_commerce_payment_dummy_offsite:label
-msgctxt "rules_config:commerce_payment_commerce_payment_dummy_offsite:label"
-msgid "Dummy Payment Method Offsite"
-msgstr ""
-
-#: rules:rules_config:rules_fetch_og_from_line_item:label
-msgctxt "rules_config:rules_fetch_og_from_line_item:label"
-msgid "Fetch OG from line item"
-msgstr ""
-
-#: rules:rules_config:commerce_payment_commerce_payment_example:label
-msgctxt "rules_config:commerce_payment_commerce_payment_example:label"
-msgid "Example payment"
+#: rules:rules_config:rules_create_og_product_for_course:label
+msgctxt "rules_config:rules_create_og_product_for_course:label"
+msgid "Create OG Product for course"
 msgstr ""
 
 #: rules:rules_config:rules_line_item_is_an_og_product:label
@@ -405,14 +400,14 @@ msgctxt "rules_config:rules_fetch_og_product_price:label"
 msgid "Fetch OG product price"
 msgstr ""
 
+#: rules:rules_config:rules_fetch_og_from_line_item:label
+msgctxt "rules_config:rules_fetch_og_from_line_item:label"
+msgid "Fetch OG from line item"
+msgstr ""
+
 #: rules:rules_config:rules_activate_bought_og_membership:label
 msgctxt "rules_config:rules_activate_bought_og_membership:label"
 msgid "Activate bought OG membership"
-msgstr ""
-
-#: rules:rules_config:rules_create_og_product_for_course:label
-msgctxt "rules_config:rules_create_og_product_for_course:label"
-msgid "Create OG Product for course"
 msgstr ""
 
 #: rules:rules_config:rules_create_og_product_for_course_component:label
