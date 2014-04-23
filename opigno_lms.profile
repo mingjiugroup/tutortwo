@@ -18,6 +18,8 @@ define('OPIGNO_LMS_STUDENT_MANAGER_ROLE',     'student manager');
 define('OPIGNO_LMS_ADMIN_ROLE',               'administrator');
 define('OPIGNO_LMS_FORUM_ADMINISTRATOR_ROLE', 'forum administrator');
 
+define('OPIGNO_LMS_VERSION', '1.10.0');
+
 /**
  * Implements hook_init().
  */
@@ -264,6 +266,28 @@ function opigno_lms_form_og_massadd_massadd_form_alter(&$form, $form_state) {
   $gid = current($form['group_ids']['#value']);
   $node = node_load($gid);
   _opigno_lms_hide_coach_checkbox($node);
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function opigno_lms_block_info() {
+  return array(
+    'version' => array(
+      'info' => t("Opigno version information"),
+      'cache' => DRUPAL_CACHE_GLOBAL,
+    )
+  );
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function opigno_lms_block_view($delta = '') {
+  return array(
+    'subject' => '<none>',
+    'content' => t("Opigno LMS !version", array('!version' => OPIGNO_LMS_VERSION)),
+  );
 }
 
 /**
