@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = 7.26
+projects[drupal][version] = 7.27
 
 projects[opigno_lms][type]             = profile
 projects[opigno_lms][download][type]   = git
@@ -97,7 +97,11 @@ projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch
 projects[quiz][patch][] = "http://drupal.org/files/issues/modify-quiz-to-lesson-in-ui-strings-2101063-for-4-0-beta2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_question_render_node_teaser_when_taking_quiz_2133347_2.patch"
-projects[quiz][patch][] = "https://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2190283.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2191649_2.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2212789.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -105,9 +109,9 @@ projects[quizfileupload][subdir]  = "contrib"
 projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
 
 ; OG
-projects[og][version] = 2.5
+projects[og][version] = 2.6
 projects[og][subdir]  = "contrib"
-projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
+;projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
 
 ; OG Create Permissions
 projects[og_create_perms][version] = 1.0
@@ -118,7 +122,8 @@ projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og2.x_ap
 projects[og_forum_D7][version] = 2.0-alpha1
 projects[og_forum_D7][subdir]  = "contrib"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
-projects[og_forum_D7][patch][] = "https://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
+projects[og_forum_D7][patch][] = "http://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
+projects[og_forum_D7][patch][] = "http://drupal.org/files/issues/og_forum_2206711.patch"
 
 ; Calendar (prevent warnings)
 projects[calendar][subdir]  = "contrib"
@@ -137,9 +142,7 @@ projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.
 
 ; Certificate
 projects[certificate][subdir]  = "contrib"
-projects[certificate][version] = 2.0-beta4
-projects[certificate][patch][] = "http://drupal.org/files/certificate-orientation_description_translatable-2111237-3.patch"
-
+projects[certificate][version] = 2.0
 
 ; Third-party modules ==========================================================
 
@@ -162,7 +165,7 @@ projects[module_filter][subdir]  = "contrib"
 projects[module_filter][version] = 1.8
 
 projects[entity][subdir]  = "contrib"
-projects[entity][version] = 1.3
+projects[entity][version] = 1.5
 
 projects[entityreference][subdir]  = "contrib"
 projects[entityreference][version] = 1.1
@@ -201,7 +204,7 @@ projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
 
 projects[wysiwyg_template][subdir]  = "contrib"
-projects[wysiwyg_template][version] = 2.10
+projects[wysiwyg_template][version] = 2.11
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc2
@@ -219,7 +222,7 @@ projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0-rc2
 
 projects[print][subdir]  = "contrib"
-projects[print][version] = 1.2
+projects[print][version] = 1.3
 
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.7
@@ -255,19 +258,14 @@ projects[strongarm][subdir]  = "contrib"
 projects[strongarm][version] = 2.0
 
 projects[user_import][subdir]  = "contrib"
-projects[user_import][version] = 2.1
+projects[user_import][version] = 2.2
+projects[user_import][patch][] = "https://drupal.org/files/issues/creationdate_2220193_1.patch"
 
 projects[jquery_countdown][subdir]  = "contrib"
 projects[jquery_countdown][version] = 1.1
 
-
-; For dev phase (disable on production) ========================================
-
-projects[drupal_reset][subdir]  = "contrib"
-projects[drupal_reset][version] = 1.3
-
-projects[devel][subdir]  = "contrib"
-projects[devel][version] = 1.3
+projects[content_access][subdir]  = "contrib"
+projects[content_access][version] = 1.2-beta2
 
 
 ; Third-patry libraries ========================================================
