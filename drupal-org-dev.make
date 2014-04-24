@@ -81,7 +81,7 @@ projects[tft][download][revision] = 421f84959c9f2899361a8383f17edf36422a99fc
 
 projects[platon][type]               = theme
 projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-2.x"
+projects[platon][download][branch]   = "7.x-3.x"
 
 
 ; Third-party modules that need to be patched ==================================
