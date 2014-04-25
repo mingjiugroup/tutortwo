@@ -121,11 +121,6 @@ projects[certificate][version] = 2.0
 
 ; Third-party modules ==========================================================
 
-; Quiz File Upload
-projects[quizfileupload][version] = 1.0
-projects[quizfileupload][subdir]  = "contrib"
-projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
-
 ; Quiz cloze
 projects[cloze][type]               = module
 projects[cloze][subdir]             = "contrib"
@@ -133,6 +128,10 @@ projects[cloze][download][type]     = git
 projects[cloze][download][branch]   = "7.x-1.x"
 projects[cloze][download][url]      = "http://git.drupal.org/project/cloze.git"
 projects[cloze][download][revision] = e3bb806823e46870e8e0d6dafce2d0b261c024c5
+
+; Quiz drag drop
+projects[quiz_drag_drop][subdir]  = "contrib"
+projects[quiz_drag_drop][version] = 1.4
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
