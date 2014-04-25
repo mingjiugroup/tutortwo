@@ -171,7 +171,7 @@ projects[crumbs][subdir]  = "contrib"
 projects[crumbs][version] = 2.0-beta13
 
 projects[variable][subdir]  = "contrib"
-projects[variable][version] = 2.4
+projects[variable][version] = 2.5
 
 projects[i18n][subdir]  = "contrib"
 projects[i18n][version] = 1.10
