@@ -173,10 +173,6 @@ function opigno_lms_form_install_configure_form_alter_submit($form, $form_state)
  *
  * Disable reporting of projects that are in the distribution, but only
  * if they have not been updated manually.
- *
- * Projects with insecure / revoked / unsupported releases are only shown
- * after two days, which gives enough time to prepare a new LMS release
- * which the users can install and solve the problem.
  */
 function opigno_lms_update_status_alter(&$projects) {
   $bad_statuses = array(
@@ -201,15 +197,11 @@ function opigno_lms_update_status_alter(&$projects) {
     if (strpos($project_name, 'opigno_features_') !== FALSE) {
       unset($projects[$project_name]);
     }
-    // Hide bad releases (insecure, revoked, unsupported) if they are younger
-    // than two days (giving Kickstart time to prepare an update).
+    // Hide bad releases (insecure, revoked, unsupported).
     elseif (isset($project_info['status']) && in_array($project_info['status'], $bad_statuses)) {
-      $two_days_ago = strtotime('2 days ago');
-      if ($project_info['releases'][$project_info['recommended']]['date'] < $two_days_ago) {
-        unset($projects[$project_name]);
-      }
+      unset($projects[$project_name]);
     }
-    // Hide projects shipped with Kickstart if they haven't been manually
+    // Hide projects shipped with Opigno LMS if they haven't been manually
     // updated.
     elseif (isset($make_info['projects'][$project_name])) {
       $version = $make_info['projects'][$project_name]['version'];
