@@ -20,6 +20,7 @@ function opigno_lms_install() {
     'format' => 'html',
     'value' => st("<h2>Welcome to your new Opigno platform</h2><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>")
   );
+  $default_theme_settings['platon_menu_show_for_anonymous'] = 1;
   variable_set('theme_platon_settings', $default_theme_settings);
 
   // Deactivate error display.
