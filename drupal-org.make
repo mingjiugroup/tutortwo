@@ -37,7 +37,7 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.1
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version]    = 1.6
+projects[opigno_quiz_app][version]    = 1.7
 projects[opigno_quiz_app][subdir]  = "opigno"
 
 projects[opigno_wt_app][version] = 1.0-rc3
