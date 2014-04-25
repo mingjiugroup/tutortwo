@@ -158,6 +158,7 @@ projects[cloze][patch][] = "http://drupal.org/files/issues/cloze_change_question
 ; Quiz drag drop
 projects[quiz_drag_drop][subdir]  = "contrib"
 projects[quiz_drag_drop][version] = 1.4
+projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/drag_and_drop-forgivingbox-2249971-1.patch"
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
