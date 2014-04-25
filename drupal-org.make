@@ -131,7 +131,7 @@ projects[cloze][type]               = module
 projects[cloze][subdir]             = "contrib"
 projects[cloze][download][type]     = git
 projects[cloze][download][branch]   = "7.x-1.x"
-projects[cloze][download][url]      = "http://drupalcode.org/project/cloze.git"
+projects[cloze][download][url]      = "http://git.drupal.org/project/cloze.git"
 projects[cloze][download][revision] = e3bb806823e46870e8e0d6dafce2d0b261c024c5
 
 projects[admin_menu][subdir] = "contrib"
