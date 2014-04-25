@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-04-11 08:55+0200\n"
-"PO-Revision-Date: 2014-04-11 08:55+0200\n"
+"POT-Creation-Date: 2014-04-25 14:48+0200\n"
+"PO-Revision-Date: 2014-04-25 14:48+0200\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -2815,10 +2815,6 @@ msgid "Select the variable name"
 msgstr ""
 
 #: /install.php?profile=opigno_lms&locale=fr
-msgid "Tokens for variable values."
-msgstr ""
-
-#: /install.php?profile=opigno_lms&locale=fr
 msgid "Time interval"
 msgstr ""
 
@@ -3450,10 +3446,6 @@ msgid "Import or update users from a comma separated file (csv)."
 msgstr ""
 
 #: /
-msgid "Administer all classes on the platform."
-msgstr ""
-
-#: /
 msgid "Résultats de mes classes"
 msgstr ""
 
@@ -3567,18 +3559,6 @@ msgstr ""
 
 #: /my-courses
 msgid ""
-msgstr ""
-
-#: /admin/opigno/content/course-administration
-msgid "Delete course(s)"
-msgstr ""
-
-#: /admin/opigno/content/course-administration
-msgid "Publish course(s)"
-msgstr ""
-
-#: /admin/opigno/content/course-administration
-msgid "Unpublish course(s)"
 msgstr ""
 
 #: /node/add/course
@@ -6727,53 +6707,7 @@ msgid "Count user for quota"
 msgstr ""
 
 #: /admin/appearance/settings/platon
-msgid "e.g. main menu active menu link background"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "e.g. body background color"
-msgstr ""
-
-#: /admin/appearance/settings/platon
 msgid "e.g content background color"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "e.g. title background color, table background color"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "e.g. forum tools background"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "e.g. link hover color, tabs background, fieldset titles"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "e.g. link color, tabs active/hover background color"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "e.g. header background color, footer background color"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "e.g. form submit buttons, local actions"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "e.g. form delete buttons"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "Use another image for the header background"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid ""
-"Check here if you want the theme to use a custom image for the header "
-"background."
 msgstr ""
 
 #: /admin/appearance/settings/platon
@@ -6814,34 +6748,7 @@ msgid ""
 msgstr ""
 
 #: /admin/appearance/settings/platon
-msgid "Main menu source"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid ""
-"The menu source to use for the tile navigation. If 'none', Platon will "
-"use a default list of tiles."
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "Show menu for anonymous users"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid ""
-"Show the main menu for users that are not logged in. Only links that "
-"users have access to will show up."
-msgstr ""
-
-#: /admin/appearance/settings/platon
 msgid "CSS overrides"
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid ""
-"You can write CSS rules here. They will be stored in a CSS file in "
-"your public files directory. Change it's content to alter the display "
-"of your site."
 msgstr ""
 
 #: /admin/appearance/settings/platon
@@ -7575,10 +7482,6 @@ msgid "Sujet de discussion"
 msgstr ""
 
 #: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
-msgid "Calendar Event"
-msgstr ""
-
-#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
 msgid "WebEx video conference"
 msgstr ""
 
@@ -7666,6 +7569,423 @@ msgstr ""
 
 #: /course/8/test-cours-semi-priv%C3%A9-visible-pour-les-anonymes-et-sans-validation
 msgid "Number of allowed students "
+msgstr ""
+
+#: /
+msgid "The node comments."
+msgstr ""
+
+#: /admin/modules
+msgid "Generates a printer-friendly version of Drupal pages."
+msgstr ""
+
+#: /admin/config/regional/language
+msgid "OG membership types"
+msgstr ""
+
+#: /admin/config/regional/language
+msgid "Node: Teaser"
+msgstr ""
+
+#: /admin/config/regional/language
+msgid "Node_access summary"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397206568
+msgid "Devel Node Access"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397206568
+msgid "Devel Node Access by User"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397206568
+msgid ""
+"View the node access information blocks on node pages and the summary "
+"page."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397206568
+msgid "Access DNA information"
+msgstr ""
+
+#: /admin/people
+msgid "view devel_node_access information"
+msgstr ""
+
+#: /admin_menu/flush-cache?token=qJpkhthVagSlGDD-w_GxhW6eRvdyzoXXCsakX0zdYMA&destination=dashboard
+msgid "Opigno version information"
+msgstr ""
+
+#: /admin/structure/block
+msgid "Opigno is currently at version: !version"
+msgstr ""
+
+#: /admin/structure/block
+msgid "Opigno LMS !version"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "realm"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "gid"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "update"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "explained"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "To see more details enable <a href=\"@debug_mode\">debug mode</a>."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "node_access entries for nodes shown on this page"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "username"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "Create nodes of the '@Node_type' type."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "create"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "NO"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "YES"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "!NO: no reason"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "!NO: None of the checks resulted in allowing this, so it's denied."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "This is most likely due to a withheld permission."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "!NO: by %module"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid ""
+"!NO: hook_node_access() of the following module(s) denies this: "
+"@deniers."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "!YES: bypass node access"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid ""
+"!YES: This user has the '!bypass_node_access' permission and may do "
+"everything with nodes."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "!YES: @node_access_table"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid ""
+"!YES: Node access allows this based on one or more records in the "
+"@node_access_table table (see the other DNA block!)."
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid ""
+"(This table lists the most-recently active users. Hover your mouse "
+"over each result for more details.)"
+msgstr ""
+
+#: /course/4/test-cours-priv%C3%A9
+msgid "Access permissions by user"
+msgstr ""
+
+#: /file/ajax/opigno_video/und/0/form-gAo2Z0M-3m54XaOpEvX7ngsns-gO6MYNPQpn_LYGfzI
+msgid "Matches resolution of original file"
+msgstr ""
+
+#: /file/ajax/opigno_video/und/0/form-gAo2Z0M-3m54XaOpEvX7ngsns-gO6MYNPQpn_LYGfzI
+msgid "Matches ratio of original file"
+msgstr ""
+
+#: profiles/opigno_lms/modules/opigno/opigno_quiz_app/js/opigno_quiz_app.fullscreen.js
+msgid "Go fullscreen"
+msgstr ""
+
+#: profiles/opigno_lms/modules/opigno/opigno_quiz_app/js/opigno_quiz_app.fullscreen.js
+msgid "Exit fullscreen"
+msgstr ""
+
+#: /node/38/take
+msgid "This option is correct, but you didn't select it."
+msgstr ""
+
+#: /node/38/take
+msgid "This option is wrong."
+msgstr ""
+
+#: /filter/tips
+msgid "Archive.org"
+msgstr ""
+
+#: /filter/tips
+msgid "Capped"
+msgstr ""
+
+#: /filter/tips
+msgid "DailyMotion"
+msgstr ""
+
+#: /filter/tips
+msgid "GodTube"
+msgstr ""
+
+#: /filter/tips
+msgid "Google Video"
+msgstr ""
+
+#: /filter/tips
+msgid "Picasa Slideshows"
+msgstr ""
+
+#: /filter/tips
+msgid "You must use the URL of the RSS feed for the Picasa album:"
+msgstr ""
+
+#: /filter/tips
+msgid "View the album in Picasa (you should see thumbnails, not a slideshow)."
+msgstr ""
+
+#: /filter/tips
+msgid "Find the \"RSS\" link and click it."
+msgstr ""
+
+#: /filter/tips
+msgid "Copy the resulting URL from the browser address bar.  Example:"
+msgstr ""
+
+#: /filter/tips
+msgid "Slideshare"
+msgstr ""
+
+#: /filter/tips
+msgid ""
+"You need to construct your own URL, using the \"Wordpress Embed\" code "
+"from Slideshare, extract the \"id\", and form the URL like this: "
+"slideshare.net/1759622"
+msgstr ""
+
+#: /filter/tips
+msgid "Streamhoster"
+msgstr ""
+
+#: /filter/tips
+msgid "Teachertube"
+msgstr ""
+
+#: /filter/tips
+msgid "Wistia"
+msgstr ""
+
+#: /filter/tips
+msgid "YouTube (Playlist)"
+msgstr ""
+
+#: /filter/tips
+msgid ""
+"\n"
+"      <p><strong>Video Filter</strong></p>\n"
+"      <p>You may insert videos from popular video sites by using a "
+"simple tag <code>[video:URL]</code>.</p>\n"
+"      <p>Examples:</p>\n"
+"      <ul>\n"
+"        <li>Single video:<br "
+"/><code>[video:http://www.youtube.com/watch?v=uN1qUeId]</code></li>\n"
+"        <li>Random video out of multiple:<br "
+"/><code>[video:http://www.youtube.com/watch?v=uN1qUeId1,http://www.youtube.com/watch?v=uN1qUeId2]</code></li>\n"
+"        <li>Override default autoplay setting: "
+"<code>[video:http://www.youtube.com/watch?v=uN1qUeId "
+"autoplay:1]</code></li>\n"
+"        <li>Override default width and height:<br "
+"/><code>[video:http://www.youtube.com/watch?v=uN1qUeId width:X "
+"height:Y]</code></li>\n"
+"        <li>Override default aspect ratio:<br "
+"/><code>[video:http://www.youtube.com/watch?v=uN1qUeId "
+"ratio:4/3]</code></li>\n"
+"        <li>Align the video:<br "
+"/><code>[video:http://www.youtube.com/watch?v=uN1qUeId "
+"align:right]</code></li>\n"
+"      </ul>\n"
+"      <p>Supported sites: @codecs.</p>\n"
+"      <p>Special instructions:</p>\n"
+"      <small>Some codecs need special input. You'll find those "
+"instructions here.</small>\n"
+"      <ul>!instructions</ul>"
+msgstr ""
+
+#: /admin/modules
+msgid ""
+"Question with certain words removed the participant will have to "
+"fill-in the missing words."
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1398346889
+msgid "Cloze question"
+msgstr ""
+
+#: /drupalchat/poll?drupalchat_last_timestamp=1397206568
+msgid "Quiz questions that allow a user to fill-in the missing words."
+msgstr ""
+
+#: /admin/modules/list/confirm
+msgid "This provides drag drop type of questions for Quiz module."
+msgstr ""
+
+#: /system/ajax
+msgid "Notification validity Date de début"
+msgstr ""
+
+#: /system/ajax
+msgid "Notification validity Date de fin"
+msgstr ""
+
+#: /system/ajax
+msgid "Date Date de début"
+msgstr ""
+
+#: /system/ajax
+msgid "Date Date de fin"
+msgstr ""
+
+#: /node/add/cloze?destination=node/9/questions&quiz_nid=9&quiz_vid=34
+msgid "New revision has been created for the @quiz %n"
+msgstr ""
+
+#: /node/add/quiz-drag-drop?destination=node/9/questions&quiz_nid=9&quiz_vid=48
+msgid "image_uploaded_title"
+msgstr ""
+
+#: /node/add/quiz-drag-drop?destination=node/9/questions&quiz_nid=9&quiz_vid=48
+msgid ""
+"Please provide title for all the images uploaded. All the titles will "
+"become placeholders."
+msgstr ""
+
+#: /messages/new
+msgid "Sélectionnez les destinataires"
+msgstr ""
+
+#: /node/44/edit?destination=node/9/questions
+msgid ""
+"The current revision has been answered. We create a new revision so "
+"that the reports from the existing answers stays correct."
+msgstr ""
+
+#: /admin/config/content/wysiwyg-templates
+msgid "Limited to content types"
+msgstr ""
+
+#: /admin/config/content/wysiwyg-templates
+msgid "WYSIWYG Profile"
+msgstr ""
+
+#: /admin/config/content/wysiwyg-templates
+msgid ""
+"The Wysiwyg Template module allows you to create templates to be used "
+"with a Wysiwyg editor of your choice. The template button for the "
+"editor will need to be enabled from the !profiles settings. The "
+"currently supported editors are FCK Editor, CK Editor and TinyMCE."
+msgstr ""
+
+#: /admin/config/content/wysiwyg-templates/import
+msgid "Paste the code from template export function."
+msgstr ""
+
+#: /admin/opigno/system/webex
+msgid "WebEx Username"
+msgstr ""
+
+#: /admin/opigno/system/webex
+msgid "WebEx Password"
+msgstr ""
+
+#: /admin/opigno/system/webex
+msgid "Site ID (SID)"
+msgstr ""
+
+#: /admin/opigno/system/webex
+msgid "Partner ID (PID)"
+msgstr ""
+
+#: /admin/opigno/system/webex
+msgid "Subdomain prefix"
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid ""
+"You have created a new revision of a question that belongs to %num "
+"lessons. Choose what you want to do with the different lessons."
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid "answered"
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid "Update, revise and unpublish"
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid "Update and revise"
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid "Update and Unpublish"
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid "Update, revise and publish"
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid "Update and publish"
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid "Revise"
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid ""
+"If a lesson has been answered you should make a new revision to ensure "
+"that existing answer statistics and reports remain correct."
+msgstr ""
+
+#: /node/45/edit?destination=node/9/questions
+msgid ""
+"If the new revision of the question only correct spelling errors etc. "
+"you don't need to revise."
 msgstr ""
 
 #: /admin/config/regional/language?render=overlay
@@ -64852,6 +65172,7 @@ msgstr "Dernière modification"
 msgid "Rate"
 msgstr "Taux"
 
+#: ; sites/all/modules/commerce/modules/order/commerce_order.js
 msgid "From @title"
 msgstr "Depuis @title"
 
@@ -65394,18 +65715,23 @@ msgstr ""
 "Spécifier le champ référence du profil client de la commande à "
 "remplir avec les données du profil de cette étape de commande."
 
+#: ; sites/all/modules/commerce/modules/order/commerce_order.js
 msgid "To @title"
 msgstr "À @title"
 
+#: ; sites/all/modules/commerce/modules/order/commerce_order.js
 msgid "Owned by @name"
 msgstr "Détenu par @name"
 
+#: ; sites/all/modules/commerce/modules/order/commerce_order.js
 msgid "Created @date"
 msgstr "Créé(e) le @date"
 
+#: ; sites/all/modules/commerce/modules/order/commerce_order.js
 msgid "New order"
 msgstr "Nouvelle commande"
 
+#: ; sites/all/modules/commerce/modules/order/commerce_order.js
 msgid "Updated @date"
 msgstr "Mis(e) à jour le @date"
 
@@ -69410,6 +69736,10 @@ msgid "The template has been deleted."
 msgstr "Le gabarit a été supprimé."
 
 #: /install.php?profile=opigno_lms&locale=fr
+msgid "Tokens for variable values."
+msgstr "Jetons relatifs aux variables."
+
+#: /install.php?profile=opigno_lms&locale=fr
 msgid ""
 "Sets the type of this lesson. Can be <em>theory</em> (not shown in "
 "results by default), <em>quiz</em> (always shown in results) and "
@@ -69429,6 +69759,10 @@ msgid "Manage the main menu items"
 msgstr "Gérer les éléments du menu principal"
 
 #: /
+msgid "Administer all classes on the platform."
+msgstr "Administrer toutes les classes de la plateforme."
+
+#: /
 msgid "Manage forums"
 msgstr "Gérer les forums"
 
@@ -69436,15 +69770,118 @@ msgstr "Gérer les forums"
 msgid "Manage the different forums and forum containers."
 msgstr "Gérer les différents forums et les conteneurs."
 
+#: /admin/opigno/content/course-administration
+msgid "Delete course(s)"
+msgstr "Supprimer cours"
+
+#: /admin/opigno/content/course-administration
+msgid "Publish course(s)"
+msgstr "Publier cours"
+
+#: /admin/opigno/content/course-administration
+msgid "Unpublish course(s)"
+msgstr "Dépublier cours"
+
 #: /admin/apps/opigno/app/opigno_audio_app/
 msgid "SCORM Package"
 msgstr "Paquet SCORM"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. main menu active menu link background"
+msgstr "par ex. l'arrière plan des éléments actifs du menu principal"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. body background color"
+msgstr "par ex. la couleur d'arrière plan de la zone principale"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. title background color, table background color"
+msgstr "par ex. la couleur d'arrière plan des titres et des tableaux"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. forum tools background"
+msgstr "par ex. l'arrière plan des outils de forum"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. link hover color, tabs background, fieldset titles"
+msgstr ""
+"par ex. la couleur des liens au survol de la souris, de l'arrière "
+"plan des boutons, et des titres de champs groupés"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. link color, tabs active/hover background color"
+msgstr ""
+"par ex. la couleur des liens, des boutons actifs ou survolés par la "
+"souris"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. header background color, footer background color"
+msgstr "par ex. la couleur de fond de l'en-tête et du pied de page"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. form submit buttons, local actions"
+msgstr "par ex. les boutons de validation des formulaires"
+
+#: /admin/appearance/settings/platon
+msgid "e.g. form delete buttons"
+msgstr "par ex. les boutons de suppression des formulaires"
+
+#: /admin/appearance/settings/platon
+msgid "Use another image for the header background"
+msgstr "Utiliser une image différente pour l'arrière plan de l'en-tête"
+
+#: /admin/appearance/settings/platon
+msgid ""
+"Check here if you want the theme to use a custom image for the header "
+"background."
+msgstr ""
+"Cochez cette option si vous souhaitez définir une image différente "
+"en tant qu'arrière plan de la zone d'en-tête."
+
+#: /admin/appearance/settings/platon
+msgid "Main menu source"
+msgstr "Choix du menu principal"
+
+#: /admin/appearance/settings/platon
+msgid ""
+"The menu source to use for the tile navigation. If 'none', Platon will "
+"use a default list of tiles."
+msgstr ""
+"Le menu à utiliser pour la navigation principale. Si 'aucun', Platon "
+"utilisera une liste d'éléments par défaut."
+
+#: /admin/appearance/settings/platon
+msgid "Show menu for anonymous users"
+msgstr "Afficher le menu pour les utilisateurs anonymes"
+
+#: /admin/appearance/settings/platon
+msgid ""
+"Show the main menu for users that are not logged in. Only links that "
+"users have access to will show up."
+msgstr ""
+"Affiche le menu principal pour les utilisateurs qui ne sont pas "
+"connectés. Seuls les liens auxquels les utilisateurs anonymes peuvent "
+"avoir accès seront affichés."
+
+#: /admin/appearance/settings/platon
+msgid ""
+"You can write CSS rules here. They will be stored in a CSS file in "
+"your public files directory. Change it's content to alter the display "
+"of your site."
+msgstr ""
+"Vous pouvez écrire ici vos propres règles CSS. Elles seront "
+"stockées au sein d'un fichier dans votre répertoire de fichiers "
+"publics. Cela permet d'ajuster l'affichage de votre site."
 
 #: /group/node/5/admin/people/delete-membership/25
 msgid ""
 "Are you sure you would like to remove the membership for the user "
 "@user"
 msgstr "Etes-vous sûr de vouloir retirer l'utilisateur @user  de ce groupe"
+
+#: /admin/structure/views/view/opigno_course_catalgue/edit/page?destination=course-catalogue
+msgid "Calendar Event"
+msgstr "Evénement"
 
 #: /group/node/3/subscribe/og_user_node
 msgid "Do you want to buy access to @name for !price?"
@@ -69494,4 +69931,80 @@ msgstr ""
 "Privé (les inscriptions ne peuvent être faites que par un enseignant "
 "ou un administrateur ; le cours n'est pas visible dans le catalogue de "
 "formations)"
+
+#: /admin/opigno/content/class-administration
+msgid "Delete class(es)"
+msgstr "Supprimer classe(s)"
+
+#: /admin/opigno/content/class-administration
+msgid "Publish class(es)"
+msgstr "Publier classe(s)"
+
+#: /admin/opigno/content/class-administration
+msgid "Unpublish class(es)"
+msgstr "Dépublier classe(s)"
+
+#: /admin/modules/list/confirm
+msgid "Drag Drop question"
+msgstr "Question glisser-déplacer"
+
+#: /admin/modules/list/confirm
+msgid ""
+"<p>Upload images for drag drop question. Give each image a "
+"title.</p>\n"
+"                       <p><em>This image title will appear in "
+"placeholder box. So make sure title is not more than 18 characters.\n"
+"                       Otherwise it will be trimmed to 18 "
+"characters.</em></p>"
+msgstr ""
+"<p>Veuillez charger les images pour la question glisser-déplacer, et "
+"indiquer un titre pour chaque image.</p> <p><em>Le titre apparaitra "
+"dans une case, il est de ce fait important qu'il ne dépasse pas 18 "
+"caractères. Il sera sinon tronqué.</em></p> "
+
+#: /opigno-calendar
+msgid "Add a new event"
+msgstr "Ajouter un nouvel événement"
+
+#: /node/add/cloze?destination=node/9/questions&quiz_nid=9&quiz_vid=34
+msgid ""
+"For free text cloze, mention the correct answer inside the square "
+"bracket. For multichoice cloze, provide the options separated by "
+"commas with correct answer as first. <br/>Example question: [The] Sun "
+"raises in the [east, west, north, south]. <br/>Answer: <span "
+"class=\"answer correct correct-answer\">The</span> Sun raises in the "
+"<span class=\"answer correct correct-answer\">east</span>."
+msgstr ""
+"Veuillez saisir le texte, en plaçant les mots à remplir par "
+"l'étudiant entre crochets. Dans le cas où l'utilisateur doit choisir "
+"les mots manquants parmi une liste, veuillez saisir les différentes "
+"valeurs en les séparant par des virgules, et en commençant  par la "
+"réponse juste. \r\n"
+"Exemple de question: [Le] soleil se lève [à l'est, à l'ouest,  au "
+"nord, au sud].\r\n"
+"Réponse: Le soleil se lève à l'est. "
+
+#: /node/add/cloze?destination=node/9/questions&quiz_nid=9&quiz_vid=34
+msgid "Allow right answers only"
+msgstr "Autoriser uniquement les réponses correctes"
+
+#: /node/add/cloze?destination=node/9/questions&quiz_nid=9&quiz_vid=34
+msgid ""
+"This is meant to be used for learning purpose. If this option is "
+"enabled only the right answers will be accepted."
+msgstr ""
+"Ceci peut être utilisé à des fins pédagogiques. Si cette option "
+"est cochée, seules les réponses correctes seront acceptées."
+
+#: /node/9/take
+msgid "Drag the items into the box that matches its label."
+msgstr "Déplacez les éléments vers les cases dont le libellé correspond."
+
+#: /node/9/take
+msgid "You must drop all the image into placeholders."
+msgstr "Vous devez déplacer toutes les images vers les cases."
+
+#: /admin/modules/list/confirm
+msgid "Fill in the blanks question"
+msgstr "Question à trous"
 
