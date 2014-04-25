@@ -190,7 +190,11 @@ function opigno_lms_update_status_alter(&$projects) {
   foreach ($projects as $project_name => $project_info) {
     // Never unset the drupal project to avoid hitting an error with
     // _update_requirement_check(). See http://drupal.org/node/1875386.
-    if ($project_name == 'drupal' || !isset($project_info['releases']) || !isset($project_info['recommended'])) {
+    /*if ($project_name == 'drupal' || !isset($project_info['releases']) || !isset($project_info['recommended'])) {
+      continue;
+    }*/
+    // Never unset the opigno_lms project. We want them to update.
+    if ($project_name == 'opigno_lms') {
       continue;
     }
     // Hide Opigno LMS projects, they have no update status of their own.
