@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.4
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.4
+;projects[opigno][subdir]  = "opigno"
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][download][type]     = git
-;projects[opigno][download][branch]   = 7.x-1.x
-;projects[opigno][download][revision] = c9e115468a95b90b8ae4a6acd8a2ab888955d5d0
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = 7.x-1.x
+projects[opigno][download][revision] = 48cd8b130e5f113ca7644bd42db09b79bb830829
 
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -34,7 +34,7 @@ projects[opigno_poll_app][subdir]  = "opigno"
 projects[opigno_quiz_import_app][version] = 1.0
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.0
+projects[opigno_class_app][version] = 1.1
 projects[opigno_class_app][subdir]  = "opigno"
 
 projects[opigno_quiz_app][version]    = 1.6
@@ -77,8 +77,7 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-questiontostep-21
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2190283.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2191649_2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2191649.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2212789.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -123,6 +122,18 @@ projects[certificate][version] = 2.0
 
 ; Third-party modules ==========================================================
 
+; Quiz cloze
+projects[cloze][type]               = module
+projects[cloze][subdir]             = "contrib"
+projects[cloze][download][type]     = git
+projects[cloze][download][branch]   = "7.x-1.x"
+projects[cloze][download][url]      = "http://git.drupal.org/project/cloze.git"
+projects[cloze][download][revision] = e3bb806823e46870e8e0d6dafce2d0b261c024c5
+
+; Quiz drag drop
+projects[quiz_drag_drop][subdir]  = "contrib"
+projects[quiz_drag_drop][version] = 1.4
+
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc4
 
@@ -160,10 +171,10 @@ projects[crumbs][subdir]  = "contrib"
 projects[crumbs][version] = 2.0-beta13
 
 projects[variable][subdir]  = "contrib"
-projects[variable][version] = 2.4
+projects[variable][version] = 2.5
 
 projects[i18n][subdir]  = "contrib"
-projects[i18n][version] = 1.10
+projects[i18n][version] = 1.11
 
 projects[rules_conditional][subdir]  = "contrib"
 projects[rules_conditional][version] = 1.0-beta2
