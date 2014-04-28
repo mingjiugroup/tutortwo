@@ -1,6 +1,7 @@
 name = Opigno LMS
 description = Install Opigno with commonly used features pre-configured.
 core = 7.x
+distribution_name = Opigno LMS
 exclusive = TRUE
 
 stylesheets[all][] = css/opigno_lms.css
