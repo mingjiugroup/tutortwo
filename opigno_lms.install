@@ -600,8 +600,7 @@ function opigno_lms_update_7105(&$sandbox) {
   );
   $query = db_merge('block')
             ->key(array('theme' => $default_theme, 'module' => 'opigno_lms', 'delta' => 'version'))
-            ->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'visibility', 'pages', 'cache'))
-            ->values($block);
+            ->fields($block);
   $query->execute();
 
   if (!module_exists('cloze')) {
