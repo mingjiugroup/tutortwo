@@ -577,6 +577,37 @@ function opigno_lms_update_7104(&$sandbox) {
   opigno_lms_refresh_strings_and_import(array('rules', 'field', 'commerce'));
 }
 
+/**
+ * Enable new version block.
+ *
+ * Enable new question types.
+ *
+ * Set i18n string source to English, always.
+ */
+function opigno_lms_update_7105(&$sandbox) {
+  $default_theme = variable_get('theme_default', 'platon');
+
+  $block = array(
+    'module' => 'opigno_lms',
+    'delta' => 'version',
+    'theme' => $default_theme,
+    'status' => 1,
+    'weight' => 0,
+    'region' => 'footer',
+    'visibility' => 0,
+    'pages' => '',
+    'cache' => DRUPAL_CACHE_GLOBAL,
+  );
+  $query = db_insert('block')
+            ->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'visibility', 'pages', 'cache'))
+            ->values($block);
+  $query->execute();
+
+  module_enable(array('cloze', 'quiz_drag_drop'));
+
+  variable_set('i18n_string_source_language', 'en');
+}
+
 /*
  * Removes anonymous permissions to view content for forums calendar_event and notification content types
  */
