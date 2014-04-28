@@ -120,6 +120,12 @@ projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.
 projects[certificate][subdir]  = "contrib"
 projects[certificate][version] = 2.0
 
+; i18n (note: will probably get fixed in 1.12)
+projects[i18n][subdir]  = "contrib"
+projects[i18n][version] = 1.11
+projects[i18n][patch][] = "http://drupal.org/files/issues/i18n_string-2227523-7.patch"
+
+
 ; Third-party modules ==========================================================
 
 ; Quiz cloze
@@ -174,9 +180,6 @@ projects[crumbs][version] = 2.0-beta13
 
 projects[variable][subdir]  = "contrib"
 projects[variable][version] = 2.5
-
-projects[i18n][subdir]  = "contrib"
-projects[i18n][version] = 1.11
 
 projects[rules_conditional][subdir]  = "contrib"
 projects[rules_conditional][version] = 1.0-beta2
