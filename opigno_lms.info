@@ -78,3 +78,6 @@ dependencies[] = opigno_features_wysiwyg
 dependencies[] = opigno_features_homebox
 dependencies[] = opigno_features_pathauto
 dependencies[] = opigno_lms_tour
+dependencies[] = opigno_scorm
+dependencies[] = opigno_scorm_ui
+dependencies[] = opigno_scorm_quiz
