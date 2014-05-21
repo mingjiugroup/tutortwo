@@ -46,7 +46,6 @@ dependencies[] = user_import
 dependencies[] = jquery_countdown
 dependencies[] = content_access
 
-
 ; Opigno core
 dependencies[] = opigno
 dependencies[] = opigno_breadcrumbs
