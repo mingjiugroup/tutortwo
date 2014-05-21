@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.5
+projects[opigno][version] = 1.6
 projects[opigno][subdir]  = "opigno"
 
 ;projects[opigno][type]               = module
