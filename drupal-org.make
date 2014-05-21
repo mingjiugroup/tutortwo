@@ -85,7 +85,7 @@ projects[quizfileupload][subdir]  = "contrib"
 projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
 
 ; OG
-projects[og][version] = 2.6
+projects[og][version] = 2.7
 projects[og][subdir]  = "contrib"
 ;projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
 
@@ -149,7 +149,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.4
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha9
