@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.6
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.6
+;projects[opigno][subdir]  = "opigno"
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][download][type]     = git
-;projects[opigno][download][branch]   = 7.x-1.x
-;projects[opigno][download][revision] = 48cd8b130e5f113ca7644bd42db09b79bb830829
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = 7.x-1.x
+projects[opigno][download][revision] = 292fe95239ed356e1dd1d22b9566f3403d22732b
 
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -34,8 +34,14 @@ projects[opigno_poll_app][subdir]  = "opigno"
 projects[opigno_quiz_import_app][version] = 1.0
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.1
-projects[opigno_class_app][subdir]  = "opigno"
+;projects[opigno_class_app][version] = 1.1
+;projects[opigno_class_app][subdir]  = "opigno"
+
+projects[opigno_class_app][type]               = module
+projects[opigno_class_app][subdir]             = "opigno"
+projects[opigno_class_app][download][type]     = git
+projects[opigno_class_app][download][branch]   = 7.x-1.x
+projects[opigno_class_app][download][revision] = cd4eac80f1f1d2814fa3111debe910b711f93ad7
 
 projects[opigno_quiz_app][version]    = 1.7
 projects[opigno_quiz_app][subdir]  = "opigno"
