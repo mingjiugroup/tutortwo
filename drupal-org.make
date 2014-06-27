@@ -41,7 +41,7 @@ projects[opigno_class_app][type]               = module
 projects[opigno_class_app][subdir]             = "opigno"
 projects[opigno_class_app][download][type]     = git
 projects[opigno_class_app][download][branch]   = 7.x-1.x
-projects[opigno_class_app][download][revision] = 4ba200777f00ca2f07bba214886c81e8fb9d176a
+projects[opigno_class_app][download][revision] = 9d1a875f07ed59e0d16a0d1479b5ce81cb1a8200
 
 projects[opigno_quiz_app][version]    = 1.7
 projects[opigno_quiz_app][subdir]  = "opigno"
