@@ -207,7 +207,7 @@ function opigno_lms_update_status_alter(&$projects) {
     }
     // Hide projects shipped with Opigno LMS if they haven't been manually
     // updated.
-    elseif (isset($make_info['projects'][$project_name])) {
+    elseif (isset($make_info['projects'][$project_name]['version'])) {
       $version = $make_info['projects'][$project_name]['version'];
       if (strpos($version, 'dev') !== FALSE || (DRUPAL_CORE_COMPATIBILITY . '-' . $version == $project_info['info']['version'])) {
         unset($projects[$project_name]);
