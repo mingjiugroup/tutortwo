@@ -246,6 +246,7 @@ projects[login_redirect][version] = 1.1
 
 projects[homebox][subdir]  = "contrib"
 projects[homebox][version] = 2.0-beta7
+projects[homebox][patch][] = "http://www.drupal.org/files/issues/homebox-check_widths-1634486-6.patch"
 
 projects[views_bulk_operations][subdir]  = "contrib"
 projects[views_bulk_operations][version] = 3.2
