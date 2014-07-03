@@ -11,7 +11,7 @@ projects[opigno][type]               = module
 projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = 292fe95239ed356e1dd1d22b9566f3403d22732b
+projects[opigno][download][revision] = c0cbc70bf635abbd2eb23998088cceaa3abb059d
 
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -41,7 +41,7 @@ projects[opigno_class_app][type]               = module
 projects[opigno_class_app][subdir]             = "opigno"
 projects[opigno_class_app][download][type]     = git
 projects[opigno_class_app][download][branch]   = 7.x-1.x
-projects[opigno_class_app][download][revision] = 9d1a875f07ed59e0d16a0d1479b5ce81cb1a8200
+projects[opigno_class_app][download][revision] = d50909898c8d3f2de0076a915ae761bfd2d190dc
 
 projects[opigno_quiz_app][version]    = 1.7
 projects[opigno_quiz_app][subdir]  = "opigno"
@@ -62,7 +62,13 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 3.4
+;projects[platon][version] = 3.4
+
+projects[platon][type]               = theme
+projects[platon][subdir]             = "opigno"
+projects[platon][download][type]     = git
+projects[platon][download][branch]   = "7.x-3.x"
+projects[platon][download][revision] = 3087e66c6ff8052ffa257ebd8a9c8f86b0f93c85
 
 
 ; Third-party modules that need to be patched ==================================
