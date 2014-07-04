@@ -62,14 +62,7 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 
 ; Opigno themes ================================================================
 
-;projects[platon][version] = 3.4
-
-projects[platon][type]               = theme
-projects[platon][subdir]             = "opigno"
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = 3087e66c6ff8052ffa257ebd8a9c8f86b0f93c85
-
+projects[platon][version] = 3.5
 
 ; Third-party modules that need to be patched ==================================
 
