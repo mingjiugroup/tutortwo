@@ -34,14 +34,8 @@ projects[opigno_poll_app][subdir]  = "opigno"
 projects[opigno_quiz_import_app][version] = 1.0
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-;projects[opigno_class_app][version] = 1.1
-;projects[opigno_class_app][subdir]  = "opigno"
-
-projects[opigno_class_app][type]               = module
-projects[opigno_class_app][subdir]             = "opigno"
-projects[opigno_class_app][download][type]     = git
-projects[opigno_class_app][download][branch]   = 7.x-1.x
-projects[opigno_class_app][download][revision] = 8bd96576d2c88fa33d48b8b0336755080b6e0360
+projects[opigno_class_app][version] = 1.2
+projects[opigno_class_app][subdir]  = "opigno"
 
 projects[opigno_quiz_app][version]    = 1.7
 projects[opigno_quiz_app][subdir]  = "opigno"
