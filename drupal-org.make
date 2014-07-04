@@ -13,6 +13,7 @@ projects[opigno][subdir]  = "opigno"
 ;projects[opigno][download][branch]   = 7.x-1.x
 ;projects[opigno][download][revision] = c0cbc70bf635abbd2eb23998088cceaa3abb059d
 
+
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
 
