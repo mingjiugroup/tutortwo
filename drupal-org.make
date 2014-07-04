@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][version] = 1.6
-;projects[opigno][subdir]  = "opigno"
+projects[opigno][version] = 1.7
+projects[opigno][subdir]  = "opigno"
 
-projects[opigno][type]               = module
-projects[opigno][subdir]             = "opigno"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = c0cbc70bf635abbd2eb23998088cceaa3abb059d
+;projects[opigno][type]               = module
+;projects[opigno][subdir]             = "opigno"
+;projects[opigno][download][type]     = git
+;projects[opigno][download][branch]   = 7.x-1.x
+;projects[opigno][download][revision] = c0cbc70bf635abbd2eb23998088cceaa3abb059d
 
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
