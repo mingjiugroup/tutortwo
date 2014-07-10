@@ -115,6 +115,19 @@ function opigno_lms_install_tasks(&$install_state) {
 }
 
 /**
+ * Implements hook_install_tasks_alter()
+ * Hides messages for non english installs
+ */
+function opigno_lms_install_tasks_alter(&$tasks, $install_state)
+{
+  if ($install_state['active_task']=="install_import_locales")
+  {
+    drupal_get_messages('status');
+    drupal_get_messages('warning');
+  }
+}
+
+/**
  * Implements hook_form_FORM_ID_alter() for install_configure_form().
  *
  * Allows the profile to alter the site configuration form.
