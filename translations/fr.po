@@ -70008,3 +70008,10 @@ msgstr "Vous devez déplacer toutes les images vers les cases."
 msgid "Fill in the blanks question"
 msgstr "Question à trous"
 
+#: /course/3/course-1
+msgid "Sort Courses inside classes"
+msgstr "Trier les cours au sein de classes"
+
+#: /class/5/class-1
+msgid "Sort Courses"
+msgstr "Trier les cours"
