@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.7
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.7
+;projects[opigno][subdir]  = "opigno"
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][download][type]     = git
-;projects[opigno][download][branch]   = 7.x-1.x
-;projects[opigno][download][revision] = c0cbc70bf635abbd2eb23998088cceaa3abb059d
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = 7.x-1.x
+projects[opigno][download][revision] = 65f6a0d06ba968d7c808b56699d75dec7075f2fc
 
 
 projects[opigno_calendar_app][version] = 1.0-rc3
@@ -38,8 +38,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.2
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version]    = 1.7
+;projects[opigno_quiz_app][version]    = 1.7
+;projects[opigno_quiz_app][subdir]  = "opigno"
+
+projects[opigno_quiz_app][type] = module
 projects[opigno_quiz_app][subdir]  = "opigno"
+projects[opigno_quiz_app][download][type]     = git
+projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+projects[opigno_quiz_app][download][revision] = e7ca0ec1f2766c4143a2cdb4128d7f051e17671d
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -57,7 +63,12 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 3.5
+;projects[platon][version] = 3.5
+
+projects[platon][type]               = theme
+projects[platon][download][type]     = git
+projects[platon][download][branch]   = "7.x-3.x"
+projects[platon][download][revision] = b1fbfcf1ff7750f910d4c2bfa390a449bf28cbdc
 
 ; Third-party modules that need to be patched ==================================
 
@@ -78,6 +89,7 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2190283.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2191649_2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2212789.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2271303.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
