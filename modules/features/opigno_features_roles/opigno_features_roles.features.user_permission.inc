@@ -138,6 +138,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access quiz',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'quiz',
   );
@@ -1661,6 +1662,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'score any quiz',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'quiz',
   );

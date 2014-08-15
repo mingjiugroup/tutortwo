@@ -62,12 +62,12 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 3.6
+;projects[platon][version] = 3.6
 
-;projects[platon][type]               = theme
-;projects[platon][download][type]     = git
-;projects[platon][download][branch]   = "7.x-3.x"
-;projects[platon][download][revision] = 6faa6271c8662efe8692f06efb2dfeb4c763b341
+projects[platon][type]               = theme
+projects[platon][download][type]     = git
+projects[platon][download][branch]   = "7.x-3.x"
+projects[platon][download][revision] = ea049645c24e1502571e0dd7809ac3e0949ba4ac
 
 ; Third-party modules that need to be patched ==================================
 
