@@ -4,20 +4,26 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.8
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.8
+;projects[opigno][subdir]  = "opigno"
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][download][type]     = git
-;projects[opigno][download][branch]   = 7.x-1.x
-;projects[opigno][download][revision] = f423d66249c69ecfd0684569fd7c742746111531
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = 7.x-1.x
+projects[opigno][download][revision] = 9aa1e89497d3dba99e2c77764feb7d50543c9326
 
 projects[opigno_calendar_app][version] = 1.0-rc3
 projects[opigno_calendar_app][subdir]  = "opigno"
 
-projects[opigno_certificate_app][version] = 1.0
-projects[opigno_certificate_app][subdir]  = "opigno"
+;projects[opigno_certificate_app][version] = 1.0
+;projects[opigno_certificate_app][subdir]  = "opigno"
+
+projects[opigno_certificate_app][type]               = module
+projects[opigno_certificate_app][subdir]             = "opigno"
+projects[opigno_certificate_app][download][type]     = git
+projects[opigno_certificate_app][download][branch]   = 7.x-1.x
+projects[opigno_certificate_app][download][revision] = d3b6e035419bbd05eb8eb63362010fc7d14a4bd7
 
 projects[opigno_forum_app][version] = 1.0
 projects[opigno_forum_app][subdir]  = "opigno"
@@ -37,14 +43,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.3
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version]    = 1.8
-projects[opigno_quiz_app][subdir]  = "opigno"
-
-;projects[opigno_quiz_app][type] = module
+;projects[opigno_quiz_app][version]    = 1.8
 ;projects[opigno_quiz_app][subdir]  = "opigno"
-;projects[opigno_quiz_app][download][type]     = git
-;projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-;projects[opigno_quiz_app][download][revision] = e7ca0ec1f2766c4143a2cdb4128d7f051e17671d
+
+projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][subdir]  = "opigno"
+projects[opigno_quiz_app][download][type]     = git
+projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+projects[opigno_quiz_app][download][revision] = 4c822e77df2e84f01d8084d79abf89090ea28330
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -62,12 +68,12 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 3.7
+;projects[platon][version] = 3.7
 
-;projects[platon][type]               = theme
-;projects[platon][download][type]     = git
-;projects[platon][download][branch]   = "7.x-3.x"
-;projects[platon][download][revision] = ea049645c24e1502571e0dd7809ac3e0949ba4ac
+projects[platon][type]               = theme
+projects[platon][download][type]     = git
+projects[platon][download][branch]   = "7.x-3.x"
+projects[platon][download][revision] = bba0002244622ec1c735e3bf9f97bebaaf9da96f
 
 ; Third-party modules that need to be patched ==================================
 
@@ -89,6 +95,7 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2191649_2.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2212789.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2271303.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2334539.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -98,6 +105,7 @@ projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scori
 ; OG
 projects[og][version] = 2.7
 projects[og][subdir]  = "contrib"
+projects[og][patch][] = "http://drupal.org/files/issues/og_2330777.patch"
 ;projects[og][patch][] = "http://drupal.org/files/og_ui.block_subscribtion_programatically-2032775.patch"
 
 ; OG Create Permissions
@@ -161,6 +169,9 @@ projects[ctools][version] = 1.4
 
 projects[views][subdir] = "contrib"
 projects[views][version] = 3.8
+
+projects[views_php][subdir] = "contrib"
+projects[views_php][version] = 1.0-alpha1
 
 projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha9

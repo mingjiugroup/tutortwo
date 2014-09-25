@@ -45,6 +45,7 @@ dependencies[] = quizfileupload
 dependencies[] = user_import
 dependencies[] = jquery_countdown
 dependencies[] = content_access
+dependencies[] = views_php
 
 ; Opigno core
 dependencies[] = opigno
