@@ -283,6 +283,9 @@ projects[content_access][version] = 1.2-beta2
 projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = 1.8
 
+projects[better_exposed_filters][subdir] = "contrib"
+projects[better_exposed_filters][version] = 3.0-beta4
+
 projects[guideme][subdir]  = "contrib"
 projects[guideme][version] = 1.0-rc1
 
