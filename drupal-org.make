@@ -280,6 +280,9 @@ projects[jquery_countdown][version] = 1.1
 projects[content_access][subdir]  = "contrib"
 projects[content_access][version] = 1.2-beta2
 
+projects[r4032login][subdir] = "contrib"
+projects[r4032login][version] = 1.8
+
 projects[guideme][subdir]  = "contrib"
 projects[guideme][version] = 1.0-rc1
 

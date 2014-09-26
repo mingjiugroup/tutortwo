@@ -46,6 +46,7 @@ dependencies[] = user_import
 dependencies[] = jquery_countdown
 dependencies[] = content_access
 dependencies[] = views_php
+dependencies[] = r4032login
 
 ; Opigno core
 dependencies[] = opigno
