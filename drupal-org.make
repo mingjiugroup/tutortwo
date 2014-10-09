@@ -238,6 +238,7 @@ projects[print][version] = 1.3
 
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.8
+projects[date][patch][] = "http://drupal.org/files/issues/title_date_formats-2294973-6.patch"
 
 projects[advanced_forum][subdir]  = "contrib"
 projects[advanced_forum][version] = 2.3
@@ -272,7 +273,7 @@ projects[strongarm][version] = 2.0
 
 projects[user_import][subdir]  = "contrib"
 projects[user_import][version] = 2.2
-projects[user_import][patch][] = "https://drupal.org/files/issues/creationdate_2220193_1.patch"
+projects[user_import][patch][] = "http://drupal.org/files/issues/creationdate_2220193_1.patch"
 
 projects[jquery_countdown][subdir]  = "contrib"
 projects[jquery_countdown][version] = 1.1
@@ -282,6 +283,7 @@ projects[content_access][version] = 1.2-beta2
 
 projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = 1.8
+projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login_exclude_homepage_2351249_0.patch"
 
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = 3.0-beta4
