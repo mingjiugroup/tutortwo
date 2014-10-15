@@ -138,8 +138,8 @@ projects[rules][patch][] = "http://drupal.org/files/system.rules_.inc_.patch"
 
 ; Apps
 projects[apps][subdir]  = "contrib"
-projects[apps][version] = 1.0-beta7
-projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.patch"
+projects[apps][version] = 1.0-beta17
+;projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.patch"
 
 ; Certificate
 projects[certificate][subdir]  = "contrib"
