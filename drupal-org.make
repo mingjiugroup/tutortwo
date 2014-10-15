@@ -11,10 +11,16 @@ projects[opigno][type]               = module
 projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = 9aa1e89497d3dba99e2c77764feb7d50543c9326
+projects[opigno][download][revision] = a4138c24d9a04793fb7915e6637a94735fc7ba7b
 
-projects[opigno_calendar_app][version] = 1.0-rc3
-projects[opigno_calendar_app][subdir]  = "opigno"
+;projects[opigno_calendar_app][version] = 1.0-rc3
+;projects[opigno_calendar_app][subdir]  = "opigno"
+
+projects[opigno_calendar_app][type]               = module
+projects[opigno_calendar_app][subdir]             = "opigno"
+projects[opigno_calendar_app][download][type]     = git
+projects[opigno_calendar_app][download][branch]   = 7.x-1.x
+projects[opigno_calendar_app][download][revision] = 85474ccb92d9737e88f8de48732cc04251ffc1c9
 
 ;projects[opigno_certificate_app][version] = 1.0
 ;projects[opigno_certificate_app][subdir]  = "opigno"
@@ -23,7 +29,7 @@ projects[opigno_certificate_app][type]               = module
 projects[opigno_certificate_app][subdir]             = "opigno"
 projects[opigno_certificate_app][download][type]     = git
 projects[opigno_certificate_app][download][branch]   = 7.x-1.x
-projects[opigno_certificate_app][download][revision] = d3b6e035419bbd05eb8eb63362010fc7d14a4bd7
+projects[opigno_certificate_app][download][revision] = 7113b061ff4f15a524c08e11a340dd3522375196
 
 projects[opigno_forum_app][version] = 1.0
 projects[opigno_forum_app][subdir]  = "opigno"
@@ -50,7 +56,7 @@ projects[opigno_quiz_app][type] = module
 projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 4c822e77df2e84f01d8084d79abf89090ea28330
+projects[opigno_quiz_app][download][revision] = 6e6691a53dd7a7c3cb1e13c12253939d279c9225
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -73,7 +79,7 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = bba0002244622ec1c735e3bf9f97bebaaf9da96f
+projects[platon][download][revision] = 8993d59e9763682ca2a1cf08af45003c0c0c9fbb
 
 ; Third-party modules that need to be patched ==================================
 

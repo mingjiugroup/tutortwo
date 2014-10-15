@@ -83,7 +83,6 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
 
-
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
