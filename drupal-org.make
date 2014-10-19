@@ -22,7 +22,7 @@ projects[opigno_calendar_app][subdir]  = "opigno"
 ;projects[opigno_calendar_app][download][branch]   = 7.x-1.x
 ;projects[opigno_calendar_app][download][revision] = 85474ccb92d9737e88f8de48732cc04251ffc1c9
 
-projects[opigno_certificate_app][version] = 1.0
+projects[opigno_certificate_app][version] = 1.1
 projects[opigno_certificate_app][subdir]  = "opigno"
 
 ;projects[opigno_certificate_app][type]               = module
