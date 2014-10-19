@@ -70015,3 +70015,67 @@ msgstr "Trier les cours au sein de classes"
 #: /class/5/class-1
 msgid "Sort Courses"
 msgstr "Trier les cours"
+
+#: /node/add/course
+msgid "In house training"
+msgstr "Leçon en présentiel"
+
+#: /node/add/course
+msgid "Add new in house training"
+msgstr "Ajouter une nouvelle leçon en présentiel"
+
+#: /course/3/opigno-training-course
+msgid "Score in house lesson"
+msgstr "Evaluer la leçon en présentiel"
+
+#: /course/3/opigno-training-course
+msgid "In house Lessons"
+msgstr "Leçons en présentiel"
+
+#: /course/3/opigno-training-course
+msgid "Webex meetings"
+msgstr "Vidéoconférences"
+
+#: /node/32/in_house_training
+msgid "In House lessons"
+msgstr "Lessons en présentiel"
+
+#: /node/add/in-house-training?og_group_ref=32
+msgid "In house training dates"
+msgstr "Dates des leçons en présentiel"
+
+#: /node/8/edit
+msgid "In house training date"
+msgstr "Date de la leçon le présentiel"
+
+#: /admin/config/regional/language
+msgid "Score student results"
+msgstr "Evaluer les résultats de l'étudiant"
+
+#: /node/10/webex_attendance
+msgid "Student name"
+msgstr "Nom de l'étudiant"
+
+#: /node/10/webex_attendance
+msgid "Attendance"
+msgstr "Présence"
+
+#: /node/10/webex_attendance
+msgid "Attended"
+msgstr "Présent"
+
+#: /node/10/webex_attendance
+msgid "Score and go to next"
+msgstr "Evaluer et passer à la leçon suivante"
+
+#: /node/10/webex_attendance
+msgid "Score attendance"
+msgstr "Evaluer la participation"
+
+#: /node/4/take
+msgid "To next lesson"
+msgstr "Passer à la leçon suivante"
+
+#: /node/7/take
+msgid "Back to course"
+msgstr "Retour à la page d'accueil du cours"

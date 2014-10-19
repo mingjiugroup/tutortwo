@@ -4,32 +4,32 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][version] = 1.8
-;projects[opigno][subdir]  = "opigno"
+projects[opigno][version] = 1.9
+projects[opigno][subdir]  = "opigno"
 
-projects[opigno][type]               = module
-projects[opigno][subdir]             = "opigno"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = a4138c24d9a04793fb7915e6637a94735fc7ba7b
+;projects[opigno][type]               = module
+;projects[opigno][subdir]             = "opigno"
+;projects[opigno][download][type]     = git
+;projects[opigno][download][branch]   = 7.x-1.x
+;projects[opigno][download][revision] = a4138c24d9a04793fb7915e6637a94735fc7ba7b
 
-;projects[opigno_calendar_app][version] = 1.0-rc3
-;projects[opigno_calendar_app][subdir]  = "opigno"
+projects[opigno_calendar_app][version] = 1.0
+projects[opigno_calendar_app][subdir]  = "opigno"
 
-projects[opigno_calendar_app][type]               = module
-projects[opigno_calendar_app][subdir]             = "opigno"
-projects[opigno_calendar_app][download][type]     = git
-projects[opigno_calendar_app][download][branch]   = 7.x-1.x
-projects[opigno_calendar_app][download][revision] = 85474ccb92d9737e88f8de48732cc04251ffc1c9
+;projects[opigno_calendar_app][type]               = module
+;projects[opigno_calendar_app][subdir]             = "opigno"
+;projects[opigno_calendar_app][download][type]     = git
+;projects[opigno_calendar_app][download][branch]   = 7.x-1.x
+;projects[opigno_calendar_app][download][revision] = 85474ccb92d9737e88f8de48732cc04251ffc1c9
 
-;projects[opigno_certificate_app][version] = 1.0
-;projects[opigno_certificate_app][subdir]  = "opigno"
+projects[opigno_certificate_app][version] = 1.0
+projects[opigno_certificate_app][subdir]  = "opigno"
 
-projects[opigno_certificate_app][type]               = module
-projects[opigno_certificate_app][subdir]             = "opigno"
-projects[opigno_certificate_app][download][type]     = git
-projects[opigno_certificate_app][download][branch]   = 7.x-1.x
-projects[opigno_certificate_app][download][revision] = 7113b061ff4f15a524c08e11a340dd3522375196
+;projects[opigno_certificate_app][type]               = module
+;projects[opigno_certificate_app][subdir]             = "opigno"
+;projects[opigno_certificate_app][download][type]     = git
+;projects[opigno_certificate_app][download][branch]   = 7.x-1.x
+;projects[opigno_certificate_app][download][revision] = 7113b061ff4f15a524c08e11a340dd3522375196
 
 projects[opigno_forum_app][version] = 1.0
 projects[opigno_forum_app][subdir]  = "opigno"
@@ -49,14 +49,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.3
 projects[opigno_class_app][subdir]  = "opigno"
 
-;projects[opigno_quiz_app][version]    = 1.8
-;projects[opigno_quiz_app][subdir]  = "opigno"
-
-projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][version]    = 1.9
 projects[opigno_quiz_app][subdir]  = "opigno"
-projects[opigno_quiz_app][download][type]     = git
-projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 6e6691a53dd7a7c3cb1e13c12253939d279c9225
+
+;projects[opigno_quiz_app][type] = module
+;projects[opigno_quiz_app][subdir]  = "opigno"
+;projects[opigno_quiz_app][download][type]     = git
+;projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+;projects[opigno_quiz_app][download][revision] = 4e23fed1369cd0ae56e2c7019a37260737671c4e
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -74,12 +74,12 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 
 ; Opigno themes ================================================================
 
-;projects[platon][version] = 3.7
+projects[platon][version] = 3.8
 
-projects[platon][type]               = theme
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = 8993d59e9763682ca2a1cf08af45003c0c0c9fbb
+;projects[platon][type]               = theme
+;projects[platon][download][type]     = git
+;projects[platon][download][branch]   = "7.x-3.x"
+;projects[platon][download][revision] = b56fc4599ddcd308e810366d873296661eb22fbd
 
 ; Third-party modules that need to be patched ==================================
 
@@ -139,7 +139,7 @@ projects[rules][patch][] = "http://drupal.org/files/system.rules_.inc_.patch"
 ; Apps
 projects[apps][subdir]  = "contrib"
 projects[apps][version] = 1.0-beta17
-;projects[apps][patch][] = "http://drupal.org/files/correct_pdo_error-12-1830680.patch"
+projects[apps][patch][] = "http://drupal.org/files/issues/apps_module-2357093.patch"
 
 ; Certificate
 projects[certificate][subdir]  = "contrib"

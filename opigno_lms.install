@@ -630,6 +630,22 @@ function opigno_lms_update_7106(&$sandbox) {
   }
 }
 
+/**
+ * Changes default permissions
+ *
+ */
+function opigno_lms_update_7107(&$sandbox) {
+  $roles = user_roles(FALSE, NULL);
+  foreach ($roles as $rid => $rolename) {
+    if ($rolename == "student manager") {
+      user_role_grant_permissions($rid, array('administer certificates'));
+      user_role_grant_permissions($rid, array('tft reorder terms'));
+      user_role_grant_permissions($rid, array('tft add child terms'));
+    }
+  }
+  module_enable(array('views_php','r4032login','better_exposed_filters'),TRUE);
+}
+
 /*
  * Removes anonymous permissions to view content for forums calendar_event and notification content types
  */

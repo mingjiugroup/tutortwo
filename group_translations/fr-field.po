@@ -62524,3 +62524,37 @@ msgstr ""
 "dans une case, il est de ce fait important qu'il ne dépasse pas 18 "
 "caractères. Il sera sinon tronqué.</em></p> "
 
+#: field:comment_body:comment_node_in_house_training:label
+msgctxt "comment_body:comment_node_in_house_training:label"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: field:opigno_iht_dates:in_house_training:label
+msgctxt "opigno_iht_dates:in_house_training:label"
+msgid "In house training dates"
+msgstr "Dates des leçons en présentiel"
+
+#: field:opigno_iht_address:in_house_training:label
+msgctxt "opigno_iht_address:in_house_training:label"
+msgid "Address"
+msgstr "Adresse"
+
+#: field:opigno_iht_comment:in_house_training:label
+msgctxt "opigno_iht_comment:in_house_training:label"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: field:opigno_iht_status:in_house_training:label
+msgctxt "opigno_iht_status:in_house_training:label"
+msgid "Status"
+msgstr "Statut"
+
+#: field:opigno_calendar_date:in_house_training:label
+msgctxt "opigno_calendar_date:in_house_training:label"
+msgid "In house training date"
+msgstr "Date de la leçon en présentiel"
+
+#: field:comment_body:comment_node_webex_video_conference:label
+msgctxt "comment_body:comment_node_webex_video_conference:label"
+msgid "Comment"
+msgstr "Commentaire"

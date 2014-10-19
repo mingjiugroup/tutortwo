@@ -240,6 +240,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'administer certificates',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'certificate',
   );
@@ -1738,6 +1739,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'tft add child terms',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'tft',
   );
@@ -1765,6 +1767,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'tft reorder terms',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'tft',
   );
