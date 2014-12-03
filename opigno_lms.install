@@ -646,6 +646,9 @@ function opigno_lms_update_7107(&$sandbox) {
   module_enable(array('views_php','r4032login','better_exposed_filters'),TRUE);
 }
 
+/**
+ * Enable opigno_slide_pdf
+ */
 function opigno_lms_update_7108(&$sandbox) {
   module_enable(array('opigno_slide_pdf'),TRUE);
 }
