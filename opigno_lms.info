@@ -48,6 +48,7 @@ dependencies[] = content_access
 dependencies[] = views_php
 dependencies[] = r4032login
 dependencies[] = better_exposed_filters
+dependencies[] = pdf
 
 ; Opigno core
 dependencies[] = opigno
@@ -66,6 +67,7 @@ dependencies[] = opigno_notifications_app
 dependencies[] = opigno_poll_app
 dependencies[] = opigno_quiz_import_app
 dependencies[] = opigno_quiz_app
+dependencies[] = opigno_slide_pdf
 dependencies[] = opigno_quiz_helper
 dependencies[] = opigno_wt_app
 dependencies[] = opigno_course_categories_app

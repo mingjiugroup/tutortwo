@@ -49,14 +49,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.3
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version]    = 1.9
-projects[opigno_quiz_app][subdir]  = "opigno"
-
-;projects[opigno_quiz_app][type] = module
+;projects[opigno_quiz_app][version]    = 1.9
 ;projects[opigno_quiz_app][subdir]  = "opigno"
-;projects[opigno_quiz_app][download][type]     = git
-;projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-;projects[opigno_quiz_app][download][revision] = 4e23fed1369cd0ae56e2c7019a37260737671c4e
+
+projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][subdir]  = "opigno"
+projects[opigno_quiz_app][download][type]     = git
+projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+projects[opigno_quiz_app][download][revision] = 69180a932bdafc48a50e81bba82d081239f332a8
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -296,6 +296,9 @@ projects[better_exposed_filters][version] = 3.0-beta4
 
 projects[guideme][subdir]  = "contrib"
 projects[guideme][version] = 1.0-rc1
+
+projects[pdf][subdir]  = "contrib"
+projects[pdf][version] = 1.6
 
 
 ; Third-patry libraries ========================================================
