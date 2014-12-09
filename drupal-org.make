@@ -102,6 +102,10 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2195239.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-2212789.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2271303.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2334539.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2364149.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_slide-scoring_2342805.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -164,6 +168,7 @@ projects[cloze][patch][] = "http://drupal.org/files/issues/cloze_change_question
 projects[quiz_drag_drop][subdir]  = "contrib"
 projects[quiz_drag_drop][version] = 1.4
 projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/drag_and_drop-forgivingbox-2249971-1.patch"
+projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/quiz_drag_drop_2364215.patch"
 
 
 ; Third-party modules ==========================================================
@@ -290,7 +295,7 @@ projects[content_access][version] = 1.2-beta2
 
 projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = 1.8
-projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login_exclude_homepage_2351249_0.patch"
+projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login-exclude_homepage-2362997.patch"
 
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = 3.0-beta4
