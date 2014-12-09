@@ -849,5 +849,137 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+ $permissions['node:course:create cloze content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update own cloze content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update any cloze content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  $permissions['node:course:delete own cloze content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:delete any cloze content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  $permissions['node:course:create opigno_scorm_quiz_question content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update own opigno_scorm_quiz_question content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update any opigno_scorm_quiz_question content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  $permissions['node:course:delete own opigno_scorm_quiz_question content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:delete any opigno_scorm_quiz_question content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  $permissions['node:course:create quizfileupload content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update own quizfileupload content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update any quizfileupload content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  $permissions['node:course:delete own quizfileupload content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:delete any quizfileupload content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  $permissions['node:course:create quiz_drag_drop content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update own quiz_drag_drop content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update any quiz_drag_drop content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  $permissions['node:course:delete own quiz_drag_drop content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:delete any quiz_drag_drop content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
   return $permissions;
 }

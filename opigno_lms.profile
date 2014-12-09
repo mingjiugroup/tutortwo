@@ -18,7 +18,7 @@ define('OPIGNO_LMS_STUDENT_MANAGER_ROLE',     'student manager');
 define('OPIGNO_LMS_ADMIN_ROLE',               'administrator');
 define('OPIGNO_LMS_FORUM_ADMINISTRATOR_ROLE', 'forum administrator');
 
-define('OPIGNO_LMS_VERSION', '1.16.0');
+define('OPIGNO_LMS_VERSION', '1.17.0');
 
 /**
  * Implements hook_init().
@@ -100,6 +100,22 @@ function opigno_lms_init() {
 function opigno_lms_form_node_form_alter(&$form, $form_state) {
   if (!(module_exists('entity_translation') || module_exists('translation'))) {
     $form['language']['#value'] = LANGUAGE_NONE;
+  }
+}
+
+function romica_tft_form_alter(&$form, &$form_state, $form_id) {
+  global $user;
+  // Only user 1 should be able to add remove administration role
+  if ((($form_id == "user_register_form") || ($form_id == "user_profile_form")) && ($user->uid != 1)) {
+    $form['account']['roles'][3]["#type"] = "checkbox";
+    $form['account']['roles'][3]["#title"] = t("administrator");
+    $form['account']['roles'][3]["#disabled"] = "true";
+    // Only user 1 can edit user 1
+    if (($user->uid != 1) && (isset($form['#user'])) && ($form['#user']->uid == 1)) {
+      drupal_access_denied();
+      module_invoke_all('exit');
+      exit();
+    }
   }
 }
 
