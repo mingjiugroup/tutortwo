@@ -104,7 +104,6 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2271303.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2334539.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2364149.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_slide-scoring_2342805.patch"
 
 ; Quiz File Upload
