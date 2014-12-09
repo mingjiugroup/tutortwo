@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.9
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.9
+;projects[opigno][subdir]  = "opigno"
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][download][type]     = git
-;projects[opigno][download][branch]   = 7.x-1.x
-;projects[opigno][download][revision] = a4138c24d9a04793fb7915e6637a94735fc7ba7b
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = 7.x-1.x
+projects[opigno][download][revision] = c7e07545f520bff5cc6c6a6562e19a247ab60c1b
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -56,7 +56,7 @@ projects[opigno_quiz_app][type] = module
 projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 69180a932bdafc48a50e81bba82d081239f332a8
+projects[opigno_quiz_app][download][revision] = 0491283955ec9947691f4172920ee89636351269
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -220,8 +220,14 @@ projects[features][version] = 2.0
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
-projects[og_quiz][subdir]  = "contrib"
-projects[og_quiz][version] = 1.1
+;projects[og_quiz][subdir]  = "contrib"
+;projects[og_quiz][version] = 1.1
+
+projects[og_quiz][type]               = module
+projects[og_quiz][subdir]             = "opigno"
+projects[og_quiz][download][type]     = git
+projects[og_quiz][download][branch]   = "7.x-1.x"
+projects[og_quiz][download][revision] = 6eabe852766d84639799afea8ec1bb77cb126909
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
