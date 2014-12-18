@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][version] = 1.9
-;projects[opigno][subdir]  = "opigno"
+projects[opigno][version] = 1.10
+projects[opigno][subdir]  = "opigno"
 
-projects[opigno][type]               = module
-projects[opigno][subdir]             = "opigno"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = c7e07545f520bff5cc6c6a6562e19a247ab60c1b
+;projects[opigno][type]               = module
+;projects[opigno][subdir]             = "opigno"
+;projects[opigno][download][type]     = git
+;projects[opigno][download][branch]   = 7.x-1.x
+;projects[opigno][download][revision] = c7e07545f520bff5cc6c6a6562e19a247ab60c1b
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -49,14 +49,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.3
 projects[opigno_class_app][subdir]  = "opigno"
 
-;projects[opigno_quiz_app][version]    = 1.9
-;projects[opigno_quiz_app][subdir]  = "opigno"
-
-projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][version]    = 1.10
 projects[opigno_quiz_app][subdir]  = "opigno"
-projects[opigno_quiz_app][download][type]     = git
-projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = b51d68ac4d6d84fd1968563dd7ef6763c63c1780
+
+;projects[opigno_quiz_app][type] = module
+;projects[opigno_quiz_app][subdir]  = "opigno"
+;projects[opigno_quiz_app][download][type]     = git
+;projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+;projects[opigno_quiz_app][download][revision] = b51d68ac4d6d84fd1968563dd7ef6763c63c1780
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -74,12 +74,12 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 
 ; Opigno themes ================================================================
 
-;projects[platon][version] = 3.8
+projects[platon][version] = 3.9
 
-projects[platon][type]               = theme
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = 015e14d6215a26a21205dd06bba305995f674cde
+;projects[platon][type]               = theme
+;projects[platon][download][type]     = git
+;projects[platon][download][branch]   = "7.x-3.x"
+;projects[platon][download][revision] = 015e14d6215a26a21205dd06bba305995f674cde
 
 ; Third-party modules that need to be patched ==================================
 
@@ -225,14 +225,14 @@ projects[features][version] = 2.0
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
-;projects[og_quiz][subdir]  = "contrib"
-;projects[og_quiz][version] = 1.1
+projects[og_quiz][subdir]  = "contrib"
+projects[og_quiz][version] = 1.2
 
-projects[og_quiz][type]               = module
-projects[og_quiz][subdir]             = "contrib"
-projects[og_quiz][download][type]     = git
-projects[og_quiz][download][branch]   = "7.x-1.x"
-projects[og_quiz][download][revision] = 86c71a2ed4b8f0203da7ebb2ff9508570b13f608
+;projects[og_quiz][type]               = module
+;projects[og_quiz][subdir]             = "contrib"
+;projects[og_quiz][download][type]     = git
+;projects[og_quiz][download][branch]   = "7.x-1.x"
+;projects[og_quiz][download][revision] = 86c71a2ed4b8f0203da7ebb2ff9508570b13f608
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
