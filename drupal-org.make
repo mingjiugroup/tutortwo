@@ -56,7 +56,7 @@ projects[opigno_quiz_app][type] = module
 projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 0491283955ec9947691f4172920ee89636351269
+projects[opigno_quiz_app][download][revision] = b51d68ac4d6d84fd1968563dd7ef6763c63c1780
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -74,12 +74,12 @@ projects[tft][download][revision] = 6383da829c9ba76a1a57d345af36dc08a0cf4fca
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 3.8
+;projects[platon][version] = 3.8
 
-;projects[platon][type]               = theme
-;projects[platon][download][type]     = git
-;projects[platon][download][branch]   = "7.x-3.x"
-;projects[platon][download][revision] = b56fc4599ddcd308e810366d873296661eb22fbd
+projects[platon][type]               = theme
+projects[platon][download][type]     = git
+projects[platon][download][branch]   = "7.x-3.x"
+projects[platon][download][revision] = 015e14d6215a26a21205dd06bba305995f674cde
 
 ; Third-party modules that need to be patched ==================================
 
@@ -105,6 +105,8 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2334539.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2364149.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_slide-scoring_2342805.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -227,10 +229,10 @@ projects[og_massadd][version] = 1.0-beta2
 ;projects[og_quiz][version] = 1.1
 
 projects[og_quiz][type]               = module
-projects[og_quiz][subdir]             = "opigno"
+projects[og_quiz][subdir]             = "contrib"
 projects[og_quiz][download][type]     = git
 projects[og_quiz][download][branch]   = "7.x-1.x"
-projects[og_quiz][download][revision] = 6eabe852766d84639799afea8ec1bb77cb126909
+projects[og_quiz][download][revision] = 86c71a2ed4b8f0203da7ebb2ff9508570b13f608
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
