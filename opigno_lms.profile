@@ -21,7 +21,7 @@ define('OPIGNO_LMS_FORUM_ADMINISTRATOR_ROLE', 'forum administrator');
 define('OPIGNO_LMS_VERSION', '1.17.0');
 
 /**
- * Implements hook_init().
+ * Implements hook_init().cd .drush
  */
 function opigno_lms_init() {
   // We need to store the default roles so other modules can use them easily.
@@ -179,7 +179,9 @@ function opigno_lms_form_install_configure_form_alter_submit($form, $form_state)
   if (!empty($form_state['values']['opigno_lms']['demo_content'])) {
     // @todo
   }
-  opigno_lms_refresh_strings_and_import(array('field','better_exposed_filters','rules'));
+  if (module_exists('locale')) {
+  opigno_lms_refresh_strings_and_import(array('field','rules'));
+  }
 }
 
 /**

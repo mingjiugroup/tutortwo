@@ -307,6 +307,7 @@ function _opigno_lms_install_i18n() {
   if (module_exists('locale')) {
     // We want to activate the field translations as well.
     module_enable(array('i18n_field'), TRUE);
+    module_enable(array('l10n_update'), TRUE);
   }
 }
 
