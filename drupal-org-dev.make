@@ -287,10 +287,10 @@ projects[pdf][version] = 1.6
 
 ; Third-patry libraries ========================================================
 
-libraries[pdfjs][download][type] = get
-libraries[pdfjs][download][url]  = "http://github.com/mozilla/pdf.js/releases/download/v1.0.712/pdfjs-1.0.712-dist.zip"
-libraries[pdfjs][destination]    = "libraries"
-libraries[pdfjs][directory_name] = "pdf.js"
+;libraries[pdfjs][download][type] = get
+;libraries[pdfjs][download][url]  = "http://github.com/mozilla/pdf.js/releases/download/v1.0.712/pdfjs-1.0.712-dist.zip"
+;libraries[pdfjs][destination]    = "libraries"
+;libraries[pdfjs][directory_name] = "pdf.js"
 
 libraries[CKEditor][download][type] = get
 libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
