@@ -651,7 +651,7 @@ function opigno_lms_update_7107(&$sandbox) {
  * Enable opigno_slide_pdf
  */
 function opigno_lms_update_7108(&$sandbox) {
-  module_enable(array('opigno_slide_pdf'),TRUE);
+  module_enable(array('opigno_pdf_viewer'),TRUE);
 }
 
 /*
