@@ -157,7 +157,7 @@ projects[i18n][version] = 1.11
 projects[i18n][patch][] = "http://drupal.org/files/issues/i18n_string-2227523-7.patch"
 
 projects[l10n_update][subdir]  = "contrib"
-projects[l10n_update][version] = 1.2
+projects[l10n_update][version] = 2.0
 
 ; Quiz cloze
 projects[cloze][type]               = module
