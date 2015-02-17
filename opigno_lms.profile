@@ -177,7 +177,7 @@ function opigno_lms_verify_requirements($form, &$form_state) {
 
   $max_input_time = ini_get("max_input_time");
   if (($max_input_time < 60) && ($max_input_time != -1)) {
-    drupal_set_message(st("Your system has the maximum_input_time as %max_input_time. Minimum required for Opigno installation is 60. If your machine is old and depending on its current load you may want to raise it even higher (120). Please change the maximum_execution_time in your php.ini settings file or using ini_set in the settings.php file before continuing", array('%max_input_time' => $max_input_time)), "error", $repeat = FALSE);
+    drupal_set_message(st("Your system has the max_input_time as %max_input_time. Minimum required for Opigno installation is 60. If your machine is old and depending on its current load you may want to raise it even higher (120). Please change the max_input_time in your php.ini settings file or using ini_set in the settings.php file before continuing", array('%max_input_time' => $max_input_time)), "error", $repeat = FALSE);
     $error = TRUE;
   }
 
