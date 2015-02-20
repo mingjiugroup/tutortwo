@@ -115,6 +115,10 @@ function opigno_lms_install_tasks(&$install_state) {
     'display_name' => st('Check Opigno requirements'),
     'type' => 'form',
   );
+  if (!empty($install_state['parameters']['opigno_requirements_finished']))
+  {
+    $tasks['opigno_lms_verify_requirements']['run']=INSTALL_TASK_SKIP;
+  }
   return $tasks;
 }
 
@@ -196,8 +200,15 @@ function opigno_lms_verify_requirements($form, &$form_state) {
       '#type' => 'submit',
       '#value' => t('Continue'),
     );
+    $form_state['build_info']['args']['install_state']=&$install_state;
   }
   return $form;
+}
+
+function opigno_lms_verify_requirements_submit($form, &$form_state)
+{
+  $install_state=&$form_state['build_info']['args']['install_state'];
+  $install_state['parameters']['opigno_requirements_finished']=TRUE;
 }
 
 /**
@@ -554,4 +565,3 @@ function opigno_lms_i18n_string_refresh_batch($groups, $lang) {
 /**
  * @} End of "defgroup opigno_lms_api".
  */
-
