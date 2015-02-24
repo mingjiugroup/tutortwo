@@ -147,7 +147,7 @@ function opigno_lms_install_tasks_alter(&$tasks, $install_state)
 /**
  * Verifies Opigno requirements
  */
-function opigno_lms_verify_requirements($form, &$form_state) {
+function opigno_lms_verify_requirements($form, &$form_state, &$install_state) {
   $form = array();
   $error = FALSE;
   $warnings = FALSE;
