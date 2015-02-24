@@ -49,6 +49,8 @@ dependencies[] = views_php
 dependencies[] = r4032login
 dependencies[] = better_exposed_filters
 dependencies[] = pdf
+dependencies[] = h5p
+dependencies[] = quiz_h5p
 
 ; Opigno core
 dependencies[] = opigno
