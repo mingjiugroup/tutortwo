@@ -130,7 +130,7 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_feedback-after-qu
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_slide-scoring_2342805.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779.patch
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
