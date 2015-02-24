@@ -211,7 +211,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.4
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.8
+projects[views][version] = 3.10
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = 1.0-alpha1
@@ -305,8 +305,8 @@ projects[login_redirect][subdir]  = "contrib"
 projects[login_redirect][version] = 1.1
 
 projects[homebox][subdir]  = "contrib"
-projects[homebox][version] = 2.0-beta7
-projects[homebox][patch][] = "http://drupal.org/files/issues/homebox-check_widths-1634486-6.patch"
+projects[homebox][version] = 2.0-rc1
+;projects[homebox][patch][] = "http://drupal.org/files/issues/homebox-check_widths-1634486-6.patch"
 
 projects[views_bulk_operations][subdir]  = "contrib"
 projects[views_bulk_operations][version] = 3.2
