@@ -252,14 +252,14 @@ projects[features][version] = 2.0
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
-projects[og_quiz][subdir]  = "contrib"
-projects[og_quiz][version] = 1.2
+;projects[og_quiz][subdir]  = "contrib"
+;projects[og_quiz][version] = 1.2
 
-;projects[og_quiz][type]               = module
-;projects[og_quiz][subdir]             = "contrib"
-;projects[og_quiz][download][type]     = git
-;projects[og_quiz][download][branch]   = "7.x-1.x"
-;projects[og_quiz][download][revision] = 86c71a2ed4b8f0203da7ebb2ff9508570b13f608
+projects[og_quiz][type]               = module
+projects[og_quiz][subdir]             = "contrib"
+projects[og_quiz][download][type]     = git
+projects[og_quiz][download][branch]   = "7.x-1.x"
+projects[og_quiz][download][revision] = 540cea0c62a1035603b68fedfe2744be01da9d8e
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
