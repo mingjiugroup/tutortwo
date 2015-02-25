@@ -11,7 +11,7 @@ projects[opigno][type]               = module
 projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = 0eae55c1c29c32b4d40c32238868cbe51aa864c8
+projects[opigno][download][revision] = 3412f06fa8a19dfd725d562651b5ba83833da4f7
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -62,7 +62,7 @@ projects[opigno_quiz_app][type] = module
 projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = c44b3f3ae0b5a6e2729df018490db14f2ad1f4da
+projects[opigno_quiz_app][download][revision] = f9f2596a43309d94b1e6e373eb2b09af79c99042
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -85,7 +85,7 @@ projects[tft][download][revision] = 5fc9053efc85fc22044fb9e4f5cfb3cd9a417b08
 projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = 46fd7cb92f6abc2d68d9f1f59588a05df87ac96d
+projects[platon][download][revision] = 97d5d08238d7b6f110af804f12b01a59f2cf975a
 
 ; Third-party modules that need to be patched ==================================
 
@@ -118,7 +118,7 @@ projects[quiz][type] = module
 projects[quiz][subdir]  = "contrib"
 projects[quiz][download][type]     = git
 projects[quiz][download][branch]   = "7.x-4.x"
-projects[quiz][download][revision] = fdd5f5c499cf5585611b5c2deca6891fecc2a351
+projects[quiz][download][revision] = 0c23dab9b31aa328b58e8e7e8a5d8694acf555c5
 projects[quiz][patch][] = "http://drupal.org/files/QuizQuestion_FileUpload.patch"
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
@@ -130,7 +130,7 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_feedback-after-qu
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_slide-scoring_2342805.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779.patch"
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
 
 ; Quiz File Upload
 projects[quizfileupload][version] = 1.0
@@ -259,7 +259,7 @@ projects[og_quiz][type]               = module
 projects[og_quiz][subdir]             = "contrib"
 projects[og_quiz][download][type]     = git
 projects[og_quiz][download][branch]   = "7.x-1.x"
-projects[og_quiz][download][revision] = 540cea0c62a1035603b68fedfe2744be01da9d8e
+projects[og_quiz][download][revision] = 600d1481f3492cef8f669173da6a700b48757924
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
