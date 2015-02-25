@@ -981,5 +981,38 @@ function opigno_features_og_roles_og_features_default_permissions() {
     ),
   );
 
+  $permissions['node:course:create h5p_content content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update own h5p_content content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:update any h5p_content content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  $permissions['node:course:delete own h5p_content content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+      'teacher' => 'teacher',
+    ),
+  );
+
+  $permissions['node:course:delete any h5p_content content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
   return $permissions;
 }

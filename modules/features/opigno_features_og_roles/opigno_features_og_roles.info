@@ -155,6 +155,11 @@ features[og_features_permission][] = node:course:update own quiz_drag_drop conte
 features[og_features_permission][] = node:course:update any quiz_drag_drop content
 features[og_features_permission][] = node:course:delete own quiz_drag_drop content
 features[og_features_permission][] = node:course:delete any quiz_drag_drop content
+features[og_features_permission][] = node:course:create h5p_content content
+features[og_features_permission][] = node:course:update own h5p_content content
+features[og_features_permission][] = node:course:update any h5p_content content
+features[og_features_permission][] = node:course:delete own h5p_content content
+features[og_features_permission][] = node:course:delete any h5p_content content
 features[og_features_role][] = node:class:coach
 features[og_features_role][] = node:class:manager
 features[og_features_role][] = node:course:coach
@@ -164,4 +169,3 @@ features[og_features_role][] = node:course:student
 features[og_features_role][] = node:course:teacher
 features_exclude[og_features_role][node:class:class manager] = node:class:class manager
 features_exclude[og_features_role][node:class:class coach] = node:class:class coach
-
