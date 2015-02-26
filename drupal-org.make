@@ -62,7 +62,7 @@ projects[opigno_quiz_app][type] = module
 projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = f9f2596a43309d94b1e6e373eb2b09af79c99042
+projects[opigno_quiz_app][download][revision] = cc20b8d5833552b1b372eaeeb624ad1e5f9a0297
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -114,11 +114,9 @@ projects[platon][download][revision] = 97d5d08238d7b6f110af804f12b01a59f2cf975a
 ;projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
 ;projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
 
-projects[quiz][type] = module
+projects[quiz][version] = 4.0-beta3
 projects[quiz][subdir]  = "contrib"
-projects[quiz][download][type]     = git
-projects[quiz][download][branch]   = "7.x-4.x"
-projects[quiz][download][revision] = 0c23dab9b31aa328b58e8e7e8a5d8694acf555c5
+projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2190283.patch"
