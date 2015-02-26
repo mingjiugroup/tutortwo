@@ -670,7 +670,7 @@ function opigno_lms_update_7109(&$sandbox) {
       {
         include_once drupal_get_path('module', 'og') . '/og_ui/og_ui.module';
         $og_content_type=variable_get('og_group_content_type_' . $type, FALSE);
-        if ($og_content_type!==FALSE)
+        if ($og_content_type==FALSE)
         {
         variable_set('og_group_content_type_' . $type, TRUE);
         og_ui_node_type_save($type);
