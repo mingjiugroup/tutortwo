@@ -695,6 +695,7 @@ function opigno_lms_update_7109(&$sandbox) {
         field_update_instance($instance);
       }
     }
+
     //For scorm display the specific field
     $instance = field_info_instance('node', 'opigno_scorm_package', 'opigno_scorm_quiz_question');
     if (!empty($instance)) {
@@ -705,6 +706,18 @@ function opigno_lms_update_7109(&$sandbox) {
       $instance['display']['question']['settings']=array();
       $instance['display']['question']['module']="opigno_scorm_ui";
       field_update_instance($instance);
+    }
+
+    //For slide display pdf
+    $instance = field_info_instance('node', 'slide_pdf', 'quiz_directions');
+    if (!empty($instance)) {
+      $instance['display']['question']['label']="hidden";
+      $instance['display']['question']['module']="pdf";
+      $instance['display']['question']['settings']['height']="600px";
+      $instance['display']['question']['settings']['keep_pdfjs']=1;
+      $instance['display']['question']['settings']['width']="100%";
+      $instance['display']['question']['type']="pdf_default";
+      $instance['display']['question']['weight']=10;
     }
   }
 
