@@ -654,6 +654,61 @@ function opigno_lms_update_7108(&$sandbox) {
   module_enable(array('opigno_pdf_viewer'),TRUE);
 }
 
+/**
+ * Enable h5p module
+ */
+function opigno_lms_update_7109(&$sandbox) {
+  module_enable(array('h5p'),TRUE);
+  module_enable(array('quiz_h5p'),TRUE);
+  if (module_exists("quiz"))
+  {
+    $types = array_keys(_quiz_question_get_implementations());
+    foreach ($types as $type)
+    {
+      // makes sure all question types are og group content
+      if (module_exists("og_ui"))
+      {
+        include_once drupal_get_path('module', 'og') . '/og_ui/og_ui.module';
+        $og_content_type=variable_get('og_group_content_type_' . $type, FALSE);
+        if ($og_content_type!==FALSE)
+        {
+        variable_set('og_group_content_type_' . $type, TRUE);
+        og_ui_node_type_save($type);
+        }
+      }
+
+      // makes all questions to have the body displaying for the question display mode
+      $instance = field_info_instance('node', 'body', $type);
+      if (!empty($instance)) {
+        if ($type=="cloze")
+        {
+          $instance['display']['question']=array();
+          $instance['display']['question']['label']="hidden";
+          $instance['display']['question']['type']="hidden";
+          $instance['display']['question']['weight']=0;
+          $instance['display']['question']['settings']=array();
+        }
+        else
+        {
+          $instance['display']['question']['type'] = 'text_default';
+        }
+        field_update_instance($instance);
+      }
+    }
+    //For scorm display the specific field
+    $instance = field_info_instance('node', 'opigno_scorm_package', 'opigno_scorm_quiz_question');
+    if (!empty($instance)) {
+      $instance['display']['question']=array();
+      $instance['display']['question']['label']="hidden";
+      $instance['display']['question']['type']="opigno_scorm_player";
+      $instance['display']['question']['weight']=10;
+      $instance['display']['question']['settings']=array();
+      $instance['display']['question']['module']="opigno_scorm_ui";
+      field_update_instance($instance);
+    }
+  }
+}
+
 /*
  * Removes anonymous permissions to view content for forums calendar_event and notification content types
  */
