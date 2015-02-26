@@ -672,8 +672,8 @@ function opigno_lms_update_7109(&$sandbox) {
         $og_content_type=variable_get('og_group_content_type_' . $type, FALSE);
         if ($og_content_type==FALSE)
         {
-        variable_set('og_group_content_type_' . $type, TRUE);
-        og_ui_node_type_save($type);
+          variable_set('og_group_content_type_' . $type, TRUE);
+          og_ui_node_type_save($type);
         }
       }
 
@@ -705,6 +705,128 @@ function opigno_lms_update_7109(&$sandbox) {
       $instance['display']['question']['settings']=array();
       $instance['display']['question']['module']="opigno_scorm_ui";
       field_update_instance($instance);
+    }
+  }
+
+  /* Default permission */
+  og_invalidate_cache();
+  $roles = og_roles("node", "course", $gid = 0, $force_group = FALSE, $include_all = TRUE);
+  foreach ($roles as $index => $role) {
+    switch ($role) {
+      case "manager":
+        og_role_grant_permissions($index, array(
+          'create h5p_content content',
+        ));
+        og_role_grant_permissions($index, array(
+          'update own h5p_content content',
+        ));
+        og_role_grant_permissions($index, array(
+          'update any h5p_content content',
+        ));
+        og_role_grant_permissions($index, array(
+          'delete own h5p_content content',
+        ));
+        og_role_grant_permissions($index, array(
+          'delete any h5p_content content',
+        ));
+        og_role_grant_permissions($index, array(
+          'create opigno_scorm_quiz_question content',
+        ));
+        og_role_grant_permissions($index, array(
+          'update own opigno_scorm_quiz_question content',
+        ));
+        og_role_grant_permissions($index, array(
+          'update any opigno_scorm_quiz_question content',
+        ));
+        og_role_grant_permissions($index, array(
+          'delete own opigno_scorm_quiz_question content',
+        ));
+        og_role_grant_permissions($index, array(
+          'delete any opigno_scorm_quiz_question content',
+        ));
+        break;
+      case "teacher":
+        og_role_grant_permissions($index, array(
+          'create h5p_content content',
+        ));
+        og_role_grant_permissions($index, array(
+          'update own h5p_content content',
+        ));
+        og_role_grant_permissions($index, array(
+          'delete own h5p_content content',
+        ));
+        og_role_grant_permissions($index, array(
+          'create opigno_scorm_quiz_question content',
+        ));
+        og_role_grant_permissions($index, array(
+          'update own opigno_scorm_quiz_question content',
+        ));
+        og_role_grant_permissions($index, array(
+          'delete own opigno_scorm_quiz_question content',
+        ));
+        break;
+    }
+  }
+
+  /* Existing group permissions */
+  $existing_courses = node_load_multiple(array(), array('type' => "course"));
+  foreach ($existing_courses as $courseid => $course) {
+    $roles = og_roles("node", "course", $courseid, $force_group = FALSE, $include_all = TRUE);
+    foreach ($roles as $index => $role) {
+      switch ($role) {
+        case "manager":
+          og_role_grant_permissions($index, array(
+            'create h5p_content content',
+          ));
+          og_role_grant_permissions($index, array(
+            'update own h5p_content content',
+          ));
+          og_role_grant_permissions($index, array(
+            'update any h5p_content content',
+          ));
+          og_role_grant_permissions($index, array(
+            'delete own h5p_content content',
+          ));
+          og_role_grant_permissions($index, array(
+            'delete any h5p_content content',
+          ));
+          og_role_grant_permissions($index, array(
+            'create opigno_scorm_quiz_question content',
+          ));
+          og_role_grant_permissions($index, array(
+            'update own opigno_scorm_quiz_question content',
+          ));
+          og_role_grant_permissions($index, array(
+            'update any opigno_scorm_quiz_question content',
+          ));
+          og_role_grant_permissions($index, array(
+            'delete own opigno_scorm_quiz_question content',
+          ));
+          og_role_grant_permissions($index, array(
+            'delete any opigno_scorm_quiz_question content',
+          ));
+          break;
+        case "teacher":
+          og_role_grant_permissions($index, array(
+            'create h5p_content content',
+          ));
+          og_role_grant_permissions($index, array(
+            'update own h5p_content content',
+          ));
+          og_role_grant_permissions($index, array(
+            'delete own h5p_content content',
+          ));
+          og_role_grant_permissions($index, array(
+            'create opigno_scorm_quiz_question content',
+          ));
+          og_role_grant_permissions($index, array(
+            'update own opigno_scorm_quiz_question content',
+          ));
+          og_role_grant_permissions($index, array(
+            'delete own opigno_scorm_quiz_question content',
+          ));
+          break;
+      }
     }
   }
 }
