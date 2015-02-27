@@ -112,7 +112,7 @@ function opigno_lms_install_tasks(&$install_state) {
   $tasks=array();
   $tasks['opigno_lms_install_task_post_install']=array();
   $tasks['opigno_lms_verify_requirements']=array(
-    'display_name' => st('Check Opigno requirements'),
+    'display_name' => t('Check Opigno requirements'),
     'type' => 'form',
   );
   if (!empty($install_state['parameters']['opigno_requirements_finished']))
@@ -159,38 +159,38 @@ function opigno_lms_verify_requirements($form, &$form_state, &$install_state) {
 
   $available_memory = preg_replace('/\D/', '', $available_memory);
   if ($available_memory < 256) {
-    drupal_set_message(st("The minimum memory requirement for Opigno installation is 256M, you only have %available_memory. Please change the memory_limit in your php.ini settings file or using ini_set in the settings.php file before continuing", array('%available_memory' => $available_memory)), 'error', $repeat = FALSE);
+    drupal_set_message(t("The minimum memory requirement for Opigno installation is 256M, you only have %available_memory. Please change the memory_limit in your php.ini settings file or using ini_set in the settings.php file before continuing", array('%available_memory' => $available_memory)), 'error', $repeat = FALSE);
     $error = TRUE;
   }
 
   $xdebug_max_nesting_level = ini_get("xdebug.max_nesting_level");
   if ((!empty($xdebug_max_nesting_level)) && ($xdebug_max_nesting_level < 200) && ($xdebug_max_nesting_level != -1)) {
-    drupal_set_message(st("Your system has Zend Xdebug enabled. In order to install Opigno with Xdebug enabled please set xdebug.max_nesting_level to at least 200 in your php.ini settings file or using ini_set in the settings.php file before continuing. Currently it is set as %xdebug_max_nesting_level.", array('%xdebug_max_nesting_level' => $xdebug_max_nesting_level)), "error", $repeat = FALSE);
+    drupal_set_message(t("Your system has Zend Xdebug enabled. In order to install Opigno with Xdebug enabled please set xdebug.max_nesting_level to at least 200 in your php.ini settings file or using ini_set in the settings.php file before continuing. Currently it is set as %xdebug_max_nesting_level.", array('%xdebug_max_nesting_level' => $xdebug_max_nesting_level)), "error", $repeat = FALSE);
     $error = TRUE;
   }
 
   $max_execution_time = ini_get("max_execution_time");
   if (($max_execution_time < 30) && ($max_execution_time != -1)) {
-    drupal_set_message(st("Your system has the maximum_execution_time as %max_execution_time. Minimum required for Opigno installation is 30. If your machine is old and depending on its current load you may want to raise it even higher (120). Please change the maximum_execution_time in your php.ini settings file or using ini_set in the settings.php file before continuing.", array('%max_execution_time' => $max_execution_time)), "error", $repeat = FALSE);
+    drupal_set_message(t("Your system has the maximum_execution_time as %max_execution_time. Minimum required for Opigno installation is 30. If your machine is old and depending on its current load you may want to raise it even higher (120). Please change the maximum_execution_time in your php.ini settings file or using ini_set in the settings.php file before continuing.", array('%max_execution_time' => $max_execution_time)), "error", $repeat = FALSE);
     $error = TRUE;
   }
 
   if (($max_execution_time < 120) && ($max_execution_time != -1)) {
-    $warnings[] = st("Your system has the maximum_execution_time as %max_execution_time. Minimum required for Opigno installation is 30. But depending on your system performance and current load you may want to raise this setting above (120). You can change the maximum_execution_time in your php.ini settings file or using ini_set in the settings.php file.", array('%max_execution_time' => $max_execution_time));
+    $warnings[] = t("Your system has the maximum_execution_time as %max_execution_time. Minimum required for Opigno installation is 30. But depending on your system performance and current load you may want to raise this setting above (120). You can change the maximum_execution_time in your php.ini settings file or using ini_set in the settings.php file.", array('%max_execution_time' => $max_execution_time));
   }
 
   $max_input_time = ini_get("max_input_time");
   if (($max_input_time < 60) && ($max_input_time != -1)) {
-    drupal_set_message(st("Your system has the max_input_time as %max_input_time. Minimum required for Opigno installation is 60. If your machine is old and depending on its current load you may want to raise it even higher (120). Please change the max_input_time in your php.ini settings file or using ini_set in the settings.php file before continuing", array('%max_input_time' => $max_input_time)), "error", $repeat = FALSE);
+    drupal_set_message(t("Your system has the max_input_time as %max_input_time. Minimum required for Opigno installation is 60. If your machine is old and depending on its current load you may want to raise it even higher (120). Please change the max_input_time in your php.ini settings file or using ini_set in the settings.php file before continuing", array('%max_input_time' => $max_input_time)), "error", $repeat = FALSE);
     $error = TRUE;
   }
 
   if (($max_input_time < 120) && ($max_input_time != -1)) {
-    $warnings[] = st("Your system has the max_input_time as %max_input_time. Minimum required for Opigno installation is 60. But depending on your system performance and current load you may want to raise this setting above (120). You can change the max_input_time in your php.ini settings file or using ini_set in the settings.php file.", array('%max_input_time' => $max_input_time));
+    $warnings[] = t("Your system has the max_input_time as %max_input_time. Minimum required for Opigno installation is 60. But depending on your system performance and current load you may want to raise this setting above (120). You can change the max_input_time in your php.ini settings file or using ini_set in the settings.php file.", array('%max_input_time' => $max_input_time));
   }
 
   if ($error == FALSE) {
-    drupal_set_message(st("Your system has passed Opigno requirements, you may proceed"), 'status', $repeat = FALSE);
+    drupal_set_message(t("Your system has passed Opigno requirements, you may proceed"), 'status', $repeat = FALSE);
     if ($warnings != FALSE) {
       foreach ($warnings as $warning) {
         drupal_set_message($warning, 'warning', $repeat = FALSE);
