@@ -69741,14 +69741,15 @@ msgstr "Jetons relatifs aux variables."
 
 #: /install.php?profile=opigno_lms&locale=fr
 msgid ""
-"Sets the type of this lesson. Can be <em>theory</em> (not shown in "
-"results by default), <em>quiz</em> (always shown in results) and "
-"<em>mix</em>."
+"Sets the type of this lesson. Can be <em>theory</em> (containing "
+"theoretical slides), <em>quiz</em> (assessment, exam) and "
+"<em>mix</em> (containing both theoretical slides, SCORM packages, "
+"H5P rich contents, and assessments)."
 msgstr ""
 "Définit la typologie de cette leçon. Peut être <em>théorique</em> "
-"(par défaut, ne comptant pas dans les résultats du cours), "
-"<em>quiz</em> (toujours comptant dans les résultats du cours) ou "
-"<em>mixte</em>."
+"(contenant des dispositives de contenu théorique), <em>quiz</em> (test, examen) "
+"ou <em>mixte</em> (contenant à la fois des diapositives théorique, des "
+"paquets SCORM, des contenus riches H5P, et des évaluations)."
 
 #: /
 msgid "Manage menu"
@@ -70083,3 +70084,159 @@ msgstr "Retour à la page d'accueil du cours"
 #: /admin/structure/views/view/opigno_quiz_student_views/edit
 msgid "You do not have any results for this course"
 msgstr "Vous n'avez aucun résultat pour ce cours"
+
+#: /admin/config/regional/language
+msgid "Finish time"
+msgstr "Date de finalisation"
+
+#: /admin/config/regional/language
+msgid "Max points awarded"
+msgstr "Max. points accordés"
+
+#: /node/9/edit?destination=node/6/questions
+msgid "HTML 5 Package"
+msgstr "Paquet HTML5"
+
+#: /node/9/edit?destination=node/6/questions
+msgid ""
+"Select a .h5p file to upload and create interactive content from. You "
+"may start with the <a "
+"href=\"http://h5p.org/content-types-and-applications\" "
+"target=\"_blank\">example files</a> on H5P.org"
+msgstr ""
+"Sélectionnez un fichier .h5p à charger, afin de vous servir de base "
+"pour la création de votre contenu interactif. Vous pouvez par exemple "
+"commencer par les <a "
+"href=\"http://h5p.org/content-types-and-applications\" "
+"target=\"_blank\">exemples</a> proposés sur le site H5P.org "
+
+#: /node/9/edit?destination=node/6/questions
+msgid "HTML5 Content"
+msgstr "Contenu HTML5"
+
+#: /node/6/edit
+msgid ""
+"If this box is checked most of the quiz specific settings you have "
+"made will be remembered and will be your default settings next time "
+"you create a lesson."
+msgstr ""
+"Si cette case est cochée la plupart des paramètres définis pour "
+"cette leçon seront enregistrés comme paramètres par défaut pour "
+"les futures leçons que vous créerez."
+
+#: /node/6/edit
+msgid ""
+"You cannot set this lesson as theory type, remove all non slides "
+"questions first."
+msgstr ""
+"Vous ne pouvez pas changer le type de cette leçon en théorie, "
+"vous devez d'abord en supprimer toutes les questions de quiz."
+
+#: /node/6/edit
+msgid ""
+"You cannot set this lesson as quiz type, remove all slide "
+"questions first."
+msgstr ""
+"Vous ne pouvez pas changer le type de cette leçon en quiz, "
+"vous devez d'abord en supprimer toutes les slides."
+
+
+#: /admin/structure/block
+msgid "Check Opigno requirements"
+msgstr "Vérification des pré-requis systèmes pour Opigno"
+
+#: /admin/structure/block
+msgid ""
+"The minimum memory requirement for Opigno installation is 256M, you "
+"only have %available_memory. Please change the memory_limit in your "
+"php.ini settings file or using ini_set in the settings.php file before "
+"continuing"
+msgstr ""
+"Opigno nécessite au minimum 256Mo de mémoire pour être installé. "
+"Or vous ne disposez que de %available_memory. Veuillez modifier la "
+"valeur de memory_limit dans votre fichier php.ini ou via une ligne "
+"ini_set dans le fichier settings.php avant de continuer"
+
+#: /admin/structure/block
+msgid ""
+"Your system has Zend Xdebug enabled. In order to install Opigno with "
+"Xdebug enabled please set xdebug.max_nesting_level to at least 200 in "
+"your php.ini settings file or using ini_set in the settings.php file "
+"before continuing. Currently it is set as %xdebug_max_nesting_level."
+msgstr ""
+"Votre système possède Zend Xdebug activé. Afin d'installer Opigno avec "
+"Xdebug activé veuillez définir xdebug.max_nesting_level à une valeur "
+"d'au moins 200 dans votre fichier php.ini ou via une ligne ini_set dans "
+"le fichier settings.php avant de continuer. La valeur actuelle est "
+"%xdebug_max_nesting_level"
+
+#: /admin/structure/block
+msgid ""
+"Your system has the maximum_execution_time as %max_execution_time. "
+"Minimum required for Opigno installation is 30. If your machine is old "
+"and depending on its current load you may want to raise it even higher "
+"(120). Please change the maximum_execution_time in your php.ini "
+"settings file or using ini_set in the settings.php file before "
+"continuing."
+msgstr ""
+"Votre système a été configuré avec une valeur de maximum_execution_time "
+"de %max_execution_time. Le minimum requis pour l'installation de Opigno "
+"est de 30. En fonction de l'âge et de la charge actuelle de votre système, "
+"l'idéal serait même de relever encore plus cette valeur (120). Veuillez "
+"modifier le paramètre maximum_execution_time dans votre fichier php.ini "
+"ou via une ligne ini_set dans le fichier settings.php avant de continuer"
+
+#: /admin/structure/block
+msgid ""
+"Your system has the maximum_execution_time as %max_execution_time. "
+"Minimum required for Opigno installation is 30. But depending on your "
+"system performance and current load you may want to raise this setting "
+"above (120). You can change the maximum_execution_time in your php.ini "
+"settings file or using ini_set in the settings.php file."
+msgstr ""
+"Votre système a été configuré avec une valeur de maximum_execution_time "
+"de %max_execution_time. Le minimum requis pour l'installation de Opigno "
+"est de 30. En fonction de la performance et de la charge actuelles de "
+"votre système, l'idéal serait même de relever encore plus cette valeur "
+"(120). Veuillez modifier le paramètre maximum_execution_time dans votre"
+" fichier php.ini ou via une ligne ini_set dans le fichier settings.php "
+"avant de continuer"
+
+#: /admin/structure/block
+msgid ""
+"Your system has the max_input_time as %max_input_time. Minimum "
+"required for Opigno installation is 60. If your machine is old and "
+"depending on its current load you may want to raise it even higher "
+"(120). Please change the max_input_time in your php.ini settings file "
+"or using ini_set in the settings.php file before continuing"
+msgstr ""
+"Votre système a été configuré avec une valeur de maximum_input_time "
+"de %max_input_time. Le minimum requis pour l'installation de Opigno "
+"est de 60. En fonction de l'âge et de la charge actuelle de votre "
+"système, l'idéal serait même de relever encore plus cette valeur (120). "
+"Veuillez modifier le paramètre maximum_input_time dans votre fichier "
+"php.ini ou via une ligne ini_set dans le fichier settings.php avant "
+"de continuer"
+
+#: /admin/structure/block
+msgid ""
+"Your system has the max_input_time as %max_input_time. Minimum "
+"required for Opigno installation is 60. But depending on your system "
+"performance and current load you may want to raise this setting above "
+"(120). You can change the max_input_time in your php.ini settings file "
+"or using ini_set in the settings.php file."
+msgstr ""
+"Votre système a été configuré avec une valeur de maximum_input_time de "
+"%max_input_time. Le minimum requis pour l'installation de Opigno est de 60. "
+"En fonction de la performance et de la charge actuelles de votre système, "
+"l'idéal serait même de relever encore plus cette valeur (120). Veuillez "
+"modifier le paramètre maximum_input_time dans votre fichier php.ini ou via "
+"une ligne ini_set dans le fichier settings.php avant de continuer"
+
+#: /admin/structure/block
+msgid "Your system has passed Opigno requirements, you may proceed"
+msgstr "La configuration de votre serveur satisfait aux pré-requis de Opigno, vous pouvez continuer"
+
+#: /admin/config/regional/language
+msgid "H5P question"
+msgstr "Question H5P"

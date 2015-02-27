@@ -4618,9 +4618,10 @@ msgstr ""
 
 #: /install.php?profile=opigno_lms&locale=de
 msgid ""
-"Sets the type of this lesson. Can be <em>theory</em> (not shown in "
-"results by default), <em>quiz</em> (always shown in results) and "
-"<em>mix</em>."
+"Sets the type of this lesson. Can be <em>theory</em> (containing "
+"theoretical slides), <em>quiz</em> (assessment, exam) and "
+"<em>mix</em> (containing both theoretical slides, SCORM packages, "
+"H5P rich contents, and assessments)."
 msgstr ""
 
 #: /install.php?profile=opigno_lms&locale=de
@@ -4635,9 +4636,10 @@ msgstr ""
 
 #: /install.php?profile=opigno_lms&locale=de
 msgid ""
-"Sets the type of this quiz. Can be <em>theory</em> (not shown in "
-"results be default), <em>quiz</em> (always shown in results) and "
-"<em>mix</em>."
+"Sets the type of this lesson. Can be <em>theory</em> (containing "
+"theoretical slides), <em>quiz</em> (assessment, exam) and "
+"<em>mix</em> (containing both theoretical slides, SCORM packages, "
+"H5P rich contents, and assessments)."
 msgstr ""
 
 #: /install.php?profile=opigno_lms&locale=de
@@ -56949,3 +56951,117 @@ msgstr "Sie haben dies schon erledigt."
 #: /admin/structure/views/view/opigno_quiz_student_views/edit
 msgid "You do not have any results for this course"
 msgstr "Sie haben keine Resultate für diesen Kurs"
+
+#: /node/6/edit
+msgid ""
+"You cannot set this lesson as theory type, remove all non slides "
+"questions first."
+msgstr ""
+"Sie können diese Lektion nicht als Theorie-Einheit definieren, "
+"entfernen Sie alle Quizz-Fragen."
+
+#: /node/6/edit
+msgid ""
+"You cannot set this lesson as quiz type, remove all slide "
+"questions first."
+msgstr ""
+"Sie können diese Lektion nicht als Quizz-Einheit definieren, "
+"entfernen Sie alle Theorie-Diapositiv."
+
+
+#: /admin/structure/block
+msgid "Check Opigno requirements"
+msgstr "Prüfung der Opigno System Anforderungen"
+
+#: /admin/structure/block
+msgid ""
+"The minimum memory requirement for Opigno installation is 256M, you "
+"only have %available_memory. Please change the memory_limit in your "
+"php.ini settings file or using ini_set in the settings.php file before "
+"continuing"
+msgstr ""
+"Die minimale Speicheranforderung beträgt 256M für die Opigno-Installation. "
+"Sie haben nur %available_memory. Bitte ändern Sie den Speicherwert in "
+"Ihrer php.ini Einstellungsdatei oder benutzen Si die ini_set Funktion in "
+"der settings.php Datei bevor Sie weiterfahren"
+
+#: /admin/structure/block
+msgid ""
+"Your system has Zend Xdebug enabled. In order to install Opigno with "
+"Xdebug enabled please set xdebug.max_nesting_level to at least 200 in "
+"your php.ini settings file or using ini_set in the settings.php file "
+"before continuing. Currently it is set as %xdebug_max_nesting_level."
+msgstr ""
+"Ihr System hat das Zend Xdebut aktiviert. Um Opigno mit aktiviertem "
+"Xdebug zu installieren, setzen Sie in der php.ini Einstellungdatei "
+"den Wert xdebug.max_nesting_level mindestens auf 200 bevor Sie "
+"weiterfahren. Aktuell ist der Wert %xdebug_max_nesting_level"
+
+#: /admin/structure/block
+msgid ""
+"Your system has the maximum_execution_time as %max_execution_time. "
+"Minimum required for Opigno installation is 30. If your machine is old "
+"and depending on its current load you may want to raise it even higher "
+"(120). Please change the maximum_execution_time in your php.ini "
+"settings file or using ini_set in the settings.php file before "
+"continuing."
+msgstr ""
+"Ihr System hat ein maximum_exection_time von %max_execution_time. "
+"Minimal wird für die Opigno-Installation 30 benötigt. Insofern es sich "
+"um eine ältere Maschine handelt und je nach Auslastung, können Sie den "
+"Wert entsprechend erhöhen (120). Bitte ändern Sie den maximum_execution_time "
+"in Ihrer Einstellungs php.ini Datei oder benutzen Sie die imi_set Funktion "
+"in Ihrer settings.php Datei bevor Sie weiterfahren"
+
+#: /admin/structure/block
+msgid ""
+"Your system has the maximum_execution_time as %max_execution_time. "
+"Minimum required for Opigno installation is 30. But depending on your "
+"system performance and current load you may want to raise this setting "
+"above (120). You can change the maximum_execution_time in your php.ini "
+"settings file or using ini_set in the settings.php file."
+msgstr ""
+"Ihr System hat ein maximum_exection_time von %max_execution_time. Minimal "
+"wird für die Opigno-Installation 30 benötigt. Je nach Leistung Ihrer "
+"Maschine sowie der Auslastung, können Sie den Wert entsprechend erhöhen "
+"(120). Bitte ändern Sie den maximum_execution_time in Ihrer Einstellungs "
+"php.ini Datei oder benutzen Sie die ini_set Funktion in Ihrer settings.php "
+"Datei bevor Sie weiterfahren"
+
+#: /admin/structure/block
+msgid ""
+"Your system has the max_input_time as %max_input_time. Minimum "
+"required for Opigno installation is 60. If your machine is old and "
+"depending on its current load you may want to raise it even higher "
+"(120). Please change the max_input_time in your php.ini settings file "
+"or using ini_set in the settings.php file before continuing"
+msgstr ""
+"Ihr System hat ein maximum_input_time von %max_input_time. Minimal wird "
+"für die Opigno-Installation 60 benötigt. Insofern es sich um eine ältere "
+"Maschine handelt und je nach Auslastung, können Sie den Wert entsprechend "
+"erhöhen (120). Bitte ändern Sie den maximum_input_time in Ihrer Einstellungs "
+"php.ini Datei oder benutzen Sie die ini_set Funktion in Ihrer settings.php "
+"Datei bevor Sie weiterfahren"
+
+#: /admin/structure/block
+msgid ""
+"Your system has the max_input_time as %max_input_time. Minimum "
+"required for Opigno installation is 60. But depending on your system "
+"performance and current load you may want to raise this setting above "
+"(120). You can change the max_input_time in your php.ini settings file "
+"or using ini_set in the settings.php file."
+msgstr ""
+"Ihr System hat ein maximum_input_time von %max_input_time. Minimal wird "
+"für die Opigno-Installation 60 benötigt. Je nach Leistung Ihrer Maschine "
+"sowie der Auslastung, können Sie den Wert entsprechend erhöhen (120). "
+"Bitte ändern Sie den maximum_input_time in Ihrer Einstellungs php.ini Datei "
+"oder benutzen Sie die ini_set Funktion in Ihrer settings.php Datei bevor "
+"Sie weiterfahren"
+
+#: /admin/structure/block
+msgid "Your system has passed Opigno requirements, you may proceed"
+msgstr "Ihr System verfügt über die notwendigen Anforderungen, Sie können fortfahren"
+
+#: /admin/config/regional/language
+msgid "H5P question"
+msgstr "H5P Frage"

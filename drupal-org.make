@@ -62,7 +62,7 @@ projects[opigno_quiz_app][type] = module
 projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 2607f8d0b2db7760981d13784da6279c56187f9e
+projects[opigno_quiz_app][download][revision] = 024eedadad479561aec5ac7c81c3dbacbd39e51a
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -217,7 +217,7 @@ projects[module_filter][subdir]  = "contrib"
 projects[module_filter][version] = 1.8
 
 projects[entity][subdir]  = "contrib"
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 
 projects[entityreference][subdir]  = "contrib"
 projects[entityreference][version] = 1.1

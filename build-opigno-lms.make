@@ -8,7 +8,7 @@ projects[opigno_lms][type]               = profile
 projects[opigno_lms][download][type]     = git
 projects[opigno_lms][download][branch]   = "7.x-1.x"
 projects[opigno_lms][download][url]      = "http://git.drupal.org/project/opigno_lms.git"
-projects[opigno_lms][download][revision] = e2f5de811b19d4df5e1db8f720454d0a52be6b01
+projects[opigno_lms][download][revision] = 4d6bb8a56512073bc2d95a365a7dc617555f8fd9
 
 ; For building a precise release.
 ;projects[opigno_lms][version] = 1.18

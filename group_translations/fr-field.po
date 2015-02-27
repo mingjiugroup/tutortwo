@@ -632,14 +632,15 @@ msgstr "Type de leçon"
 #: field:quiz_type:quiz:description
 msgctxt "quiz_type:quiz:description"
 msgid ""
-"Sets the type of this lesson. Can be <em>theory</em> (not shown in "
-"results by default), <em>quiz</em> (always shown in results) and "
-"<em>mix</em>."
+"Sets the type of this lesson. Can be <em>theory</em> (containing "
+"theoretical slides), <em>quiz</em> (assessment, exam) and "
+"<em>mix</em> (containing both theoretical slides, SCORM packages, "
+"H5P rich contents, and assessments)."
 msgstr ""
 "Définit la typologie de cette leçon. Peut être <em>théorique</em> "
-"(par défaut, ne comptant pas dans les résultats du cours), "
-"<em>quiz</em> (toujours comptant dans les résultats du cours) ou "
-"<em>mixte</em>."
+"(contenant des dispositives de contenu théorique), <em>quiz</em> (test, examen) "
+"ou <em>mixte</em> (contenant à la fois des diapositives théorique, des "
+"paquets SCORM, des contenus riches H5P, et des évaluations)."
 
 #: field:quiz_weight:quiz:label
 msgctxt "quiz_weight:quiz:label"
@@ -62563,3 +62564,38 @@ msgstr "Commentaire"
 msgctxt "slide_pdf:quiz_directions:description"
 msgid "The file uploaded here will be displayed inside the slide"
 msgstr "Le fichier chargé ici sera affiché au sein de la diapositive"
+
+#: field:quiz_type:quiz:description
+msgctxt "quiz_type:quiz:description"
+msgid ""
+"Sets the type of this lesson. Can be <em>theory</em> (not shown in "
+"results by default), <em>quiz</em> (always shown in results) and "
+"<em>mix</em>."
+msgstr ""
+"Définit la typologie de cette leçon. Celle-ci peut être "
+"<em>théorie</em>, <em>quiz</em> ou <em>mixte</em>."
+
+#: field:quiz_weight:quiz:label
+msgctxt "quiz_weight:quiz:label"
+msgid "Lesson weight"
+msgstr "Poids de la leçon"
+
+#: field:quiz_weight:quiz:description
+msgctxt "quiz_weight:quiz:description"
+msgid ""
+"Sets the weight of this quiz for the final course assessment. Leave at "
+"0 if this quiz should not be taken into account for the final grade."
+msgstr ""
+"Définit le poids de la leçon dans la notation finale du cours. "
+"Laissez la valeur à 0 si cette leçon ne doit pas être prise en "
+"compte dans la note finale."
+
+#: field:field_image:quiz_ddlines:label
+msgctxt "field_image:quiz_ddlines:label"
+msgid "Background image"
+msgstr "Image d'arrière plan"
+
+#: field:field_add_to_calendar:quiz:label
+msgctxt "field_add_to_calendar:quiz:label"
+msgid "Add to calendar"
+msgstr "Ajouter au calendrier"
