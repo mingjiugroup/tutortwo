@@ -267,6 +267,20 @@ function opigno_lms_form_install_configure_form_alter_submit($form, $form_state)
   if (module_exists('locale')) {
   opigno_lms_refresh_strings_and_import(array('field','rules'));
   }
+  // Installs H5P Libraries
+  $path = file_get_contents(drupal_get_path("profile","opigno_lms")."/h5plib/libraries.h5p");
+  $temporary_file_path = 'public://' . variable_get('h5p_default_path', 'h5p') . '/temp/' . uniqid('h5p-');
+  $prepare=file_prepare_directory($temporary_file_path, FILE_CREATE_DIRECTORY);
+  $temporary_file_name=$temporary_file_path."/libraries.h5p";
+  $file=file_save_data($path,$temporary_file_name,FILE_EXISTS_REPLACE);
+  $_SESSION['h5p_upload'] = drupal_realpath($file->uri);
+  $_SESSION['h5p_upload_folder'] = drupal_realpath($temporary_file_path);
+  $validator = _h5p_get_instance('validator');
+  $isvalid=$validator->isValidPackage(TRUE, FALSE);
+  $h5p_core = _h5p_get_instance('storage');
+  $save_package=$h5p_core->savePackage(NULL, NULL, TRUE);
+  unset($_SESSION['h5p_upload'], $_SESSION['h5p_upload_folder']);
+  /////////////////////////////////////////////////////////////////////
 }
 
 /**
