@@ -128,8 +128,7 @@ projects[og_forum_D7][patch][] = "http://drupal.org/files/issues/og_forum_220671
 
 ; Calendar (prevent warnings)
 projects[calendar][subdir]  = "contrib"
-projects[calendar][version] = 3.4
-projects[calendar][patch][] = "http://drupal.org/files/calendar-php54-1471400-58.patch"
+projects[calendar][version] = 3.5
 
 ; Rules
 projects[rules][subdir]  = "contrib"
