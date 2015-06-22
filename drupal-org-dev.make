@@ -126,7 +126,7 @@ projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-18441
 projects[og_forum_D7][patch][] = "http://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
 projects[og_forum_D7][patch][] = "http://drupal.org/files/issues/og_forum_2206711.patch"
 
-; Calendar (prevent warnings)
+; Calendar
 projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
@@ -144,10 +144,9 @@ projects[apps][patch][] = "http://drupal.org/files/issues/apps_module-2357093_3.
 projects[certificate][subdir]  = "contrib"
 projects[certificate][version] = 2.2
 
-; i18n (note: will probably get fixed in 1.12)
+; i18n
 projects[i18n][subdir]  = "contrib"
-projects[i18n][version] = 1.11
-projects[i18n][patch][] = "http://drupal.org/files/issues/i18n_string-2227523-7.patch"
+projects[i18n][version] = 1.13
 
 projects[l10n_update][subdir]  = "contrib"
 projects[l10n_update][version] = 2.0
