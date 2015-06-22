@@ -267,7 +267,7 @@ projects[privatemsg][subdir]  = "contrib"
 projects[privatemsg][version] = 1.4
 
 projects[phpexcel][subdir]  = "contrib"
-projects[phpexcel][version] = 3.7
+projects[phpexcel][version] = 3.10
 
 projects[login_redirect][subdir]  = "contrib"
 projects[login_redirect][version] = 1.2
