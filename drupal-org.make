@@ -216,7 +216,7 @@ projects[rules_conditional][subdir]  = "contrib"
 projects[rules_conditional][version] = 1.0-beta2
 
 projects[features][subdir]  = "contrib"
-projects[features][version] = 2.0
+projects[features][version] = 2.5
 
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
