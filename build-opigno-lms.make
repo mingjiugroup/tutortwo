@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = 7.34
+projects[drupal][version] = 7.38
 
 ; For building dev.
 ;projects[opigno_lms][type]               = profile
