@@ -178,7 +178,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.7
 
 projects[views][subdir] = "contrib"
 projects[views][version] = 3.10
