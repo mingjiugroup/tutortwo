@@ -202,7 +202,7 @@ projects[entityreference_prepopulate][subdir]  = "contrib"
 projects[entityreference_prepopulate][version] = 1.5
 
 projects[token][subdir]  = "contrib"
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 
 projects[multiselect][subdir]  = "contrib"
 projects[multiselect][version] = 1.9
