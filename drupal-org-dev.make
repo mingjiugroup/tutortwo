@@ -260,7 +260,7 @@ projects[date][version] = 2.8
 projects[date][patch][] = "http://drupal.org/files/issues/title_date_formats-2294973-6.patch"
 
 projects[advanced_forum][subdir]  = "contrib"
-projects[advanced_forum][version] = 2.3
+projects[advanced_forum][version] = 2.5
 
 projects[date_popup_authored][subdir]  = "contrib"
 projects[date_popup_authored][version] = 1.1
