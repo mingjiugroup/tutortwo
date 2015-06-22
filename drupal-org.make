@@ -263,7 +263,7 @@ projects[advanced_forum][subdir]  = "contrib"
 projects[advanced_forum][version] = 2.5
 
 projects[date_popup_authored][subdir]  = "contrib"
-projects[date_popup_authored][version] = 1.1
+projects[date_popup_authored][version] = 1.2
 
 projects[privatemsg][subdir]  = "contrib"
 projects[privatemsg][version] = 1.4
