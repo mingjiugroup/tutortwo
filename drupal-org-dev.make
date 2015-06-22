@@ -138,7 +138,7 @@ projects[rules][patch][] = "http://drupal.org/files/system.rules_.inc_.patch"
 
 ; Apps
 projects[apps][subdir]  = "contrib"
-projects[apps][version] = 1.0-beta17
+projects[apps][version] = 1.0-rc1
 projects[apps][patch][] = "http://drupal.org/files/issues/apps_module-2357093.patch"
 
 ; Certificate
