@@ -143,7 +143,7 @@ projects[apps][patch][] = "http://drupal.org/files/issues/apps_module-2357093.pa
 
 ; Certificate
 projects[certificate][subdir]  = "contrib"
-projects[certificate][version] = 2.0
+projects[certificate][version] = 2.2
 
 ; i18n (note: will probably get fixed in 1.12)
 projects[i18n][subdir]  = "contrib"
