@@ -291,7 +291,7 @@ projects[strongarm][subdir]  = "contrib"
 projects[strongarm][version] = 2.0
 
 projects[user_import][subdir]  = "contrib"
-projects[user_import][version] = 2.2
+projects[user_import][version] = 2.3
 projects[user_import][patch][] = "http://drupal.org/files/issues/creationdate_2220193_1.patch"
 
 projects[jquery_countdown][subdir]  = "contrib"
