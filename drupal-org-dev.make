@@ -181,7 +181,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.7
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.10
+projects[views][version] = 3.11
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = 1.0-alpha1
