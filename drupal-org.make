@@ -305,7 +305,7 @@ projects[r4032login][version] = 1.8
 projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login-exclude_homepage-2362997.patch"
 
 projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = 3.0-beta4
+projects[better_exposed_filters][version] = 3.2
 
 projects[guideme][subdir]  = "contrib"
 projects[guideme][version] = 1.0-rc1
