@@ -106,6 +106,7 @@ projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-browser_per_quiz_
 projects[quizfileupload][version] = 1.0
 projects[quizfileupload][subdir]  = "contrib"
 projects[quizfileupload][patch][] = "http://drupal.org/files/adding_manual_scoring_extension_validation_feedback-2092275-5.patch"
+projects[quizfileupload][patch][] = "http://www.drupal.org/files/issues/quizfileupload_opigno_permanent_upload-2491705-1.patch"
 
 ; OG
 projects[og][version] = 2.7
