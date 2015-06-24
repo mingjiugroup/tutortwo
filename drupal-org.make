@@ -90,7 +90,7 @@ projects[platon][type] = theme
 
 ; Third-party modules that need to be patched ==================================
 
-projects[quiz][version] = 4.0-beta3
+projects[quiz][version] = 4.0-rc1
 projects[quiz][subdir]  = "contrib"
 projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
