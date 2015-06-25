@@ -45,6 +45,9 @@ function opigno_lms_install() {
   // Enhance module filter.
   variable_set('module_filter_dynamic_save_position', 1);
 
+  // Set 404 redirect
+  variable_set('site_404','r4032login');
+
   // Make sure the Opigno Simple UI cleans the Quiz module.
   module_load_include('inc', 'opigno_simple_ui', 'includes/opigno_simple_ui.quiz');
   if (function_exists('opigno_simple_ui_update_quiz_labels')) {
@@ -675,6 +678,7 @@ function opigno_lms_update_7109(&$sandbox) {
   unset($_SESSION['h5p_upload'], $_SESSION['h5p_upload_folder']);
   }
   /////////////////////////////////////////////////////////////////////
+  variable_set('site_404','r4032login');
 }
 
 /*
