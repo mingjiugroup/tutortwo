@@ -7871,7 +7871,7 @@ msgid "WebEx configuration"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_webex_app/
-msgid "The congiguration for the WebEx integration"
+msgid "The configuration for the WebEx integration"
 msgstr ""
 
 #: /admin/apps/opigno/app/opigno_webex_app/

@@ -59089,7 +59089,7 @@ msgid "New Import"
 msgstr "Nouvel import"
 
 #: /admin/config/regional/language
-msgid "The congiguration for the WebEx integration"
+msgid "The configuration for the WebEx integration"
 msgstr "Les paramètres d'intégration avec WebEx"
 
 #: /admin/config/regional/language/configure
