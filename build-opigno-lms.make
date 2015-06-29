@@ -11,4 +11,4 @@ projects[opigno_lms][download][url]      = "http://git.drupal.org/project/opigno
 projects[opigno_lms][download][revision] = 738b03988a69a0f751ce847909f4708a3265a917
 
 ; For building a precise release.
-;projects[opigno_lms][version] = 1.18
+;projects[opigno_lms][version] = 1.19
