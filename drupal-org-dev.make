@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][version] = 1.11
-;projects[opigno][subdir]  = "opigno"
+projects[opigno][version] = 1.13
+projects[opigno][subdir]  = "opigno"
 
-projects[opigno][type]               = module
-projects[opigno][subdir]             = "opigno"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = 5936471fdb8d29cc78d46abcfb82d392a769385b
+;projects[opigno][type]               = module
+;projects[opigno][subdir]             = "opigno"
+;projects[opigno][download][type]     = git
+;projects[opigno][download][branch]   = 7.x-1.x
+;projects[opigno][download][revision] = 5936471fdb8d29cc78d46abcfb82d392a769385b
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -55,14 +55,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.3
 projects[opigno_class_app][subdir]  = "opigno"
 
-;projects[opigno_quiz_app][version]    = 1.11
-;projects[opigno_quiz_app][subdir]  = "opigno"
-
-projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][version]    = 1.12
 projects[opigno_quiz_app][subdir]  = "opigno"
-projects[opigno_quiz_app][download][type]     = git
-projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = ce20be053e99db7b5590db97a68b4fd962e1e9e7
+
+;projects[opigno_quiz_app][type] = module
+;projects[opigno_quiz_app][subdir]  = "opigno"
+;projects[opigno_quiz_app][download][type]     = git
+;projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+;projects[opigno_quiz_app][download][revision] = ce20be053e99db7b5590db97a68b4fd962e1e9e7
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -80,13 +80,13 @@ projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
 
 ; Opigno themes ================================================================
 
-;projects[platon][version] = 3.10
-;projects[platon][type] = theme
+projects[platon][version] = 3.11
+projects[platon][type] = theme
 
-projects[platon][type]               = theme
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = ac95ad6f3a356d031242ee8c1ee47788fa230ef9
+;projects[platon][type]               = theme
+;projects[platon][download][type]     = git
+;projects[platon][download][branch]   = "7.x-3.x"
+;projects[platon][download][revision] = ea706dad41df72387d5f538265eb398a58a79586
 
 ; Third-party modules that need to be patched ==================================
 

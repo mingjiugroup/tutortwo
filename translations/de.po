@@ -57065,3 +57065,9 @@ msgstr "Ihr System verfügt über die notwendigen Anforderungen, Sie können for
 #: /admin/config/regional/language
 msgid "H5P question"
 msgstr "H5P Frage"
+
+#: /group/node/6/subscribe/og_user_node
+msgid ""
+"You cannot subscribe to this course. There are required courses not "
+"completed:"
+msgstr "Sie können sich nicht für diesen Kurs anmelden. Die erforderlichen Kurse wurden nicht belegt:"

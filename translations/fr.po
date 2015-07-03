@@ -70315,4 +70315,8 @@ msgstr "Vos collections publiques"
 msgid "Select the collections that you want to show on your profile"
 msgstr "Sélectionnez les collections que vous souhaitez afficher sur votre profil"
 
-
+#: /group/node/6/subscribe/og_user_node
+msgid ""
+"You cannot subscribe to this course. There are required courses not "
+"completed:"
+msgstr "Vous ne pouvez pas vous inscrire à ce cours avant d'avoir terminé les cours pré-requis:"

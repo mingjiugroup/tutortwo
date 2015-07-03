@@ -730,6 +730,7 @@ function opigno_lms_update_7109(&$sandbox) {
     ->condition('theme', $default_theme)
     ->execute();
   ////////////////////////////
+  opigno_lms_refresh_strings_and_import(array('default','field'));
   drupal_flush_all_caches();
 }
 

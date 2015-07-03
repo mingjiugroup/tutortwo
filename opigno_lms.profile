@@ -561,7 +561,14 @@ function opigno_lms_i18n_string_refresh_batch($groups, $lang) {
     _i18n_string_batch_refresh_callback($group, $context);
     // Output group summary
     _i18n_string_batch_refresh_summary($group, $context);
-    $path = file_unmanaged_copy('profiles/opigno_lms/group_translations/' . $lang . '-' . $group . '.po', NULL, FILE_EXISTS_REPLACE);
+    if ($group!="default")
+    {
+      $path = file_unmanaged_copy('profiles/opigno_lms/group_translations/' . $lang . '-' . $group . '.po', NULL, FILE_EXISTS_REPLACE);
+    }
+    else
+    {
+      $path = file_unmanaged_copy('profiles/opigno_lms/translations/'.$lang.'.po', NULL, FILE_EXISTS_REPLACE);
+    }
     $files = file_load_multiple(array(), array('uri' => $path));
     $file = reset($files);
     if (empty($file)) {
@@ -574,6 +581,7 @@ function opigno_lms_i18n_string_refresh_batch($groups, $lang) {
     _locale_import_po($file, $lang, 1, $group);
   }
 }
+
 
 
 /**
