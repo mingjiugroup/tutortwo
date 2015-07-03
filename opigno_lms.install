@@ -11,15 +11,29 @@ function opigno_lms_install() {
   // Set the default theme.
   theme_enable(array('platon'));
   variable_set('theme_default', 'platon');
+  $path = drupal_get_path('theme', 'platon');
 
   // Set the default settings for the theme.
   $default_theme_settings = variable_get('theme_platon_settings', array());
   $default_theme_settings['platon_menu_source'] = 'main-menu';
   $default_theme_settings['platon_use_home_page_markup'] = 1;
-  $default_theme_settings['platon_home_page_markup'] = array(
+
+  $default_theme_settings[1]['platon_home_page_markup'] = array(
     'format' => 'html',
-    'value' => st("<h2>Welcome to your new Opigno platform</h2><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>")
+    'value' => st("<h1>Welcome to your new Opigno platform</h1><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>"),
+    'background' => '../../../profiles/opigno_lms/themes/platon/img/homepage-background-1.jpg',
   );
+  $default_theme_settings[2]['platon_home_page_markup'] = array(
+    'format' => 'html',
+    'value' => st("<h1>Welcome to your new Opigno platform</h1><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>"),
+    'background' => '../../../profiles/opigno_lms/themes/platon/img/homepage-background-2.jpg',
+  );
+  $default_theme_settings[3]['platon_home_page_markup'] = array(
+    'format' => 'html',
+    'value' => st("<h1>Welcome to your new Opigno platform</h1><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>"),
+    'background' => '../../../profiles/opigno_lms/themes/platon/img/homepage-background-3.jpg',
+  );
+
   $default_theme_settings['platon_menu_show_for_anonymous'] = 1;
   variable_set('theme_platon_settings', $default_theme_settings);
 
@@ -102,7 +116,7 @@ function _opigno_lms_install_enable_blocks() {
       'theme' => $default_theme,
       'status' => 1,
       'weight' => 0,
-      'region' => 'sidebar_first',
+      'region' => 'header_login',
       'visibility' => 0,
       'pages' => '',
       'cache' => DRUPAL_NO_CACHE,
@@ -679,6 +693,44 @@ function opigno_lms_update_7109(&$sandbox) {
   }
   /////////////////////////////////////////////////////////////////////
   variable_set('site_404','r4032login');
+
+  $settings = variable_get('theme_platon_settings');
+  if (!empty($settings['platon_home_page_markup'])) {
+    $value = $settings['platon_home_page_markup']['value'];
+    $format = $settings['platon_home_page_markup']['format'];
+  }
+  $background = $settings['platon_home_page_image_path'];
+
+  // default datas for new homepage slide
+  $path = drupal_get_path('theme', 'platon');
+  $default_theme_settings = variable_get('theme_platon_settings', array());
+  $default_theme_settings[1]['platon_home_page_markup'] = array(
+    'format' => (isset($format)) ? $format : 'html',
+    'value' => (isset($value)) ? $value : st("<h1>Welcome to your new Opigno platform</h1><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>"),
+    'background' => (!empty($background)) ? $background : '../../../profiles/opigno_lms/themes/platon/img/homepage-background-1.jpg',
+  );
+  $default_theme_settings[2]['platon_home_page_markup'] = array(
+    'format' => 'html',
+    'value' => st("<h1>Welcome to your new Opigno platform</h1><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>"),
+    'background' => '../../../profiles/opigno_lms/themes/platon/img/homepage-background-2.jpg',
+  );
+  $default_theme_settings[3]['platon_home_page_markup'] = array(
+    'format' => 'html',
+    'value' => st("<h1>Welcome to your new Opigno platform</h1><p>You may change this front page by logging in and going to <a href='?q=user&amp;destination=admin/appearance/settings/platon'>Administration &gt; Appearance &gt; Manage site display</a>.</p>"),
+    'background' => '../../../profiles/opigno_lms/themes/platon/img/homepage-background-3.jpg',
+  );
+  variable_set('theme_platon_settings', $default_theme_settings);
+
+  // move login block
+  $default_theme = variable_get('theme_default', 'platon');
+  db_update('block')
+    ->fields(array('region' => 'header_login'))
+    ->condition('module', 'user', '=')
+    ->condition('delta', 'login', '=')
+    ->condition('theme', $default_theme)
+    ->execute();
+  ////////////////////////////
+  drupal_flush_all_caches();
 }
 
 /*

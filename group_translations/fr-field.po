@@ -62599,3 +62599,112 @@ msgstr "Image d'arrière plan"
 msgctxt "field_add_to_calendar:quiz:label"
 msgid "Add to calendar"
 msgstr "Ajouter au calendrier"
+
+
+msgid "You cannot create a badge here. To create a badge, go to the specific course or class settings"
+msgstr "Vous ne pouvez pas créer un badge ici. Pour créer un badge, veuillez vous rendre dans les paramètres du cours ou de la classe concerné"
+
+msgid "Congratulations ! You have a new badge on your Opigno profile page."
+msgstr "Félicitations ! Vous disposez d'un nouveau badge dans votre page de profil Opigno."
+
+msgid "Error while creating the badge"
+msgstr "Erreur lors de la création du badge"
+
+msgid "You cannot @op a badge. But you can disable it in his course/class settings"
+msgstr "Vous ne pouvez pas @op un badge. Vous pouvez par contre le désactiver dans les paramètres du cours ou de la classe"
+
+msgid "Badge '!title' has been updated"
+msgstr "Le badge '!title' a été mis à jour"
+
+msgid "Error while updating the badge"
+msgstr "Erreur dans la mise à jour du badge"
+
+msgid "You need to connect a backpack in order to synchronize it automatically"
+msgstr "Vous devez connecter un backpack afin d'utiliser la synchronisation automatique"
+
+msgid "Sync with my @url"
+msgstr "Synchroniser avec @url"
+
+msgid "Disconnect this backpack"
+msgstr "Déconnecter ce backpack"
+
+msgid "Error while issuing badge:"
+msgstr "Erreur lors de la création du badge:"
+
+msgid "Your badges are now in your backpack"
+msgstr "Vos badges sont maintenant dans votre backpack"
+
+msgid "Your backpack has been disconnected"
+msgstr "Votre backpack a été déconnecté"
+
+msgid "Your public collections"
+msgstr "Vos collections publiques"
+
+msgid "Select the collections that you want to show on your profile"
+msgstr "Sélectionnez les collections que vous souhaitez afficher sur votre profil"
+
+msgid "Save this configuration"
+msgstr "Sauvegarder cette configuration"
+
+msgid "There is no public collection in this backpack"
+msgstr "Il n'y a aucune collection publique dans ce backpack"
+
+msgid "Disconnect this account"
+msgstr "Déconnecter ce compte"
+
+msgid "This email does not exist in Mozilla Backpack"
+msgstr "Cet email n'est lié à aucun backpack Mozilla"
+
+msgid "You have been logged out successfully"
+msgstr "Vous avez été déconnecté avec succès"
+
+msgid "Public collections"
+msgstr "Collections publiques"
+
+msgid "Backpack badge image"
+msgstr "Image du badge"
+
+msgid "by"
+msgstr "par"
+
+msgid "Your badge has been uploaded to your backpack"
+msgstr "Votre badge a été chargé dans votre backpack"
+
+msgid "No operation"
+msgstr "Aucune opération"
+
+msgid "Add a badge in order to activate it"
+msgstr "Ajoutez un badge afin de pouvoir l'activer"
+
+msgid "Badge image"
+msgstr "Image du badge"
+
+msgid "Activate badge system for this class"
+msgstr "Activer les badges pour cette classe"
+
+msgid "Activate badge system for this course"
+msgstr "Activer les badges pour ce cours"
+
+msgid "Badge"
+msgstr "Badge"
+
+msgid "Badge criteria"
+msgstr "Critère d'obtention du badge"
+
+msgid "Badge description"
+msgstr "Description du badge"
+
+msgid "Notify me by email when I earn a new badge"
+msgstr "Recevoir un email lorsque de l'obtention d'un nouveau badge"
+
+msgid "Show badges on my profile"
+msgstr "Afficher les badges sur mon profil"
+
+msgid "Synchronize new badge automatically with the backpack"
+msgstr "Synchroniser automatiquement les nouveaux badges avec mon backpack"
+
+msgid "Write here the criteria needed to get the badge."
+msgstr "Décrivez ici les critères requis pour l'obtention du badge."
+
+msgid "You can receive an email when you earn a new badge."
+msgstr "Vous pouvez recevoir un email lors vous obtenez un nouveau badge."

@@ -536,7 +536,7 @@ function opigno_lms_set_platform_permissions($permissions) {
 function opigno_lms_refresh_strings_and_import($groups) {
   $languages = language_list();
   foreach ($languages as $index => $language) {
-    if (in_array($index, array('fr', 'de'))) {
+    if (in_array($index, array('fr', 'de','sl','es'))) {
       module_load_include('inc', 'i18n_string', 'i18n_string.admin');
       opigno_lms_i18n_string_refresh_batch($groups, $index);
     }

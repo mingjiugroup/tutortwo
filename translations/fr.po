@@ -70240,3 +70240,79 @@ msgstr "La configuration de votre serveur satisfait aux pré-requis de Opigno, v
 #: /admin/config/regional/language
 msgid "H5P question"
 msgstr "Question H5P"
+
+
+#: /
+msgid "login with your username"
+msgstr "Connectez-vous avec votre nom d'utilisateur"
+
+msgid "You cannot create a badge here. To create a badge, go to the specific course or class settings"
+msgstr "Vous ne pouvez pas créer un badge ici. Pour créer un badge, veuillez vous rendre dans les paramètres du cours ou de la classe concerné"
+
+msgid "You have earned a new badge !"
+msgstr "Vous avez obtenu un nouveau badge !"
+
+msgid "Congratulations ! You have a new badge on your Opigno profile page."
+msgstr "Félicitations ! Vous disposez d'un nouveau badge dans votre page de profil Opigno."
+
+msgid "Badge '!title' has been created"
+msgstr "Le badge '!title' a été créé"
+
+msgid "Error while creating the badge"
+msgstr "Erreur lors de la création du badge"
+
+msgid "You cannot @op a badge. But you can disable it in his course/class settings"
+msgstr "Vous ne pouvez pas @op un badge. Vous pouvez par contre le désactiver dans les paramètres du cours ou de la classe"
+
+msgid "Badge '!title' has been updated"
+msgstr "Le badge '!title' a été mis à jour"
+
+msgid "Error while updating the badge"
+msgstr "Erreur dans la mise à jour du badge"
+
+msgid "You need to connect a backpack in order to synchronize it automatically"
+msgstr "Vous devez connecter un backpack afin d'utiliser la synchronisation automatique"
+
+msgid "Badge administration"
+msgstr "Gestion des badges"
+
+msgid "Attached to"
+msgstr "Attaché à"
+
+msgid "Updated date between"
+msgstr "Date de mise à jour entre"
+
+msgid "Sync with my @url"
+msgstr "Synchroniser avec @url"
+
+msgid "Disconnect this backpack"
+msgstr "Déconnecter ce backpack"
+
+msgid "Error while issuing badge:"
+msgstr "Erreur lors de la création du badge:"
+
+msgid "Connect a Backpack"
+msgstr "Connecter un backpack"
+
+msgid "Your badges are now in your backpack"
+msgstr "Vos badges sont maintenant dans votre backpack"
+
+msgid "Your backpack has been disconnected"
+msgstr "Votre backpack a été déconnecté"
+
+msgid "Mozilla Backpack Displayer"
+msgstr "Mozilla Backpack Displayer"
+
+msgid "Enter your backpack email"
+msgstr "Saisissez l'email lié à votre backpack"
+
+msgid "Get my public collections"
+msgstr "Obtenir mes collections publiques"
+
+msgid "Your public collections"
+msgstr "Vos collections publiques"
+
+msgid "Select the collections that you want to show on your profile"
+msgstr "Sélectionnez les collections que vous souhaitez afficher sur votre profil"
+
+
