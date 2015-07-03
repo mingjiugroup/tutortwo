@@ -279,7 +279,7 @@ projects[homebox][version] = 2.0-rc1
 ;projects[homebox][patch][] = "http://drupal.org/files/issues/homebox-check_widths-1634486-6.patch"
 
 projects[views_bulk_operations][subdir]  = "contrib"
-projects[views_bulk_operations][version] = 3.2
+projects[views_bulk_operations][version] = 3.3
 
 projects[libraries][subdir]  = "contrib"
 projects[libraries][version] = 2.2
