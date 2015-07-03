@@ -560,10 +560,10 @@ function opigno_lms_i18n_string_refresh_batch($groups, $lang) {
     // Then invoke refresh callback
     _i18n_string_batch_refresh_callback($group, $context);
     // Output group summary
-    _i18n_string_batch_refresh_summary($group, $context);
     if ($group!="default")
     {
       $path = file_unmanaged_copy('profiles/opigno_lms/group_translations/' . $lang . '-' . $group . '.po', NULL, FILE_EXISTS_REPLACE);
+      _i18n_string_batch_refresh_summary($group, $context);
     }
     else
     {
