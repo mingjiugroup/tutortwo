@@ -57071,3 +57071,141 @@ msgid ""
 "You cannot subscribe to this course. There are required courses not "
 "completed:"
 msgstr "Sie können sich nicht für diesen Kurs anmelden. Die erforderlichen Kurse wurden nicht belegt:"
+
+msgid "You cannot create a badge here. To create a badge, go to the specific course or class settings"
+msgstr "Sie können hier kein Abzeichen anlegen. Um ein Abzeichen anzulegen, gehen Sie bitte in die Einstellungen des Kurses oder der entsprechende Klasse."
+
+msgid "You have earned a new badge !"
+msgstr "Sie haben ein neues Abzeichen erhalten !"
+
+msgid "Congratulations ! You have a new badge on your Opigno profile page."
+msgstr "Glückwünsche ! Sie haben ein neues Abzeichen auf Ihrer Opigno-Profilseite."
+
+msgid "Badge '!title' has been created"
+msgstr "Das Abzeichen '!titel' wurde angelegt"
+
+msgid "Error while creating the badge"
+msgstr "Fehler beim Erstellen des Abzeichens"
+
+msgid "You cannot @op a badge. But you can disable it in his course/class settings"
+msgstr "Sie können nicht @op ein Abzeichen. Si können es jedoch in den Einstellungen des Kurses oder der Klasse desaktivieren"
+
+msgid "Badge '!title' has been updated"
+msgstr "Das Abzeichen '!title' wurde aktualisiert"
+
+msgid "Error while updating the badge"
+msgstr "Fehler beim aktualisieren des Abzeichens"
+
+msgid "You need to connect a backpack in order to synchronize it automatically"
+msgstr "Sie müssen ein backpack anbinden um die automatische Synchronisation zu benutzen"
+
+msgid "Badge administration"
+msgstr "Abzeichenadministration"
+
+msgid "Attached to"
+msgstr "Angehängte"
+
+msgid "Updated date between"
+msgstr "Aktualisierungsdatum Tag zwischen"
+
+msgid "Sync with my @url"
+msgstr "Synchronisieren mit @url"
+
+msgid "Disconnect this backpack"
+msgstr "Dieses backpack abschalten"
+
+msgid "Error while issuing badge:"
+msgstr "Fehler beim anlegen des Abzeichens:"
+
+msgid "Connect a Backpack"
+msgstr "Aufschalten eines backpack"
+
+msgid "Your badges are now in your backpack"
+msgstr "Ihre Abzeichen sind nun in Ihrem backpack"
+
+msgid "Your backpack has been disconnected"
+msgstr "Ihr backpack wurde abgeschaltet"
+
+msgid "Mozilla Backpack Displayer"
+msgstr "Mozilla Backpack Displayer"
+
+msgid "Enter your backpack email"
+msgstr "Geben Sie die backpack email-Adresse ein"
+
+msgid "Get my public collections"
+msgstr "Meine öffentlichen Sammlungen erhalten"
+
+msgid "Your public collections"
+msgstr "Ihre öffentlichen Sammlungen"
+
+msgid "Select the collections that you want to show on your profile"
+msgstr "Bitte wählen Sie die Sammlung, welche Sie auf Ihrer Profil-Seite anzeigen möchten"
+
+msgid "Save this configuration"
+msgstr "Diese Konfiguration speichern"
+
+msgid "There is no public collection in this backpack"
+msgstr "Es hat keine öffentliche Sammulung in diesem backpack"
+
+msgid "Disconnect this account"
+msgstr "Dieses Konto abmelden"
+
+msgid "This email does not exist in Mozilla Backpack"
+msgstr "Diese email gibt es in keinem Mozilla backpack"
+
+msgid "Your configuration has been saved"
+msgstr "Ihre Einstellungen wurden gespeichert"
+
+msgid "You have been logged out successfully"
+msgstr "Sie wurden erfolgreich abgemeldet"
+
+msgid "Public collections"
+msgstr "öffentliche Sammlungen"
+
+msgid "Backpack badge image"
+msgstr "Bild des Abzeichens"
+
+msgid "Rev"
+msgstr "Rev"
+
+msgid "Current :"
+msgstr "Aktuelle :"
+
+msgid "by"
+msgstr "von"
+
+msgid "Your badge has been uploaded to your backpack"
+msgstr "Ihr Abzeichen wurde hochgeladen in Ihr backpack"
+
+msgid "No operation"
+msgstr "Kein Arbeitsgang"
+
+msgid "Add a badge in order to activate it"
+msgstr "Ein Abzeichen hinzufügen um es zu aktivieren"
+
+msgid "Badge earned"
+msgstr "erhaltenes Abzeichen"
+
+msgid "Earners"
+msgstr "Besitzer"
+
+msgid "No earner yet"
+msgstr "kein aktueller Besitzer"
+
+msgid "Badges"
+msgstr "Abzeichen"
+
+msgid "Badge image"
+msgstr "Bild des Abzeichens"
+
+msgid "A badge is a reward for a student when he pass a course or a class."
+msgstr "Ein Abzeichen ist eine zugeteilte Belohnung wenn der Studierende den Kurs oder eine Klasse beendet hat."
+
+msgid "Badge"
+msgstr "Abzeichen"
+
+msgid "Badge description"
+msgstr "Beschreibung des Abzeichens"
+
+msgid "The Mozilla Backpack Displayer allows you to show, on your profile, some public collections from your Backpack."
+msgstr "Der Mozilla Backpack Displayer erlaubt Ihnen auf Ihrer Profil-Seite öffentliche Sammlungen von Ihrem backpack anzuzeigen."
