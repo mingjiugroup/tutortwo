@@ -77,6 +77,17 @@ projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
 projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
 
+projects[h5p_tincan_bridge][type]               = module
+projects[h5p_tincan_bridge][subdir]             = "contrib"
+projects[h5p_tincan_bridge][download][type]     = git
+projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
+projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1a6e7f3a260
+
+projects[opigno_learning_locker_stats_app][type]               = module
+projects[opigno_learning_locker_stats_app][subdir]             = "contrib"
+projects[opigno_learning_locker_stats_app][download][type]     = git
+projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
+projects[opigno_learning_locker_stats_app][download][revision] = 16e59e81ca26eed9c41a48ec1e552a775c3a38ee
 
 ; Opigno themes ================================================================
 
@@ -178,7 +189,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 
 projects[views][subdir] = "contrib"
 projects[views][version] = 3.11
@@ -312,6 +323,9 @@ projects[guideme][version] = 1.0-rc1
 
 projects[pdf][subdir]  = "contrib"
 projects[pdf][version] = 1.6
+
+projects[tincanapi][subdir]  = "contrib"
+projects[tincanapi][version] = 1.0-alpha1
 
 
 ; Third-patry libraries ========================================================
