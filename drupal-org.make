@@ -324,9 +324,14 @@ projects[guideme][version] = 1.0-rc1
 projects[pdf][subdir]  = "contrib"
 projects[pdf][version] = 1.6
 
-projects[tincanapi][subdir]  = "contrib"
-projects[tincanapi][version] = 1.0-alpha1
-
+projects[tincanapi][type]               = module
+projects[tincanapi][subdir]             = "contrib"
+projects[tincanapi][download][type]     = git
+projects[tincanapi][download][branch]   = "7.x-1.x"
+projects[tincanapi][download][url]      = "http://git.drupal.org/project/tincanapi.git"
+projects[tincanapi][download][revision] = b50f02cb37f0589719100369887f74d450667bb4
+projects[tincanapi][patch][] = "http://drupal.org/files/issues/remove_duplicated_code-2552577-1.patch"
+projects[tincanapi][patch][] = "http://drupal.org/files/issues/add_object_type-2556363-1.patch"
 
 ; Third-patry libraries ========================================================
 
