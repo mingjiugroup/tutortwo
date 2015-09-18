@@ -80,13 +80,16 @@ projects[h5p_tincan_bridge][type]               = module
 projects[h5p_tincan_bridge][subdir]             = "contrib"
 projects[h5p_tincan_bridge][download][type]     = git
 projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
+projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
 projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1a6e7f3a260
 
 projects[opigno_learning_locker_stats_app][type]               = module
-projects[opigno_learning_locker_stats_app][subdir]             = "contrib"
+projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
 projects[opigno_learning_locker_stats_app][download][type]     = git
 projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
+projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
 projects[opigno_learning_locker_stats_app][download][revision] = 16e59e81ca26eed9c41a48ec1e552a775c3a38ee
+
 
 ; Opigno themes ================================================================
 
