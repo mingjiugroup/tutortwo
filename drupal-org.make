@@ -84,12 +84,19 @@ projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
 projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
 projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1a6e7f3a260
 
+projects[opigno_statistics_app][type]               = module
+projects[opigno_statistics_app][subdir]             = "opigno"
+projects[opigno_statistics_app][download][type]     = git
+projects[opigno_statistics_app][download][branch]   = 7.x-1.x
+projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
+projects[opigno_statistics_app][download][revision] = 1853902aaa51449eec4f16569873d3a8c3d247bc
+
 projects[opigno_learning_locker_stats_app][type]               = module
 projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
 projects[opigno_learning_locker_stats_app][download][type]     = git
 projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
 projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = 16e59e81ca26eed9c41a48ec1e552a775c3a38ee
+projects[opigno_learning_locker_stats_app][download][revision] = 01dfda3493aa6ba06153868a55b3c7852530f62d
 
 ; Opigno themes ================================================================
 
