@@ -268,7 +268,7 @@ function _opigno_lms_install_menu() {
   // Create a statistic link in the main menu.
   $item = array(
     'link_title' => st('Statistics'),
-    'link_path' => 'admin/opigno/statistics',
+    'link_path' => 'admin/opigno/opigno-statistics',
     'menu_name' => 'main-menu',
     'options' => array(
       'attributes' => array('id' => 'main-navigation-item-statistics'),
