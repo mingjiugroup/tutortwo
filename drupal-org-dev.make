@@ -83,12 +83,26 @@ projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
 projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
 projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1a6e7f3a260
 
+projects[login_history][type]               = module
+projects[login_history][subdir]             = "contrib"
+projects[login_history][download][type]     = git
+projects[login_history][download][branch]   = 7.x-1.x
+projects[login_history][download][url]      = "http://git.drupal.org/project/login_history.git"
+projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02cefdd4
+
+projects[opigno_statistics_app][type]               = module
+projects[opigno_statistics_app][subdir]             = "opigno"
+projects[opigno_statistics_app][download][type]     = git
+projects[opigno_statistics_app][download][branch]   = 7.x-1.x
+projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
+projects[opigno_statistics_app][download][revision] = 705d9089c7150351566ee7fb79bcd77ee2782b9b
+
 projects[opigno_learning_locker_stats_app][type]               = module
 projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
 projects[opigno_learning_locker_stats_app][download][type]     = git
 projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
 projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = 16e59e81ca26eed9c41a48ec1e552a775c3a38ee
+projects[opigno_learning_locker_stats_app][download][revision] = 01dfda3493aa6ba06153868a55b3c7852530f62d
 
 
 ; Opigno themes ================================================================
