@@ -265,6 +265,18 @@ function _opigno_lms_install_menu() {
   );
   menu_link_save($item);
 
+  // Create a statistic link in the main menu.
+  $item = array(
+    'link_title' => st('Statistics'),
+    'link_path' => 'statistics',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array('id' => 'main-navigation-item-statistics'),
+    ),
+    'weight' => -43,
+  );
+  menu_link_save($item);
+
   // Update the menu router information.
   menu_rebuild();
 }
