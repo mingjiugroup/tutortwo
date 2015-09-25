@@ -95,14 +95,14 @@ projects[opigno_statistics_app][subdir]             = "opigno"
 projects[opigno_statistics_app][download][type]     = git
 projects[opigno_statistics_app][download][branch]   = 7.x-1.x
 projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 705d9089c7150351566ee7fb79bcd77ee2782b9b
+projects[opigno_statistics_app][download][revision] = 771f55f875e4986101a99541f09a228832dd9daa
 
 projects[opigno_learning_locker_stats_app][type]               = module
 projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
 projects[opigno_learning_locker_stats_app][download][type]     = git
 projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
 projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = 01dfda3493aa6ba06153868a55b3c7852530f62d
+projects[opigno_learning_locker_stats_app][download][revision] = 0a45156c2ab0e2457f746cd227cf3ca6e6a39f5c
 
 
 ; Opigno themes ================================================================
@@ -113,7 +113,7 @@ projects[platon][type] = theme
 ;projects[platon][type]               = theme
 ;projects[platon][download][type]     = git
 ;projects[platon][download][branch]   = "7.x-3.x"
-;projects[platon][download][revision] = ea706dad41df72387d5f538265eb398a58a79586
+;projects[platon][download][revision] = c3836473df1804dad06853a3b04201526b935c01
 
 ; Third-party modules that need to be patched ==================================
 
