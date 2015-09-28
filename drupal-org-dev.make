@@ -102,7 +102,7 @@ projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
 projects[opigno_learning_locker_stats_app][download][type]     = git
 projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
 projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = 0a45156c2ab0e2457f746cd227cf3ca6e6a39f5c
+projects[opigno_learning_locker_stats_app][download][revision] = 3b9a5f40801f3550e3ad3766b6454f8c278b4a51
 
 
 ; Opigno themes ================================================================
