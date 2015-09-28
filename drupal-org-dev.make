@@ -95,14 +95,14 @@ projects[opigno_statistics_app][subdir]             = "opigno"
 projects[opigno_statistics_app][download][type]     = git
 projects[opigno_statistics_app][download][branch]   = 7.x-1.x
 projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 6a727eaf6e7cb99f440b1eb4076eb99f8e53511f
+projects[opigno_statistics_app][download][revision] = 0ed3ec47644c96d775ed3407ae4a16bb15cbebbd
 
 projects[opigno_learning_locker_stats_app][type]               = module
 projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
 projects[opigno_learning_locker_stats_app][download][type]     = git
 projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
 projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = 3b9a5f40801f3550e3ad3766b6454f8c278b4a51
+projects[opigno_learning_locker_stats_app][download][revision] = d1db0e4af8cdd27d20091f4d1e5cc1635bb08bca
 
 
 ; Opigno themes ================================================================
