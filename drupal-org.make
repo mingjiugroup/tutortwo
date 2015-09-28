@@ -113,7 +113,7 @@ projects[platon][type] = theme
 ;projects[platon][type]               = theme
 ;projects[platon][download][type]     = git
 ;projects[platon][download][branch]   = "7.x-3.x"
-;projects[platon][download][revision] = ef4d5932923ac1afc5739a0fa15c05e8febe01cc
+;projects[platon][download][revision] = 9556a6e7de463cdfdaed771fd6e8e4bb7249566d
 
 ; Third-party modules that need to be patched ==================================
 
