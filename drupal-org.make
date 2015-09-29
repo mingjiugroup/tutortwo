@@ -84,19 +84,19 @@ projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
 projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
 projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1a6e7f3a260
 
-projects[login_history][type]               = module
-projects[login_history][subdir]             = "contrib"
-projects[login_history][download][type]     = git
-projects[login_history][download][branch]   = 7.x-1.x
-projects[login_history][download][url]      = "http://git.drupal.org/project/login_history.git"
-projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02cefdd4
+;projects[login_history][type]               = module
+;projects[login_history][subdir]             = "contrib"
+;projects[login_history][download][type]     = git
+;projects[login_history][download][branch]   = 7.x-1.x
+;projects[login_history][download][url]      = "http://git.drupal.org/project/login_history.git"
+;projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02cefdd4
 
-projects[opigno_statistics_app][type]               = module
-projects[opigno_statistics_app][subdir]             = "opigno"
-projects[opigno_statistics_app][download][type]     = git
-projects[opigno_statistics_app][download][branch]   = 7.x-1.x
-projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 0ed3ec47644c96d775ed3407ae4a16bb15cbebbd
+;projects[opigno_statistics_app][type]               = module
+;projects[opigno_statistics_app][subdir]             = "opigno"
+;projects[opigno_statistics_app][download][type]     = git
+;projects[opigno_statistics_app][download][branch]   = 7.x-1.x
+;projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
+;projects[opigno_statistics_app][download][revision] = 0ed3ec47644c96d775ed3407ae4a16bb15cbebbd
 
 projects[opigno_learning_locker_stats_app][type]               = module
 projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
@@ -107,13 +107,13 @@ projects[opigno_learning_locker_stats_app][download][revision] = d1db0e4af8cdd27
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 3.11
-projects[platon][type] = theme
+;projects[platon][version] = 3.11
+;projects[platon][type] = theme
 
-;projects[platon][type]               = theme
-;projects[platon][download][type]     = git
-;projects[platon][download][branch]   = "7.x-3.x"
-;projects[platon][download][revision] = 9556a6e7de463cdfdaed771fd6e8e4bb7249566d
+projects[platon][type]               = theme
+projects[platon][download][type]     = git
+projects[platon][download][branch]   = "7.x-3.x"
+projects[platon][download][revision] = 9556a6e7de463cdfdaed771fd6e8e4bb7249566d
 
 ; Third-party modules that need to be patched ==================================
 
