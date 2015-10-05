@@ -273,6 +273,7 @@ function _opigno_lms_install_menu() {
     'options' => array(
       'attributes' => array('id' => 'main-navigation-item-statistics'),
     ),
+    'hidden' => 0,
     'weight' => -43,
   );
   menu_link_save($item);
