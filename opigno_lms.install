@@ -768,6 +768,12 @@ function opigno_lms_update_7110(&$sandbox) {
     unset($_SESSION['h5p_upload'], $_SESSION['h5p_upload_folder']);
   }
   /////////////////////////////////////////////////////////////////////
+  $roles = user_roles(FALSE, NULL);
+  foreach ($roles as $rid => $rolename) {
+    if (($rolename == "student manager")||($rolename == "administrator")||($rolename == "forum administrator")) {
+      user_role_grant_permissions($rid, array('access opigno statistics pages'));
+    }
+  }
   opigno_lms_refresh_strings_and_import(array('default','field'));
   drupal_flush_all_caches();
 }
@@ -775,7 +781,8 @@ function opigno_lms_update_7110(&$sandbox) {
 /*
  * Removes anonymous permissions to view content for forums calendar_event and notification content types
  */
-function _opigno_lms_install_specific_content_access() {
+function _opigno_lms_install_specific_content_access()
+{
   $types = array('forum', 'calendar_event', 'notification');
   foreach ($types as $type) {
     $defaults = array();
