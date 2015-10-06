@@ -126,6 +126,17 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'opigno',
   );
 
+  // Exported permission: 'access opigno statistics pages'.
+  $permissions['access opigno statistics pages'] = array(
+    'name' => 'access opigno statistics pages',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'student manager' => 'student manager',
+      'forum administrator' => 'forum administrator',
+    ),
+    'module' => 'opigno',
+  );
+
   // Exported permission: 'access print'.
   $permissions['access print'] = array(
     'name' => 'access print',
