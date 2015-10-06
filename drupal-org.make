@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.13
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.13
+;projects[opigno][subdir]  = "opigno"
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][download][type]     = git
-;projects[opigno][download][branch]   = 7.x-1.x
-;projects[opigno][download][revision] = 5936471fdb8d29cc78d46abcfb82d392a769385b
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = 7.x-1.x
+projects[opigno][download][revision] = e4bca457b650ecd657520b9e9528464423aea0cb
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -103,7 +103,7 @@ projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
 projects[opigno_learning_locker_stats_app][download][type]     = git
 projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
 projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = d1db0e4af8cdd27d20091f4d1e5cc1635bb08bca
+projects[opigno_learning_locker_stats_app][download][revision] = 8f0fe5034526ba0ce59693ffa39f4bb01d70078a
 
 ; Opigno themes ================================================================
 
@@ -113,7 +113,7 @@ projects[opigno_learning_locker_stats_app][download][revision] = d1db0e4af8cdd27
 projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = 9556a6e7de463cdfdaed771fd6e8e4bb7249566d
+projects[platon][download][revision] = db7e2e8a68889859544da5e30b633146b32856a6
 
 ; Third-party modules that need to be patched ==================================
 
@@ -199,7 +199,7 @@ projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/quiz_drag_dr
 ; Third-party modules ==========================================================
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.8
+projects[h5p][version] = 1.10
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
