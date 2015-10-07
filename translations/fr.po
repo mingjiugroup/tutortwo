@@ -70320,3 +70320,10 @@ msgid ""
 "You cannot subscribe to this course. There are required courses not "
 "completed:"
 msgstr "Vous ne pouvez pas vous inscrire à ce cours avant d'avoir terminé les cours pré-requis:"
+
+msgid "You do not have any statistics items."
+msgstr "Vous n'avez accès à aucune page de statistiques."
+
+#: /admin/config/regional/language
+msgid "Opigno Statistics"
+msgstr "Opigno Statistiques"

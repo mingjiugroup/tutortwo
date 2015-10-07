@@ -57209,3 +57209,10 @@ msgstr "Beschreibung des Abzeichens"
 
 msgid "The Mozilla Backpack Displayer allows you to show, on your profile, some public collections from your Backpack."
 msgstr "Der Mozilla Backpack Displayer erlaubt Ihnen auf Ihrer Profil-Seite öffentliche Sammlungen von Ihrem backpack anzuzeigen."
+
+msgid "You do not have any statistics items."
+msgstr "Keine Statistik-Objekte verfügbar."
+
+#: /admin/config/regional/language
+msgid "Opigno Statistics"
+msgstr "Opigno Statistik"
