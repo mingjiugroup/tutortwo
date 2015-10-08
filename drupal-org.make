@@ -4,14 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][version] = 1.13
-;projects[opigno][subdir]  = "opigno"
+projects[opigno][version] = 1.14
+projects[opigno][subdir]  = "opigno"
 
-projects[opigno][type]               = module
-projects[opigno][subdir]             = "opigno"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = de861d3daef49574e90103d467875f5ee51a4c40
+;projects[opigno][type]               = module
+;projects[opigno][subdir]             = "opigno"
+;projects[opigno][download][type]     = git
+;projects[opigno][download][branch]   = 7.x-1.x
+;projects[opigno][download][revision] = de861d3daef49574e90103d467875f5ee51a4c40
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -77,12 +77,15 @@ projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
 projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
 
-projects[h5p_tincan_bridge][type]               = module
-projects[h5p_tincan_bridge][subdir]             = "contrib"
-projects[h5p_tincan_bridge][download][type]     = git
-projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
-projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
-projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1a6e7f3a260
+projects[h5p_tincan_bridge][version] = 1.0
+projects[h5p_tincan_bridge][subdir]  = "contrib"
+
+;projects[h5p_tincan_bridge][type]               = module
+;projects[h5p_tincan_bridge][subdir]             = "contrib"
+;projects[h5p_tincan_bridge][download][type]     = git
+;projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
+;projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
+;projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1a6e7f3a260
 
 ;projects[login_history][type]               = module
 ;projects[login_history][subdir]             = "contrib"
@@ -98,22 +101,25 @@ projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1
 ;projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
 ;projects[opigno_statistics_app][download][revision] = 0ed3ec47644c96d775ed3407ae4a16bb15cbebbd
 
-projects[opigno_learning_locker_stats_app][type]               = module
-projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
-projects[opigno_learning_locker_stats_app][download][type]     = git
-projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
-projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = 2f1b23288d48e4d6d0190a20c98a47c1283a56bc
+projects[opigno_learning_locker_stats_app][version] = 1.0
+projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
+
+;projects[opigno_learning_locker_stats_app][type]               = module
+;projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
+;projects[opigno_learning_locker_stats_app][download][type]     = git
+;projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
+;projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
+;projects[opigno_learning_locker_stats_app][download][revision] = 2f1b23288d48e4d6d0190a20c98a47c1283a56bc
 
 ; Opigno themes ================================================================
 
-;projects[platon][version] = 3.11
-;projects[platon][type] = theme
+projects[platon][version] = 3.12
+projects[platon][type] = theme
 
-projects[platon][type]               = theme
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = db7e2e8a68889859544da5e30b633146b32856a6
+;projects[platon][type]               = theme
+;projects[platon][download][type]     = git
+;projects[platon][download][branch]   = "7.x-3.x"
+;projects[platon][download][revision] = db7e2e8a68889859544da5e30b633146b32856a6
 
 ; Third-party modules that need to be patched ==================================
 
