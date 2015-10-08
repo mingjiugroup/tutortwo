@@ -6722,17 +6722,9 @@ msgid ""
 msgstr ""
 
 #: /admin/appearance/settings/platon
-msgid "Upload an image"
-msgstr ""
-
-#: /admin/appearance/settings/platon
 msgid ""
 "If you don't have direct file access to the server, use this field to "
 "upload your header background image."
-msgstr ""
-
-#: /admin/appearance/settings/platon
-msgid "The path to the home page background image."
 msgstr ""
 
 #: /admin/appearance/settings/platon
@@ -70327,3 +70319,26 @@ msgstr "Vous n'avez accès à aucune page de statistiques."
 #: /admin/config/regional/language
 msgid "Opigno Statistics"
 msgstr "Opigno Statistiques"
+
+msgid "Add another slide"
+msgstr "Ajouter une diapositive supplémentaire"
+
+msgid "Slide @num"
+msgstr "Diapositive @num"
+
+msgid "Remove latest slide"
+msgstr "Supprimer la dernière diapositive"
+
+#: /admin/appearance/settings/platon
+msgid "The path to the home page background image."
+msgstr "Le chemin vers la photo d'arrière plan."
+
+msgid "The path to the image file you would like to use as your custom home page background (relative to sites/default/files)."
+msgstr "Le chemin vers l'image que vous souhaitez utiliser comme arrière plan pour cette diapositive (relatif au répertoire sites/default/files)."
+
+#: /admin/appearance/settings/platon
+msgid "Upload an image"
+msgstr "Charger une image"
+
+msgid "If you don't have direct file access to the server, use this field to upload your background image."
+msgstr "Si l'image n'est pas encore chargée sur le serveur, cliquez sur le bouton Parcourir pour charger votre image."
