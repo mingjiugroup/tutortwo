@@ -274,7 +274,7 @@ function _opigno_lms_install_menu() {
       'attributes' => array('id' => 'main-navigation-item-statistics'),
     ),
     'hidden' => 1,
-    'weight' => -43,
+    'weight' => -49,
   );
   menu_link_save($item);
 
@@ -783,7 +783,7 @@ function opigno_lms_update_7110(&$sandbox) {
       'attributes' => array('id' => 'main-navigation-item-statistics'),
     ),
     'hidden' => 1,
-    'weight' => -43,
+    'weight' => 49,
   );
   menu_link_save($item);
   opigno_lms_refresh_strings_and_import(array('default','field'));
