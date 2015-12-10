@@ -73,6 +73,7 @@ dependencies[] = opigno_wt_app
 dependencies[] = opigno_course_categories_app
 dependencies[] = tft
 dependencies[] = opigno_certificate_app
+dependencies[] = opigno_statistics_app
 
 ; Opigno features
 dependencies[] = opigno_features_roles

@@ -273,8 +273,19 @@ function _opigno_lms_install_menu() {
     'options' => array(
       'attributes' => array('id' => 'main-navigation-item-statistics'),
     ),
-    'hidden' => 1,
     'weight' => 49,
+  );
+  menu_link_save($item);
+
+  $item = array(
+    'link_title' => st('Collaborative workspaces'),
+    'link_path' => 'collaborative-workspaces',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array('id' => 'main-navigation-item-collaborative-workspaces'),
+    ),
+    'hidden' => 1,
+    'weight' => 51,
   );
   menu_link_save($item);
 
