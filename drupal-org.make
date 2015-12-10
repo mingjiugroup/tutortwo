@@ -194,7 +194,7 @@ projects[cloze][download][type]     = git
 projects[cloze][download][branch]   = "7.x-1.x"
 projects[cloze][download][url]      = "http://git.drupal.org/project/cloze.git"
 projects[cloze][download][revision] = e3bb806823e46870e8e0d6dafce2d0b261c024c5
-;projects[cloze][patch][] = "http://drupal.org/files/issues/cloze_change_question_type_name-2249881-1.patch"
+projects[cloze][patch][] = "http://drupal.org/files/issues/cloze_change_question_type_name-2249881-4.patch"
 
 ; Quiz drag drop
 projects[quiz_drag_drop][subdir]  = "contrib"
