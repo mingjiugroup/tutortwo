@@ -126,7 +126,7 @@ projects[opigno_moxtra_app][download][revision] = 255ac7ba3e634bec035398f5067e8a
 projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = ea161f02fabb58716e4fd2a3864fd3dadbb3dbe7
+projects[platon][download][revision] = d30fa660f6aee3a2eaa7d4330aface80c83a6eaf
 
 ; Third-party modules that need to be patched ==================================
 
