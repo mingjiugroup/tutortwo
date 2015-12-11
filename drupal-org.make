@@ -119,7 +119,7 @@ projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
 projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = 5dd2756fbb6230a4f431fb189c9f960c4e4ef0b0
+projects[platon][download][revision] = ea161f02fabb58716e4fd2a3864fd3dadbb3dbe7
 
 ; Third-party modules that need to be patched ==================================
 
