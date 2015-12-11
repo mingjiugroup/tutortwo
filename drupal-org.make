@@ -55,14 +55,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.3
 projects[opigno_class_app][subdir]  = "opigno"
 
-projects[opigno_quiz_app][version]    = 1.12
-projects[opigno_quiz_app][subdir]  = "opigno"
-
-;projects[opigno_quiz_app][type] = module
+;projects[opigno_quiz_app][version]    = 1.12
 ;projects[opigno_quiz_app][subdir]  = "opigno"
-;projects[opigno_quiz_app][download][type]     = git
-;projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-;projects[opigno_quiz_app][download][revision] = ce20be053e99db7b5590db97a68b4fd962e1e9e7
+
+projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][subdir]  = "opigno"
+projects[opigno_quiz_app][download][type]     = git
+projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+projects[opigno_quiz_app][download][revision] = 2d5af750352e4934a0bd16aec8afb462b089df85
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
