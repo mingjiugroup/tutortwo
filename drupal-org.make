@@ -101,15 +101,22 @@ projects[opigno_statistics_app][download][branch]   = 7.x-1.x
 projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
 projects[opigno_statistics_app][download][revision] = 7785d54d266266c95f277963c26e398d1f76b48b
 
-projects[opigno_learning_locker_stats_app][version] = 1.0
-projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
+;projects[opigno_learning_locker_stats_app][version] = 1.0
+;projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
 
-;projects[opigno_learning_locker_stats_app][type]               = module
-;projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
-;projects[opigno_learning_locker_stats_app][download][type]     = git
-;projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
-;projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_learning_locker_stats_app.git"
-;projects[opigno_learning_locker_stats_app][download][revision] = 2f1b23288d48e4d6d0190a20c98a47c1283a56bc
+projects[opigno_learning_locker_stats_app][type]               = module
+projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
+projects[opigno_learning_locker_stats_app][download][type]     = git
+projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
+projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
+projects[opigno_learning_locker_stats_app][download][revision] = f0a06c7c48150133dfae0d7acbb679425a334470
+
+projects[opigno_moxtra_app][type]               = module
+projects[opigno_moxtra_app][subdir]             = "opigno"
+projects[opigno_moxtra_app][download][type]     = git
+projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
+projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/2552387.git"
+projects[opigno_moxtra_app][download][revision] = 255ac7ba3e634bec035398f5067e8a71621be098
 
 ; Opigno themes ================================================================
 
