@@ -109,14 +109,14 @@ projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
 projects[opigno_learning_locker_stats_app][download][type]     = git
 projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
 projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = f0a06c7c48150133dfae0d7acbb679425a334470
+projects[opigno_learning_locker_stats_app][download][revision] = 443c1724ccb50ec37dccc7c7fdff86a8b9bfec8c
 
 projects[opigno_moxtra_app][type]               = module
 projects[opigno_moxtra_app][subdir]             = "opigno"
 projects[opigno_moxtra_app][download][type]     = git
 projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
 projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/2552387.git"
-projects[opigno_moxtra_app][download][revision] = 255ac7ba3e634bec035398f5067e8a71621be098
+projects[opigno_moxtra_app][download][revision] = fa347f0e413a72e6d78bdb533f4adf676258306d
 
 ; Opigno themes ================================================================
 
