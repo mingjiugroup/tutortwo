@@ -116,7 +116,7 @@ projects[opigno_moxtra_app][subdir]             = "opigno"
 projects[opigno_moxtra_app][download][type]     = git
 projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
 projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/2552387.git"
-projects[opigno_moxtra_app][download][revision] = c462bf6ae825e404a6a622bef97db8a3387fe0c8
+projects[opigno_moxtra_app][download][revision] = 4b5cc93c4f9dfa656ffde7ff5fb0e03905251bf4
 
 ; Opigno themes ================================================================
 

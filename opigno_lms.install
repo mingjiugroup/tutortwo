@@ -253,18 +253,6 @@ function _opigno_lms_install_menu() {
   );
   menu_link_save($item);
 
-  // Create an administration link in the main menu.
-  $item = array(
-    'link_title' => st('Administration'),
-    'link_path' => 'admin/opigno',
-    'menu_name' => 'main-menu',
-    'options' => array(
-      'attributes' => array('id' => 'main-navigation-item-administration'),
-    ),
-    'weight' => 50,
-  );
-  menu_link_save($item);
-
   // Create a statistic link in the main menu.
   $item = array(
     'link_title' => st('Statistics'),
@@ -274,6 +262,18 @@ function _opigno_lms_install_menu() {
       'attributes' => array('id' => 'main-navigation-item-statistics'),
     ),
     'weight' => 48,
+  );
+  menu_link_save($item);
+
+  // Create an administration link in the main menu.
+  $item = array(
+    'link_title' => st('Administration'),
+    'link_path' => 'admin/opigno',
+    'menu_name' => 'main-menu',
+    'options' => array(
+      'attributes' => array('id' => 'main-navigation-item-administration'),
+    ),
+    'weight' => 50,
   );
   menu_link_save($item);
 
