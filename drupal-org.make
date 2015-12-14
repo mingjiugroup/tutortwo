@@ -116,7 +116,7 @@ projects[opigno_moxtra_app][subdir]             = "opigno"
 projects[opigno_moxtra_app][download][type]     = git
 projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
 projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/2552387.git"
-projects[opigno_moxtra_app][download][revision] = fa347f0e413a72e6d78bdb533f4adf676258306d
+projects[opigno_moxtra_app][download][revision] = c462bf6ae825e404a6a622bef97db8a3387fe0c8
 
 ; Opigno themes ================================================================
 
@@ -126,7 +126,7 @@ projects[opigno_moxtra_app][download][revision] = fa347f0e413a72e6d78bdb533f4adf
 projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = d30fa660f6aee3a2eaa7d4330aface80c83a6eaf
+projects[platon][download][revision] = 	942aadc0edc994e2890f746fa46e614044ceb674
 
 ; Third-party modules that need to be patched ==================================
 
