@@ -811,6 +811,7 @@ function opigno_lms_update_7111(&$sandbox) {
   }
   /////////////////////////////////////////////////////////////////////
   module_enable(array('opigno_statistics_app'),TRUE);
+  module_enable(array('opigno_moxtra_app'),TRUE);
   $menu = menu_load_links("main-menu");
   foreach ($menu as $menu_link) {
     if ($menu_link['link_path'] == "admin/opigno-statistics") {
