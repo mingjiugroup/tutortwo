@@ -213,7 +213,7 @@ projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/quiz_drag_dr
 ; Third-party modules ==========================================================
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.10
+projects[h5p][version] = 1.11
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
