@@ -1982,5 +1982,13 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'privatemsg',
   );
 
+  $permissions['configure moxtra'] = array(
+    'name' => 'configure moxtra',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'opigno_moxtra_app',
+  );
+
   return $permissions;
 }

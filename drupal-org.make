@@ -55,14 +55,14 @@ projects[opigno_quiz_import_app][subdir]  = "opigno"
 projects[opigno_class_app][version] = 1.3
 projects[opigno_class_app][subdir]  = "opigno"
 
-;projects[opigno_quiz_app][version]    = 1.12
-;projects[opigno_quiz_app][subdir]  = "opigno"
-
-projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][version]    = 1.13
 projects[opigno_quiz_app][subdir]  = "opigno"
-projects[opigno_quiz_app][download][type]     = git
-projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 2d5af750352e4934a0bd16aec8afb462b089df85
+
+;projects[opigno_quiz_app][type] = module
+;projects[opigno_quiz_app][subdir]  = "opigno"
+;projects[opigno_quiz_app][download][type]     = git
+;projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+;projects[opigno_quiz_app][download][revision] = 2d5af750352e4934a0bd16aec8afb462b089df85
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -94,22 +94,18 @@ projects[login_history][download][branch]   = 7.x-1.x
 projects[login_history][download][url]      = "http://git.drupal.org/project/login_history.git"
 projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02cefdd4
 
-projects[opigno_statistics_app][type]               = module
-projects[opigno_statistics_app][subdir]             = "opigno"
-projects[opigno_statistics_app][download][type]     = git
-projects[opigno_statistics_app][download][branch]   = 7.x-1.x
-projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 7785d54d266266c95f277963c26e398d1f76b48b
+projects[opigno_statistics_app][version] = 1.0
+projects[opigno_statistics_app][subdir]  = "opigno"
 
-;projects[opigno_learning_locker_stats_app][version] = 1.0
-;projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
+projects[opigno_learning_locker_stats_app][version] = 1.1
+projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
 
-projects[opigno_learning_locker_stats_app][type]               = module
-projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
-projects[opigno_learning_locker_stats_app][download][type]     = git
-projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
-projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = 443c1724ccb50ec37dccc7c7fdff86a8b9bfec8c
+;projects[opigno_learning_locker_stats_app][type]               = module
+;projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
+;projects[opigno_learning_locker_stats_app][download][type]     = git
+;projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
+;projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
+;projects[opigno_learning_locker_stats_app][download][revision] = 443c1724ccb50ec37dccc7c7fdff86a8b9bfec8c
 
 projects[opigno_moxtra_app][type]               = module
 projects[opigno_moxtra_app][subdir]             = "opigno"
@@ -120,13 +116,13 @@ projects[opigno_moxtra_app][download][revision] = 93c81babe127ed0f15d9ef3e76e225
 
 ; Opigno themes ================================================================
 
-;projects[platon][version] = 3.12
-;projects[platon][type] = theme
+projects[platon][version] = 3.13
+projects[platon][type] = theme
 
-projects[platon][type]               = theme
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][revision] = 	357aeae66dcd03e63673db83eb2646001bcdb3d1
+;projects[platon][type]               = theme
+;projects[platon][download][type]     = git
+;projects[platon][download][branch]   = "7.x-3.x"
+;projects[platon][download][revision] = 	357aeae66dcd03e63673db83eb2646001bcdb3d1
 
 ; Third-party modules that need to be patched ==================================
 
