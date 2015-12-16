@@ -356,7 +356,7 @@ projects[tincanapi][download][type]     = git
 projects[tincanapi][download][branch]   = "7.x-1.x"
 projects[tincanapi][download][url]      = "http://git.drupal.org/project/tincanapi.git"
 projects[tincanapi][download][revision] = b50f02cb37f0589719100369887f74d450667bb4
-projects[tincanapi][patch][] = "https://www.drupal.org/files/issues/verb_activity_types_fix-2633220-4.patch"
+projects[tincanapi][patch][] = "http://www.drupal.org/files/issues/verb_activity_types_fix-2633220-4.patch"
 
 ; Third-patry libraries ========================================================
 
