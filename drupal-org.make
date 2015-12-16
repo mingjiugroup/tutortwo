@@ -84,7 +84,7 @@ projects[h5p_tincan_bridge][type]               = module
 projects[h5p_tincan_bridge][subdir]             = "contrib"
 projects[h5p_tincan_bridge][download][type]     = git
 projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
-projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
+projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/project/h5p_tincan_bridge.git"
 projects[h5p_tincan_bridge][download][revision] = 42f262dd1f58949bc3c65fab7c55f458b6a14664
 
 projects[login_history][type]               = module
