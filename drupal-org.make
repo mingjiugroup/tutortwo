@@ -77,15 +77,15 @@ projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
 projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
 
-projects[h5p_tincan_bridge][version] = 1.0
-projects[h5p_tincan_bridge][subdir]  = "contrib"
+;projects[h5p_tincan_bridge][version] = 1.0
+;projects[h5p_tincan_bridge][subdir]  = "contrib"
 
-;projects[h5p_tincan_bridge][type]               = module
-;projects[h5p_tincan_bridge][subdir]             = "contrib"
-;projects[h5p_tincan_bridge][download][type]     = git
-;projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
-;projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
-;projects[h5p_tincan_bridge][download][revision] = 413651dec4c55a1036ee409b3c02f1a6e7f3a260
+projects[h5p_tincan_bridge][type]               = module
+projects[h5p_tincan_bridge][subdir]             = "contrib"
+projects[h5p_tincan_bridge][download][type]     = git
+projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
+projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/sandbox/Jamesap/h5p_tincan_bridge.git"
+projects[h5p_tincan_bridge][download][revision] = 42f262dd1f58949bc3c65fab7c55f458b6a14664
 
 projects[login_history][type]               = module
 projects[login_history][subdir]             = "contrib"
@@ -97,22 +97,22 @@ projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02
 projects[opigno_statistics_app][version] = 1.0
 projects[opigno_statistics_app][subdir]  = "opigno"
 
-projects[opigno_learning_locker_stats_app][version] = 1.1
-projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
+;projects[opigno_learning_locker_stats_app][version] = 1.1
+;projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
 
-;projects[opigno_learning_locker_stats_app][type]               = module
-;projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
-;projects[opigno_learning_locker_stats_app][download][type]     = git
-;projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
-;projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
-;projects[opigno_learning_locker_stats_app][download][revision] = 443c1724ccb50ec37dccc7c7fdff86a8b9bfec8c
+projects[opigno_learning_locker_stats_app][type]               = module
+projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
+projects[opigno_learning_locker_stats_app][download][type]     = git
+projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
+projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
+projects[opigno_learning_locker_stats_app][download][revision] = 2f5a9aff205657bac7974d9c9e2f1cf789103569
 
 projects[opigno_moxtra_app][type]               = module
 projects[opigno_moxtra_app][subdir]             = "opigno"
 projects[opigno_moxtra_app][download][type]     = git
 projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
 projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/2552387.git"
-projects[opigno_moxtra_app][download][revision] = 93c81babe127ed0f15d9ef3e76e225bcd3e44a54
+projects[opigno_moxtra_app][download][revision] = 2a15e5f8e0ce825a72786c36125551cd4a843f5c
 
 ; Opigno themes ================================================================
 
@@ -356,7 +356,7 @@ projects[tincanapi][download][type]     = git
 projects[tincanapi][download][branch]   = "7.x-1.x"
 projects[tincanapi][download][url]      = "http://git.drupal.org/project/tincanapi.git"
 projects[tincanapi][download][revision] = b50f02cb37f0589719100369887f74d450667bb4
-projects[tincanapi][patch][] = "https://www.drupal.org/files/issues/verb_activity_types_fix-2633220-1.patch"
+projects[tincanapi][patch][] = "https://www.drupal.org/files/issues/verb_activity_types_fix-2633220-4.patch"
 
 ; Third-patry libraries ========================================================
 
