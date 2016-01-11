@@ -94,8 +94,15 @@ projects[login_history][download][branch]   = 7.x-1.x
 projects[login_history][download][url]      = "http://git.drupal.org/project/login_history.git"
 projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02cefdd4
 
-projects[opigno_statistics_app][version] = 1.0
-projects[opigno_statistics_app][subdir]  = "opigno"
+;projects[opigno_statistics_app][version] = 1.0
+;projects[opigno_statistics_app][subdir]  = "opigno"
+
+projects[opigno_statistics_app][type]               = module
+projects[opigno_statistics_app][subdir]             = "opigno"
+projects[opigno_statistics_app][download][type]     = git
+projects[opigno_statistics_app][download][branch]   = 7.x-1.x
+projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
+projects[opigno_statistics_app][download][revision] = 3fe4624a590aeb01abc6b97448562b0c6899adde
 
 ;projects[opigno_learning_locker_stats_app][version] = 1.1
 ;projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
@@ -112,7 +119,7 @@ projects[opigno_moxtra_app][subdir]             = "opigno"
 projects[opigno_moxtra_app][download][type]     = git
 projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
 projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/2552387.git"
-projects[opigno_moxtra_app][download][revision] = 2a15e5f8e0ce825a72786c36125551cd4a843f5c
+projects[opigno_moxtra_app][download][revision] = d6ea1031ebf2ed200ba3387a6d3cc8ab04da3b94
 
 ; Opigno themes ================================================================
 
