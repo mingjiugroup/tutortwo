@@ -77,15 +77,15 @@ projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
 projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
 
-;projects[h5p_tincan_bridge][version] = 1.0
-;projects[h5p_tincan_bridge][subdir]  = "contrib"
+projects[h5p_tincan_bridge][version] = 1.1
+projects[h5p_tincan_bridge][subdir]  = "contrib"
 
-projects[h5p_tincan_bridge][type]               = module
-projects[h5p_tincan_bridge][subdir]             = "contrib"
-projects[h5p_tincan_bridge][download][type]     = git
-projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
-projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/project/h5p_tincan_bridge.git"
-projects[h5p_tincan_bridge][download][revision] = 42f262dd1f58949bc3c65fab7c55f458b6a14664
+;projects[h5p_tincan_bridge][type]               = module
+;projects[h5p_tincan_bridge][subdir]             = "contrib"
+;projects[h5p_tincan_bridge][download][type]     = git
+;projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
+;projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/project/h5p_tincan_bridge.git"
+;projects[h5p_tincan_bridge][download][revision] = 42f262dd1f58949bc3c65fab7c55f458b6a14664
 
 projects[login_history][type]               = module
 projects[login_history][subdir]             = "contrib"
@@ -94,32 +94,35 @@ projects[login_history][download][branch]   = 7.x-1.x
 projects[login_history][download][url]      = "http://git.drupal.org/project/login_history.git"
 projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02cefdd4
 
-;projects[opigno_statistics_app][version] = 1.0
-;projects[opigno_statistics_app][subdir]  = "opigno"
+projects[opigno_statistics_app][version] = 1.1
+projects[opigno_statistics_app][subdir]  = "opigno"
 
-projects[opigno_statistics_app][type]               = module
-projects[opigno_statistics_app][subdir]             = "opigno"
-projects[opigno_statistics_app][download][type]     = git
-projects[opigno_statistics_app][download][branch]   = 7.x-1.x
-projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 3fe4624a590aeb01abc6b97448562b0c6899adde
+;projects[opigno_statistics_app][type]               = module
+;projects[opigno_statistics_app][subdir]             = "opigno"
+;projects[opigno_statistics_app][download][type]     = git
+;projects[opigno_statistics_app][download][branch]   = 7.x-1.x
+;projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
+;projects[opigno_statistics_app][download][revision] = 3fe4624a590aeb01abc6b97448562b0c6899adde
 
-;projects[opigno_learning_locker_stats_app][version] = 1.1
-;projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
+projects[opigno_learning_locker_stats_app][version] = 1.2
+projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
 
-projects[opigno_learning_locker_stats_app][type]               = module
-projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
-projects[opigno_learning_locker_stats_app][download][type]     = git
-projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
-projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
-projects[opigno_learning_locker_stats_app][download][revision] = 2f5a9aff205657bac7974d9c9e2f1cf789103569
+;projects[opigno_learning_locker_stats_app][type]               = module
+;projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
+;projects[opigno_learning_locker_stats_app][download][type]     = git
+;projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
+;projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
+;projects[opigno_learning_locker_stats_app][download][revision] = 2f5a9aff205657bac7974d9c9e2f1cf789103569
 
-projects[opigno_moxtra_app][type]               = module
-projects[opigno_moxtra_app][subdir]             = "opigno"
-projects[opigno_moxtra_app][download][type]     = git
-projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
-projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/2552387.git"
-projects[opigno_moxtra_app][download][revision] = d6ea1031ebf2ed200ba3387a6d3cc8ab04da3b94
+projects[opigno_moxtra_app][version] = 1.0
+projects[opigno_moxtra_app][subdir]  = "opigno"
+
+;projects[opigno_moxtra_app][type]               = module
+;projects[opigno_moxtra_app][subdir]             = "opigno"
+;projects[opigno_moxtra_app][download][type]     = git
+;projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
+;projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/sandbox/Jamesap/2552387.git"
+;projects[opigno_moxtra_app][download][revision] = d6ea1031ebf2ed200ba3387a6d3cc8ab04da3b94
 
 ; Opigno themes ================================================================
 
