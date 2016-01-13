@@ -219,7 +219,7 @@ projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/quiz_drag_dr
 ; Third-party modules ==========================================================
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.11
+projects[h5p][version] = 1.12
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
@@ -366,7 +366,7 @@ projects[tincanapi][download][type]     = git
 projects[tincanapi][download][branch]   = "7.x-1.x"
 projects[tincanapi][download][url]      = "http://git.drupal.org/project/tincanapi.git"
 projects[tincanapi][download][revision] = b50f02cb37f0589719100369887f74d450667bb4
-projects[tincanapi][patch][] = "http://www.drupal.org/files/issues/verb_activity_types_fix-2633220-5.patch"
+projects[tincanapi][patch][] = "http://drupal.org/files/issues/verb_activity_types_fix-2633220-5.patch"
 
 ; Third-patry libraries ========================================================
 
