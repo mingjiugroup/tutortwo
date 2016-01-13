@@ -294,7 +294,7 @@ projects[imce_wysiwyg][subdir]  = "contrib"
 projects[imce_wysiwyg][version] = 1.0
 
 projects[field_group][subdir]  = "contrib"
-projects[field_group][version] = 1.4
+projects[field_group][version] = 1.5
 
 projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0-rc3
