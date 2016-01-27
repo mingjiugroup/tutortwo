@@ -170,12 +170,12 @@ function opigno_lms_verify_requirements($form, &$form_state, &$install_state) {
   }
 
   $max_execution_time = ini_get("max_execution_time");
-  if (($max_execution_time < 30) && ($max_execution_time != -1)) {
+  if (($max_execution_time < 30) && (!($max_execution_time <= 0))) {
     drupal_set_message($t("Your system has the max_execution_time as %max_execution_time. Minimum required for Opigno installation is 30. If your machine is old and depending on its current load you may want to raise it even higher (120). Please change the max_execution_time in your php.ini settings file or using ini_set in the settings.php file before continuing.", array('%max_execution_time' => $max_execution_time)), "error", $repeat = FALSE);
     $error = TRUE;
   }
 
-  if (($max_execution_time < 120) && ($max_execution_time != -1)) {
+  if (($max_execution_time < 120) && (!($max_execution_time <= 0))) {
     $warnings[] = $t("Your system has the max_execution_time as %max_execution_time. Minimum required for Opigno installation is 30. But depending on your system performance and current load you may want to raise this setting above (120). You can change the max_execution_time in your php.ini settings file or using ini_set in the settings.php file.", array('%max_execution_time' => $max_execution_time));
   }
 
