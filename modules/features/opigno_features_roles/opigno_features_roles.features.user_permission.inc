@@ -1933,6 +1933,7 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'view quiz question outside of a quiz',
     'roles' => array(
       'administrator' => 'administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'quiz',
   );
