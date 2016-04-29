@@ -823,6 +823,73 @@ function opigno_lms_update_7111(&$sandbox) {
   drupal_flush_all_caches();
 }
 
+/**
+ * Change the modules used for discussing with the LRS (learning locker -> opigno tincan api)
+ */
+function opigno_lms_update_7112(&$sandbox) {
+  // Update the modules that are about the LRS
+  $modules_to_enable = array();
+  $modules_to_disable = array();
+
+  if (module_exists('opigno_learning_locker_stats_app_in_house_training')) {
+    $modules_to_disable[] = 'opigno_learning_locker_stats_app_in_house_training';
+    $modules_to_enable[] = 'opigno_tincan_api_in_house_training_statements';
+  }
+
+  if (module_exists('opigno_learning_locker_stats_app_openbadges')) {
+    $modules_to_disable[] = 'opigno_learning_locker_stats_app_openbadges';
+    $modules_to_enable[] = 'opigno_tincan_api_openbadges_statements';
+  }
+
+  if (module_exists('opigno_learning_locker_stats_app')) {
+    $modules_to_disable[] = 'opigno_learning_locker_stats_app';
+    $modules_to_enable[] = 'opigno_tincan_api_stats';
+    $modules_to_enable[] = 'opigno_tincan_api_opigno_statements';
+  }
+
+  if (module_exists('tincanapi_quiz')) {
+    // Verify the dependencies before disabling
+    if (_opigno_lms_install_module_has_dependent('tincanapi_quiz', $modules_to_disable) === false) {
+      $modules_to_disable[] = 'tincanapi_quiz';
+    }
+
+    $modules_to_enable[] = 'opigno_tincan_api_quizfileupload_statements';
+    $modules_to_enable[] = 'opigno_tincan_api_quiz_drag_drop_statements';
+    $modules_to_enable[] = 'opigno_tincan_api_opigno_scorm_statements';
+    $modules_to_enable[] = 'opigno_tincan_api_cloze_statements';
+    $modules_to_enable[] = 'opigno_tincan_api_quiz_statements';
+  }
+
+  if (module_exists('tincanapi_content_types')) {
+    if (_opigno_lms_install_module_has_dependent('tincanapi_content_types', $modules_to_disable)) {
+      $modules_to_disable[] = 'tincanapi_content_types';
+    }
+
+    $modules_to_enable[] = 'opigno_tincan_api_node_views_statements';
+  }
+
+  if (module_exists('h5p_tincan_bridge')) {
+    // Verify the dependencies before disabling
+    if (_opigno_lms_install_module_has_dependent('h5p_tincan_bridge', $modules_to_disable)) {
+      $modules_to_disable[] = 'h5p_tincan_bridge';
+    }
+
+    $modules_to_enable[] = 'opigno_tincan_api_h5p_statements';
+  }
+
+  if (module_exists('tincanapi')) {
+    // Verify the dependencies before disabling
+    if (_opigno_lms_install_module_has_dependent('tincanapi', $modules_to_disable)) {
+      $modules_to_disable[] = 'tincanapi';
+    }
+
+    $modules_to_enable[] = 'opigno_tincan_api';
+  }
+
+  module_disable($modules_to_disable);
+  module_enable(array_reverse($modules_to_enable));
+}
+
 /*
  * Removes anonymous permissions to view content for forums calendar_event and notification content types
  */
@@ -839,4 +906,28 @@ function _opigno_lms_install_specific_content_access()
     }
     content_access_set_settings($defaults, $type);
   }
+}
+
+/**
+ * Check if a module has some dependencies
+ */
+function _opigno_lms_install_module_has_dependent($module_name, $modules_excluded, $rebuild_modules_list = false) {
+  // Get all the modules
+  $modules_data = &drupal_static(__FUNCTION__);
+  if (!isset($modules_data) || $rebuild_modules_list) {
+    $modules_data = system_rebuild_module_data();
+  }
+
+  if (isset($modules_data[$module_name]->required_by)) {
+    $dependent_modules = array_keys($modules_data[$module_name]->required_by);
+    foreach ($dependent_modules as $dependent_module) {
+
+      if (!in_array($dependent_module, $modules_excluded) && module_exists($dependent_module)) {
+        return true;
+      }
+
+    }
+  }
+
+  return false;
 }

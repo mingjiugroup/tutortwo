@@ -75,6 +75,7 @@ dependencies[] = tft
 dependencies[] = opigno_certificate_app
 dependencies[] = opigno_statistics_app
 dependencies[] = opigno_moxtra_app
+dependencies[] = opigno_tincan_api
 
 ; Opigno features
 dependencies[] = opigno_features_roles
