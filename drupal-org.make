@@ -138,7 +138,7 @@ projects[opigno_tincan_api][subdir]             = "opigno"
 projects[opigno_tincan_api][download][type]     = git
 projects[opigno_tincan_api][download][branch]   = 7.x-1.x
 projects[opigno_tincan_api][download][url]      = "http://git.drupal.org/sandbox/Amermod/2696181.git"
-projects[opigno_tincan_api][download][revision] = 6e10bc077fdcc9dd56d60af60393ddeca13b3dc9
+projects[opigno_tincan_api][download][revision] = 1a5ec57f6da3f1e033bdf4e9dee2c5471ccacd6c
 
 ; Opigno themes ================================================================
 
