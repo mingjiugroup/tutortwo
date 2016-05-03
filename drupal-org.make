@@ -131,14 +131,14 @@ projects[opigno_moxtra_app][subdir]             = "opigno"
 projects[opigno_moxtra_app][download][type]     = git
 projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
 projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/project/opigno_moxtra_app.git"
-projects[opigno_moxtra_app][download][revision] = 3ff68c641af0fcdab5705ecf1adfb6285d908174
+projects[opigno_moxtra_app][download][revision] = e50f0c634f32c1ba9fc470c992adb1f67de2da83
 
 projects[opigno_tincan_api][type]               = module
 projects[opigno_tincan_api][subdir]             = "opigno"
 projects[opigno_tincan_api][download][type]     = git
 projects[opigno_tincan_api][download][branch]   = 7.x-1.x
 projects[opigno_tincan_api][download][url]      = "http://git.drupal.org/sandbox/Amermod/2696181.git"
-projects[opigno_tincan_api][download][revision] = 1eefe8ae7ea5e0f90de68bf88aecd334e1655cb8
+projects[opigno_tincan_api][download][revision] = 408a39395e33d9b8914d97a514d007fea67f8494
 
 ; Opigno themes ================================================================
 
@@ -149,7 +149,7 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
 projects[platon][download][url]   = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = ce3cf48014278a79829fbb47385c00f65b3ec400
+projects[platon][download][revision] = 8948cbdc7727bfa877ac33205628a754c0af9b62
 
 ; Third-party modules that need to be patched ==================================
 
@@ -384,7 +384,7 @@ projects[guideme][subdir]  = "contrib"
 projects[guideme][version] = 1.0-rc1
 
 projects[pdf][subdir]  = "contrib"
-projects[pdf][version] = 1.7
+projects[pdf][version] = 1.8
 
 ; Third-patry libraries ========================================================
 
