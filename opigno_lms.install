@@ -843,6 +843,7 @@ function opigno_lms_update_7112(&$sandbox) {
     $save_package=$h5p_core->savePackage(NULL, NULL, TRUE);
     unset($_SESSION['h5p_upload'], $_SESSION['h5p_upload_folder']);
   }
+  /////////////////////////////////////////////////////////////////////
 
   // Update the modules that are about the LRS
   $modules_to_enable = array();
@@ -900,8 +901,9 @@ function opigno_lms_update_7112(&$sandbox) {
       $modules_to_disable[] = 'tincanapi';
     }
 
-    $modules_to_enable[] = 'opigno_tincan_api';
   }
+
+  $modules_to_enable[] = 'opigno_tincan_api';
 
   module_disable($modules_to_disable);
   module_enable(array_reverse($modules_to_enable));

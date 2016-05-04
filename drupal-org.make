@@ -111,7 +111,7 @@ projects[opigno_statistics_app][subdir]             = "opigno"
 projects[opigno_statistics_app][download][type]     = git
 projects[opigno_statistics_app][download][branch]   = 7.x-1.x
 projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 8922ad2b88a334e0c848b9ee4335c74897dff56c
+projects[opigno_statistics_app][download][revision] = 82880e19319e7da78fa3bd91a0a32e1b7ccdc46a
 
 ;projects[opigno_learning_locker_stats_app][version] = 1.2
 ;projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
