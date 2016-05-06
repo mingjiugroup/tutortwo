@@ -214,7 +214,6 @@ projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/quiz_drag_dr
 ; Homebox
 projects[homebox][subdir]  = "contrib"
 projects[homebox][version] = 2.0-rc2
-;projects[homebox][patch][] = "http://drupal.org/files/issues/homebox-check_widths-1634486-6.patch"
 
 ; User Import
 projects[user_import][subdir]  = "contrib"
@@ -225,15 +224,6 @@ projects[user_import][patch][] = "http://drupal.org/files/issues/creationdate_22
 projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = 1.8
 projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login-exclude_homepage-2362997.patch"
-
-; TinCan API
-;projects[tincanapi][type]               = module
-;projects[tincanapi][subdir]             = "contrib"
-;projects[tincanapi][download][type]     = git
-;projects[tincanapi][download][branch]   = "7.x-1.x"
-;projects[tincanapi][download][url]      = "http://git.drupal.org/project/tincanapi.git"
-;projects[tincanapi][download][revision] = b50f02cb37f0589719100369887f74d450667bb4
-;projects[tincanapi][patch][] = "http://drupal.org/files/issues/verb_activity_types_fix-2633220-5.patch"
 
 ; GuideMe
 projects[guideme][subdir]  = "contrib"
