@@ -218,12 +218,12 @@ projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login-exclu
 ; GuideMe
 projects[guideme][subdir]  = "contrib"
 projects[guideme][version] = 1.0-rc1
-projects[guideme][patch][] = "https://www.drupal.org/files/issues/mysql-5.7-compliant_2719945_1.patch"
+projects[guideme][patch][] = "http://drupal.org/files/issues/mysql-5.7-compliant_2719945_1.patch"
 
 ; Wysiwyg Template
 projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.11
-projects[wysiwyg_template][patch][] = "https://www.drupal.org/files/issues/wysiwyg-template-not-mysql-5.7-compliant_2719971_1.patch"
+projects[wysiwyg_template][patch][] = "http://drupal.org/files/issues/wysiwyg-template-not-mysql-5.7-compliant_2719971_1.patch"
 
 ; Third-party modules ==========================================================
 
