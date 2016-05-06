@@ -50,35 +50,11 @@ projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
 projects[login_history][version] = 1.0-beta3
 projects[login_history][subdir]  = "contrib"
 
-;projects[opigno_statistics_app][version] = 1.1
-;projects[opigno_statistics_app][subdir]  = "opigno"
+projects[opigno_statistics_app][version] = 1.2
+projects[opigno_statistics_app][subdir]  = "opigno"
 
-projects[opigno_statistics_app][type]               = module
-projects[opigno_statistics_app][subdir]             = "opigno"
-projects[opigno_statistics_app][download][type]     = git
-projects[opigno_statistics_app][download][branch]   = 7.x-1.x
-projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 82880e19319e7da78fa3bd91a0a32e1b7ccdc46a
-
-;projects[opigno_learning_locker_stats_app][version] = 1.2
-;projects[opigno_learning_locker_stats_app][subdir]  = "opigno"
-
-;projects[opigno_learning_locker_stats_app][type]               = module
-;projects[opigno_learning_locker_stats_app][subdir]             = "opigno"
-;projects[opigno_learning_locker_stats_app][download][type]     = git
-;projects[opigno_learning_locker_stats_app][download][branch]   = 7.x-1.x
-;projects[opigno_learning_locker_stats_app][download][url]      = "http://git.drupal.org/project/opigno_learning_locker_stats_app.git"
-;projects[opigno_learning_locker_stats_app][download][revision] = b3cbe1942a329ed9d74316cd2b358d4f3a23ea14
-
-;projects[opigno_moxtra_app][version] = 1.0
-;projects[opigno_moxtra_app][subdir]  = "opigno"
-
-projects[opigno_moxtra_app][type]               = module
-projects[opigno_moxtra_app][subdir]             = "opigno"
-projects[opigno_moxtra_app][download][type]     = git
-projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
-projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/project/opigno_moxtra_app.git"
-projects[opigno_moxtra_app][download][revision] = e50f0c634f32c1ba9fc470c992adb1f67de2da83
+projects[opigno_moxtra_app][version] = 1.1
+projects[opigno_moxtra_app][subdir]  = "opigno"
 
 projects[opigno_tincan_api][type]               = module
 projects[opigno_tincan_api][subdir]             = "opigno"
@@ -89,14 +65,8 @@ projects[opigno_tincan_api][download][revision] = 438577b7a9b3a3d621e61032425895
 
 ; Opigno themes ================================================================
 
-;projects[platon][version] = 3.13
-;projects[platon][type] = theme
-
-projects[platon][type]               = theme
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = cb10cba628788f78bc846103d401b912179402db
+projects[platon][version] = 3.14
+projects[platon][type] = theme
 
 ; Third-party modules that need to be patched ==================================
 
@@ -161,7 +131,6 @@ projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/quiz_drag_dr
 ; Homebox
 projects[homebox][subdir]  = "contrib"
 projects[homebox][version] = 2.0-rc2
-;projects[homebox][patch][] = "http://drupal.org/files/issues/homebox-check_widths-1634486-6.patch"
 
 ; User Import
 projects[user_import][subdir]  = "contrib"
@@ -173,24 +142,15 @@ projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = 1.8
 projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login-exclude_homepage-2362997.patch"
 
-; TinCan API
-;projects[tincanapi][type]               = module
-;projects[tincanapi][subdir]             = "contrib"
-;projects[tincanapi][download][type]     = git
-;projects[tincanapi][download][branch]   = "7.x-1.x"
-;projects[tincanapi][download][url]      = "http://git.drupal.org/project/tincanapi.git"
-;projects[tincanapi][download][revision] = b50f02cb37f0589719100369887f74d450667bb4
-;projects[tincanapi][patch][] = "http://drupal.org/files/issues/verb_activity_types_fix-2633220-5.patch"
-
 ; GuideMe
 projects[guideme][subdir]  = "contrib"
 projects[guideme][version] = 1.0-rc1
-projects[guideme][patch][] = "https://www.drupal.org/files/issues/mysql-5.7-compliant_2719945_1.patch"
+projects[guideme][patch][] = "http://drupal.org/files/issues/mysql-5.7-compliant_2719945_1.patch"
 
 ; Wysiwyg Template
 projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.11
-projects[wysiwyg_template][patch][] = "https://www.drupal.org/files/issues/wysiwyg-template-not-mysql-5.7-compliant_2719971_1.patch"
+projects[wysiwyg_template][patch][] = "http://drupal.org/files/issues/wysiwyg-template-not-mysql-5.7-compliant_2719971_1.patch"
 
 ; Third-party modules ==========================================================
 
