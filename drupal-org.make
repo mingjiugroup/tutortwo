@@ -4,32 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][version] = 1.14
-;projects[opigno][subdir]  = "opigno"
-
-projects[opigno][type]               = module
-projects[opigno][subdir]             = "opigno"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = 86bef6b563afe43d40ffa7becbd883cf558f9c39
+projects[opigno][version] = 1.15
+projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
 
-;projects[opigno_calendar_app][type]               = module
-;projects[opigno_calendar_app][subdir]             = "opigno"
-;projects[opigno_calendar_app][download][type]     = git
-;projects[opigno_calendar_app][download][branch]   = 7.x-1.x
-;projects[opigno_calendar_app][download][revision] = 85474ccb92d9737e88f8de48732cc04251ffc1c9
-
 projects[opigno_certificate_app][version] = 1.1
 projects[opigno_certificate_app][subdir]  = "opigno"
-
-;projects[opigno_certificate_app][type]               = module
-;projects[opigno_certificate_app][subdir]             = "opigno"
-;projects[opigno_certificate_app][download][type]     = git
-;projects[opigno_certificate_app][download][branch]   = 7.x-1.x
-;projects[opigno_certificate_app][download][revision] = 7113b061ff4f15a524c08e11a340dd3522375196
 
 projects[opigno_forum_app][version] = 1.0
 projects[opigno_forum_app][subdir]  = "opigno"
@@ -46,29 +28,11 @@ projects[opigno_poll_app][subdir]  = "opigno"
 projects[opigno_quiz_import_app][version] = 1.2
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-;projects[opigno_quiz_import_app][type] = module
-;projects[opigno_quiz_import_app][subdir]  = "opigno"
-;projects[opigno_quiz_import_app][download][type]     = git
-;projects[opigno_quiz_import_app][download][branch]   = 7.x-1.x
-;projects[opigno_quiz_import_app][download][revision] = 4812b71ec1d1613a6318695c62b631278bff9184
-
-;projects[opigno_class_app][version] = 1.3
-;projects[opigno_class_app][subdir]  = "opigno"
-
-projects[opigno_class_app][type] = module
+projects[opigno_class_app][version] = 1.4
 projects[opigno_class_app][subdir]  = "opigno"
-projects[opigno_class_app][download][type]     = git
-projects[opigno_class_app][download][branch]   = 7.x-1.x
-projects[opigno_class_app][download][revision] = 1dd8fab0dfa24ab6f69ec5d8ffec9dc3a4f5cad3
 
-;projects[opigno_quiz_app][version]    = 1.13
-;projects[opigno_quiz_app][subdir]  = "opigno"
-
-projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][version]    = 1.14
 projects[opigno_quiz_app][subdir]  = "opigno"
-projects[opigno_quiz_app][download][type]     = git
-projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 2a936caae97af2dc3bd9ce37f32a1dcb44b88ff3
 
 projects[opigno_wt_app][version] = 1.0-rc3
 projects[opigno_wt_app][subdir]  = "opigno"
@@ -83,25 +47,8 @@ projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
 projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
 
-;projects[h5p_tincan_bridge][version] = 1.1
-;projects[h5p_tincan_bridge][subdir]  = "contrib"
-
-;projects[h5p_tincan_bridge][type]               = module
-;projects[h5p_tincan_bridge][subdir]             = "contrib"
-;projects[h5p_tincan_bridge][download][type]     = git
-;projects[h5p_tincan_bridge][download][branch]   = 7.x-1.x
-;projects[h5p_tincan_bridge][download][url]      = "http://git.drupal.org/project/h5p_tincan_bridge.git"
-;projects[h5p_tincan_bridge][download][revision] = 42f262dd1f58949bc3c65fab7c55f458b6a14664
-
 projects[login_history][version] = 1.0-beta3
 projects[login_history][subdir]  = "contrib"
-
-;projects[login_history][type]               = module
-;projects[login_history][subdir]             = "contrib"
-;projects[login_history][download][type]     = git
-;projects[login_history][download][branch]   = 7.x-1.x
-;projects[login_history][download][url]      = "http://git.drupal.org/project/login_history.git"
-;projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02cefdd4
 
 ;projects[opigno_statistics_app][version] = 1.1
 ;projects[opigno_statistics_app][subdir]  = "opigno"
@@ -393,20 +340,16 @@ projects[pdf][version] = 1.8
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-;libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
 libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.2/ckeditor_3.6.6.2.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
 
 libraries[DOMPDF][download][type] = get
-;libraries[DOMPDF][download][url]  = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
 libraries[DOMPDF][download][url]  = "https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip"
 libraries[DOMPDF][destination]    = "libraries"
 libraries[DOMPDF][directory_name] = "dompdf"
 
 libraries[PHPExcel][download][type] = "get"
-;libraries[PHPExcel][download][url]  = "https://github.com/PHPOffice/PHPExcel/archive/1.7.9.tar.gz"
 libraries[PHPExcel][download][url]  = "https://github.com/PHPOffice/PHPExcel/archive/1.8.1.tar.gz"
 libraries[PHPExcel][destination]    = "libraries"
 libraries[PHPExcel][directory_name] = "PHPExcel"
-;libraries[PHPExcel][patch][]        = "http://drupal.org/files/changelog_version_number-1908282-3.patch"
