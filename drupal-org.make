@@ -103,15 +103,15 @@ projects[login_history][subdir]  = "contrib"
 ;projects[login_history][download][url]      = "http://git.drupal.org/project/login_history.git"
 ;projects[login_history][download][revision] = f47078c871530a13b47863e66824f30e02cefdd4
 
-;projects[opigno_statistics_app][version] = 1.2
-;projects[opigno_statistics_app][subdir]  = "opigno"
+projects[opigno_statistics_app][version] = 1.2
+projects[opigno_statistics_app][subdir]  = "opigno"
 
-projects[opigno_statistics_app][type]               = module
-projects[opigno_statistics_app][subdir]             = "opigno"
-projects[opigno_statistics_app][download][type]     = git
-projects[opigno_statistics_app][download][branch]   = 7.x-1.x
-projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 82880e19319e7da78fa3bd91a0a32e1b7ccdc46a
+;projects[opigno_statistics_app][type]               = module
+;projects[opigno_statistics_app][subdir]             = "opigno"
+;projects[opigno_statistics_app][download][type]     = git
+;projects[opigno_statistics_app][download][branch]   = 7.x-1.x
+;projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
+;projects[opigno_statistics_app][download][revision] = 82880e19319e7da78fa3bd91a0a32e1b7ccdc46a
 
 projects[opigno_moxtra_app][version] = 1.1
 projects[opigno_moxtra_app][subdir]  = "opigno"
