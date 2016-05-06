@@ -11,7 +11,7 @@ projects[opigno][type]               = module
 projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = 192ccbe27837b3c6e2ca0e9c334c186dfe4164c6
+projects[opigno][download][revision] = 86bef6b563afe43d40ffa7becbd883cf558f9c39
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -148,8 +148,8 @@ projects[opigno_tincan_api][download][revision] = 408a39395e33d9b8914d97a514d007
 projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
-projects[platon][download][url]   = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = 8948cbdc7727bfa877ac33205628a754c0af9b62
+projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
+projects[platon][download][revision] = cb10cba628788f78bc846103d401b912179402db
 
 ; Third-party modules that need to be patched ==================================
 
@@ -234,6 +234,16 @@ projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login-exclu
 ;projects[tincanapi][download][url]      = "http://git.drupal.org/project/tincanapi.git"
 ;projects[tincanapi][download][revision] = b50f02cb37f0589719100369887f74d450667bb4
 ;projects[tincanapi][patch][] = "http://drupal.org/files/issues/verb_activity_types_fix-2633220-5.patch"
+
+; GuideMe
+projects[guideme][subdir]  = "contrib"
+projects[guideme][version] = 1.0-rc1
+projects[guideme][patch][] = "https://www.drupal.org/files/issues/mysql-5.7-compliant_2719945_1.patch"
+
+; Wysiwyg Template
+projects[wysiwyg_template][subdir]  = "contrib"
+projects[wysiwyg_template][version] = 2.11
+projects[wysiwyg_template][patch][] = "https://www.drupal.org/files/issues/wysiwyg-template-not-mysql-5.7-compliant_2719971_1.patch"
 
 ; Third-party modules ==========================================================
 
@@ -323,9 +333,6 @@ projects[og_quiz][download][revision] = b1e79d3d094956354b1b3cfac0077e58c6053e2e
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
 
-projects[wysiwyg_template][subdir]  = "contrib"
-projects[wysiwyg_template][version] = 2.11
-
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc3
 
@@ -379,9 +386,6 @@ projects[content_access][version] = 1.2-beta2
 
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = 3.2
-
-projects[guideme][subdir]  = "contrib"
-projects[guideme][version] = 1.0-rc1
 
 projects[pdf][subdir]  = "contrib"
 projects[pdf][version] = 1.8
