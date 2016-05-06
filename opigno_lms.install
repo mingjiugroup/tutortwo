@@ -909,6 +909,19 @@ function opigno_lms_update_7112(&$sandbox) {
 
   module_disable($modules_to_disable);
   module_enable(array_reverse($modules_to_enable));
+
+  opigno_lms_refresh_strings_and_import(array('default','field'));
+  drupal_flush_all_caches();
+}
+
+function opigno_lms_update_dependencies() {
+  $dependencies = array();
+  if (module_exists('h5p')) {
+    $dependencies['opigno_lms'][7112] = array(
+      'h5p' => 7110,
+    );
+  }
+  return $dependencies;
 }
 
 /*
