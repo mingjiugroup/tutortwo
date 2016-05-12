@@ -233,11 +233,8 @@ projects[features][version] = 2.10
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
-projects[og_quiz][type]               = module
-projects[og_quiz][subdir]             = "contrib"
-projects[og_quiz][download][type]     = git
-projects[og_quiz][download][branch]   = "7.x-1.x"
-projects[og_quiz][download][revision] = b1e79d3d094956354b1b3cfac0077e58c6053e2e
+projects[og_quiz][subdir]  = "contrib"
+projects[og_quiz][version] = 1.4
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
