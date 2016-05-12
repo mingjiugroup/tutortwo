@@ -73,45 +73,45 @@ projects[platon][type] = theme
 ; Quiz
 projects[quiz][version] = 4.0-rc2
 projects[quiz][subdir]  = "contrib"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
-projects[quiz][patch][] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_2190283.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_h5p-dd_lines_js_bug-2212789-7.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
-projects[quiz][patch][] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
+projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
+projects[quiz][patch][937430] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
+projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
+projects[quiz][patch][2190283] = "http://drupal.org/files/issues/quiz_2190283.patch"
+projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz_h5p-dd_lines_js_bug-2212789-7.patch"
+projects[quiz][patch][2384955] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
+projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
+projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
+projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
+projects[quiz][patch][2360523] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
+projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
 
 ; OG
 projects[og][version] = 2.9
 projects[og][subdir]  = "contrib"
-projects[og][patch][] = "http://drupal.org/files/issues/og_2330777.patch"
+projects[og][patch][2330777] = "http://drupal.org/files/issues/og_2330777.patch"
 
 ; OG Create Permissions
 projects[og_create_perms][version] = 1.0
 projects[og_create_perms][subdir]  = "contrib"
-projects[og_create_perms][patch][] = "http://drupal.org/files/update_to_og2.x_api-2077031-2.patch"
+projects[og_create_perms][patch][2077031] = "http://drupal.org/files/update_to_og2.x_api-2077031-2.patch"
 
 ; OG forum
 projects[og_forum_D7][version] = 2.0-alpha1
 projects[og_forum_D7][subdir]  = "contrib"
 projects[og_forum_D7][type] = module
-projects[og_forum_D7][patch][] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
-projects[og_forum_D7][patch][] = "http://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
-projects[og_forum_D7][patch][] = "http://drupal.org/files/issues/og_forum_2206711.patch"
+projects[og_forum_D7][patch][1844104] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
+projects[og_forum_D7][patch][1802208] = "http://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
+projects[og_forum_D7][patch][2206711] = "http://drupal.org/files/issues/og_forum_2206711.patch"
 
 ; Rules
 projects[rules][subdir]  = "contrib"
 projects[rules][version] = 2.9
-projects[rules][patch][] = "http://drupal.org/files/system.rules_.inc_.patch"
+projects[rules][patch][1966426] = "http://drupal.org/files/system.rules_.inc_.patch"
 
 ; Apps
 projects[apps][subdir]  = "contrib"
 projects[apps][version] = 1.0
-projects[apps][patch][] = "http://drupal.org/files/issues/apps_module-2357093_3.patch"
+projects[apps][patch][2357093] = "http://drupal.org/files/issues/apps_module-2357093_3.patch"
 
 ; Quiz cloze
 projects[cloze][type]               = module
@@ -120,13 +120,13 @@ projects[cloze][download][type]     = git
 projects[cloze][download][branch]   = "7.x-1.x"
 projects[cloze][download][url]      = "http://git.drupal.org/project/cloze.git"
 projects[cloze][download][revision] = e3bb806823e46870e8e0d6dafce2d0b261c024c5
-projects[cloze][patch][] = "http://drupal.org/files/issues/cloze_change_question_type_name-2249881-4.patch"
+projects[cloze][patch][2249881] = "http://drupal.org/files/issues/cloze_change_question_type_name-2249881-4.patch"
 
 ; Quiz drag drop
 projects[quiz_drag_drop][subdir]  = "contrib"
 projects[quiz_drag_drop][version] = 1.4
-projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/drag_and_drop-forgivingbox-2249971-1.patch"
-projects[quiz_drag_drop][patch][] = "http://drupal.org/files/issues/quiz_drag_drop_2364215.patch"
+projects[quiz_drag_drop][patch][2249971] = "http://drupal.org/files/issues/drag_and_drop-forgivingbox-2249971-1.patch"
+projects[quiz_drag_drop][patch][2364215] = "http://drupal.org/files/issues/quiz_drag_drop_2364215.patch"
 
 ; Homebox
 projects[homebox][subdir]  = "contrib"
@@ -135,22 +135,24 @@ projects[homebox][version] = 2.0-rc2
 ; User Import
 projects[user_import][subdir]  = "contrib"
 projects[user_import][version] = 2.3
-projects[user_import][patch][] = "http://drupal.org/files/issues/creationdate_2220193_1.patch"
+projects[user_import][patch][2220193] = "http://drupal.org/files/issues/creationdate_2220193_1.patch"
 
 ; r403 2 Login
 projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = 1.8
-projects[r4032login][patch][] = "http://drupal.org/files/issues/r4032login-exclude_homepage-2362997.patch"
+projects[r4032login][patch][2362997] = "http://drupal.org/files/issues/r4032login-exclude_homepage-2362997.patch"
 
 ; GuideMe
 projects[guideme][subdir]  = "contrib"
 projects[guideme][version] = 1.0-rc1
-projects[guideme][patch][] = "http://drupal.org/files/issues/mysql-5.7-compliant_2719945_1.patch"
+projects[guideme][patch][2719945] = "http://drupal.org/files/issues/mysql-5.7-compliant_2719945_1.patch"
+projects[guideme][patch][2723219] = "http://drupal.org/files/issues/hook_permission_makes_warning-2723219-1.patch"
 
 ; Wysiwyg Template
 projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.11
-projects[wysiwyg_template][patch][] = "http://drupal.org/files/issues/wysiwyg-template-not-mysql-5.7-compliant_2719971_1.patch"
+projects[wysiwyg_template][patch][2719971] = "http://drupal.org/files/issues/wysiwyg-template-not-mysql-5.7-compliant_2719971_1.patch"
+projects[wysiwyg_template][patch][2503071] = "http://drupal.org/files/issues/invalid_argument_supplied_foreach-2503071-3.patch"
 
 ; Third-party modules ==========================================================
 
