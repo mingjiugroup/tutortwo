@@ -56,12 +56,8 @@ projects[opigno_statistics_app][subdir]  = "opigno"
 projects[opigno_moxtra_app][version] = 1.1
 projects[opigno_moxtra_app][subdir]  = "opigno"
 
-projects[opigno_tincan_api][type]               = module
-projects[opigno_tincan_api][subdir]             = "opigno"
-projects[opigno_tincan_api][download][type]     = git
-projects[opigno_tincan_api][download][branch]   = 7.x-1.x
-projects[opigno_tincan_api][download][url]      = "http://git.drupal.org/sandbox/Amermod/2696181.git"
-projects[opigno_tincan_api][download][revision] = 438577b7a9b3a3d621e610324258956c3ba17859
+projects[opigno_tincan_api][version]  = 1.0
+projects[opigno_tincan_api][subdir]   = "opigno"
 
 ; Opigno themes ================================================================
 
@@ -74,7 +70,7 @@ projects[platon][type] = theme
 projects[quiz][version] = 4.0-rc2
 projects[quiz][subdir]  = "contrib"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
-projects[quiz][patch][937430] = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
+projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
 projects[quiz][patch][2190283] = "http://drupal.org/files/issues/quiz_2190283.patch"
 projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz_h5p-dd_lines_js_bug-2212789-7.patch"
@@ -128,10 +124,6 @@ projects[quiz_drag_drop][version] = 1.4
 projects[quiz_drag_drop][patch][2249971] = "http://drupal.org/files/issues/drag_and_drop-forgivingbox-2249971-1.patch"
 projects[quiz_drag_drop][patch][2364215] = "http://drupal.org/files/issues/quiz_drag_drop_2364215.patch"
 
-; Homebox
-projects[homebox][subdir]  = "contrib"
-projects[homebox][version] = 2.0-rc2
-
 ; User Import
 projects[user_import][subdir]  = "contrib"
 projects[user_import][version] = 2.3
@@ -142,33 +134,14 @@ projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = 1.8
 projects[r4032login][patch][2362997] = "http://drupal.org/files/issues/r4032login-exclude_homepage-2362997.patch"
 
-; GuideMe
-projects[guideme][subdir]  = "contrib"
-projects[guideme][version] = 1.0-rc1
-projects[guideme][patch][2719945] = "http://drupal.org/files/issues/mysql-5.7-compliant_2719945_1.patch"
-projects[guideme][patch][2723219] = "http://drupal.org/files/issues/hook_permission_makes_warning-2723219-1.patch"
-
-; Wysiwyg Template
-projects[wysiwyg_template][subdir]  = "contrib"
-projects[wysiwyg_template][version] = 2.11
-projects[wysiwyg_template][patch][2719971] = "http://drupal.org/files/issues/wysiwyg-template-not-mysql-5.7-compliant_2719971_1.patch"
-projects[wysiwyg_template][patch][2503071] = "http://drupal.org/files/issues/invalid_argument_supplied_foreach-2503071-3.patch"
-
 ; Third-party modules ==========================================================
 
-; Quiz File Upload
-projects[quizfileupload][type]               = module
-projects[quizfileupload][subdir]             = "contrib"
-projects[quizfileupload][download][type]     = git
-projects[quizfileupload][download][branch]   = 7.x-4.x
-projects[quizfileupload][download][url]      = "http://git.drupal.org/project/quizfileupload.git"
-projects[quizfileupload][download][revision] = a57f9ff8dd4d2f0314b2b08555aebbe8ca735820
+projects[quizfileupload][subdir]   = "contrib"
+projects[quizfileupload][version]  = 4.1
 
-; l10n update
 projects[l10n_update][subdir]  = "contrib"
 projects[l10n_update][version] = 2.0
 
-; Date
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.9
 
@@ -191,7 +164,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.9
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.13
+projects[views][version] = 3.14
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = 1.0-alpha3
@@ -295,6 +268,15 @@ projects[better_exposed_filters][version] = 3.2
 
 projects[pdf][subdir]  = "contrib"
 projects[pdf][version] = 1.8
+
+projects[guideme][subdir]  = "contrib"
+projects[guideme][version] = 1.0-rc2
+
+projects[wysiwyg_template][subdir]  = "contrib"
+projects[wysiwyg_template][version] = 2.12
+
+projects[homebox][subdir]  = "contrib"
+projects[homebox][version] = 2.0-rc2
 
 ; Third-patry libraries ========================================================
 
