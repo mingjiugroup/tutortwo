@@ -56,10 +56,10 @@ projects[opigno_statistics_app][subdir]  = "opigno"
 projects[opigno_moxtra_app][version] = 1.1
 projects[opigno_moxtra_app][subdir]  = "opigno"
 
-projects[opigno_tincan_api][version]  = 1.0
+projects[opigno_tincan_api][version]  = 1.1
 projects[opigno_tincan_api][subdir]   = "opigno"
 
-projects[opigno_tincan_question_type][version]  = 1.0
+projects[opigno_tincan_question_type][version]  = 1.1
 projects[opigno_tincan_question_type][subdir]   = "opigno"
 
 ; Opigno themes ================================================================
