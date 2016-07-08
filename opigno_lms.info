@@ -76,6 +76,7 @@ dependencies[] = opigno_certificate_app
 dependencies[] = opigno_statistics_app
 dependencies[] = opigno_moxtra_app
 dependencies[] = opigno_tincan_api
+dependencies[] = opigno_tincan_question_type
 
 ; Opigno features
 dependencies[] = opigno_features_roles

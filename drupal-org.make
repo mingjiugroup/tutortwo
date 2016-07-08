@@ -4,7 +4,7 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.15
+projects[opigno][version] = 1.16
 projects[opigno][subdir]  = "opigno"
 
 projects[opigno_calendar_app][version] = 1.0
@@ -58,6 +58,9 @@ projects[opigno_moxtra_app][subdir]  = "opigno"
 
 projects[opigno_tincan_api][version]  = 1.0
 projects[opigno_tincan_api][subdir]   = "opigno"
+
+projects[opigno_tincan_question_type][version]  = 1.0
+projects[opigno_tincan_question_type][subdir]   = "opigno"
 
 ; Opigno themes ================================================================
 
@@ -155,7 +158,7 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.14
+projects[h5p][version] = 1.16
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
