@@ -94,7 +94,6 @@ features[field_instance][] = node-quiz_ddlines-og_group_ref
 features[field_instance][] = node-quiz_directions-body
 features[field_instance][] = node-quiz_directions-og_group_ref
 features[field_instance][] = node-quizfileupload-body
-features[field_instance][] = node-quizfileupload-quizfileupload_scoring
 features[field_instance][] = node-tft_file-body
 features[field_instance][] = node-tft_file-og_group_ref
 features[field_instance][] = node-tft_file-tft_file

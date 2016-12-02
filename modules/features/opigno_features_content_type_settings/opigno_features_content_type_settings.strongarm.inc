@@ -42,77 +42,77 @@ function opigno_features_content_type_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_long_answer';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_long_answer'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_matching';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_matching'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_multichoice';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_multichoice'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_notification';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_notification'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_poll';
-  $strongarm->value = '0';
+  $strongarm->value = 0;
   $export['comment_poll'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_quiz';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_quiz'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_quiz_ddlines';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_quiz_ddlines'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_quiz_directions';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_quiz_directions'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_scale';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_scale'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_short_answer';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_short_answer'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_truefalse';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['comment_truefalse'] = $strongarm;
 
   $strongarm = new stdClass();

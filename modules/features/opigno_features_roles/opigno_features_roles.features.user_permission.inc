@@ -40,8 +40,8 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
       'forum administrator' => 'forum administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'system',
   );
@@ -88,11 +88,11 @@ function opigno_features_roles_user_default_permissions() {
   $permissions['access content'] = array(
     'name' => 'access content',
     'roles' => array(
+      'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
-      'administrator' => 'administrator',
-      'student manager' => 'student manager',
       'forum administrator' => 'forum administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'node',
   );
@@ -120,8 +120,8 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access opigno administration pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
       'forum administrator' => 'forum administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'opigno',
   );
@@ -131,8 +131,8 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access opigno statistics pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'student manager' => 'student manager',
       'forum administrator' => 'forum administrator',
+      'student manager' => 'student manager',
     ),
     'module' => 'opigno',
   );
@@ -607,6 +607,15 @@ function opigno_features_roles_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'user',
+  );
+
+  // Exported permission: 'configure moxtra'.
+  $permissions['configure moxtra'] = array(
+    'name' => 'configure moxtra',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'opigno_moxtra_app',
   );
 
   // Exported permission: 'create calendar_event content'.
@@ -1981,14 +1990,6 @@ function opigno_features_roles_user_default_permissions() {
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'privatemsg',
-  );
-
-  $permissions['configure moxtra'] = array(
-    'name' => 'configure moxtra',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'opigno_moxtra_app',
   );
 
   return $permissions;

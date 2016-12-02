@@ -4,8 +4,14 @@ core = 7.x
 
 ; Opigno modules ===============================================================
 
-projects[opigno][version] = 1.16
-projects[opigno][subdir]  = "opigno"
+;projects[opigno][version] = 1.16
+;projects[opigno][subdir]  = "opigno"
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = "7.x-1.x"
+projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
+projects[opigno][download][revision] = eb62a62ae65d56f55dcc7ca996f430c04c63b671
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -13,11 +19,23 @@ projects[opigno_calendar_app][subdir]  = "opigno"
 projects[opigno_certificate_app][version] = 1.1
 projects[opigno_certificate_app][subdir]  = "opigno"
 
-projects[opigno_forum_app][version] = 1.0
-projects[opigno_forum_app][subdir]  = "opigno"
+;projects[opigno_forum_app][version] = 1.0
+;projects[opigno_forum_app][subdir]  = "opigno"
+projects[opigno_forum_app][type]               = module
+projects[opigno_forum_app][subdir]             = "opigno"
+projects[opigno_forum_app][download][type]     = git
+projects[opigno_forum_app][download][branch]   = "7.x-1.x"
+projects[opigno_forum_app][download][url]      = "http://git.drupal.org/project/opigno_forum_app.git"
+projects[opigno_forum_app][download][revision] = 60a55f5d300e973a1a9bc8fbeb1c97639f6d884b
 
-projects[opigno_messaging_app][version] = 1.0-rc3
-projects[opigno_messaging_app][subdir]  = "opigno"
+;projects[opigno_messaging_app][version] = 1.0-rc3
+;projects[opigno_messaging_app][subdir]  = "opigno"
+projects[opigno_messaging_app][type]               = module
+projects[opigno_messaging_app][subdir]             = "opigno"
+projects[opigno_messaging_app][download][type]     = git
+projects[opigno_messaging_app][download][branch]   = "7.x-1.x"
+projects[opigno_messaging_app][download][url]      = "http://git.drupal.org/project/opigno_messaging_app.git"
+projects[opigno_messaging_app][download][revision] = ca5b9f687841ee7071d8c7abe8b4160538d0b662
 
 projects[opigno_notifications_app][version] = 1.0-rc3
 projects[opigno_notifications_app][subdir]  = "opigno"
@@ -28,14 +46,32 @@ projects[opigno_poll_app][subdir]  = "opigno"
 projects[opigno_quiz_import_app][version] = 1.2
 projects[opigno_quiz_import_app][subdir]  = "opigno"
 
-projects[opigno_class_app][version] = 1.4
-projects[opigno_class_app][subdir]  = "opigno"
+;projects[opigno_class_app][version] = 1.4
+;projects[opigno_class_app][subdir]  = "opigno"
+projects[opigno_class_app][type]               = module
+projects[opigno_class_app][subdir]             = "opigno"
+projects[opigno_class_app][download][type]     = git
+projects[opigno_class_app][download][branch]   = "7.x-1.x"
+projects[opigno_class_app][download][url]      = "http://git.drupal.org/project/opigno_class_app.git"
+projects[opigno_class_app][download][revision] = 458763fb53d099cf5eea2b603155ac4761e7858d
 
-projects[opigno_quiz_app][version]    = 1.14
-projects[opigno_quiz_app][subdir]  = "opigno"
+;projects[opigno_quiz_app][version]    = 1.14
+;projects[opigno_quiz_app][subdir]  = "opigno"
+projects[opigno_quiz_app][type]               = module
+projects[opigno_quiz_app][subdir]             = "opigno"
+projects[opigno_quiz_app][download][type]     = git
+projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
+projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
+projects[opigno_quiz_app][download][revision] = 1e65c7ec2eb035f9869dd023ef70f692162b06dd
 
-projects[opigno_wt_app][version] = 1.0-rc3
-projects[opigno_wt_app][subdir]  = "opigno"
+;projects[opigno_wt_app][version] = 1.0-rc3
+;projects[opigno_wt_app][subdir]  = "opigno"
+projects[opigno_wt_app][type]               = module
+projects[opigno_wt_app][subdir]             = "opigno"
+projects[opigno_wt_app][download][type]     = git
+projects[opigno_wt_app][download][branch]   = "7.x-1.x"
+projects[opigno_wt_app][download][url]      = "http://git.drupal.org/project/opigno_wt_app.git"
+projects[opigno_wt_app][download][revision] = 5851e8664a870728db8d8eac417e98d016d9e447
 
 projects[opigno_course_categories_app][version] = 1.1
 projects[opigno_course_categories_app][subdir]  = "opigno"
@@ -47,14 +83,23 @@ projects[tft][download][branch]   = "7.x-1.x"
 projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
 projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
 
-projects[login_history][version] = 1.0-beta3
-projects[login_history][subdir]  = "contrib"
+;projects[opigno_statistics_app][version] = 1.2
+;projects[opigno_statistics_app][subdir]  = "opigno"
+projects[opigno_statistics_app][type]               = module
+projects[opigno_statistics_app][subdir]             = "opigno"
+projects[opigno_statistics_app][download][type]     = git
+projects[opigno_statistics_app][download][branch]   = "7.x-1.x"
+projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
+projects[opigno_statistics_app][download][revision] = 01459bf591a6fb225352375688dccbb7fe516a17
 
-projects[opigno_statistics_app][version] = 1.2
-projects[opigno_statistics_app][subdir]  = "opigno"
-
-projects[opigno_moxtra_app][version] = 1.1
-projects[opigno_moxtra_app][subdir]  = "opigno"
+;projects[opigno_moxtra_app][version] = 1.1
+;projects[opigno_moxtra_app][subdir]  = "opigno"
+projects[opigno_moxtra_app][type]               = module
+projects[opigno_moxtra_app][subdir]             = "opigno"
+projects[opigno_moxtra_app][download][type]     = git
+projects[opigno_moxtra_app][download][branch]   = "7.x-1.x"
+projects[opigno_moxtra_app][download][url]      = "http://git.drupal.org/project/opigno_moxtra_app.git"
+projects[opigno_moxtra_app][download][revision] = b98222386e5b69705512f6cd2c5a2e39e63663d3
 
 projects[opigno_tincan_api][version]  = 1.1
 projects[opigno_tincan_api][subdir]   = "opigno"
@@ -64,24 +109,30 @@ projects[opigno_tincan_question_type][subdir]   = "opigno"
 
 ; Opigno themes ================================================================
 
-projects[platon][version] = 3.14
-projects[platon][type] = theme
+;projects[platon][version] = 3.14
+;projects[platon][type] = theme
+projects[platon][type]               = theme
+projects[platon][download][type]     = git
+projects[platon][download][branch]   = "7.x-3.x"
+projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
+projects[platon][download][revision] = 94d8d224232bf1f8a62d0f627b32083278ed0a29
 
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-projects[quiz][version] = 4.0-rc2
+;projects[quiz][version] = 4.0-rc2
+projects[quiz][version] = 4.0-rc4
 projects[quiz][subdir]  = "contrib"
-projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
+projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
-projects[quiz][patch][2190283] = "http://drupal.org/files/issues/quiz_2190283.patch"
-projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz_h5p-dd_lines_js_bug-2212789-7.patch"
-projects[quiz][patch][2384955] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
-projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
-projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
-projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
+;projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz_h5p-dd_lines_js_bug-2212789-7.patch"
+projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz-fixed_settings_merge-2212789-12.patch"
 projects[quiz][patch][2360523] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
+projects[quiz][patch][2384955] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
+projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
+projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
+projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
 projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
 
 ; OG
@@ -98,8 +149,8 @@ projects[og_create_perms][patch][2077031] = "http://drupal.org/files/update_to_o
 projects[og_forum_D7][version] = 2.0-alpha1
 projects[og_forum_D7][subdir]  = "contrib"
 projects[og_forum_D7][type] = module
-projects[og_forum_D7][patch][1844104] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
 projects[og_forum_D7][patch][1802208] = "http://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
+projects[og_forum_D7][patch][1844104] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
 projects[og_forum_D7][patch][2206711] = "http://drupal.org/files/issues/og_forum_2206711.patch"
 
 ; Rules
@@ -129,7 +180,8 @@ projects[quiz_drag_drop][patch][2364215] = "http://drupal.org/files/issues/quiz_
 
 ; User Import
 projects[user_import][subdir]  = "contrib"
-projects[user_import][version] = 2.3
+;projects[user_import][version] = 2.3
+projects[user_import][version] = 3.2
 projects[user_import][patch][2220193] = "http://drupal.org/files/issues/creationdate_2220193_1.patch"
 
 ; r403 2 Login
@@ -139,6 +191,10 @@ projects[r4032login][patch][2362997] = "http://drupal.org/files/issues/r4032logi
 
 ; Third-party modules ==========================================================
 
+projects[login_history][subdir]  = "contrib"
+;projects[login_history][version] = 1.0-beta3
+projects[login_history][version] = 1.0
+
 projects[quizfileupload][subdir]   = "contrib"
 projects[quizfileupload][version]  = 4.1
 
@@ -146,25 +202,30 @@ projects[l10n_update][subdir]  = "contrib"
 projects[l10n_update][version] = 2.0
 
 projects[date][subdir]  = "contrib"
-projects[date][version] = 2.9
+;projects[date][version] = 2.9
+projects[date][version] = 2.10-rc1
 
 projects[i18n][subdir]  = "contrib"
-projects[i18n][version] = 1.13
+;projects[i18n][version] = 1.13
+projects[i18n][version] = 1.14
 
 projects[certificate][subdir]  = "contrib"
-projects[certificate][version] = 2.2
+;projects[certificate][version] = 2.2
+projects[certificate][version] = 2.3
 
 projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.16
+;projects[h5p][version] = 1.16
+projects[h5p][version] = 1.21
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = 1.9
+;projects[ctools][version] = 1.9
+projects[ctools][version] = 1.12
 
 projects[views][subdir] = "contrib"
 projects[views][version] = 3.14
@@ -176,13 +237,16 @@ projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha11
 
 projects[module_filter][subdir]  = "contrib"
-projects[module_filter][version] = 1.8
+;projects[module_filter][version] = 1.8
+projects[module_filter][version] = 2.0
 
 projects[entity][subdir]  = "contrib"
-projects[entity][version] = 1.7
+;projects[entity][version] = 1.7
+projects[entity][version] = 1.8
 
 projects[entityreference][subdir]  = "contrib"
-projects[entityreference][version] = 1.1
+;projects[entityreference][version] = 1.1
+projects[entityreference][version] = 1.2
 
 projects[entityreference_prepopulate][subdir]  = "contrib"
 projects[entityreference_prepopulate][version] = 1.6
@@ -191,8 +255,8 @@ projects[token][subdir]  = "contrib"
 projects[token][version] = 1.6
 
 projects[multiselect][subdir]  = "contrib"
-;projects[multiselect][version] = 1.11 TODO: A bug appears from version 1.10 in messaging app
-projects[multiselect][version] = 1.9
+;projects[multiselect][version] = 1.9
+projects[multiselect][version] = 1.12
 
 projects[crumbs][subdir]  = "contrib"
 projects[crumbs][version] = 2.5
@@ -231,10 +295,12 @@ projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0
 
 projects[print][subdir]  = "contrib"
-projects[print][version] = 1.3
+;projects[print][version] = 1.3
+projects[print][version] = 2.0
 
 projects[advanced_forum][subdir]  = "contrib"
-projects[advanced_forum][version] = 2.6
+;projects[advanced_forum][version] = 2.6
+projects[advanced_forum][version] = 2.7-rc0
 
 projects[date_popup_authored][subdir]  = "contrib"
 projects[date_popup_authored][version] = 1.2
@@ -252,7 +318,8 @@ projects[views_bulk_operations][subdir]  = "contrib"
 projects[views_bulk_operations][version] = 3.3
 
 projects[libraries][subdir]  = "contrib"
-projects[libraries][version] = 2.2
+;projects[libraries][version] = 2.2
+projects[libraries][version] = 2.3
 
 projects[pathauto][subdir]  = "contrib"
 projects[pathauto][version] = 1.3
@@ -279,7 +346,8 @@ projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.12
 
 projects[homebox][subdir]  = "contrib"
-projects[homebox][version] = 2.0-rc2
+;projects[homebox][version] = 2.0-rc2
+projects[homebox][version] = 2.0-rc3
 
 ; Third-patry libraries ========================================================
 

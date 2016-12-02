@@ -121,6 +121,9 @@ function opigno_features_field_settings_strongarm() {
       'token' => array(
         'custom_settings' => FALSE,
       ),
+      'question' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(),
