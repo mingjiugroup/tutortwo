@@ -46,9 +46,9 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: 'access all certificates'.
-  $permissions['access all certificates'] = array(
-    'name' => 'access all certificates',
+  // Exported permission: 'assign certificates'.
+  $permissions['assign certificates'] = array(
+    'name' => 'assign certificates',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -1609,13 +1609,6 @@ function opigno_features_roles_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'opigno_messaging_app',
-  );
-
-  // Exported permission: 'node-specific print configuration'.
-  $permissions['node-specific print configuration'] = array(
-    'name' => 'node-specific print configuration',
-    'roles' => array(),
-    'module' => 'print',
   );
 
   // Exported permission: 'notify everyone'.
