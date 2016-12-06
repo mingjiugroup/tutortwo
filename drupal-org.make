@@ -26,7 +26,7 @@ projects[opigno_forum_app][subdir]             = "opigno"
 projects[opigno_forum_app][download][type]     = git
 projects[opigno_forum_app][download][branch]   = "7.x-1.x"
 projects[opigno_forum_app][download][url]      = "http://git.drupal.org/project/opigno_forum_app.git"
-projects[opigno_forum_app][download][revision] = 60a55f5d300e973a1a9bc8fbeb1c97639f6d884b
+projects[opigno_forum_app][download][revision] = 0dca356fe9fc7c33f53fc7b89dafb3d0747f57fe
 
 ;projects[opigno_messaging_app][version] = 1.0-rc3
 ;projects[opigno_messaging_app][subdir]  = "opigno"
@@ -35,7 +35,7 @@ projects[opigno_messaging_app][subdir]             = "opigno"
 projects[opigno_messaging_app][download][type]     = git
 projects[opigno_messaging_app][download][branch]   = "7.x-1.x"
 projects[opigno_messaging_app][download][url]      = "http://git.drupal.org/project/opigno_messaging_app.git"
-projects[opigno_messaging_app][download][revision] = ca5b9f687841ee7071d8c7abe8b4160538d0b662
+projects[opigno_messaging_app][download][revision] = f5079664033faab51101a6078af67b8998a29981
 
 projects[opigno_notifications_app][version] = 1.0-rc3
 projects[opigno_notifications_app][subdir]  = "opigno"
@@ -115,13 +115,13 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
 projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = 94d8d224232bf1f8a62d0f627b32083278ed0a29
+projects[platon][download][revision] = dda1a3823ff8f0228a730081466ad25a0bd412b8
 
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
 ;projects[quiz][version] = 4.0-rc2
-projects[quiz][version] = 4.0-rc4
+projects[quiz][version] = 4.0-rc5
 projects[quiz][subdir]  = "contrib"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"

@@ -41,7 +41,7 @@ function opigno_lms_install() {
   variable_set('error_level', ERROR_REPORTING_HIDE);
 
   // Set the DOMPDF library for the certificates.
-  variable_set('print_pdf_pdf_tool', 'profiles/opigno_lms/libraries/dompdf/dompdf_config.inc.php');
+  variable_set('print_pdf_pdf_tool', 'print_pdf_dompdf|profiles/opigno_lms/libraries/dompdf/dompdf_config.inc.php');
 
   // Set login redirect.
   variable_set('login_redirect_status', 1);
@@ -962,6 +962,8 @@ function opigno_lms_update_7114(&$sandbox) {
   if (!module_exists('opigno_tincan_question_type')) {
     module_enable(array('opigno_tincan_question_type'));
   }
+
+  module_enable(array('print_pdf_dompdf'));
 }
 
 function opigno_lms_update_dependencies() {

@@ -49,6 +49,7 @@ dependencies[] = views_php
 dependencies[] = r4032login
 dependencies[] = better_exposed_filters
 dependencies[] = pdf
+dependencies[] = print_pdf_dompdf
 
 ; Opigno core
 dependencies[] = opigno
