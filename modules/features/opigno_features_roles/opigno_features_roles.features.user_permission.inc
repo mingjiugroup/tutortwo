@@ -131,7 +131,6 @@ function opigno_features_roles_user_default_permissions() {
     'name' => 'access opigno statistics pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'forum administrator' => 'forum administrator',
       'student manager' => 'student manager',
     ),
     'module' => 'opigno',
