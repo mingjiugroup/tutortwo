@@ -11,7 +11,7 @@ projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = "7.x-1.x"
 projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = eb62a62ae65d56f55dcc7ca996f430c04c63b671
+projects[opigno][download][revision] = 71bc1c30d05719fd0e06ffa3d7e9a1f688bd33f9
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -26,7 +26,7 @@ projects[opigno_forum_app][subdir]             = "opigno"
 projects[opigno_forum_app][download][type]     = git
 projects[opigno_forum_app][download][branch]   = "7.x-1.x"
 projects[opigno_forum_app][download][url]      = "http://git.drupal.org/project/opigno_forum_app.git"
-projects[opigno_forum_app][download][revision] = 0dca356fe9fc7c33f53fc7b89dafb3d0747f57fe
+projects[opigno_forum_app][download][revision] = db2740cb639c37a3ebdbe59da03e57510376706c
 
 ;projects[opigno_messaging_app][version] = 1.0-rc3
 ;projects[opigno_messaging_app][subdir]  = "opigno"
@@ -90,7 +90,7 @@ projects[opigno_statistics_app][subdir]             = "opigno"
 projects[opigno_statistics_app][download][type]     = git
 projects[opigno_statistics_app][download][branch]   = "7.x-1.x"
 projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 01459bf591a6fb225352375688dccbb7fe516a17
+projects[opigno_statistics_app][download][revision] = 30a254b2793de16c20f9c7fb40492cf31f6e6e2a
 
 ;projects[opigno_moxtra_app][version] = 1.1
 ;projects[opigno_moxtra_app][subdir]  = "opigno"
@@ -107,6 +107,15 @@ projects[opigno_tincan_api][subdir]   = "opigno"
 projects[opigno_tincan_question_type][version]  = 1.1
 projects[opigno_tincan_question_type][subdir]   = "opigno"
 
+;projects[og_quiz][subdir]  = "opigno"
+;projects[og_quiz][version] = 1.4
+projects[og_quiz][type]               = module
+projects[og_quiz][subdir]             = "opigno"
+projects[og_quiz][download][type]     = git
+projects[og_quiz][download][branch]   = "7.x-1.x"
+projects[og_quiz][download][url]      = "http://git.drupal.org/project/og_quiz.git"
+projects[og_quiz][download][revision] = 226384726c1cb33193d49915583f83179796e609
+
 ; Opigno themes ================================================================
 
 ;projects[platon][version] = 3.14
@@ -115,7 +124,7 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
 projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = dda1a3823ff8f0228a730081466ad25a0bd412b8
+projects[platon][download][revision] = e246b50ed74d4adefde7dd3754958f821098b135
 
 ; Third-party modules that need to be patched ==================================
 
@@ -218,7 +227,7 @@ projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
 ;projects[h5p][version] = 1.16
-projects[h5p][version] = 1.21
+projects[h5p][version] = 1.22
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
@@ -272,9 +281,6 @@ projects[features][version] = 2.10
 
 projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
-
-projects[og_quiz][subdir]  = "contrib"
-projects[og_quiz][version] = 1.4
 
 projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.2
