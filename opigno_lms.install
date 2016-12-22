@@ -742,7 +742,7 @@ function opigno_lms_update_7109(&$sandbox) {
     ->condition('theme', $default_theme)
     ->execute();
   ////////////////////////////
-  opigno_lms_refresh_strings_and_import(array('default','field'));
+  opigno_lms_refresh_strings_and_import(array('field'));
   drupal_flush_all_caches();
 }
 
@@ -785,7 +785,7 @@ function opigno_lms_update_7110(&$sandbox) {
     'weight' => 49,
   );
   menu_link_save($item);
-  opigno_lms_refresh_strings_and_import(array('default','field'));
+  opigno_lms_refresh_strings_and_import(array('field'));
   drupal_flush_all_caches();
 }
 
@@ -819,7 +819,7 @@ function opigno_lms_update_7111(&$sandbox) {
       menu_link_save($menu_link);
     }
   }
-  opigno_lms_refresh_strings_and_import(array('default','field'));
+  opigno_lms_refresh_strings_and_import(array('field'));
   drupal_flush_all_caches();
 }
 
@@ -910,7 +910,7 @@ function opigno_lms_update_7112(&$sandbox) {
   module_disable($modules_to_disable);
   module_enable(array_reverse($modules_to_enable));
 
-  opigno_lms_refresh_strings_and_import(array('default','field'));
+  opigno_lms_refresh_strings_and_import(array('field'));
   drupal_flush_all_caches();
 }
 

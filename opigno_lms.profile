@@ -104,30 +104,67 @@ function opigno_lms_form_node_form_alter(&$form, $form_state) {
 }
 
 /**
- * Implements hook_install_tasks()
+ * Implements hook_install_tasks().
  */
 function opigno_lms_install_tasks(&$install_state) {
-  // Add our custom CSS file for the installation process
+  // Add our custom CSS file for the installation process.
   drupal_add_css(drupal_get_path('profile', 'opigno_lms') . '/css/opigno_lms.css');
-  $tasks=array();
-  $tasks['opigno_lms_install_task_post_install']=array();
-  $tasks['opigno_lms_verify_requirements']=array(
+  $tasks = array();
+  $tasks['opigno_lms_install_task_post_install'] = array();
+  $tasks['opigno_lms_verify_requirements'] = array(
     'display_name' => st('Check Opigno requirements'),
     'type' => 'form',
   );
-  if (!empty($install_state['parameters']['opigno_requirements_finished']))
-  {
-    $tasks['opigno_lms_verify_requirements']['run']=INSTALL_TASK_SKIP;
+  if (!empty($install_state['parameters']['opigno_requirements_finished'])) {
+    $tasks['opigno_lms_verify_requirements']['run'] = INSTALL_TASK_SKIP;
   }
+  // Determine whether translation import tasks will need to be performed.
+  $needs_translations = count($install_state['locales']) > 1 && !empty($install_state['parameters']['locale']) && $install_state['parameters']['locale'] != 'en';
+  $tasks['opigno_lms_install_import_translation'] = array(
+    'display_name' => st('Set up translations'),
+    'display' => $needs_translations,
+    'run' => $needs_translations ? INSTALL_TASK_RUN_IF_NOT_COMPLETED : INSTALL_TASK_SKIP,
+    'type' => 'batch',
+  );
   return $tasks;
 }
 
 /**
- * Implements hook_install_tasks_alter()
- * Hides messages for non english installs
+ * Installation step callback.
+ *
+ * @param array $install_state
+ *   An array of information about the current installation state.
+ *
+ * @return array $batch
+ *   Batch operations array.
  */
-function opigno_lms_install_tasks_alter(&$tasks, $install_state)
-{
+function opigno_lms_install_import_translation(&$install_state) {
+  // Enable installation language as default site language.
+  include_once DRUPAL_ROOT . '/includes/locale.inc';
+  // Get selected lang and create it.
+  $install_locale = $install_state['parameters']['locale'];
+  locale_add_language($install_locale, NULL, NULL, NULL, '', NULL, 1, TRUE);
+
+  // Fetch and batch the translations!
+  module_load_include('fetch.inc', 'l10n_update');
+  $options = _l10n_update_default_update_options();
+  $last_checked = variable_get('l10n_update_last_check');
+  if ($last_checked < REQUEST_TIME - L10N_UPDATE_STATUS_TTL) {
+    l10n_update_clear_status();
+    $batch = l10n_update_batch_update_build(array(), array($install_locale), $options);
+  }
+  else {
+    $batch = l10n_update_batch_fetch_build(array(), array($install_locale), $options);
+  }
+  return $batch;
+}
+
+/**
+ * Implements hook_install_tasks_alter().
+ *
+ * Hides messages for non english installs.
+ */
+function opigno_lms_install_tasks_alter(&$tasks, $install_state) {
   if (isset($tasks['opigno_lms_verify_requirements'])) {
     $pos = array_search('opigno_lms_verify_requirements', array_keys($tasks));
     if ($pos == '11') {
@@ -142,6 +179,9 @@ function opigno_lms_install_tasks_alter(&$tasks, $install_state)
     drupal_get_messages('status');
     drupal_get_messages('warning');
   }
+  // Remove core steps for translation imports.
+  unset($tasks['install_import_locales']);
+  unset($tasks['install_import_locales_remaining']);
 }
 
 /**

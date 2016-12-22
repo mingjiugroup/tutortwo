@@ -62,7 +62,7 @@ projects[opigno_quiz_app][subdir]             = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
 projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-projects[opigno_quiz_app][download][revision] = 1e65c7ec2eb035f9869dd023ef70f692162b06dd
+projects[opigno_quiz_app][download][revision] = 341d141d8b775aa27356c0d650e4b40a5119e749
 
 ;projects[opigno_wt_app][version] = 1.0-rc3
 ;projects[opigno_wt_app][subdir]  = "opigno"
@@ -133,9 +133,8 @@ projects[platon][download][revision] = e246b50ed74d4adefde7dd3754958f821098b135
 projects[quiz][version] = 4.0-rc5
 projects[quiz][subdir]  = "contrib"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
-projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
+projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_5.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
-;projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz_h5p-dd_lines_js_bug-2212789-7.patch"
 projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz-fixed_settings_merge-2212789-12.patch"
 projects[quiz][patch][2360523] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
 projects[quiz][patch][2384955] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
@@ -208,7 +207,8 @@ projects[quizfileupload][subdir]   = "contrib"
 projects[quizfileupload][version]  = 4.1
 
 projects[l10n_update][subdir]  = "contrib"
-projects[l10n_update][version] = 2.0
+;projects[l10n_update][version] = 2.0
+projects[l10n_update][version] = 2.1
 
 projects[date][subdir]  = "contrib"
 ;projects[date][version] = 2.9
