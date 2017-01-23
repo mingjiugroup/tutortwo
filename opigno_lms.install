@@ -188,8 +188,8 @@ function _opigno_lms_install_menu() {
 
   // Create links for the apps.
   $item = array(
-    'link_title' => st('My courses'),
-    'link_path' => 'my-courses',
+    'link_title' => st('My trainings'),
+    'link_path' => 'my-trainings',
     'menu_name' => 'main-menu',
     'options' => array(
       'attributes' => array('id' => 'main-navigation-item-my-courses'),
@@ -200,7 +200,7 @@ function _opigno_lms_install_menu() {
 
   $item = array(
     'link_title' => st('Training catalogue'),
-    'link_path' => 'course-catalogue',
+    'link_path' => 'training-catalogue',
     'menu_name' => 'main-menu',
     'options' => array(
       'attributes' => array('id' => 'main-navigation-item-training-catalogue'),
@@ -964,6 +964,16 @@ function opigno_lms_update_7114(&$sandbox) {
   }
 
   module_enable(array('print_pdf_dompdf'));
+
+  // TODO: Place this update in Platon update
+  // Change the role to access the homepage dashboard
+  $dashboard_page = homebox_get_page('dashboard');
+  if (!empty($dashboard_page->settings['roles'][0]) && $dashboard_page->settings['roles'][0] == 'authenticated user') {
+    $dashboard_page->settings['roles'][0] = 'anonymous user';
+    $dashboard_page->settings['roles'][1] = 'authenticated user';
+    homebox_save_page($dashboard_page);
+  }
+  menu_rebuild(); // Clear cache.
 }
 
 function opigno_lms_update_dependencies() {

@@ -17,12 +17,11 @@ function opigno_features_homebox_views_api($module = NULL, $api = NULL) {
 function opigno_features_homebox_homebox() {
   $homeboxes = array();
 
-  $homeboxes['dashboard'] = array (
+  $homeboxes['dashboard'] = array(
     'regions' => 3,
     'cache' => 0,
     'color' => 0,
-    'colors' => 
-    array (
+    'colors' => array(
       0 => '#E4F0F8',
       1 => '#E4F0F8',
       2 => '#E4F0F8',
@@ -30,24 +29,54 @@ function opigno_features_homebox_homebox() {
       4 => '#E4F0F8',
       5 => '#E4F0F8',
     ),
-    'blocks' => 
-    array (
-      'forum_active' => 
-      array (
+    'blocks' => array(
+      'privatemsg_privatemsg-new' => array(
+        'module' => 'privatemsg',
+        'delta' => 'privatemsg-new',
+        'region' => 2,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -19,
+      ),
+      'forum_active' => array(
         'module' => 'forum',
         'delta' => 'active',
+        'region' => 2,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -21,
+      ),
+      'poll_recent' => array(
+        'module' => 'poll',
+        'delta' => 'recent',
         'region' => 1,
         'movable' => 1,
         'status' => 1,
         'open' => 1,
         'closable' => 1,
         'title' => '',
-        'weight' => -22,
+        'weight' => -20,
       ),
-      'poll_recent' => 
-      array (
-        'module' => 'poll',
-        'delta' => 'recent',
+      'views_calendar-block_1' => array(
+        'module' => 'views',
+        'delta' => 'calendar-block_1',
+        'region' => 1,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -23,
+      ),
+      'views_dashboard_new_content-block' => array(
+        'module' => 'views',
+        'delta' => 'dashboard_new_content-block',
         'region' => 2,
         'movable' => 1,
         'status' => 1,
@@ -56,44 +85,7 @@ function opigno_features_homebox_homebox() {
         'title' => '',
         'weight' => -22,
       ),
-      'privatemsg_privatemsg-new' => 
-      array (
-        'module' => 'privatemsg',
-        'delta' => 'privatemsg-new',
-        'region' => 3,
-        'movable' => 1,
-        'status' => 1,
-        'open' => 1,
-        'closable' => 1,
-        'title' => '',
-        'weight' => -22,
-      ),
-      'views_calendar-block_1' => 
-      array (
-        'module' => 'views',
-        'delta' => 'calendar-block_1',
-        'region' => 3,
-        'movable' => 1,
-        'status' => 1,
-        'open' => 1,
-        'closable' => 1,
-        'title' => '',
-        'weight' => -22,
-      ),
-      'views_dashboard_new_content-block' => 
-      array (
-        'module' => 'views',
-        'delta' => 'dashboard_new_content-block',
-        'region' => 1,
-        'movable' => 1,
-        'status' => 1,
-        'open' => 1,
-        'closable' => 1,
-        'title' => '',
-        'weight' => -22,
-      ),
-      'views_Notifications-block_1' => 
-      array (
+      'views_Notifications-block_1' => array(
         'module' => 'views',
         'delta' => 'Notifications-block_1',
         'region' => 1,
@@ -102,10 +94,9 @@ function opigno_features_homebox_homebox() {
         'open' => 1,
         'closable' => 1,
         'title' => '',
-        'weight' => -22,
+        'weight' => -21,
       ),
-      'user_online' => 
-      array (
+      'user_online' => array(
         'module' => 'user',
         'delta' => 'online',
         'region' => 2,
@@ -114,33 +105,41 @@ function opigno_features_homebox_homebox() {
         'open' => 1,
         'closable' => 1,
         'title' => '',
-        'weight' => -22,
+        'weight' => -23,
       ),
-      'user_new' => 
-      array (
+      'user_new' => array(
         'module' => 'user',
         'delta' => 'new',
+        'region' => 1,
+        'movable' => 1,
+        'status' => 1,
+        'open' => 1,
+        'closable' => 1,
+        'title' => '',
+        'weight' => -22,
+      ),
+      'views_active_trainings-block_1' => array(
+        'module' => 'views',
+        'delta' => 'active_trainings-block_1',
         'region' => 3,
         'movable' => 1,
         'status' => 1,
         'open' => 1,
         'closable' => 1,
         'title' => '',
-        'weight' => -21,
+        'weight' => -20,
       ),
     ),
-    'widths' => 
-    array (
-    ),
+    'widths' => array(),
     'title' => 'Dashboard',
     'path' => 'dashboard',
     'menu' => 0,
     'enabled' => 1,
     'auto_save' => 1,
     'full' => 0,
-    'roles' => 
-    array (
-      0 => 'authenticated user',
+    'roles' => array(
+      0 => 'anonymous user',
+      1 => 'authenticated user',
     ),
   );
 
