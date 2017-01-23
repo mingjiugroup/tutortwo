@@ -11,7 +11,7 @@ projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = "7.x-1.x"
 projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = 71bc1c30d05719fd0e06ffa3d7e9a1f688bd33f9
+projects[opigno][download][revision] = 48a42aa18cd69859abb0485d8d28e6db1f6b4990
 
 projects[opigno_calendar_app][version] = 1.0
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -53,7 +53,7 @@ projects[opigno_class_app][subdir]             = "opigno"
 projects[opigno_class_app][download][type]     = git
 projects[opigno_class_app][download][branch]   = "7.x-1.x"
 projects[opigno_class_app][download][url]      = "http://git.drupal.org/project/opigno_class_app.git"
-projects[opigno_class_app][download][revision] = 458763fb53d099cf5eea2b603155ac4761e7858d
+projects[opigno_class_app][download][revision] = 79e90fac8a3f05b777d8b6dd2cc48eef5fa40172
 
 ;projects[opigno_quiz_app][version]    = 1.14
 ;projects[opigno_quiz_app][subdir]  = "opigno"
@@ -62,7 +62,7 @@ projects[opigno_quiz_app][subdir]             = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
 projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-projects[opigno_quiz_app][download][revision] = 341d141d8b775aa27356c0d650e4b40a5119e749
+projects[opigno_quiz_app][download][revision] = 0fe00bb2a2cd0d19433d948f28530901d232fba1
 
 ;projects[opigno_wt_app][version] = 1.0-rc3
 ;projects[opigno_wt_app][subdir]  = "opigno"
@@ -124,16 +124,18 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
 projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = e246b50ed74d4adefde7dd3754958f821098b135
+projects[platon][download][revision] = 8161a7e4056f102632116f63e6ce1fb40af786d4
+;projects[platon][download][type]     = copy
+;projects[platon][download][url]      = "file:///home/amermod/Public/www/opigno-redesign/profiles/opigno_lms/themes/platon/"
 
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
 ;projects[quiz][version] = 4.0-rc2
-projects[quiz][version] = 4.0-rc5
+projects[quiz][version] = 4.0-rc6
 projects[quiz][subdir]  = "contrib"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
-projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_5.patch"
+projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
 projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz-fixed_settings_merge-2212789-12.patch"
 projects[quiz][patch][2360523] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
@@ -142,6 +144,8 @@ projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score
 projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
 projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
 projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
+projects[quiz][patch][2845991] = "http://drupal.org/files/issues/quiz-h5p_no-title-2845991-2.patch"
+projects[quiz][patch][2845995] = "https://www.drupal.org/files/issues/quiz-questions_browser_ajax_pagination-2845995-2.patch"
 
 ; OG
 projects[og][version] = 2.9
@@ -283,7 +287,7 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[wysiwyg][subdir]  = "contrib"
-projects[wysiwyg][version] = 2.2
+projects[wysiwyg][version] = 2.3
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc3
@@ -345,8 +349,8 @@ projects[better_exposed_filters][version] = 3.2
 projects[pdf][subdir]  = "contrib"
 projects[pdf][version] = 1.8
 
-projects[guideme][subdir]  = "contrib"
-projects[guideme][version] = 1.0-rc2
+;projects[guideme][subdir]  = "contrib"
+;projects[guideme][version] = 1.0-rc2
 
 projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.12
@@ -358,7 +362,8 @@ projects[homebox][version] = 2.0-rc3
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.2/ckeditor_3.6.6.2.zip"
+libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.6.1/ckeditor_4.6.1_full.zip"
+;libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.2/ckeditor_3.6.6.2.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
 
