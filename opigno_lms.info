@@ -88,4 +88,3 @@ dependencies[] = opigno_features_content_type_settings
 dependencies[] = opigno_features_wysiwyg
 dependencies[] = opigno_features_homebox
 dependencies[] = opigno_features_pathauto
-dependencies[] = opigno_lms_tour

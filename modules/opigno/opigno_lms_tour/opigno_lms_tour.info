@@ -1,5 +1,0 @@
-name = Opigno LMS Tour
-description = Tour the different functionality of the LMS
-core = 7.x
-package = Opigno Apps
-dependencies[] = guideme
