@@ -90,7 +90,7 @@ projects[opigno_statistics_app][subdir]             = "opigno"
 projects[opigno_statistics_app][download][type]     = git
 projects[opigno_statistics_app][download][branch]   = "7.x-1.x"
 projects[opigno_statistics_app][download][url]      = "http://git.drupal.org/project/opigno_statistics_app.git"
-projects[opigno_statistics_app][download][revision] = 30a254b2793de16c20f9c7fb40492cf31f6e6e2a
+projects[opigno_statistics_app][download][revision] = f3d5c9a1f474da77fbd4f28dba56d0bf25082bb3
 
 ;projects[opigno_moxtra_app][version] = 1.1
 ;projects[opigno_moxtra_app][subdir]  = "opigno"
