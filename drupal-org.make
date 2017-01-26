@@ -70,7 +70,7 @@ projects[opigno_quiz_app][subdir]             = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
 projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-projects[opigno_quiz_app][download][revision] = eff6140d493496087e5e26e7e66c93dfb9936b2b
+projects[opigno_quiz_app][download][revision] = 806fac4f185f1779195b94dbf8dbb4e13d577dc5
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
