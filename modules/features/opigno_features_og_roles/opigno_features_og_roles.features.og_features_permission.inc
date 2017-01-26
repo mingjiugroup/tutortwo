@@ -71,6 +71,13 @@ function opigno_features_og_roles_og_features_default_permissions() {
     'roles' => array(),
   );
 
+  // Exported og permission: 'node:class:access quiz'
+  $permissions['node:class:access quiz'] = array(
+    'roles' => array(
+      'member' => 'member',
+    ),
+  );
+
   // Exported og permission: 'node:course:access quiz'
   $permissions['node:course:access quiz'] = array(
     'roles' => array(
