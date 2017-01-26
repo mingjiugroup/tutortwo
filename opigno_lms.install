@@ -965,7 +965,6 @@ function opigno_lms_update_7114(&$sandbox) {
 
   module_enable(array('print_pdf_dompdf'));
 
-  // TODO: Place this update in Platon update
   // Change the role to access the homepage dashboard
   $dashboard_page = homebox_get_page('dashboard');
   if (!empty($dashboard_page->settings['roles'][0]) && $dashboard_page->settings['roles'][0] == 'authenticated user') {
@@ -974,6 +973,31 @@ function opigno_lms_update_7114(&$sandbox) {
     homebox_save_page($dashboard_page);
   }
   menu_rebuild(); // Clear cache.
+
+  // Changes the og permissions ads access quiz to class
+  /* Default permission */
+  og_invalidate_cache();
+  $roles = og_roles('node', 'class', $gid = 0, $force_group = FALSE, $include_all = TRUE);
+  foreach ($roles as $index => $role) {
+    if ($role=='member')
+    {
+      og_role_grant_permissions($index, array(
+        'access quiz',
+      ));
+    }
+  }
+  /* Existing group permissions */
+  $existing_classes = node_load_multiple(array(), array('type' => "class"));
+  foreach ($existing_classes as $classid => $class) {
+    $roles = og_roles("node", "class", $classid, $force_group = FALSE, $include_all = TRUE);
+    foreach ($roles as $index => $role) {
+      if ($role == 'member') {
+        og_role_grant_permissions($index, array(
+          'access quiz',
+        ));
+      }
+    }
+  }
 }
 
 function opigno_lms_update_dependencies() {
