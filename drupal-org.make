@@ -10,9 +10,7 @@ projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = "7.x-1.x"
 projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = 35e74479504d6514162196e42bf307c46d5a0eb1
-;projects[opigno][download][type]     = copy
-;projects[opigno][download][url]      = "file:///home/amermod/Public/www/opigno_lms_124_deved/profiles/opigno_lms/modules/opigno/opigno/"
+projects[opigno][download][revision] = 219313e6be75122aaafbbfe52cab211d941890d8
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -49,8 +47,6 @@ projects[opigno_notifications_app][download][type]     = git
 projects[opigno_notifications_app][download][branch]   = "7.x-1.x"
 projects[opigno_notifications_app][download][url]      = "http://git.drupal.org/project/opigno_notifications_app.git"
 projects[opigno_notifications_app][download][revision] = 48346bad503a71eb91ff8fed4ce19453cd0a772d
-;projects[opigno_notifications_app][download][type]     = copy
-;projects[opigno_notifications_app][download][url]      = "file:///home/amermod/Public/www/opigno_lms_124_deved/profiles/opigno_lms/modules/opigno/opigno_notifications_app/"
 
 projects[opigno_poll_app][type]    = module
 projects[opigno_poll_app][subdir]  = "opigno"
@@ -67,8 +63,6 @@ projects[opigno_class_app][download][type]     = git
 projects[opigno_class_app][download][branch]   = "7.x-1.x"
 projects[opigno_class_app][download][url]      = "http://git.drupal.org/project/opigno_class_app.git"
 projects[opigno_class_app][download][revision] = 3b754c959f7b48c7c7a068f6e4235f051b4ca56e
-;projects[opigno_class_app][download][type]     = copy
-;projects[opigno_class_app][download][url]      = "file:///home/amermod/Public/www/opigno_lms_124_deved/profiles/opigno_lms/modules/opigno/opigno_class_app/"
 
 projects[opigno_quiz_app][type]               = module
 projects[opigno_quiz_app][subdir]             = "opigno"
@@ -93,8 +87,6 @@ projects[opigno_course_categories_app][download][type]     = git
 projects[opigno_course_categories_app][download][branch]   = "7.x-1.x"
 projects[opigno_course_categories_app][download][url]      = "http://git.drupal.org/project/opigno_course_categories_app.git"
 projects[opigno_course_categories_app][download][revision] = 2c06878001f7a1fc582f7fe5063fd391f0e91dd8
-;projects[opigno_course_categories_app][download][type]     = copy
-;projects[opigno_course_categories_app][download][url]      = "file:///home/amermod/Public/www/opigno_lms_124_deved/profiles/opigno_lms/modules/opigno/opigno_course_categories_app/"
 
 projects[tft][type]               = module
 projects[tft][subdir]             = "opigno"
@@ -147,9 +139,13 @@ projects[platon][download][revision] = 4c8a575d54589079355c42df6ef8953d638a939d
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-;projects[quiz][version] = 4.0-rc2
-projects[quiz][version] = 4.0-rc6
-projects[quiz][subdir]  = "contrib"
+;projects[quiz][version]        = 4.0-rc2
+;projects[quiz][version]        = 4.0-rc6
+projects[quiz][subdir]         = "contrib"
+projects[quiz][download][type]     = git
+projects[quiz][download][branch]   = "7.x-4.x"
+projects[quiz][download][url]      = "http://git.drupal.org/project/quiz.git"
+projects[quiz][download][revision] = 4c8fdf99408c418c57a77785ff4a59d2a08f84ee
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
@@ -164,31 +160,31 @@ projects[quiz][patch][2845991] = "http://drupal.org/files/issues/quiz-h5p_no-tit
 projects[quiz][patch][2845995] = "http://drupal.org/files/issues/quiz-questions_browser_ajax_pagination-2845995-2.patch"
 
 ; OG
-projects[og][version] = 2.9
-projects[og][subdir]  = "contrib"
+projects[og][version]        = 2.9
+projects[og][subdir]         = "contrib"
 projects[og][patch][2330777] = "http://drupal.org/files/issues/og_2330777.patch"
 
 ; OG Create Permissions
-projects[og_create_perms][version] = 1.0
-projects[og_create_perms][subdir]  = "contrib"
+projects[og_create_perms][version]        = 1.0
+projects[og_create_perms][subdir]         = "contrib"
 projects[og_create_perms][patch][2077031] = "http://drupal.org/files/update_to_og2.x_api-2077031-2.patch"
 
 ; OG forum
-projects[og_forum_D7][version] = 2.0-alpha1
-projects[og_forum_D7][subdir]  = "contrib"
-projects[og_forum_D7][type] = module
+projects[og_forum_D7][version]        = 2.0-alpha1
+projects[og_forum_D7][subdir]         = "contrib"
+projects[og_forum_D7][type]           = module
 projects[og_forum_D7][patch][1802208] = "http://drupal.org/files/og_forum_D7-change-group_audience_to_gid-1802208.patch"
 projects[og_forum_D7][patch][1844104] = "http://drupal.org/files/fix-forum-access-1844104-2.patch"
 projects[og_forum_D7][patch][2206711] = "http://drupal.org/files/issues/og_forum_2206711.patch"
 
 ; Rules
-projects[rules][subdir]  = "contrib"
-projects[rules][version] = 2.9
+projects[rules][subdir]         = "contrib"
+projects[rules][version]        = 2.9
 projects[rules][patch][1966426] = "http://drupal.org/files/system.rules_.inc_.patch"
 
 ; Apps
-projects[apps][subdir]  = "contrib"
-projects[apps][version] = 1.0
+projects[apps][subdir]         = "contrib"
+projects[apps][version]        = 1.0
 projects[apps][patch][2357093] = "http://drupal.org/files/issues/apps_module-2357093_3.patch"
 
 ; Quiz cloze
@@ -198,7 +194,7 @@ projects[cloze][download][type]     = git
 projects[cloze][download][branch]   = "7.x-1.x"
 projects[cloze][download][url]      = "http://git.drupal.org/project/cloze.git"
 projects[cloze][download][revision] = e3bb806823e46870e8e0d6dafce2d0b261c024c5
-projects[cloze][patch][2249881] = "http://drupal.org/files/issues/cloze_change_question_type_name-2249881-4.patch"
+projects[cloze][patch][2249881]     = "http://drupal.org/files/issues/cloze_change_question_type_name-2249881-4.patch"
 
 ; Quiz drag drop
 projects[quiz_drag_drop][subdir]  = "contrib"
@@ -207,14 +203,14 @@ projects[quiz_drag_drop][patch][2249971] = "http://drupal.org/files/issues/drag_
 projects[quiz_drag_drop][patch][2364215] = "http://drupal.org/files/issues/quiz_drag_drop_2364215.patch"
 
 ; User Import
-projects[user_import][subdir]  = "contrib"
-;projects[user_import][version] = 2.3
-projects[user_import][version] = 3.2
+projects[user_import][subdir]         = "contrib"
+;projects[user_import][version]        = 2.3
+projects[user_import][version]        = 3.2
 projects[user_import][patch][2220193] = "http://drupal.org/files/issues/creationdate_2220193_1.patch"
 
 ; r403 2 Login
-projects[r4032login][subdir] = "contrib"
-projects[r4032login][version] = 1.8
+projects[r4032login][subdir]         = "contrib"
+projects[r4032login][version]        = 1.8
 projects[r4032login][patch][2362997] = "http://drupal.org/files/issues/r4032login-exclude_homepage-2362997.patch"
 
 ; Third-party modules ==========================================================
@@ -372,14 +368,15 @@ projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.12
 
 projects[homebox][subdir]  = "contrib"
+;projects[homebox][version] = 2.0-rc2
 projects[homebox][version] = 2.0-rc3
 projects[homebox][patch][2362997] = "http://drupal.org/files/issues/homebox-anonymous_title-2790005-5.patch"
 
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.6.1/ckeditor_4.6.1_full.zip"
 ;libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.2/ckeditor_3.6.6.2.zip"
+libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.6.1/ckeditor_4.6.1_full.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
 
