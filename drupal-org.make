@@ -120,7 +120,7 @@ projects[opigno_tincan_question_type][subdir]   = "opigno"
 projects[opigno_tincan_question_type][version]  = 1.1
 
 projects[og_quiz][type]               = module
-projects[og_quiz][subdir]             = "opigno"
+projects[og_quiz][subdir]             = "contrib"
 ;projects[og_quiz][version]            = 1.4
 projects[og_quiz][download][type]     = git
 projects[og_quiz][download][branch]   = "7.x-1.x"
