@@ -965,7 +965,6 @@ function opigno_lms_update_7114(&$sandbox) {
 
   module_enable(array('print_pdf_dompdf'));
 
-  // TODO: Place this update in Platon update
   // Change the role to access the homepage dashboard
   $dashboard_page = homebox_get_page('dashboard');
   if (!empty($dashboard_page->settings['roles'][0]) && $dashboard_page->settings['roles'][0] == 'authenticated user') {
@@ -1026,4 +1025,9 @@ function _opigno_lms_install_module_has_dependent($module_name, $modules_exclude
   }
 
   return false;
+}
+
+function _opigno_lms_install_translations() {
+  // Translations for og_create_perms
+  t("You are not permitted to post content in a group you're not a member of.");
 }
