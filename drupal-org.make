@@ -10,7 +10,7 @@ projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = "7.x-1.x"
 projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = 219313e6be75122aaafbbfe52cab211d941890d8
+projects[opigno][download][revision] = 2ceb152c3ed859589e108138f485d6bc24599dd5
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
