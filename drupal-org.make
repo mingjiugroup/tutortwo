@@ -356,8 +356,8 @@ projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.12
 
 projects[homebox][subdir]  = "contrib"
-;projects[homebox][version] = 2.0-rc2
 projects[homebox][version] = 2.0-rc3
+projects[homebox][patch][2362997] = "http://drupal.org/files/issues/homebox-anonymous_title-2790005-5.patch"
 
 ; Third-patry libraries ========================================================
 
