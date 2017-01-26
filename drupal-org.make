@@ -62,7 +62,7 @@ projects[opigno_quiz_app][subdir]             = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
 projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-projects[opigno_quiz_app][download][revision] = 0fe00bb2a2cd0d19433d948f28530901d232fba1
+projects[opigno_quiz_app][download][revision] = eff6140d493496087e5e26e7e66c93dfb9936b2b
 
 ;projects[opigno_wt_app][version] = 1.0-rc3
 ;projects[opigno_wt_app][subdir]  = "opigno"
