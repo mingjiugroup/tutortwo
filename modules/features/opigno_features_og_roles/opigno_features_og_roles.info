@@ -28,6 +28,7 @@ features[og_features_permission][] = node:class:can message anyone
 features[og_features_permission][] = node:class:manage members
 features[og_features_permission][] = node:class:notify group members
 features[og_features_permission][] = node:class:update group
+features[og_features_permission][] = node:class:access quiz
 features[og_features_permission][] = node:course:access class results
 features[og_features_permission][] = node:course:access quiz
 features[og_features_permission][] = node:course:add user

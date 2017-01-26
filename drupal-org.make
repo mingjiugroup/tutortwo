@@ -76,9 +76,7 @@ projects[opigno_quiz_app][subdir]             = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
 projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-projects[opigno_quiz_app][download][revision] = 878e1efffb420f03aa1d572009e8eb88f34a93de
-;projects[opigno_quiz_app][download][type]     = copy
-;projects[opigno_quiz_app][download][url]      = "file:///home/amermod/Public/www/opigno_lms_124_deved/profiles/opigno_lms/modules/opigno/opigno_quiz_app/"
+projects[opigno_quiz_app][download][revision] = eff6140d493496087e5e26e7e66c93dfb9936b2b
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
@@ -374,8 +372,8 @@ projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.12
 
 projects[homebox][subdir]  = "contrib"
-;projects[homebox][version] = 2.0-rc2
 projects[homebox][version] = 2.0-rc3
+projects[homebox][patch][2362997] = "http://drupal.org/files/issues/homebox-anonymous_title-2790005-5.patch"
 
 ; Third-patry libraries ========================================================
 
