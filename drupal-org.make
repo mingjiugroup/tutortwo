@@ -10,7 +10,7 @@ projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = "7.x-1.x"
 projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = afef44fbd0ec922584b139cc970d5b0fe71ad11f
+projects[opigno][download][revision] = 2b9176027ee7e7f5d711c5b1cd3e7f337608d64c
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -134,7 +134,7 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
 projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = b459c4af1888a96770d68958d3181deaf9215b1e
+projects[platon][download][revision] = 7e1909ca3c8418b9150fcc6685fc20e1b826f21f
 
 ; Third-party modules that need to be patched ==================================
 
@@ -145,7 +145,7 @@ projects[quiz][subdir]         = "contrib"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
-projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz-fixed_settings_merge-2212789-12.patch"
+projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz-fixed_settings_merge-2212789-13.patch"
 projects[quiz][patch][2360523] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
 projects[quiz][patch][2384955] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
 projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
