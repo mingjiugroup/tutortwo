@@ -10,7 +10,7 @@ projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = "7.x-1.x"
 projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = 2ceb152c3ed859589e108138f485d6bc24599dd5
+projects[opigno][download][revision] = afef44fbd0ec922584b139cc970d5b0fe71ad11f
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -70,7 +70,7 @@ projects[opigno_quiz_app][subdir]             = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
 projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-projects[opigno_quiz_app][download][revision] = 806fac4f185f1779195b94dbf8dbb4e13d577dc5
+projects[opigno_quiz_app][download][revision] = d455fa80a9b38b42b1a2dc0610f6c690f3814abb
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
@@ -140,12 +140,8 @@ projects[platon][download][revision] = b459c4af1888a96770d68958d3181deaf9215b1e
 
 ; Quiz
 ;projects[quiz][version]        = 4.0-rc2
-;projects[quiz][version]        = 4.0-rc6
+projects[quiz][version]        = 4.0-rc7
 projects[quiz][subdir]         = "contrib"
-projects[quiz][download][type]     = git
-projects[quiz][download][branch]   = "7.x-4.x"
-projects[quiz][download][url]      = "http://git.drupal.org/project/quiz.git"
-projects[quiz][download][revision] = 4c8fdf99408c418c57a77785ff4a59d2a08f84ee
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
@@ -156,8 +152,6 @@ projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score
 projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
 projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
 projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
-projects[quiz][patch][2845991] = "http://drupal.org/files/issues/quiz-h5p_no-title-2845991-2.patch"
-projects[quiz][patch][2845995] = "http://drupal.org/files/issues/quiz-questions_browser_ajax_pagination-2845995-2.patch"
 
 ; OG
 projects[og][version]        = 2.9

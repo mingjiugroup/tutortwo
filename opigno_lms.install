@@ -939,6 +939,9 @@ function opigno_lms_update_7113(&$sandbox) {
 
 /**
  * Update the H5P libraries
+ * Update the permissions to access the dashboard page
+ * Update the group permissions to access the quiz
+ * Update the default theme for the new version of CKEditor
  */
 function opigno_lms_update_7114(&$sandbox) {
   // Installs latest H5P Libraries
@@ -959,10 +962,12 @@ function opigno_lms_update_7114(&$sandbox) {
     unset($_SESSION['h5p_upload'], $_SESSION['h5p_upload_folder']);
   }
 
+  // Install the tincan question type module
   if (!module_exists('opigno_tincan_question_type')) {
     module_enable(array('opigno_tincan_question_type'));
   }
 
+  // Install the DOMPDF module (required for the new version of Print)
   module_enable(array('print_pdf_dompdf'));
 
   // Change the role to access the homepage dashboard
@@ -972,7 +977,7 @@ function opigno_lms_update_7114(&$sandbox) {
     $dashboard_page->settings['roles'][1] = 'authenticated user';
     homebox_save_page($dashboard_page);
   }
-  menu_rebuild(); // Clear cache.
+  menu_rebuild(); // Menu rebuild needed for the new access settings.
 
   // Changes the og permissions ads access quiz to class
   /* Default permission */
