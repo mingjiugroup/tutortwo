@@ -1004,6 +1004,31 @@ function opigno_lms_update_7114(&$sandbox) {
     }
   }
 
+  // Update the default theme for CKEditor (no more KAMA, now it's MOONO-LISA)
+  /* Get the settings for the ckeditor */
+  $profile = db_select('wysiwyg', 'w')
+    ->condition('format', 'html')
+    ->condition('editor', 'ckeditor')
+    ->fields('w')
+    ->execute()->fetchAllAssoc('format');
+
+  if (!empty($profile['html']->settings)) {
+    $settings = unserialize($profile['html']->settings);
+
+    /* Change the default theme if it's the good version of wysiwyg and if the theme is the old default one */
+    if ($settings['theme'] == 'advanced' && $settings['_profile_preferences']['version'] == '4.6.1.580bcaf') {
+      $settings['theme'] = 'moono-lisa';
+    }
+
+    db_update('wysiwyg')
+      ->condition('format', 'html')
+      ->condition('editor', 'ckeditor')
+      ->fields(array(
+        'settings' => serialize($settings)
+      ))
+      ->execute();
+  }
+
   drupal_flush_all_caches();
 }
 
