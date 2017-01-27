@@ -38,7 +38,7 @@ projects[opigno_messaging_app][subdir]             = "opigno"
 projects[opigno_messaging_app][download][type]     = git
 projects[opigno_messaging_app][download][branch]   = "7.x-1.x"
 projects[opigno_messaging_app][download][url]      = "http://git.drupal.org/project/opigno_messaging_app.git"
-projects[opigno_messaging_app][download][revision] = f5079664033faab51101a6078af67b8998a29981
+projects[opigno_messaging_app][download][revision] = 6dc9cf1dabd7505dbb853f0d5c42845d55c77480
 
 projects[opigno_notifications_app][type]               = module
 projects[opigno_notifications_app][subdir]             = "opigno"
