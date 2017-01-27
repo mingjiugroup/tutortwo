@@ -998,6 +998,8 @@ function opigno_lms_update_7114(&$sandbox) {
       }
     }
   }
+
+  drupal_flush_all_caches();
 }
 
 function opigno_lms_update_dependencies() {

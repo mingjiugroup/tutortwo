@@ -10,7 +10,7 @@ projects[opigno][subdir]             = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = "7.x-1.x"
 projects[opigno][download][url]      = "http://git.drupal.org/project/opigno.git"
-projects[opigno][download][revision] = 219313e6be75122aaafbbfe52cab211d941890d8
+projects[opigno][download][revision] = 2ceb152c3ed859589e108138f485d6bc24599dd5
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -70,7 +70,7 @@ projects[opigno_quiz_app][subdir]             = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = "7.x-1.x"
 projects[opigno_quiz_app][download][url]      = "http://git.drupal.org/project/opigno_quiz_app.git"
-projects[opigno_quiz_app][download][revision] = eff6140d493496087e5e26e7e66c93dfb9936b2b
+projects[opigno_quiz_app][download][revision] = 806fac4f185f1779195b94dbf8dbb4e13d577dc5
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
@@ -134,7 +134,7 @@ projects[platon][type]               = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = "7.x-3.x"
 projects[platon][download][url]      = "http://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = 4c8a575d54589079355c42df6ef8953d638a939d
+projects[platon][download][revision] = b459c4af1888a96770d68958d3181deaf9215b1e
 
 ; Third-party modules that need to be patched ==================================
 
