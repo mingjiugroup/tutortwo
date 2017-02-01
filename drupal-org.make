@@ -87,7 +87,6 @@ projects[platon][version]            = 3.15
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-;projects[quiz][version]        = 4.0-rc2
 projects[quiz][version]        = 4.0-rc7
 projects[quiz][subdir]         = "contrib"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
@@ -146,7 +145,6 @@ projects[quiz_drag_drop][patch][2364215] = "http://drupal.org/files/issues/quiz_
 
 ; User Import
 projects[user_import][subdir]         = "contrib"
-;projects[user_import][version]        = 2.3
 projects[user_import][version]        = 3.2
 projects[user_import][patch][2220193] = "http://drupal.org/files/issues/creationdate_2220193_1.patch"
 
@@ -158,40 +156,33 @@ projects[r4032login][patch][2362997] = "http://drupal.org/files/issues/r4032logi
 ; Third-party modules ==========================================================
 
 projects[login_history][subdir]  = "contrib"
-;projects[login_history][version] = 1.0-beta3
 projects[login_history][version] = 1.0
 
 projects[quizfileupload][subdir]   = "contrib"
 projects[quizfileupload][version]  = 4.1
 
 projects[l10n_update][subdir]  = "contrib"
-;projects[l10n_update][version] = 2.0
 projects[l10n_update][version] = 2.1
 
 projects[date][subdir]  = "contrib"
-;projects[date][version] = 2.9
 projects[date][version] = 2.10-rc1
 
 projects[i18n][subdir]  = "contrib"
-;projects[i18n][version] = 1.13
 projects[i18n][version] = 1.14
 
 projects[certificate][subdir]  = "contrib"
-;projects[certificate][version] = 2.2
 projects[certificate][version] = 2.3
 
 projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-;projects[h5p][version] = 1.16
 projects[h5p][version] = 1.22
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
 
 projects[ctools][subdir] = "contrib"
-;projects[ctools][version] = 1.9
 projects[ctools][version] = 1.12
 
 projects[views][subdir] = "contrib"
@@ -204,15 +195,12 @@ projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha11
 
 projects[module_filter][subdir]  = "contrib"
-;projects[module_filter][version] = 1.8
 projects[module_filter][version] = 2.0
 
 projects[entity][subdir]  = "contrib"
-;projects[entity][version] = 1.7
 projects[entity][version] = 1.8
 
 projects[entityreference][subdir]  = "contrib"
-;projects[entityreference][version] = 1.1
 projects[entityreference][version] = 1.2
 
 projects[entityreference_prepopulate][subdir]  = "contrib"
@@ -222,7 +210,6 @@ projects[token][subdir]  = "contrib"
 projects[token][version] = 1.6
 
 projects[multiselect][subdir]  = "contrib"
-;projects[multiselect][version] = 1.9
 projects[multiselect][version] = 1.12
 
 projects[crumbs][subdir]  = "contrib"
@@ -259,11 +246,9 @@ projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0
 
 projects[print][subdir]  = "contrib"
-;projects[print][version] = 1.3
 projects[print][version] = 2.0
 
 projects[advanced_forum][subdir]  = "contrib"
-;projects[advanced_forum][version] = 2.6
 projects[advanced_forum][version] = 2.7-rc0
 
 projects[date_popup_authored][subdir]  = "contrib"
@@ -282,7 +267,6 @@ projects[views_bulk_operations][subdir]  = "contrib"
 projects[views_bulk_operations][version] = 3.3
 
 projects[libraries][subdir]  = "contrib"
-;projects[libraries][version] = 2.2
 projects[libraries][version] = 2.3
 
 projects[pathauto][subdir]  = "contrib"
@@ -303,21 +287,16 @@ projects[better_exposed_filters][version] = 3.2
 projects[pdf][subdir]  = "contrib"
 projects[pdf][version] = 1.8
 
-;projects[guideme][subdir]  = "contrib"
-;projects[guideme][version] = 1.0-rc2
-
 projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.12
 
 projects[homebox][subdir]  = "contrib"
-;projects[homebox][version] = 2.0-rc2
 projects[homebox][version] = 2.0-rc3
 projects[homebox][patch][2362997] = "http://drupal.org/files/issues/homebox-anonymous_title-2790005-5.patch"
 
 ; Third-patry libraries ========================================================
 
 libraries[CKEditor][download][type] = get
-;libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.2/ckeditor_3.6.6.2.zip"
 libraries[CKEditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.6.1/ckeditor_4.6.1_full.zip"
 libraries[CKEditor][destination]    = "libraries"
 libraries[CKEditor][directory_name] = "ckeditor"
