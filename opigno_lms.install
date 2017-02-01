@@ -11,7 +11,6 @@ function opigno_lms_install() {
   // Set the default theme.
   theme_enable(array('platon'));
   variable_set('theme_default', 'platon');
-  $path = drupal_get_path('theme', 'platon');
 
   // Set the default settings for the theme.
   $default_theme_settings = variable_get('theme_platon_settings', array());
@@ -80,16 +79,11 @@ function opigno_lms_install() {
   // Create default entries in the menu.
   _opigno_lms_install_menu();
 
-  // Enhance translations, if needed.
-  _opigno_lms_install_i18n();
-
   // Enable specific content type permissions for anonymous_users
   _opigno_lms_install_specific_content_access();
 
   // Rebuild permissions. Don't use the batch process, we're already in one.
   node_access_rebuild(FALSE);
-
-  opigno_lms_refresh_strings_and_import(array('rules', 'commerce', 'field'));
 }
 
 /**

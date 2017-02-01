@@ -6,6 +6,8 @@ exclusive = TRUE
 
 stylesheets[all][] = css/opigno_lms.css
 
+files[] = opigno_lms.profile
+
 ; Drupal core modules
 dependencies[] = block
 dependencies[] = contextual
@@ -50,6 +52,8 @@ dependencies[] = r4032login
 dependencies[] = better_exposed_filters
 dependencies[] = pdf
 dependencies[] = print_pdf_dompdf
+dependencies[] = locale
+dependencies[] = l10n_update
 
 ; Opigno core
 dependencies[] = opigno

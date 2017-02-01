@@ -141,9 +141,13 @@ function opigno_lms_install_tasks(&$install_state) {
 function opigno_lms_install_import_translation(&$install_state) {
   // Enable installation language as default site language.
   include_once DRUPAL_ROOT . '/includes/locale.inc';
-  // Get selected lang and create it.
   $install_locale = $install_state['parameters']['locale'];
   locale_add_language($install_locale, NULL, NULL, NULL, '', NULL, 1, TRUE);
+
+  // Change the cache system (during installation, the default cache is DrupalFakeCache
+  //  and the l10n_update v2.1 module needs a real cache system).
+  $old_cache = variable_get('cache_class_cache');
+  variable_set('cache_class_cache', 'DrupalDatabaseCache');
 
   // Fetch and batch the translations!
   module_load_include('fetch.inc', 'l10n_update');
@@ -156,6 +160,10 @@ function opigno_lms_install_import_translation(&$install_state) {
   else {
     $batch = l10n_update_batch_fetch_build(array(), array($install_locale), $options);
   }
+
+  // Put back the default caching system at the end of the batch.
+  $batch['operations'][] = array('variable_set', array('cache_class_cache', $old_cache));
+
   return $batch;
 }
 
@@ -303,9 +311,6 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
 function opigno_lms_form_install_configure_form_alter_submit($form, $form_state) {
   if (!empty($form_state['values']['opigno_lms']['demo_content'])) {
     // @todo
-  }
-  if (module_exists('locale')) {
-  opigno_lms_refresh_strings_and_import(array('field','rules'));
   }
   // Installs H5P Libraries
   $path = file_get_contents(drupal_get_path("profile","opigno_lms")."/h5plib/libraries.h5p");
@@ -564,66 +569,3 @@ function opigno_lms_set_platform_permissions($permissions) {
     user_role_grant_permissions($rid, $role_permissions);
   }
 }
-
-/**
- * Refreshes the translation strings and imports the translations
- * that ship with Opigno. This is necessary, especially for fields
- * and rules, as Drupal does not refresh translation groups.
- *
- * @param array $groups
- *        The groups we want to refresh.
- */
-function opigno_lms_refresh_strings_and_import($groups) {
-  $languages = language_list();
-  foreach ($languages as $index => $language) {
-    if (in_array($index, array('fr', 'de','sl','es'))) {
-      module_load_include('inc', 'i18n_string', 'i18n_string.admin');
-      opigno_lms_i18n_string_refresh_batch($groups, $index);
-    }
-  }
-}
-
-/**
- * Batch definition for refreshing string groups.
- *
- * @param array $groups
- *        The groups we want to refresh.
- */
-function opigno_lms_i18n_string_refresh_batch($groups, $lang) {
-  module_load_include('inc', 'i18n_string', 'i18n_string.admin');
-  $operations = array();
-  foreach ($groups as $group) {
-    $context = NULL;
-    _i18n_string_batch_refresh_prepare($group, $context);
-    // First try to find string list
-    _i18n_string_batch_refresh_list($group, $context);
-    // Then invoke refresh callback
-    _i18n_string_batch_refresh_callback($group, $context);
-    // Output group summary
-    if ($group!="default")
-    {
-      $path = file_unmanaged_copy('profiles/opigno_lms/group_translations/' . $lang . '-' . $group . '.po', NULL, FILE_EXISTS_REPLACE);
-      _i18n_string_batch_refresh_summary($group, $context);
-    }
-    else
-    {
-      $path = file_unmanaged_copy('profiles/opigno_lms/translations/'.$lang.'.po', NULL, FILE_EXISTS_REPLACE);
-    }
-    $files = file_load_multiple(array(), array('uri' => $path));
-    $file = reset($files);
-    if (empty($file)) {
-      $file = new stdClass();
-      $file->status = 0;
-      $file->uri = $path;
-      $file->filename = $lang . ".po";
-      $file = file_save($file);
-    }
-    _locale_import_po($file, $lang, 1, $group);
-  }
-}
-
-
-
-/**
- * @} End of "defgroup opigno_lms_api".
- */
