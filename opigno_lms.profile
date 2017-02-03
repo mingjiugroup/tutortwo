@@ -255,8 +255,8 @@ function opigno_lms_verify_requirements($form, &$form_state, &$install_state) {
 
 function opigno_lms_verify_requirements_submit($form, &$form_state)
 {
-  $install_state=&$form_state['build_info']['args']['install_state'];
-  $install_state['parameters']['opigno_requirements_finished']=TRUE;
+  $install_state = &$form_state['build_info']['args']['install_state'];
+  $install_state['parameters']['opigno_requirements_finished'] = TRUE;
 }
 
 /**
@@ -288,20 +288,6 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
     $form['admin_account']['account']['mail']['#default_value'] = 'admin@' . $_SERVER['HTTP_HOST'];
   }
 
-  // Opigno LMS options
-  /* @todo
-  $form['opigno_lms'] = array(
-    '#type' => 'fieldset',
-    '#title' => st("LMS settings"),
-    '#tree' => TRUE,
-  );
-  $form['opigno_lms']['demo_content'] = array(
-    '#type' => 'checkbox',
-    '#title' => st("Enable demo content"),
-    '#description' => st("You can enable demo content on your platform to get you started. This will create several user accounts, courses, certificates and quizzes to get you started."),
-    '#default_value' => 0,
-  );
-  */
   $form['#submit'][] = 'opigno_lms_form_install_configure_form_alter_submit';
 }
 
@@ -309,9 +295,6 @@ function opigno_lms_form_install_configure_form_alter(&$form, $form_state) {
  * Submit callback for opigno_lms_form_install_configure_form_alter().
  */
 function opigno_lms_form_install_configure_form_alter_submit($form, $form_state) {
-  if (!empty($form_state['values']['opigno_lms']['demo_content'])) {
-    // @todo
-  }
   // Installs H5P Libraries
   $path = file_get_contents(drupal_get_path("profile","opigno_lms")."/h5plib/libraries.h5p");
   $temporary_file_path = 'public://' . variable_get('h5p_default_path', 'h5p') . '/temp/' . uniqid('h5p-');

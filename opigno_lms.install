@@ -1039,8 +1039,7 @@ function opigno_lms_update_dependencies() {
 /*
  * Removes anonymous permissions to view content for forums calendar_event and notification content types
  */
-function _opigno_lms_install_specific_content_access()
-{
+function _opigno_lms_install_specific_content_access() {
   $types = array('forum', 'calendar_event', 'notification');
   foreach ($types as $type) {
     $defaults = array();
