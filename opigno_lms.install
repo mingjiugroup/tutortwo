@@ -1026,6 +1026,21 @@ function opigno_lms_update_7114(&$sandbox) {
   drupal_flush_all_caches();
 }
 
+/**
+ * Remove old database entries linked to removed modules.
+ */
+function opigno_lms_update_7115(&$sandbox) {
+  // Remove the old modules from the database.
+  $modules = array(
+    'guideme',
+    'opigno_lms_tour',
+  );
+  db_delete('system')
+    ->condition('name', $modules, 'IN')
+    ->condition('type', 'module')
+    ->execute();
+}
+
 function opigno_lms_update_dependencies() {
   $dependencies = array();
   if (module_exists('h5p')) {

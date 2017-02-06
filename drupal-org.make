@@ -168,7 +168,7 @@ projects[date][subdir]  = "contrib"
 projects[date][version] = 2.10-rc1
 
 projects[i18n][subdir]  = "contrib"
-projects[i18n][version] = 1.14
+projects[i18n][version] = 1.15
 
 projects[certificate][subdir]  = "contrib"
 projects[certificate][version] = 2.3
@@ -177,7 +177,7 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.22
+projects[h5p][version] = 1.24
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
@@ -204,10 +204,10 @@ projects[entityreference][subdir]  = "contrib"
 projects[entityreference][version] = 1.2
 
 projects[entityreference_prepopulate][subdir]  = "contrib"
-projects[entityreference_prepopulate][version] = 1.6
+projects[entityreference_prepopulate][version] = 1.7
 
 projects[token][subdir]  = "contrib"
-projects[token][version] = 1.6
+projects[token][version] = 1.7
 
 projects[multiselect][subdir]  = "contrib"
 projects[multiselect][version] = 1.12
@@ -282,7 +282,7 @@ projects[content_access][subdir]  = "contrib"
 projects[content_access][version] = 1.2-beta2
 
 projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = 3.2
+projects[better_exposed_filters][version] = 3.4
 
 projects[pdf][subdir]  = "contrib"
 projects[pdf][version] = 1.8
