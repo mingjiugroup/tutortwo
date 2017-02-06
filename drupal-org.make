@@ -82,7 +82,7 @@ projects[og_quiz][version]            = 1.5
 ; Opigno themes ================================================================
 
 projects[platon][type]               = theme
-projects[platon][version]            = 3.15
+projects[platon][version]            = 3.16
 
 ; Third-party modules that need to be patched ==================================
 
