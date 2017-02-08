@@ -52,12 +52,9 @@ projects[opigno_course_categories_app][type]               = module
 projects[opigno_course_categories_app][subdir]             = "opigno"
 projects[opigno_course_categories_app][version]            = 1.2
 
-projects[tft][type]               = module
-projects[tft][subdir]             = "opigno"
-projects[tft][download][type]     = git
-projects[tft][download][branch]   = "7.x-1.x"
-projects[tft][download][url]      = "http://git.drupal.org/sandbox/wadmiraal/2071579.git"
-projects[tft][download][revision] = 62540ae8ef705501f1b435142ab3c65145028744
+projects[tft][type]        = module
+projects[tft][subdir]      = "opigno"
+projects[tft][version]     = 1.0
 
 projects[opigno_statistics_app][type]               = module
 projects[opigno_statistics_app][subdir]             = "opigno"
