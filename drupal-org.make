@@ -6,7 +6,7 @@ core = 7.x
 
 projects[opigno][type]               = module
 projects[opigno][subdir]             = "opigno"
-projects[opigno][version]            = 1.17
+projects[opigno][version]            = 1.18
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -34,19 +34,19 @@ projects[opigno_poll_app][version] = 1.0
 
 projects[opigno_quiz_import_app][type]    = module
 projects[opigno_quiz_import_app][subdir]  = "opigno"
-projects[opigno_quiz_import_app][version] = 1.2
+projects[opigno_quiz_import_app][version] = 1.3
 
 projects[opigno_class_app][type]               = module
 projects[opigno_class_app][subdir]             = "opigno"
-projects[opigno_class_app][version]            = 1.5
+projects[opigno_class_app][version]            = 1.6
 
 projects[opigno_quiz_app][type]               = module
 projects[opigno_quiz_app][subdir]             = "opigno"
-projects[opigno_quiz_app][version]            = 1.15
+projects[opigno_quiz_app][version]            = 1.16
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
-projects[opigno_wt_app][version]            = 1.0
+projects[opigno_wt_app][version]            = 1.1
 
 projects[opigno_course_categories_app][type]               = module
 projects[opigno_course_categories_app][subdir]             = "opigno"
@@ -58,15 +58,15 @@ projects[tft][version]     = 1.0
 
 projects[opigno_statistics_app][type]               = module
 projects[opigno_statistics_app][subdir]             = "opigno"
-projects[opigno_statistics_app][version]            = 1.3
+projects[opigno_statistics_app][version]            = 1.4
 
 projects[opigno_moxtra_app][type]               = module
 projects[opigno_moxtra_app][subdir]             = "opigno"
-projects[opigno_moxtra_app][version]            = 1.2
+projects[opigno_moxtra_app][version]            = 1.3
 
 projects[opigno_tincan_api][type]     = module
 projects[opigno_tincan_api][subdir]   = "opigno"
-projects[opigno_tincan_api][version]  = 1.1
+projects[opigno_tincan_api][version]  = 1.2
 
 projects[opigno_tincan_question_type][type]     = module
 projects[opigno_tincan_question_type][subdir]   = "opigno"
@@ -79,12 +79,12 @@ projects[og_quiz][version]            = 1.5
 ; Opigno themes ================================================================
 
 projects[platon][type]               = theme
-projects[platon][version]            = 3.16
+projects[platon][version]            = 3.17
 
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-projects[quiz][version]        = 4.0-rc7
+projects[quiz][version]        = 4.0-rc8
 projects[quiz][subdir]         = "contrib"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
@@ -117,12 +117,12 @@ projects[og_forum_D7][patch][2206711] = "http://drupal.org/files/issues/og_forum
 
 ; Rules
 projects[rules][subdir]         = "contrib"
-projects[rules][version]        = 2.9
+projects[rules][version]        = 2.10
 projects[rules][patch][1966426] = "http://drupal.org/files/system.rules_.inc_.patch"
 
 ; Apps
 projects[apps][subdir]         = "contrib"
-projects[apps][version]        = 1.0
+projects[apps][version]        = 1.1
 projects[apps][patch][2357093] = "http://drupal.org/files/issues/apps_module-2357093_3.patch"
 
 ; Quiz cloze
@@ -162,10 +162,10 @@ projects[l10n_update][subdir]  = "contrib"
 projects[l10n_update][version] = 2.1
 
 projects[date][subdir]  = "contrib"
-projects[date][version] = 2.10-rc1
+projects[date][version] = 2.10
 
 projects[i18n][subdir]  = "contrib"
-projects[i18n][version] = 1.15
+projects[i18n][version] = 1.18
 
 projects[certificate][subdir]  = "contrib"
 projects[certificate][version] = 2.3
@@ -174,7 +174,7 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.24
+projects[h5p][version] = 1.31
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
@@ -183,7 +183,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.12
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.14
+projects[views][version] = 3.16
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = 1.0-alpha3
@@ -192,13 +192,13 @@ projects[defaultconfig][subdir] = "contrib"
 projects[defaultconfig][version] = 1.0-alpha11
 
 projects[module_filter][subdir]  = "contrib"
-projects[module_filter][version] = 2.0
+projects[module_filter][version] = 2.1
 
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = 1.8
 
 projects[entityreference][subdir]  = "contrib"
-projects[entityreference][version] = 1.2
+projects[entityreference][version] = 1.4
 
 projects[entityreference_prepopulate][subdir]  = "contrib"
 projects[entityreference_prepopulate][version] = 1.7
@@ -225,13 +225,13 @@ projects[og_massadd][subdir]  = "contrib"
 projects[og_massadd][version] = 1.0-beta2
 
 projects[wysiwyg][subdir]  = "contrib"
-projects[wysiwyg][version] = 2.3
+projects[wysiwyg][version] = 2.4
 
 projects[wysiwyg_filter][subdir]  = "contrib"
 projects[wysiwyg_filter][version] = 1.6-rc3
 
 projects[imce][subdir]  = "contrib"
-projects[imce][version] = 1.10
+projects[imce][version] = 1.11
 
 projects[imce_wysiwyg][subdir]  = "contrib"
 projects[imce_wysiwyg][version] = 1.0
@@ -261,7 +261,7 @@ projects[login_redirect][subdir]  = "contrib"
 projects[login_redirect][version] = 1.2
 
 projects[views_bulk_operations][subdir]  = "contrib"
-projects[views_bulk_operations][version] = 3.3
+projects[views_bulk_operations][version] = 3.4
 
 projects[libraries][subdir]  = "contrib"
 projects[libraries][version] = 2.3

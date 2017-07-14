@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 projects[drupal][type]     = core
-projects[drupal][version]  = 7.53
+projects[drupal][version]  = 7.56
 
 ; For building dev.
 projects[opigno_lms][type]               = profile
@@ -12,4 +12,4 @@ projects[opigno_lms][type]               = profile
 ;projects[opigno_lms][download][revision] = 7aa690b4d330df46573e2c7546be81ca7412077b
 
 ; For building a precise release.
-projects[opigno_lms][version] = 1.25
+;projects[opigno_lms][version] = 1.26
