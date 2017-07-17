@@ -96,7 +96,7 @@ projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score
 projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
 projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
 projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
-projects[quiz][patch][2895276] = "https://www.drupal.org/files/issues/quiz_ajax_questions_browser-2895276-2.patch"
+projects[quiz][patch][2895276] = "http://drupal.org/files/issues/quiz_ajax_questions_browser-2895276-2.patch"
 
 ; OG
 projects[og][version]        = 2.9
@@ -290,8 +290,8 @@ projects[wysiwyg_template][version] = 2.12
 
 projects[homebox][subdir]  = "contrib"
 projects[homebox][version] = 2.0-rc3
-projects[homebox][patch][2771029] = "https://www.drupal.org/files/issues/2771029-revert-array-syntax-to-d7-compatible.patch"
-projects[homebox][patch][2790005] = "https://www.drupal.org/files/issues/2790005-homebox-title-8.patch"
+projects[homebox][patch][2771029] = "http://drupal.org/files/issues/2771029-revert-array-syntax-to-d7-compatible.patch"
+projects[homebox][patch][2790005] = "http://drupal.org/files/issues/2790005-homebox-title-8.patch"
 
 ; Third-patry libraries ========================================================
 
