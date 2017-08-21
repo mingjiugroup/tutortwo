@@ -184,7 +184,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.12
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.16
+projects[views][version] = 3.17
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = 1.0-alpha3
@@ -199,7 +199,7 @@ projects[entity][subdir]  = "contrib"
 projects[entity][version] = 1.8
 
 projects[entityreference][subdir]  = "contrib"
-projects[entityreference][version] = 1.4
+projects[entityreference][version] = 1.5
 
 projects[entityreference_prepopulate][subdir]  = "contrib"
 projects[entityreference_prepopulate][version] = 1.7
