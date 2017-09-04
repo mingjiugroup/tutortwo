@@ -79,7 +79,7 @@ projects[og_quiz][version]            = 1.5
 ; Opigno themes ================================================================
 
 projects[platon][type]               = theme
-projects[platon][version]            = 3.17
+projects[platon][version]            = 3.18
 
 ; Third-party modules that need to be patched ==================================
 
@@ -175,7 +175,7 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.31
+projects[h5p][version] = 1.32
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
