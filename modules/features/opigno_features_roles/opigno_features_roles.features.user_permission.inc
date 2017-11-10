@@ -1610,6 +1610,15 @@ function opigno_features_roles_user_default_permissions() {
     'module' => 'opigno_messaging_app',
   );
 
+  // Exported permission: 'message anyone regardless of groups'.
+  $permissions['message anyone regardless of groups'] = array(
+    'name' => 'message anyone regardless of groups',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'opigno_messaging_app',
+  );
+
   // Exported permission: 'notify everyone'.
   $permissions['notify everyone'] = array(
     'name' => 'notify everyone',

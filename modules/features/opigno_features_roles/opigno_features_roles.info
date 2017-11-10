@@ -233,6 +233,7 @@ features[user_permission][] = manage features
 features[user_permission][] = manual quiz revisioning
 features[user_permission][] = mass add and create users
 features[user_permission][] = message all groups
+features[user_permission][] = message anyone regardless of groups
 features[user_permission][] = notify everyone
 features[user_permission][] = notify of path changes
 features[user_permission][] = post comments
