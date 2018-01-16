@@ -4,9 +4,15 @@ core = 7.56
 
 ; Opigno modules ===============================================================
 
-projects[opigno][type]               = module
-projects[opigno][subdir]             = "opigno"
-projects[opigno][version]            = 1.18
+;projects[opigno][type]               = module
+;projects[opigno][subdir]             = "opigno"
+;projects[opigno][version]            = 1.18
+
+projects[opigno][type] = module
+projects[opigno][subdir]  = "opigno"
+projects[opigno][download][type]     = git
+projects[opigno][download][branch]   = 7.x-1.x
+projects[opigno][download][revision] = 3ffe6ebc63aa1d2a24d0dedf547923f7aa5a07fd
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -20,9 +26,15 @@ projects[opigno_forum_app][type]               = module
 projects[opigno_forum_app][subdir]             = "opigno"
 projects[opigno_forum_app][version]            = 1.1
 
-projects[opigno_messaging_app][type]               = module
-projects[opigno_messaging_app][subdir]             = "opigno"
-projects[opigno_messaging_app][version]            = 1.0
+;projects[opigno_messaging_app][type]               = module
+;projects[opigno_messaging_app][subdir]             = "opigno"
+;projects[opigno_messaging_app][version]            = 1.0
+
+projects[opigno_messaging_app][type] = module
+projects[opigno_messaging_app][subdir]  = "opigno"
+projects[opigno_messaging_app][download][type]     = git
+projects[opigno_messaging_app][download][branch]   = 7.x-1.x
+projects[opigno_messaging_app][download][revision] = bd6e5ade20fdded48b4a60cc3d6ff952dd09427e
 
 projects[opigno_notifications_app][type]               = module
 projects[opigno_notifications_app][subdir]             = "opigno"
@@ -40,9 +52,15 @@ projects[opigno_class_app][type]               = module
 projects[opigno_class_app][subdir]             = "opigno"
 projects[opigno_class_app][version]            = 1.6
 
-projects[opigno_quiz_app][type]               = module
-projects[opigno_quiz_app][subdir]             = "opigno"
-projects[opigno_quiz_app][version]            = 1.16
+;projects[opigno_quiz_app][type]               = module
+;projects[opigno_quiz_app][subdir]             = "opigno"
+;projects[opigno_quiz_app][version]            = 1.16
+
+projects[opigno_quiz_app][type] = module
+projects[opigno_quiz_app][subdir]  = "opigno"
+projects[opigno_quiz_app][download][type]     = git
+projects[opigno_quiz_app][download][branch]   = 7.x-1.x
+projects[opigno_quiz_app][download][revision] = 39f3cb5ac8ac4eb24c1afade949897ef9048eef2
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
@@ -60,17 +78,36 @@ projects[opigno_statistics_app][type]               = module
 projects[opigno_statistics_app][subdir]             = "opigno"
 projects[opigno_statistics_app][version]            = 1.4
 
-projects[opigno_moxtra_app][type]               = module
-projects[opigno_moxtra_app][subdir]             = "opigno"
-projects[opigno_moxtra_app][version]            = 1.3
+;projects[opigno_moxtra_app][type]               = module
+;projects[opigno_moxtra_app][subdir]             = "opigno"
+;projects[opigno_moxtra_app][version]            = 1.3
 
-projects[opigno_tincan_api][type]     = module
-projects[opigno_tincan_api][subdir]   = "opigno"
-projects[opigno_tincan_api][version]  = 1.2
+projects[opigno_moxtra_app][type] = module
+projects[opigno_moxtra_app][subdir]  = "opigno"
+projects[opigno_moxtra_app][download][type]     = git
+projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
+projects[opigno_moxtra_app][download][revision] = 6ab840f786a2de7c030e8b450b7f9cc8e12b976d
 
-projects[opigno_tincan_question_type][type]     = module
-projects[opigno_tincan_question_type][subdir]   = "opigno"
-projects[opigno_tincan_question_type][version]  = 1.1
+;projects[opigno_tincan_api][type]     = module
+;projects[opigno_tincan_api][subdir]   = "opigno"
+;projects[opigno_tincan_api][version]  = 1.2
+
+projects[opigno_tincan_api][type] = module
+projects[opigno_tincan_api][subdir]  = "opigno"
+projects[opigno_tincan_api][download][type]     = git
+projects[opigno_tincan_api][download][branch]   = 7.x-1.x
+projects[opigno_tincan_api][download][revision] = 36a6d842c26b6931f9c387c6f4034f780e767070
+
+;projects[opigno_tincan_question_type][type]     = module
+;projects[opigno_tincan_question_type][subdir]   = "opigno"
+;projects[opigno_tincan_question_type][version]  = 1.1
+
+projects[opigno_tincan_question_type][type] = module
+projects[opigno_tincan_question_type][subdir]  = "opigno"
+projects[opigno_tincan_question_type][download][type]     = git
+projects[opigno_tincan_question_type][download][branch]   = 7.x-1.x
+projects[opigno_tincan_question_type][download][revision] = e0f085af57ab980cb21bc69788aff1205f182e90
+
 
 projects[og_quiz][type]               = module
 projects[og_quiz][subdir]             = "contrib"
@@ -84,8 +121,25 @@ projects[platon][version]            = 3.18
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-projects[quiz][version]        = 4.0-rc8
-projects[quiz][subdir]         = "contrib"
+;projects[quiz][version]        = 4.0-rc8
+;projects[quiz][subdir]         = "contrib"
+;projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
+;projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
+;projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
+;projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz-fixed_settings_merge-2212789-13.patch"
+;projects[quiz][patch][2360523] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
+;projects[quiz][patch][2384955] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
+;projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
+;projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
+;projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
+;projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
+;projects[quiz][patch][2895276] = "http://drupal.org/files/issues/quiz_ajax_questions_browser-2895276-2.patch"
+
+projects[quiz][type]               = module
+projects[quiz][subdir]             = "contrib"
+projects[quiz][download][type]     = git
+projects[quiz][download][branch]   = "7.x-4.x"
+projects[quiz][download][revision] = 6f680cc42100bf60aff3e1ccebf50da17aa60948
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
@@ -160,13 +214,13 @@ projects[quizfileupload][subdir]   = "contrib"
 projects[quizfileupload][version]  = 4.1
 
 projects[l10n_update][subdir]  = "contrib"
-projects[l10n_update][version] = 2.1
+projects[l10n_update][version] = 2.2
 
 projects[date][subdir]  = "contrib"
 projects[date][version] = 2.10
 
 projects[i18n][subdir]  = "contrib"
-projects[i18n][version] = 1.18
+projects[i18n][version] = 1.22
 
 projects[certificate][subdir]  = "contrib"
 projects[certificate][version] = 2.3
@@ -175,7 +229,7 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.32
+projects[h5p][version] = 1.33
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
@@ -184,7 +238,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 1.12
 
 projects[views][subdir] = "contrib"
-projects[views][version] = 3.17
+projects[views][version] = 3.18
 
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = 1.0-alpha3
@@ -208,10 +262,10 @@ projects[token][subdir]  = "contrib"
 projects[token][version] = 1.7
 
 projects[multiselect][subdir]  = "contrib"
-projects[multiselect][version] = 1.12
+projects[multiselect][version] = 1.13
 
 projects[crumbs][subdir]  = "contrib"
-projects[crumbs][version] = 2.5
+projects[crumbs][version] = 2.6
 
 projects[variable][subdir]  = "contrib"
 projects[variable][version] = 2.5
@@ -229,7 +283,7 @@ projects[wysiwyg][subdir]  = "contrib"
 projects[wysiwyg][version] = 2.4
 
 projects[wysiwyg_filter][subdir]  = "contrib"
-projects[wysiwyg_filter][version] = 1.6-rc3
+projects[wysiwyg_filter][version] = 1.6-rc9
 
 projects[imce][subdir]  = "contrib"
 projects[imce][version] = 1.11
@@ -238,7 +292,7 @@ projects[imce_wysiwyg][subdir]  = "contrib"
 projects[imce_wysiwyg][version] = 1.0
 
 projects[field_group][subdir]  = "contrib"
-projects[field_group][version] = 1.5
+projects[field_group][version] = 1.6
 
 projects[menu_attributes][subdir]  = "contrib"
 projects[menu_attributes][version] = 1.0
@@ -280,18 +334,18 @@ projects[content_access][subdir]  = "contrib"
 projects[content_access][version] = 1.2-beta2
 
 projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = 3.4
+projects[better_exposed_filters][version] = 3.5
 
 projects[pdf][subdir]  = "contrib"
-projects[pdf][version] = 1.8
+projects[pdf][version] = 1.9
 
 projects[wysiwyg_template][subdir]  = "contrib"
 projects[wysiwyg_template][version] = 2.12
 
 projects[homebox][subdir]  = "contrib"
-projects[homebox][version] = 2.0-rc3
-projects[homebox][patch][2771029] = "http://drupal.org/files/issues/2771029-revert-array-syntax-to-d7-compatible.patch"
-projects[homebox][patch][2790005] = "http://drupal.org/files/issues/2790005-homebox-title-8.patch"
+projects[homebox][version] = 2.0
+;projects[homebox][patch][2771029] = "http://drupal.org/files/issues/2771029-revert-array-syntax-to-d7-compatible.patch"
+;projects[homebox][patch][2790005] = "http://drupal.org/files/issues/2790005-homebox-title-8.patch"
 
 ; Third-patry libraries ========================================================
 
