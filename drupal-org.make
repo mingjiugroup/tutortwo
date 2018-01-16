@@ -115,8 +115,14 @@ projects[og_quiz][version]            = 1.5
 
 ; Opigno themes ================================================================
 
-projects[platon][type]               = theme
-projects[platon][version]            = 3.18
+;projects[platon][type]               = theme
+;projects[platon][version]            = 3.18
+
+projects[platon][type] = theme
+projects[platon][subdir]  = "opigno"
+projects[platon][download][type]     = git
+projects[platon][download][branch]   = 7.x-3.x
+projects[platon][download][revision] = 88881d51c28b891659816fa7b2b32e27189bf076
 
 ; Third-party modules that need to be patched ==================================
 
