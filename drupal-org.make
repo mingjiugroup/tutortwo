@@ -4,15 +4,9 @@ core = 7.56
 
 ; Opigno modules ===============================================================
 
-;projects[opigno][type]               = module
-;projects[opigno][subdir]             = "opigno"
-;projects[opigno][version]            = 1.18
-
-projects[opigno][type] = module
-projects[opigno][subdir]  = "opigno"
-projects[opigno][download][type]     = git
-projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = 0ce363f3813e5a507e91b8ca8c0c63c72e9b14b9
+projects[opigno][type]               = module
+projects[opigno][subdir]             = "opigno"
+projects[opigno][version]            = 1.19
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -26,15 +20,9 @@ projects[opigno_forum_app][type]               = module
 projects[opigno_forum_app][subdir]             = "opigno"
 projects[opigno_forum_app][version]            = 1.1
 
-;projects[opigno_messaging_app][type]               = module
-;projects[opigno_messaging_app][subdir]             = "opigno"
-;projects[opigno_messaging_app][version]            = 1.0
-
-projects[opigno_messaging_app][type] = module
-projects[opigno_messaging_app][subdir]  = "opigno"
-projects[opigno_messaging_app][download][type]     = git
-projects[opigno_messaging_app][download][branch]   = 7.x-1.x
-projects[opigno_messaging_app][download][revision] = bd6e5ade20fdded48b4a60cc3d6ff952dd09427e
+projects[opigno_messaging_app][type]               = module
+projects[opigno_messaging_app][subdir]             = "opigno"
+projects[opigno_messaging_app][version]            = 1.1
 
 projects[opigno_notifications_app][type]               = module
 projects[opigno_notifications_app][subdir]             = "opigno"
@@ -52,15 +40,9 @@ projects[opigno_class_app][type]               = module
 projects[opigno_class_app][subdir]             = "opigno"
 projects[opigno_class_app][version]            = 1.6
 
-;projects[opigno_quiz_app][type]               = module
-;projects[opigno_quiz_app][subdir]             = "opigno"
-;projects[opigno_quiz_app][version]            = 1.16
-
-projects[opigno_quiz_app][type] = module
-projects[opigno_quiz_app][subdir]  = "opigno"
-projects[opigno_quiz_app][download][type]     = git
-projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 0ff81c09eb245162117de41c0b510436f07fe225
+projects[opigno_quiz_app][type]               = module
+projects[opigno_quiz_app][subdir]             = "opigno"
+projects[opigno_quiz_app][version]            = 1.17
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
@@ -78,56 +60,26 @@ projects[opigno_statistics_app][type]               = module
 projects[opigno_statistics_app][subdir]             = "opigno"
 projects[opigno_statistics_app][version]            = 1.4
 
-;projects[opigno_moxtra_app][type]               = module
-;projects[opigno_moxtra_app][subdir]             = "opigno"
-;projects[opigno_moxtra_app][version]            = 1.3
+projects[opigno_moxtra_app][type]               = module
+projects[opigno_moxtra_app][subdir]             = "opigno"
+projects[opigno_moxtra_app][version]            = 1.4
 
-projects[opigno_moxtra_app][type] = module
-projects[opigno_moxtra_app][subdir]  = "opigno"
-projects[opigno_moxtra_app][download][type]     = git
-projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
-projects[opigno_moxtra_app][download][revision] = 2a5d1ed2fe85e49d79602cc910047ec61d944f89
+projects[opigno_tincan_api][type]     = module
+projects[opigno_tincan_api][subdir]   = "opigno"
+projects[opigno_tincan_api][version]  = 1.3
 
-;projects[opigno_tincan_api][type]     = module
-;projects[opigno_tincan_api][subdir]   = "opigno"
-;projects[opigno_tincan_api][version]  = 1.2
-
-projects[opigno_tincan_api][type] = module
-projects[opigno_tincan_api][subdir]  = "opigno"
-projects[opigno_tincan_api][download][type]     = git
-projects[opigno_tincan_api][download][branch]   = 7.x-1.x
-projects[opigno_tincan_api][download][revision] = 3449e69b86aac59732ea11eb04fb1bf4be586c8d
-
-;projects[opigno_tincan_question_type][type]     = module
-;projects[opigno_tincan_question_type][subdir]   = "opigno"
-;projects[opigno_tincan_question_type][version]  = 1.1
-
-projects[opigno_tincan_question_type][type] = module
-projects[opigno_tincan_question_type][subdir]  = "opigno"
-projects[opigno_tincan_question_type][download][type]     = git
-projects[opigno_tincan_question_type][download][branch]   = 7.x-1.x
-projects[opigno_tincan_question_type][download][revision] = e0f085af57ab980cb21bc69788aff1205f182e90
-
-
-;projects[og_quiz][type]               = module
-;projects[og_quiz][subdir]             = "contrib"
-;projects[og_quiz][version]            = 1.5
+projects[opigno_tincan_question_type][type]     = module
+projects[opigno_tincan_question_type][subdir]   = "opigno"
+projects[opigno_tincan_question_type][version]  = 1.2
 
 projects[og_quiz][type]               = module
 projects[og_quiz][subdir]             = "contrib"
-projects[og_quiz][download][type]     = git
-projects[og_quiz][download][branch]   = 7.x-1.x
-projects[og_quiz][download][revision] = 226384726c1cb33193d49915583f83179796e609
+projects[og_quiz][version]            = 1.5
 
 ; Opigno themes ================================================================
 
-;projects[platon][type]               = theme
-;projects[platon][version]            = 3.18
-
-projects[platon][type] = theme
-projects[platon][download][type]     = git
-projects[platon][download][branch]   = 7.x-3.x
-projects[platon][download][revision] = ea8128a3b64699422df737a1bfe9d3ffbf0c23dc
+projects[platon][type]               = theme
+projects[platon][version]            = 3.19
 
 ; Third-party modules that need to be patched ==================================
 
@@ -338,8 +290,6 @@ projects[wysiwyg_template][version] = 2.12
 
 projects[homebox][subdir]  = "contrib"
 projects[homebox][version] = 2.0
-;projects[homebox][patch][2771029] = "http://drupal.org/files/issues/2771029-revert-array-syntax-to-d7-compatible.patch"
-;projects[homebox][patch][2790005] = "http://drupal.org/files/issues/2790005-homebox-title-8.patch"
 
 ; Third-patry libraries ========================================================
 
