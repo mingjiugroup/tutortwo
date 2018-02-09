@@ -12,7 +12,7 @@ projects[opigno][type] = module
 projects[opigno][subdir]  = "opigno"
 projects[opigno][download][type]     = git
 projects[opigno][download][branch]   = 7.x-1.x
-projects[opigno][download][revision] = 3ffe6ebc63aa1d2a24d0dedf547923f7aa5a07fd
+projects[opigno][download][revision] = 0ce363f3813e5a507e91b8ca8c0c63c72e9b14b9
 
 projects[opigno_calendar_app][type]    = module
 projects[opigno_calendar_app][subdir]  = "opigno"
@@ -60,7 +60,7 @@ projects[opigno_quiz_app][type] = module
 projects[opigno_quiz_app][subdir]  = "opigno"
 projects[opigno_quiz_app][download][type]     = git
 projects[opigno_quiz_app][download][branch]   = 7.x-1.x
-projects[opigno_quiz_app][download][revision] = 39f3cb5ac8ac4eb24c1afade949897ef9048eef2
+projects[opigno_quiz_app][download][revision] = 0ff81c09eb245162117de41c0b510436f07fe225
 
 projects[opigno_wt_app][type]               = module
 projects[opigno_wt_app][subdir]             = "opigno"
@@ -86,7 +86,7 @@ projects[opigno_moxtra_app][type] = module
 projects[opigno_moxtra_app][subdir]  = "opigno"
 projects[opigno_moxtra_app][download][type]     = git
 projects[opigno_moxtra_app][download][branch]   = 7.x-1.x
-projects[opigno_moxtra_app][download][revision] = 6ab840f786a2de7c030e8b450b7f9cc8e12b976d
+projects[opigno_moxtra_app][download][revision] = 2a5d1ed2fe85e49d79602cc910047ec61d944f89
 
 ;projects[opigno_tincan_api][type]     = module
 ;projects[opigno_tincan_api][subdir]   = "opigno"
@@ -96,7 +96,7 @@ projects[opigno_tincan_api][type] = module
 projects[opigno_tincan_api][subdir]  = "opigno"
 projects[opigno_tincan_api][download][type]     = git
 projects[opigno_tincan_api][download][branch]   = 7.x-1.x
-projects[opigno_tincan_api][download][revision] = 36a6d842c26b6931f9c387c6f4034f780e767070
+projects[opigno_tincan_api][download][revision] = 3449e69b86aac59732ea11eb04fb1bf4be586c8d
 
 ;projects[opigno_tincan_question_type][type]     = module
 ;projects[opigno_tincan_question_type][subdir]   = "opigno"
@@ -109,9 +109,15 @@ projects[opigno_tincan_question_type][download][branch]   = 7.x-1.x
 projects[opigno_tincan_question_type][download][revision] = e0f085af57ab980cb21bc69788aff1205f182e90
 
 
+;projects[og_quiz][type]               = module
+;projects[og_quiz][subdir]             = "contrib"
+;projects[og_quiz][version]            = 1.5
+
 projects[og_quiz][type]               = module
 projects[og_quiz][subdir]             = "contrib"
-projects[og_quiz][version]            = 1.5
+projects[og_quiz][download][type]     = git
+projects[og_quiz][download][branch]   = 7.x-1.x
+projects[og_quiz][download][revision] = 226384726c1cb33193d49915583f83179796e609
 
 ; Opigno themes ================================================================
 
@@ -121,30 +127,13 @@ projects[og_quiz][version]            = 1.5
 projects[platon][type] = theme
 projects[platon][download][type]     = git
 projects[platon][download][branch]   = 7.x-3.x
-projects[platon][download][revision] = 88881d51c28b891659816fa7b2b32e27189bf076
+projects[platon][download][revision] = ea8128a3b64699422df737a1bfe9d3ffbf0c23dc
 
 ; Third-party modules that need to be patched ==================================
 
 ; Quiz
-;projects[quiz][version]        = 4.0-rc8
-;projects[quiz][subdir]         = "contrib"
-;projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
-;projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
-;projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
-;projects[quiz][patch][2212789] = "http://drupal.org/files/issues/quiz-fixed_settings_merge-2212789-13.patch"
-;projects[quiz][patch][2360523] = "http://drupal.org/files/issues/quiz-long_answer_max_score0-2360523-4.patch"
-;projects[quiz][patch][2384955] = "http://drupal.org/files/issues/quiz_feedback-after-question_2384955.patch"
-;projects[quiz][patch][2394759] = "http://drupal.org/files/issues/quiz_laq-0score_2394759.patch"
-;projects[quiz][patch][2394843] = "http://drupal.org/files/issues/quiz_poll-conflict_2394843.patch"
-;projects[quiz][patch][2401779] = "http://drupal.org/files/issues/quiz-browser_per_quiz_type-2401779-2.patch"
-;projects[quiz][patch][2582987] = "http://drupal.org/files/issues/quiz_ddlines_backgroundimage-2582987-1.patch"
-;projects[quiz][patch][2895276] = "http://drupal.org/files/issues/quiz_ajax_questions_browser-2895276-2.patch"
-
-projects[quiz][type]               = module
-projects[quiz][subdir]             = "contrib"
-projects[quiz][download][type]     = git
-projects[quiz][download][branch]   = "7.x-4.x"
-projects[quiz][download][revision] = 6f680cc42100bf60aff3e1ccebf50da17aa60948
+projects[quiz][version]        = 4.0-rc9
+projects[quiz][subdir]         = "contrib"
 projects[quiz][patch][937430]  = "http://drupal.org/files/add_plural_quiz_name-937430-8.patch"
 projects[quiz][patch][2101063] = "http://drupal.org/files/issues/quiz_modify-quiz-to-lesson-in-ui-strings-2101063_4.patch"
 projects[quiz][patch][2185205] = "http://drupal.org/files/issues/quiz-questiontostep-2185205-1.patch"
@@ -234,13 +223,13 @@ projects[calendar][subdir]  = "contrib"
 projects[calendar][version] = 3.5
 
 projects[h5p][subdir] = "contrib"
-projects[h5p][version] = 1.33
+projects[h5p][version] = 1.34
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = 1.12
+projects[ctools][version] = 1.13
 
 projects[views][subdir] = "contrib"
 projects[views][version] = 3.18
