@@ -154,7 +154,7 @@ projects[r4032login][patch][2362997] = "http://drupal.org/files/issues/r4032logi
 ; Third-party modules ==========================================================
 
 projects[login_history][subdir]  = "contrib"
-projects[login_history][version] = 1.0
+projects[login_history][version] = 1.1
 
 projects[quizfileupload][subdir]   = "contrib"
 projects[quizfileupload][version]  = 4.1
