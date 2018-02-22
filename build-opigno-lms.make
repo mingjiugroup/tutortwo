@@ -9,5 +9,3 @@ core = 7.57
 
 ; For building a precise release.
 projects[opigno_lms][version] = 1.29
-
-
