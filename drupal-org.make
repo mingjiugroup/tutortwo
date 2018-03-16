@@ -102,6 +102,7 @@ projects[quiz][patch][2895276] = "http://drupal.org/files/issues/quiz_ajax_quest
 projects[og][version]        = 2.9
 projects[og][subdir]         = "contrib"
 projects[og][patch][2330777] = "http://drupal.org/files/issues/og_2330777.patch"
+projects[og][patch][2052067] = "http://drupal.org/files/issues/2018-03-16/og-delete-action-no-behavior_2052067_2.patch"
 
 ; OG Create Permissions
 projects[og_create_perms][version]        = 1.0
