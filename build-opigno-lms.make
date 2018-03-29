@@ -1,5 +1,5 @@
 api = 2
-core = 7.57
+core = 7.58
 
 ;projects[opigno_lms][type]               = profile
 ;projects[opigno_lms][download][type]     = git
