@@ -134,10 +134,18 @@ projects[token_filter][subdir] = contrib
 projects[view_mode_selector][type] = module
 projects[view_mode_selector][version] = 1.x-dev
 projects[view_mode_selector][subdir] = contrib
+projects[view_mode_selector][download][type] = git
+projects[view_mode_selector][download][branch] = 8.x-1.x
+projects[view_mode_selector][download][url] = "https://git.drupal.org/project/view_mode_selector.git"
+projects[view_mode_selector][download][revision] = 11c9ad2148d5b9c3bd552883da54b401736d0b31
 
 projects[views_role_based_global_text][type] = module
 projects[views_role_based_global_text][version] = 1.x-dev
 projects[views_role_based_global_text][subdir] = contrib
+projects[views_role_based_global_text][download][type] = git
+projects[views_role_based_global_text][download][branch] = 8.x-1.x
+projects[views_role_based_global_text][download][url] = "https://git.drupal.org/project/views_role_based_global_text.git"
+projects[views_role_based_global_text][download][revision] = 550f8e076fa3c6458a5fe5640f765cf669fd4e0d
 
 projects[views_templates][type] = module
 projects[views_templates][version] = 1.0-alpha1
@@ -146,6 +154,11 @@ projects[views_templates][subdir] = contrib
 projects[calendar][type] = module
 projects[calendar][version] = 1.x-dev
 projects[calendar][subdir] = contrib
+projects[calendar][download][type] = git
+projects[calendar][download][branch] = 8.x-1.x
+projects[calendar][download][url] = "https://git.drupal.org/project/calendar.git"
+projects[calendar][download][revision] = 73e2979f3ed951b1fb3ad942e2d89d673aa52e1d
+
 projects[calendar][patch][] = "https://www.drupal.org/files/issues/2018-05-09/2604546-33.patch"
 projects[calendar][patch][] = "https://www.drupal.org/files/issues/2756445-month-names-not-showing-10.patch"
 projects[calendar][patch][] = "https://www.drupal.org/files/issues/2018-04-06/calendar-date_range-2699477-71.patch"
