@@ -159,9 +159,9 @@ projects[calendar][download][branch] = 8.x-1.x
 projects[calendar][download][url] = "https://git.drupal.org/project/calendar.git"
 projects[calendar][download][revision] = 73e2979f3ed951b1fb3ad942e2d89d673aa52e1d
 
-projects[calendar][patch][] = "https://www.drupal.org/files/issues/2018-05-09/2604546-33.patch"
 projects[calendar][patch][] = "https://www.drupal.org/files/issues/2756445-month-names-not-showing-10.patch"
 projects[calendar][patch][] = "https://www.drupal.org/files/issues/2018-04-06/calendar-date_range-2699477-71.patch"
+projects[calendar][patch][] = "https://www.drupal.org/files/issues/2018-05-09/2604546-33.patch"
 projects[calendar][patch][] = "https://www.drupal.org/files/issues/fix_menu_tabs_in-2630234-15.patch"
 projects[calendar][patch][] = "https://www.drupal.org/files/issues/tab_navigation_not_working_after_using_pager-2867991-5.patch"
 projects[calendar][patch][] = "https://www.drupal.org/files/issues/week-week-day-display-issues-2901594-15.patch"
