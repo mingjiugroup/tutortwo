@@ -64,7 +64,7 @@ projects[opigno_messaging][download][revision] = 12b2f07d971116565c1aa964df1b3d2
 projects[opigno_messaging][download][branch] = 8.x-1.x
 
 projects[opigno_module][type] = module
-projects[opigno_module][[subdir] = "opigno"
+projects[opigno_module][subdir] = "opigno"
 projects[opigno_module][download][type] = git
 projects[opigno_module][download][revision] = b714950ff8241b57920b683d7204831139a6f0d8
 projects[opigno_module][download][branch] = 8.x-1.x
