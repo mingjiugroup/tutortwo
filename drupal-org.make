@@ -6,7 +6,7 @@ core = 8.x
 projects[opigno_calendar][type] = module
 projects[opigno_calendar][subdir] = "opigno"
 projects[opigno_calendar][download][type] = git
-projects[opigno_calendar][download][revision] = 575f5cd59513d71c4134368a8b55f91c0d9aa1b8
+projects[opigno_calendar][download][revision] = c46f94e951099af22d96afe3c14833685fb0434f
 projects[opigno_calendar][download][branch] = 8.x-1.x
 
 projects[opigno_calendar_event][type] = module
@@ -18,7 +18,7 @@ projects[opigno_calendar_event][download][branch] = 8.x-1.x
 projects[opigno_catalog][type] = module
 projects[opigno_catalog][subdir] = "opigno"
 projects[opigno_catalog][download][type] = git
-projects[opigno_catalog][download][revision] = e908bcd537d0d91ef95d88d05c911115c28db1e8
+projects[opigno_catalog][download][revision] = 38772515591290c7fc738b7c59126677131c0ba7
 projects[opigno_catalog][download][branch] = 8.x-1.x
 
 projects[opigno_certificate][type] = module
@@ -30,7 +30,7 @@ projects[opigno_certificate][download][branch] = 8.x-1.x
 projects[opigno_class][type] = module
 projects[opigno_class][subdir] = "opigno"
 projects[opigno_class][download][type] = git
-projects[opigno_class][download][revision] = 22509aaf0a0f91c216b35a7994654bb2d50eb9f1
+projects[opigno_class][download][revision] = cc80df5c18a23b441190ae228c87a27ac57fa308
 projects[opigno_class][download][branch] = 8.x-1.x
 
 projects[opigno_course][type] = module
@@ -42,7 +42,7 @@ projects[opigno_course][download][branch] = 8.x-1.x
 projects[opigno_dashboard][type] = module
 projects[opigno_dashboard][subdir] = "opigno"
 projects[opigno_dashboard][download][type] = git
-projects[opigno_dashboard][download][revision] = 778dd7bd9c5ee5e06e26a574e2c624980a5eba6b
+projects[opigno_dashboard][download][revision] = 1f8fcf91ece7deb54d5f4659cbe26af53986baba
 projects[opigno_dashboard][download][branch] = 8.x-1.x
 
 projects[opigno_forum][type] = module
@@ -54,13 +54,13 @@ projects[opigno_forum][download][branch] = 8.x-1.x
 projects[opigno_group_manager][type] = module
 projects[opigno_group_manager][subdir] = "opigno"
 projects[opigno_group_manager][download][type] = git
-projects[opigno_group_manager][download][revision] = b6fa61fdebf318737c237692e5d609904f0b8aba
+projects[opigno_group_manager][download][revision] = 332e55317b0102926df99294880a0c2f82f0ed5e
 projects[opigno_group_manager][download][branch] = 8.x-1.x
 
 projects[opigno_learning_path][type] = module
 projects[opigno_learning_path][subdir] = "opigno"
 projects[opigno_learning_path][download][type] = git
-projects[opigno_learning_path][download][revision] = c394c5869db93fede23474aa7d4b5baf8108607c
+projects[opigno_learning_path][download][revision] = 3b952d3b5ea158228ad35037533135822c13216e
 projects[opigno_learning_path][download][branch] = 8.x-1.x
 
 projects[opigno_messaging][type] = module
@@ -159,33 +159,33 @@ projects[calendar][download][branch] = 8.x-1.x
 projects[calendar][download][url] = "https://git.drupal.org/project/calendar.git"
 projects[calendar][download][revision] = 73e2979f3ed951b1fb3ad942e2d89d673aa52e1d
 
-projects[calendar][patch][] = "https://www.drupal.org/files/issues/2756445-month-names-not-showing-10.patch"
-projects[calendar][patch][] = "https://www.drupal.org/files/issues/2018-04-06/calendar-date_range-2699477-71.patch"
-projects[calendar][patch][] = "https://www.drupal.org/files/issues/2018-05-09/2604546-33.patch"
-projects[calendar][patch][] = "https://www.drupal.org/files/issues/fix_menu_tabs_in-2630234-15.patch"
-projects[calendar][patch][] = "https://www.drupal.org/files/issues/tab_navigation_not_working_after_using_pager-2867991-5.patch"
-projects[calendar][patch][] = "https://www.drupal.org/files/issues/week-week-day-display-issues-2901594-15.patch"
-projects[calendar][patch][] = "https://www.drupal.org/files/issues/2018-04-23/2955351-5-base-filter.patch"
+projects[calendar][patch][2756445] = "https://www.drupal.org/files/issues/2756445-month-names-not-showing-10.patch"
+projects[calendar][patch][2699477] = "https://www.drupal.org/files/issues/2018-04-06/calendar-date_range-2699477-71.patch"
+projects[calendar][patch][2604546] = "https://www.drupal.org/files/issues/2018-05-09/2604546-33.patch"
+projects[calendar][patch][2630234] = "https://www.drupal.org/files/issues/fix_menu_tabs_in-2630234-15.patch"
+projects[calendar][patch][2867991] = "https://www.drupal.org/files/issues/tab_navigation_not_working_after_using_pager-2867991-5.patch"
+projects[calendar][patch][2901594] = "https://www.drupal.org/files/issues/week-week-day-display-issues-2901594-15.patch"
+projects[calendar][patch][2955351] = "https://www.drupal.org/files/issues/2018-04-23/2955351-5-base-filter.patch"
 
 projects[entity_print][type] = module
 projects[entity_print][version] = 2.0
 projects[entity_print][subdir] = contrib
-projects[entity_print][patch][] = "https://www.drupal.org/files/issues/2018-05-03/entity_print-dompdf-2969184.patch"
+projects[entity_print][patch][2969184] = "https://www.drupal.org/files/issues/2018-05-03/entity_print-dompdf-2969184.patch"
 
 projects[group][type] = module
 projects[group][version] = 1.0-rc2
 projects[group][subdir] = contrib
-projects[group][patch][] = "https://www.drupal.org/files/issues/2018-04-20/2736233-156.patch"
-projects[group][patch][] = "https://www.drupal.org/files/issues/2018-05-15/group-2973005-2.patch"
+projects[group][patch][2736233] = "https://www.drupal.org/files/issues/2018-04-20/2736233-156.patch"
+projects[group][patch][2973005] = "https://www.drupal.org/files/issues/2018-05-15/group-2973005-2.patch"
 
 projects[popup_field_group][type] = module
 projects[popup_field_group][version] = 1.2
 projects[popup_field_group][subdir] = contrib
-projects[popup_field_group][patch][] = "https://www.drupal.org/files/issues/2018-04-24/popup_field_group-form_submit-2965624-2.patch"
-projects[popup_field_group][patch][] = "https://www.drupal.org/files/issues/2018-05-07/popup_field_group-link_query-2971021-2.patch"
+projects[popup_field_group][patch][2965624] = "https://www.drupal.org/files/issues/2018-04-24/popup_field_group-form_submit-2965624-2.patch"
+projects[popup_field_group][patch][2971021] = "https://www.drupal.org/files/issues/2018-05-07/popup_field_group-link_query-2971021-2.patch"
 
 ; Themes ========================================
 projects[platon][type] = theme
 projects[platon][download][type] = git
-projects[platon][download][revision] = 4c4a6d479022b890ae15fb8e1a03d6e8c9ef489f
+projects[platon][download][revision] = 85e3a3838f1364b4093b4ab13a92754835d8fe0e
 projects[platon][download][branch] = 8.x-1.x
