@@ -64,7 +64,6 @@ dependencies:
   - opigno_certificate
   - opigno_class
   - opigno_course
-  - opigno_course_content_example
   - opigno_dashboard
   - opigno_file_upload
   - opigno_group_manager
