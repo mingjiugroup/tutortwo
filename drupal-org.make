@@ -6,19 +6,19 @@ core = 8.x
 projects[opigno_calendar][type] = module
 projects[opigno_calendar][subdir] = "opigno"
 projects[opigno_calendar][download][type] = git
-projects[opigno_calendar][download][revision] = c46f94e951099af22d96afe3c14833685fb0434f
+projects[opigno_calendar][download][revision] = 4e9bea3f7db3fb87b5110b23b302776ba644dea7
 projects[opigno_calendar][download][branch] = 8.x-1.x
 
 projects[opigno_calendar_event][type] = module
 projects[opigno_calendar_event][subdir] = "opigno"
 projects[opigno_calendar_event][download][type] = git
-projects[opigno_calendar_event][download][revision] = 80242a59ca8d1347f6ce05c96383a3491b909dc5
+projects[opigno_calendar_event][download][revision] = fbc896db2cee3a3cb0099a7131fdd284477edb97
 projects[opigno_calendar_event][download][branch] = 8.x-1.x
 
 projects[opigno_catalog][type] = module
 projects[opigno_catalog][subdir] = "opigno"
 projects[opigno_catalog][download][type] = git
-projects[opigno_catalog][download][revision] = 38772515591290c7fc738b7c59126677131c0ba7
+projects[opigno_catalog][download][revision] = 83d04100d48194003a2f1d065c83101f0c43fcd9
 projects[opigno_catalog][download][branch] = 8.x-1.x
 
 projects[opigno_certificate][type] = module
@@ -30,55 +30,49 @@ projects[opigno_certificate][download][branch] = 8.x-1.x
 projects[opigno_class][type] = module
 projects[opigno_class][subdir] = "opigno"
 projects[opigno_class][download][type] = git
-projects[opigno_class][download][revision] = cc80df5c18a23b441190ae228c87a27ac57fa308
+projects[opigno_class][download][revision] = 26c92e672f2f594f9a45300eaa7c3b3a1935172d
 projects[opigno_class][download][branch] = 8.x-1.x
 
 projects[opigno_course][type] = module
 projects[opigno_course][subdir] = "opigno"
 projects[opigno_course][download][type] = git
-projects[opigno_course][download][revision] = fca98010c0f7fee44b690408cb422c99aa9719bd
+projects[opigno_course][download][revision] = 1b2277b7a2e952ec878b01f3827c59c3078ef318
 projects[opigno_course][download][branch] = 8.x-1.x
 
 projects[opigno_dashboard][type] = module
 projects[opigno_dashboard][subdir] = "opigno"
 projects[opigno_dashboard][download][type] = git
-projects[opigno_dashboard][download][revision] = 1f8fcf91ece7deb54d5f4659cbe26af53986baba
+projects[opigno_dashboard][download][revision] = a63b794fcfa4fe8901db6c198a2a455b4f3ed026
 projects[opigno_dashboard][download][branch] = 8.x-1.x
-
-projects[opigno_forum][type] = module
-projects[opigno_forum][subdir] = "opigno"
-projects[opigno_forum][download][type] = git
-projects[opigno_forum][download][revision] = 60a09d0676a45fdd326ef9997548191efaa3950d
-projects[opigno_forum][download][branch] = 8.x-1.x
 
 projects[opigno_group_manager][type] = module
 projects[opigno_group_manager][subdir] = "opigno"
 projects[opigno_group_manager][download][type] = git
-projects[opigno_group_manager][download][revision] = 332e55317b0102926df99294880a0c2f82f0ed5e
+projects[opigno_group_manager][download][revision] = 0ba45a70a1ca159cca66a0904b9b89a8e8153627
 projects[opigno_group_manager][download][branch] = 8.x-1.x
 
 projects[opigno_learning_path][type] = module
 projects[opigno_learning_path][subdir] = "opigno"
 projects[opigno_learning_path][download][type] = git
-projects[opigno_learning_path][download][revision] = 3b952d3b5ea158228ad35037533135822c13216e
+projects[opigno_learning_path][download][revision] = 84774014b2319459134ee52672a6a3d1d1cef66f
 projects[opigno_learning_path][download][branch] = 8.x-1.x
 
 projects[opigno_messaging][type] = module
 projects[opigno_messaging][subdir] = "opigno"
 projects[opigno_messaging][download][type] = git
-projects[opigno_messaging][download][revision] = a7b316988884d06ee1c3cd0591eb162dc7d7dc70
+projects[opigno_messaging][download][revision] = 12b2f07d971116565c1aa964df1b3d2fb2100fd9
 projects[opigno_messaging][download][branch] = 8.x-1.x
 
 projects[opigno_module][type] = module
 projects[opigno_module][[subdir] = "opigno"
 projects[opigno_module][download][type] = git
-projects[opigno_module][download][revision] = fbe55719d41d84ad58710e5383c548b5efbe1a3e
+projects[opigno_module][download][revision] = b714950ff8241b57920b683d7204831139a6f0d8
 projects[opigno_module][download][branch] = 8.x-1.x
 
 projects[opigno_notification][type] = module
 projects[opigno_notification][subdir] = "opigno"
 projects[opigno_notification][download][type] = git
-projects[opigno_notification][download][revision] = ec3366af689576c75bcfc9cca9c9248cf249c43f
+projects[opigno_notification][download][revision] = 21dd33764f717d25eeff7f90849a1f35dcf6e3b3
 projects[opigno_notification][download][branch] = 8.x-1.x
 
 projects[opigno_scorm][type] = module
