@@ -48,7 +48,7 @@ projects[opigno_dashboard][download][branch] = 8.x-1.x
 projects[opigno_group_manager][type] = module
 projects[opigno_group_manager][subdir] = "opigno"
 projects[opigno_group_manager][download][type] = git
-projects[opigno_group_manager][download][revision] = 08f8d525a14ccf5346ce3a4d3a670d5944fba10a
+projects[opigno_group_manager][download][revision] = 35246b494c26b0f021ce90cfbec64374988395fd
 projects[opigno_group_manager][download][branch] = 8.x-1.x
 
 projects[opigno_learning_path][type] = module
@@ -188,5 +188,5 @@ projects[popup_field_group][patch][2971021] = "https://www.drupal.org/files/issu
 ; Themes ========================================
 projects[platon][type] = theme
 projects[platon][download][type] = git
-projects[platon][download][revision] = 77cdc29408c6f26e18285deb25eb462d32138331
+projects[platon][download][revision] = d0ce8c57ac9a1a93a43c0e63a52920c4cabdd61f
 projects[platon][download][branch] = 8.x-1.x

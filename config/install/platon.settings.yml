@@ -11,5 +11,5 @@ platon_home_page_settings:
 platon_menu_source: main
 platon_menu_show_for_anonymous: 1
 logo:
-  path: themes/platon/logo.png
+  path: profiles/opigno_lms/themes/platon/logo.png
   use_default: 0
