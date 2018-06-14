@@ -140,6 +140,7 @@ projects[views_role_based_global_text][download][type] = git
 projects[views_role_based_global_text][download][branch] = 8.x-1.x
 projects[views_role_based_global_text][download][url] = "https://git.drupal.org/project/views_role_based_global_text.git"
 projects[views_role_based_global_text][download][revision] = 550f8e076fa3c6458a5fe5640f765cf669fd4e0d
+projects[views_role_based_global_text][patch][2969716] = "https://www.drupal.org/files/issues/2018-05-04/2969716-Undefined-index-default.patch"
 
 projects[views_templates][type] = module
 projects[views_templates][version] = 1.0-alpha1
@@ -165,6 +166,12 @@ projects[entity_print][type] = module
 projects[entity_print][version] = 2.0
 projects[entity_print][subdir] = contrib
 projects[entity_print][patch][2969184] = "https://www.drupal.org/files/issues/2018-05-03/entity_print-dompdf-2969184.patch"
+
+libraries[dompdf][download][type] = git
+libraries[dompdf][download][url] = https://github.com/dompdf/dompdf.git
+libraries[dompdf][download][download][branch] = master
+libraries[dompdf][download][download][download][revision] = 2e643732cdb61fb09f867a15f2ae4e224503d1b0
+libraries[dompdf][destination] = libraries
 
 projects[group][type] = module
 projects[group][version] = 1.0-rc2
