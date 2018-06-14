@@ -6,13 +6,13 @@ core = 8.x
 projects[opigno_calendar][type] = module
 projects[opigno_calendar][subdir] = "opigno"
 projects[opigno_calendar][download][type] = git
-projects[opigno_calendar][download][revision] = 4e9bea3f7db3fb87b5110b23b302776ba644dea7
+projects[opigno_calendar][download][revision] = 0c45f7d11b2019609b995f523f920ed5451f8303
 projects[opigno_calendar][download][branch] = 8.x-1.x
 
 projects[opigno_calendar_event][type] = module
 projects[opigno_calendar_event][subdir] = "opigno"
 projects[opigno_calendar_event][download][type] = git
-projects[opigno_calendar_event][download][revision] = fbc896db2cee3a3cb0099a7131fdd284477edb97
+projects[opigno_calendar_event][download][revision] = cdd72b13ccf9062fb58c8e57b50914f946e1e1ad
 projects[opigno_calendar_event][download][branch] = 8.x-1.x
 
 projects[opigno_catalog][type] = module
@@ -24,7 +24,7 @@ projects[opigno_catalog][download][branch] = 8.x-1.x
 projects[opigno_certificate][type] = module
 projects[opigno_certificate][subdir] = "opigno"
 projects[opigno_certificate][download][type] = git
-projects[opigno_certificate][download][revision] = 3156aa1c9644749cd44076e913d425ff1b5553b5
+projects[opigno_certificate][download][revision] = 8bbdcb0f6d41ca0056cdd897fc30c409381c3fcf
 projects[opigno_certificate][download][branch] = 8.x-1.x
 
 projects[opigno_class][type] = module
@@ -42,19 +42,19 @@ projects[opigno_course][download][branch] = 8.x-1.x
 projects[opigno_dashboard][type] = module
 projects[opigno_dashboard][subdir] = "opigno"
 projects[opigno_dashboard][download][type] = git
-projects[opigno_dashboard][download][revision] = a63b794fcfa4fe8901db6c198a2a455b4f3ed026
+projects[opigno_dashboard][download][revision] = 505f980948b0667593e9029a7f9b93b1e7329f18
 projects[opigno_dashboard][download][branch] = 8.x-1.x
 
 projects[opigno_group_manager][type] = module
 projects[opigno_group_manager][subdir] = "opigno"
 projects[opigno_group_manager][download][type] = git
-projects[opigno_group_manager][download][revision] = 0ba45a70a1ca159cca66a0904b9b89a8e8153627
+projects[opigno_group_manager][download][revision] = 08f8d525a14ccf5346ce3a4d3a670d5944fba10a
 projects[opigno_group_manager][download][branch] = 8.x-1.x
 
 projects[opigno_learning_path][type] = module
 projects[opigno_learning_path][subdir] = "opigno"
 projects[opigno_learning_path][download][type] = git
-projects[opigno_learning_path][download][revision] = 84774014b2319459134ee52672a6a3d1d1cef66f
+projects[opigno_learning_path][download][revision] = c247b535f3199428023e0134def8dc4553a205cd
 projects[opigno_learning_path][download][branch] = 8.x-1.x
 
 projects[opigno_messaging][type] = module
@@ -66,7 +66,7 @@ projects[opigno_messaging][download][branch] = 8.x-1.x
 projects[opigno_module][type] = module
 projects[opigno_module][subdir] = "opigno"
 projects[opigno_module][download][type] = git
-projects[opigno_module][download][revision] = b714950ff8241b57920b683d7204831139a6f0d8
+projects[opigno_module][download][revision] = 1bfa19daced942b953ead26448ac5fa35a64b158
 projects[opigno_module][download][branch] = 8.x-1.x
 
 projects[opigno_notification][type] = module
@@ -188,5 +188,5 @@ projects[popup_field_group][patch][2971021] = "https://www.drupal.org/files/issu
 ; Themes ========================================
 projects[platon][type] = theme
 projects[platon][download][type] = git
-projects[platon][download][revision] = 85e3a3838f1364b4093b4ab13a92754835d8fe0e
+projects[platon][download][revision] = 77cdc29408c6f26e18285deb25eb462d32138331
 projects[platon][download][branch] = 8.x-1.x
