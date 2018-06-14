@@ -1,7 +1,4 @@
 blocks:
-  'views_block:comments_recent-block_1':
-    available: '1'
-    mandatory: 0
   'views_block:latest_active_trainings-block':
     available: '1'
     mandatory: 0

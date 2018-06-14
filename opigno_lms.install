@@ -53,4 +53,14 @@ function opigno_lms_install() {
   if (!empty($image_info)) {
     $image = File::load($image_info->id());
   };
+
+  $dompdf_autoloader = 'libraries/dompdf/src/Autoloader.php';
+  if (file_exists($dompdf_autoloader)) {
+    // Load dompdf for the entity_print install.
+    require_once $dompdf_autoloader;
+    \Dompdf\Autoloader::register();
+
+    // Install entity_print.
+    \Drupal::service('module_installer')->install(['entity_print']);
+  }
 }
