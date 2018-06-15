@@ -139,11 +139,11 @@ projects[entity_print][version] = 2.0
 projects[entity_print][subdir] = contrib
 projects[entity_print][patch][2969184] = "https://www.drupal.org/files/issues/2018-05-03/entity_print-dompdf-2969184.patch"
 
-libraries[DOMPDF][download][type] = git
-libraries[DOMPDF][download][url] = https://github.com/dompdf/dompdf.git
-libraries[DOMPDF][download][download][branch] = master
-libraries[DOMPDF][download][download][download][revision] = 2e643732cdb61fb09f867a15f2ae4e224503d1b0
-libraries[DOMPDF][destination] = libraries
+libraries[dompdf][download][type] = git
+libraries[dompdf][download][url] = https://github.com/dompdf/dompdf.git
+libraries[dompdf][download][download][branch] = master
+libraries[dompdf][download][download][download][revision] = 2e643732cdb61fb09f867a15f2ae4e224503d1b0
+libraries[dompdf][destination] = libraries
 
 projects[group][type] = module
 projects[group][version] = 1.0-rc2
