@@ -47,12 +47,8 @@ function opigno_lms_install() {
   $user->save();
 
   // Copy user login page background image to public folder.
-  $hostUrl = \Drupal::request()->getSchemeAndHttpHost();
-  $image_url = $hostUrl . '/' . drupal_get_path("profile", "opigno_lms") . "/images/Opigno_Image_connexion_1600-829_2.jpg";
-  $image_info = system_retrieve_file($image_url, 'public://', TRUE);
-  if (!empty($image_info)) {
-    $image = File::load($image_info->id());
-  };
+  $image = file_get_contents(drupal_get_path("profile", "opigno_lms") . "/images/Opigno_Image_connexion_1600-829_2.jpg");
+  file_save_data($image, 'public://Opigno_Image_connexion_1600-829_2.jpg', TRUE);
 
   $dompdf_autoloaders = [
     'libraries/dompdf/src/Autoloader.php',
