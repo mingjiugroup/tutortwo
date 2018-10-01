@@ -9,5 +9,5 @@
  * Implements hook_preprocess_template().
  */
 function opigno_lms_preprocess_install_page(&$variables) {
-  $variables['site_version'] = '2.0 RC1';
+  $variables['site_version'] = '2.0 RC2';
 }

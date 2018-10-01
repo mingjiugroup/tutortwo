@@ -51,7 +51,7 @@ projects[opigno_certificate][version] = 1.0-rc1
 ;projects[opigno_certificate][type] = module
 ;projects[opigno_certificate][subdir] = "opigno"
 ;projects[opigno_certificate][version] = 1.x
-,projects[opigno_certificate][download][type] = git
+;projects[opigno_certificate][download][type] = git
 ;projects[opigno_certificate][download][branch] = 8.x-1.x
 ;projects[opigno_certificate][download][url] = "https://git.drupal.org/project/opigno_certificate.git"
 ;projects[opigno_certificate][download][revision] = 9dbab7eecf3824291bde46f10bd7e5bb07408fcf
@@ -219,9 +219,9 @@ projects[opigno_scorm][version] = 1.0-rc1
 
 ;projects[opigno_scorm][type] = module
 ;projects[opigno_scorm][subdir] = "opigno"
-,projects[opigno_scorm][version] = 1.x
+;projects[opigno_scorm][version] = 1.x
 ;projects[opigno_scorm][download][type] = git
-,projects[opigno_scorm][download][branch] = 8.x-1.x
+;projects[opigno_scorm][download][branch] = 8.x-1.x
 ;projects[opigno_scorm][download][url] = "https://git.drupal.org/project/opigno_scorm.git"
 ;projects[opigno_scorm][download][revision] = 396ba03beaed9ebb8bf730d21427a8e27a4417dc
 
