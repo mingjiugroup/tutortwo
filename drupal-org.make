@@ -427,10 +427,11 @@ projects[message_notify][version] = 1.0-beta1
 
 ; Libraries ========================================
 
+libraries[dompdf][type] = library
 libraries[dompdf][download][type] = git
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf.git
-libraries[dompdf][download][download][branch] = master
-libraries[dompdf][download][download][download][revision] = 2e643732cdb61fb09f867a15f2ae4e224503d1b0
+libraries[dompdf][download][branch] = master
+libraries[dompdf][download][revision] = 2e643732cdb61fb09f867a15f2ae4e224503d1b0
 
 libraries[dropzone][type] = library
 libraries[dropzone][download][type] = git
