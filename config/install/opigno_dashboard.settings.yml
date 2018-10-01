@@ -1,11 +1,20 @@
 blocks:
+  'views_block:comments_recent-block_1':
+    available: '1'
+    mandatory: 0
   'views_block:latest_active_trainings-block':
     available: '1'
     mandatory: 0
   'views_block:opigno_calendar-month_block':
     available: '1'
     mandatory: 0
+  'views_block:opigno_group_members-block_pending':
+    available: '1'
+    mandatory: 0
   'views_block:opigno_notifications-block_unread_dashboard':
+    available: '1'
+    mandatory: 0
+  'views_block:opigno_score_modules-dashboard_notavaluated_modules':
     available: '1'
     mandatory: 0
   'views_block:private_message-block_dashboard':
@@ -18,6 +27,12 @@ blocks:
     available: '1'
     mandatory: 0
   calendar_legend_block:
+    available: 0
+    mandatory: 0
+  devel_switch_user:
+    available: 0
+    mandatory: 0
+  devel_execute_php:
     available: 0
     mandatory: 0
   print_links:
@@ -38,10 +53,10 @@ blocks:
   lp_steps_block:
     available: 0
     mandatory: 0
-  private_message_inbox_block:
+  private_message_notification_block:
     available: 0
     mandatory: 0
-  private_message_notification_block:
+  private_message_inbox_block:
     available: 0
     mandatory: 0
   search_form_block:
@@ -50,19 +65,13 @@ blocks:
   shortcuts:
     available: 0
     mandatory: 0
-  system_branding_block:
-    available: 0
-    mandatory: 0
-  system_breadcrumb_block:
-    available: 0
-    mandatory: 0
-  system_main_block:
-    available: 0
-    mandatory: 0
   'system_menu_block:account':
     available: 0
     mandatory: 0
   'system_menu_block:admin':
+    available: 0
+    mandatory: 0
+  'system_menu_block:devel':
     available: 0
     mandatory: 0
   'system_menu_block:footer':
@@ -80,7 +89,22 @@ blocks:
   system_powered_by_block:
     available: 0
     mandatory: 0
+  system_breadcrumb_block:
+    available: 0
+    mandatory: 0
+  system_branding_block:
+    available: 0
+    mandatory: 0
+  system_main_block:
+    available: 0
+    mandatory: 0
   user_login_block:
+    available: 0
+    mandatory: 0
+  forum_active_block:
+    available: 0
+    mandatory: 0
+  forum_new_block:
     available: 0
     mandatory: 0
   'views_block:content_recent-block_1':
@@ -101,15 +125,15 @@ blocks:
   'views_exposed_filter_block:opigno_training_catalog-training_catalogue':
     available: 0
     mandatory: 0
-  broken:
-    available: 0
-    mandatory: 0
-  page_title_block:
+  local_tasks_block:
     available: 0
     mandatory: 0
   local_actions_block:
     available: 0
     mandatory: 0
-  local_tasks_block:
+  broken:
+    available: 0
+    mandatory: 0
+  page_title_block:
     available: 0
     mandatory: 0
