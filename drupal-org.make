@@ -158,7 +158,7 @@ projects[opigno_learning_path][version] = 1.x
 projects[opigno_learning_path][download][type] = git
 projects[opigno_learning_path][download][branch] = 8.x-1.x
 projects[opigno_learning_path][download][url] = "https://git.drupal.org/project/opigno_learning_path.git"
-projects[opigno_learning_path][download][revision] = 01c08ba60c9415239d2479f1ab61303c36220b8f
+projects[opigno_learning_path][download][revision] = 5641cdfb93c6a58b6682fc33ebdc848c4b95de25
 
 
 ;projects[opigno_messaging][type] = module
@@ -431,14 +431,12 @@ libraries[dompdf][download][type] = git
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf.git
 libraries[dompdf][download][download][branch] = master
 libraries[dompdf][download][download][download][revision] = 2e643732cdb61fb09f867a15f2ae4e224503d1b0
-libraries[dompdf][destination] = libraries
 
 libraries[dropzone][type] = library
 libraries[dropzone][download][type] = git
 libraries[dropzone][download][url] = https://github.com/enyo/dropzone.git
 libraries[dropzone][download][branch] = v5.5.0
 libraries[dropzone][download][revision] = 08b9e0a763b54a685404dea523a9c54242fbe1b9
-libraries[dropzone][destination] = libraries
 
 ; Themes ========================================
 

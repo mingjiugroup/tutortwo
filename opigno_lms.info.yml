@@ -2,7 +2,7 @@ name: Opigno LMS
 type: profile
 description: 'Install Opigno with commonly used features pre-configured.'
 core: 8.x
-version: 8.x-2.0-rc
+version: 8.x-1.0-rc1
 distribution:
   name: "Opigno LMS"
 dependencies:
@@ -82,7 +82,9 @@ dependencies:
   - opigno_tincan_activities
   - opigno_tincan_activity
   - opigno_tincan_api
+  - opigno_tincan_badges
   - opigno_tincan_courses
+  - opigno_tincan_ilt
   - opigno_tincan_learning_path
   - opigno_tincan_live_meeting
   - opigno_tincan_modules
@@ -92,13 +94,11 @@ dependencies:
   - path
   - popup_field_group
   - private_message
-  - profile
   - quickedit
   - rdf
   - search
   - search_api
   - shortcut
-  - state_machine
   - system
   - taxonomy
   - text
