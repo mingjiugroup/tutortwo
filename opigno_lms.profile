@@ -28,7 +28,6 @@ function opigno_lms_form_install_configure_form_alter(&$form, FormStateInterface
   $has_library = opigno_tincan_api_tincanphp_is_installed();
   if (!$has_library) {
     $messenger->addWarning(Markup::create("Please install the TinCanPHP library using Composer, with the command: <em>composer require rusticisoftware/tincan:@stable</em>"));
-    return;
   }
   else {
     // Check if the LRS settings are set.
@@ -42,8 +41,14 @@ function opigno_lms_form_install_configure_form_alter(&$form, FormStateInterface
         'Please configure the LRS connection in the @setting_page.',
         ['@setting_page' => Link::createFromRoute('settings page', 'opigno_tincan_api.settings_form')->toString()]
       ));
-      return;
     }
+  }
+
+  // Send message for install pdf.js library if it's not installed.
+  $pdf_js_library = file_exists('libraries/pdf.js/build/pdf.js') && file_exists('libraries/pdf.js/build/pdf.worker.js');
+  if (!$pdf_js_library) {
+    $message = t('pdf.js library is not installed. Please install it from <a href="@library">here</a> and place in <em>libraries/</em> folder', ['@library' => 'http://mozilla.github.io/pdf.js/getting_started/']);
+    $messenger->addWarning(Markup::create($message));
   }
 
 }
