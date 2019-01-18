@@ -1,6 +1,8 @@
 api = 2
 core = 8.x
 
+defaults[projects][subdir] = contrib
+
 ; Opigno modules =============================================
 
 projects[opigno_calendar][type] = module
@@ -293,9 +295,9 @@ projects[tft][version] = 1.1
 ;projects[tft][subdir] = "opigno"
 ;projects[tft][version] = 1.x
 ;projects[tft][download][type] = git
-,projects[tft][download][branch] = 8.x-1.x
+;projects[tft][download][branch] = 8.x-1.x
 ;projects[tft][download][url] = "https://git.drupal.org/project/tft.git"
-,projects[tft][download][revision] = c64300e6b5229837ace79621a8bb67a3da94a697
+;projects[tft][download][revision] = c64300e6b5229837ace79621a8bb67a3da94a697
 
 
 ; Contrib modules ============================================
