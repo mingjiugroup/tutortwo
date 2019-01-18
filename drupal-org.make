@@ -1,8 +1,6 @@
 api = 2
 core = 8.x
 
-defaults[projects][subdir] = contrib
-
 ; Opigno modules =============================================
 
 projects[opigno_calendar][type] = module
