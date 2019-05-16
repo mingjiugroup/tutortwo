@@ -110,7 +110,7 @@ projects[opigno_dashboard][version] = 1.1
 
 projects[opigno_forum][type] = module
 projects[opigno_forum][subdir] = "opigno"
-projects[opigno_forum][version] = 1.1
+projects[opigno_forum][version] = 1.2
 
 ;projects[opigno_forum][type] = module
 ;projects[opigno_forum][subdir] = "opigno"
@@ -149,7 +149,7 @@ projects[opigno_ilt][version] = 1.1
 
 projects[opigno_learning_path][type] = module
 projects[opigno_learning_path][subdir] = "opigno"
-projects[opigno_learning_path][version] = 1.3
+projects[opigno_learning_path][version] = 1.4
 
 ;projects[opigno_learning_path][type] = module
 ;projects[opigno_learning_path][subdir] = "opigno"
