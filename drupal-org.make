@@ -108,17 +108,17 @@ projects[opigno_dashboard][version] = 1.1
 ;projects[opigno_dashboard][download][url] = "https://git.drupal.org/project/opigno_dashboard.git"
 ;projects[opigno_dashboard][download][revision] = ccc4ec49c0f2bb8a353f35b4bd284244f86d7526
 
-;projects[opigno_forum][type] = module
-;projects[opigno_forum][subdir] = "opigno"
-;projects[opigno_forum][version] = 1.2
-
 projects[opigno_forum][type] = module
 projects[opigno_forum][subdir] = "opigno"
-projects[opigno_forum][version] = 1.x
-projects[opigno_forum][download][type] = git
-projects[opigno_forum][download][branch] = 8.x-1.x
-projects[opigno_forum][download][url] = "https://git.drupal.org/project/opigno_forum.git"
-projects[opigno_forum][download][revision] = c74781d81df6784fc01d5164789ab82db0132b09
+projects[opigno_forum][version] = 1.3
+
+;projects[opigno_forum][type] = module
+;projects[opigno_forum][subdir] = "opigno"
+;projects[opigno_forum][version] = 1.x
+;projects[opigno_forum][download][type] = git
+;projects[opigno_forum][download][branch] = 8.x-1.x
+;projects[opigno_forum][download][url] = "https://git.drupal.org/project/opigno_forum.git"
+;projects[opigno_forum][download][revision] = c74781d81df6784fc01d5164789ab82db0132b09
 
 
 projects[opigno_group_manager][type] = module
