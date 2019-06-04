@@ -193,7 +193,7 @@ projects[opigno_mobile_app][subdir] = "opigno"
 projects[opigno_mobile_app][version] = 1.x
 projects[opigno_mobile_app][download][type] = git
 projects[opigno_mobile_app][download][branch] = 8.x-1.x
-projects[opigno_mobile_app][download][url] = "https://git.drupal.org/project/opigno_migration.git"
+projects[opigno_mobile_app][download][url] = "https://git.drupal.org/project/opigno_mobile_app.git"
 projects[opigno_mobile_app][download][revision] = 0b0fe75422f3cb554414f5fc3b9a810667ebc321
 
 ;projects[opigno_module][type] = module
