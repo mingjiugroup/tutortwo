@@ -5,17 +5,17 @@ defaults[projects][subdir] = contrib
 
 ; Opigno modules =============================================
 
-projects[opigno_calendar][type] = module
-projects[opigno_calendar][subdir] = "opigno"
-projects[opigno_calendar][version] = 1.1
-
 ;projects[opigno_calendar][type] = module
 ;projects[opigno_calendar][subdir] = "opigno"
-;projects[opigno_calendar][version] = 1.x
-;projects[opigno_calendar][download][type] = git
-;projects[opigno_calendar][download][branch] = 8.x-1.x
-;projects[opigno_calendar][download][url] = "https://git.drupal.org/project/opigno_calendar.git"
-;projects[opigno_calendar][download][revision] = 6e481af72917bbd31ffd4ccf38171784d7bfee23
+;projects[opigno_calendar][version] = 1.1
+
+projects[opigno_calendar][type] = module
+projects[opigno_calendar][subdir] = "opigno"
+projects[opigno_calendar][version] = 1.x
+projects[opigno_calendar][download][type] = git
+projects[opigno_calendar][download][branch] = 8.x-1.x
+projects[opigno_calendar][download][url] = "https://git.drupal.org/project/opigno_calendar.git"
+projects[opigno_calendar][download][revision] = bb50172346d0d285a537b5adf858bf98accc0484
 
 
 projects[opigno_calendar_event][type] = module
@@ -31,43 +31,43 @@ projects[opigno_calendar_event][version] = 1.1
 ;projects[opigno_calendar_event][download][revision] = 383ecc7d88d34734a51b0efecc073e6c4f51c1e4
 
 
-projects[opigno_catalog][type] = module
-projects[opigno_catalog][subdir] = "opigno"
-projects[opigno_catalog][version] = 1.2
-
 ;projects[opigno_catalog][type] = module
 ;projects[opigno_catalog][subdir] = "opigno"
-;projects[opigno_catalog][version]= 1.x
-;projects[opigno_catalog][download][type] = git
-;projects[opigno_catalog][download][branch] = 8.x-1.x
-;projects[opigno_catalog][download][url] = "https://git.drupal.org/project/opigno_catalog.git"
-;projects[opigno_catalog][download][revision] = 6eefab82d448f47c50e37cb7999d0e8ea174eaf4
+;projects[opigno_catalog][version] = 1.2
 
+projects[opigno_catalog][type] = module
+projects[opigno_catalog][subdir] = "opigno"
+projects[opigno_catalog][version]= 1.x
+projects[opigno_catalog][download][type] = git
+projects[opigno_catalog][download][branch] = 8.x-1.x
+projects[opigno_catalog][download][url] = "https://git.drupal.org/project/opigno_catalog.git"
+projects[opigno_catalog][download][revision] = fe82a9428b065b01d31d5d3582bbbcc2a41ac33b
 
-projects[opigno_certificate][type] = module
-projects[opigno_certificate][subdir] = "opigno"
-projects[opigno_certificate][version] = 1.1
 
 ;projects[opigno_certificate][type] = module
 ;projects[opigno_certificate][subdir] = "opigno"
-;projects[opigno_certificate][version] = 1.x
-;projects[opigno_certificate][download][type] = git
-;projects[opigno_certificate][download][branch] = 8.x-1.x
-;projects[opigno_certificate][download][url] = "https://git.drupal.org/project/opigno_certificate.git"
-;projects[opigno_certificate][download][revision] = 777ef7def1bb457cbd7b45cdf592ca6aad6c8b27
+;projects[opigno_certificate][version] = 1.1
 
+projects[opigno_certificate][type] = module
+projects[opigno_certificate][subdir] = "opigno"
+projects[opigno_certificate][version] = 1.x
+projects[opigno_certificate][download][type] = git
+projects[opigno_certificate][download][branch] = 8.x-1.x
+projects[opigno_certificate][download][url] = "https://git.drupal.org/project/opigno_certificate.git"
+projects[opigno_certificate][download][revision] = e7d76758817881182cb8e6f08a8de45f5b9aca6b
 
-projects[opigno_class][type] = module
-projects[opigno_class][subdir] = "opigno"
-projects[opigno_class][version] = 1.2
 
 ;projects[opigno_class][type] = module
 ;projects[opigno_class][subdir] = "opigno"
-;projects[opigno_class][version] = 1.x
-;projects[opigno_class][download][type] = git
-;projects[opigno_class][download][branch] = 8.x-1.x
-;projects[opigno_class][download][url] = "https://git.drupal.org/project/opigno_class.git"
-;projects[opigno_class][download][revision] = 68593fdd246b1a234553b5b430fcb61fcb9550ff
+;projects[opigno_class][version] = 1.2
+
+projects[opigno_class][type] = module
+projects[opigno_class][subdir] = "opigno"
+projects[opigno_class][version] = 1.x
+projects[opigno_class][download][type] = git
+projects[opigno_class][download][branch] = 8.x-1.x
+projects[opigno_class][download][url] = "https://git.drupal.org/project/opigno_class.git"
+projects[opigno_class][download][revision] = 733c4168e0ae0b95450a97f22f9a593884ee8d5d
 
 
 projects[opigno_commerce][type] = module
@@ -83,30 +83,30 @@ projects[opigno_commerce][version] = 1.2
 ;projects[opigno_commerce][download][revision] = f7e814be29dc13f08f61740f260ff07e4f220877
 
 
-projects[opigno_course][type] = module
-projects[opigno_course][subdir] = "opigno"
-projects[opigno_course][version] = 1.1
-
 ;projects[opigno_course][type] = module
 ;projects[opigno_course][subdir] = "opigno"
-;projects[opigno_course][version] = 1.x
-;projects[opigno_course][download][type] = git
-;projects[opigno_course][download][branch] = 8.x-1.x
-;projects[opigno_course][download][url] = "https://git.drupal.org/project/opigno_course.git"
-;projects[opigno_course][download][revision] = eafe99cf04d305861181998421a76f27e956b623
+;projects[opigno_course][version] = 1.1
 
+projects[opigno_course][type] = module
+projects[opigno_course][subdir] = "opigno"
+projects[opigno_course][version] = 1.x
+projects[opigno_course][download][type] = git
+projects[opigno_course][download][branch] = 8.x-1.x
+projects[opigno_course][download][url] = "https://git.drupal.org/project/opigno_course.git"
+projects[opigno_course][download][revision] = fc7c370a39e29e73a48047c95d782dd701852943
 
-projects[opigno_dashboard][type] = module
-projects[opigno_dashboard][subdir] = "opigno"
-projects[opigno_dashboard][version] = 1.1
 
 ;projects[opigno_dashboard][type] = module
 ;projects[opigno_dashboard][subdir] = "opigno"
-;projects[opigno_dashboard][version] = 1.x
-;projects[opigno_dashboard][download][type] = git
-;projects[opigno_dashboard][download][branch] = 8.x-1.x
-;projects[opigno_dashboard][download][url] = "https://git.drupal.org/project/opigno_dashboard.git"
-;projects[opigno_dashboard][download][revision] = ccc4ec49c0f2bb8a353f35b4bd284244f86d7526
+;projects[opigno_dashboard][version] = 1.1
+
+projects[opigno_dashboard][type] = module
+projects[opigno_dashboard][subdir] = "opigno"
+projects[opigno_dashboard][version] = 1.x
+projects[opigno_dashboard][download][type] = git
+projects[opigno_dashboard][download][branch] = 8.x-1.x
+projects[opigno_dashboard][download][url] = "https://git.drupal.org/project/opigno_dashboard.git"
+projects[opigno_dashboard][download][revision] = 0c2e35d1460fb57f9b26d42b7a90c6e96db540b3
 
 projects[opigno_forum][type] = module
 projects[opigno_forum][subdir] = "opigno"
@@ -121,17 +121,17 @@ projects[opigno_forum][version] = 1.3
 ;projects[opigno_forum][download][revision] = c74781d81df6784fc01d5164789ab82db0132b09
 
 
-projects[opigno_group_manager][type] = module
-projects[opigno_group_manager][subdir] = "opigno"
-projects[opigno_group_manager][version] = 1.2
-
 ;projects[opigno_group_manager][type] = module
 ;projects[opigno_group_manager][subdir] = "opigno"
-;projects[opigno_group_manager][version] = 1.x
-;projects[opigno_group_manager][download][type] = git
-;projects[opigno_group_manager][download][branch] = 8.x-1.x
-;projects[opigno_group_manager][download][url] = "https://git.drupal.org/project/opigno_group_manager.git"
-;projects[opigno_group_manager][download][revision] = a0828c463cdbdf17f5070ff5563ed4191c920827
+;projects[opigno_group_manager][version] = 1.2
+
+projects[opigno_group_manager][type] = module
+projects[opigno_group_manager][subdir] = "opigno"
+projects[opigno_group_manager][version] = 1.x
+projects[opigno_group_manager][download][type] = git
+projects[opigno_group_manager][download][branch] = 8.x-1.x
+projects[opigno_group_manager][download][url] = "https://git.drupal.org/project/opigno_group_manager.git"
+projects[opigno_group_manager][download][revision] = 90b4d84ec49a0dfa9f6b4a97cf1fdd99343fbfe7
 
 
 projects[opigno_ilt][type] = module
@@ -147,94 +147,106 @@ projects[opigno_ilt][version] = 1.1
 ;projects[opigno_ilt][download][revision] = cd8c3ed111a0f5dc24d6fefd2c46bfcd8360fe58
 
 
-projects[opigno_learning_path][type] = module
-projects[opigno_learning_path][subdir] = "opigno"
-projects[opigno_learning_path][version] = 1.4
-
 ;projects[opigno_learning_path][type] = module
 ;projects[opigno_learning_path][subdir] = "opigno"
-;projects[opigno_learning_path][version] = 1.x
-;projects[opigno_learning_path][download][type] = git
-;projects[opigno_learning_path][download][branch] = 8.x-1.x
-;projects[opigno_learning_path][download][url] = "https://git.drupal.org/project/opigno_learning_path.git"
-;projects[opigno_learning_path][download][revision] = b2a22dce0249cbff13506d9a19909b3f49956bc3
+;projects[opigno_learning_path][version] = 1.4
 
+projects[opigno_learning_path][type] = module
+projects[opigno_learning_path][subdir] = "opigno"
+projects[opigno_learning_path][version] = 1.x
+projects[opigno_learning_path][download][type] = git
+projects[opigno_learning_path][download][branch] = 8.x-1.x
+projects[opigno_learning_path][download][url] = "https://git.drupal.org/project/opigno_learning_path.git"
+projects[opigno_learning_path][download][revision] = 3f6147d2c2028d1b50721d603fb1d48ffc9ad9a1
 
-projects[opigno_messaging][type] = module
-projects[opigno_messaging][subdir] = "opigno"
-projects[opigno_messaging][version] = 1.1
 
 ;projects[opigno_messaging][type] = module
 ;projects[opigno_messaging][subdir] = "opigno"
-;projects[opigno_messaging][version] = 1.x
-;projects[opigno_messaging][download][type] = git
-;projects[opigno_messaging][download][branch] = 8.x-1.x
-;projects[opigno_messaging][download][url] = "https://git.drupal.org/project/opigno_messaging.git"
-;projects[opigno_messaging][download][revision] = 259f3aee7a635d4036149c16827b513f59ff7faa
+;projects[opigno_messaging][version] = 1.1
 
-projects[opigno_migration][type] = module
-projects[opigno_migration][subdir] = "opigno"
-projects[opigno_migration][version] = 1.1
+projects[opigno_messaging][type] = module
+projects[opigno_messaging][subdir] = "opigno"
+projects[opigno_messaging][version] = 1.x
+projects[opigno_messaging][download][type] = git
+projects[opigno_messaging][download][branch] = 8.x-1.x
+projects[opigno_messaging][download][url] = "https://git.drupal.org/project/opigno_messaging.git"
+projects[opigno_messaging][download][revision] = 7d77afcabd78907f73614e759af64fbd348dc061
 
 ;projects[opigno_migration][type] = module
 ;projects[opigno_migration][subdir] = "opigno"
-;projects[opigno_migration][version] = 1.x
-;projects[opigno_migration][download][type] = git
-;projects[opigno_migration][download][branch] = 8.x-1.x
-;projects[opigno_migration][download][url] = "https://git.drupal.org/project/opigno_migration.git"
-;projects[opigno_migration][download][revision] = 0fdbc35c933648b6948cb815cab948ea89920aef
+;projects[opigno_migration][version] = 1.1
 
-projects[opigno_module][type] = module
-projects[opigno_module][subdir] = "opigno"
-projects[opigno_module][version] = 1.2
+projects[opigno_migration][type] = module
+projects[opigno_migration][subdir] = "opigno"
+projects[opigno_migration][version] = 1.x
+projects[opigno_migration][download][type] = git
+projects[opigno_migration][download][branch] = 8.x-1.x
+projects[opigno_migration][download][url] = "https://git.drupal.org/project/opigno_migration.git"
+projects[opigno_migration][download][revision] = b687ce29a73041ac865064dfd1c88edaf3b57088
+
+;projects[opigno_mobile_app][type] = module
+;projects[opigno_mobile_app][subdir] = "opigno"
+;projects[opigno_mobile_app][version] = 1.1
+
+projects[opigno_mobile_app][type] = module
+projects[opigno_mobile_app][subdir] = "opigno"
+projects[opigno_mobile_app][version] = 1.x
+projects[opigno_mobile_app][download][type] = git
+projects[opigno_mobile_app][download][branch] = 8.x-1.x
+projects[opigno_mobile_app][download][url] = "https://git.drupal.org/project/opigno_migration.git"
+projects[opigno_mobile_app][download][revision] = 0b0fe75422f3cb554414f5fc3b9a810667ebc321
 
 ;projects[opigno_module][type] = module
 ;projects[opigno_module][subdir] = "opigno"
-;projects[opigno_module][version] = 1.x
-;projects[opigno_module][download][type] = git
-;projects[opigno_module][download][branch] = 8.x-1.x
-;projects[opigno_module][download][url] = "https://git.drupal.org/project/opigno_module.git"
-;projects[opigno_module][download][revision] = 764057537a8ce10223d2a4a719c284029b83d4b6
+;projects[opigno_module][version] = 1.2
+
+projects[opigno_module][type] = module
+projects[opigno_module][subdir] = "opigno"
+projects[opigno_module][version] = 1.x
+projects[opigno_module][download][type] = git
+projects[opigno_module][download][branch] = 8.x-1.x
+projects[opigno_module][download][url] = "https://git.drupal.org/project/opigno_module.git"
+projects[opigno_module][download][revision] = 2a4c4b0eca9d6bf06b4d0405cb666fcceb108e77
 
 
-
-projects[opigno_moxtra][type] = module
-projects[opigno_moxtra][subdir] = "opigno"
-projects[opigno_moxtra][version] = 1.2
 
 ;projects[opigno_moxtra][type] = module
 ;projects[opigno_moxtra][subdir] = "opigno"
-;projects[opigno_moxtra][version] = 1.x
-;projects[opigno_moxtra][download][type] = git
-;projects[opigno_moxtra][download][branch] = 8.x-1.x
-;projects[opigno_moxtra][download][url] = "https://git.drupal.org/project/opigno_moxtra.git"
-;projects[opigno_moxtra][download][revision] = 584796d954c8b29a67fd0a7907478f2893a9f304
+;projects[opigno_moxtra][version] = 1.2
 
+projects[opigno_moxtra][type] = module
+projects[opigno_moxtra][subdir] = "opigno"
+projects[opigno_moxtra][version] = 1.x
+projects[opigno_moxtra][download][type] = git
+projects[opigno_moxtra][download][branch] = 8.x-1.x
+projects[opigno_moxtra][download][url] = "https://git.drupal.org/project/opigno_moxtra.git"
+projects[opigno_moxtra][download][revision] = 71013750d0ab7103fff8916d0bfde3caa9b024cb
 
-projects[opigno_notification][type] = module
-projects[opigno_notification][subdir] = "opigno"
-projects[opigno_notification][version] = 1.1
 
 ;projects[opigno_notification][type] = module
 ;projects[opigno_notification][subdir] = "opigno"
-;projects[opigno_notification][version] = 1.x
-;projects[opigno_notification][download][type] = git
-;projects[opigno_notification][download][branch] = 8.x-1.x
-;projects[opigno_notification][download][url] = "https://git.drupal.org/project/opigno_notification.git"
-;projects[opigno_notification][download][revision] = 376c2d6cd83a45b063a01ade2084e3483ad09bc6
+;projects[opigno_notification][version] = 1.1
 
+projects[opigno_notification][type] = module
+projects[opigno_notification][subdir] = "opigno"
+projects[opigno_notification][version] = 1.x
+projects[opigno_notification][download][type] = git
+projects[opigno_notification][download][branch] = 8.x-1.x
+projects[opigno_notification][download][url] = "https://git.drupal.org/project/opigno_notification.git"
+projects[opigno_notification][download][revision] = 16cb5298fd25c79d74885ca23d9faec3a0531ca1
 
-projects[opigno_scorm][type] = module
-projects[opigno_scorm][subdir] = "opigno"
-projects[opigno_scorm][version] = 1.2
 
 ;projects[opigno_scorm][type] = module
 ;projects[opigno_scorm][subdir] = "opigno"
-;projects[opigno_scorm][version] = 1.x
-;projects[opigno_scorm][download][type] = git
-;projects[opigno_scorm][download][branch] = 8.x-1.x
-;projects[opigno_scorm][download][url] = "https://git.drupal.org/project/opigno_scorm.git"
-;projects[opigno_scorm][download][revision] = 9c27081d9e6ec2b9d0abc623f70c7409860d4c90
+;projects[opigno_scorm][version] = 1.2
+
+projects[opigno_scorm][type] = module
+projects[opigno_scorm][subdir] = "opigno"
+projects[opigno_scorm][version] = 1.x
+projects[opigno_scorm][download][type] = git
+projects[opigno_scorm][download][branch] = 8.x-1.x
+projects[opigno_scorm][download][url] = "https://git.drupal.org/project/opigno_scorm.git"
+projects[opigno_scorm][download][revision] = c4b99c6eaf0b6cc09a87ee54fa45efba93785d29
 
 
 projects[opigno_search][type] = module
@@ -250,30 +262,30 @@ projects[opigno_search][version] = 1.2
 ;projects[opigno_search][download][revision] = 910aaa34ad0931997082ac5913dcb5b0175ee50b
 
 
-projects[opigno_statistics][type] = module
-projects[opigno_statistics][subdir] = "opigno"
-projects[opigno_statistics][version] = 1.2
-
 ;projects[opigno_statistics][type] = module
 ;projects[opigno_statistics][subdir] = "opigno"
-;projects[opigno_statistics][version] = 1.x
-;projects[opigno_statistics][download][type] = git
-;projects[opigno_statistics][download][branch] = 8.x-1.x
-;projects[opigno_statistics][download][url] = "https://git.drupal.org/project/opigno_statistics.git"
-;projects[opigno_statistics][download][revision] = ee1b50b84a01cdbf08c7eb177e4835ee16d6a2b1
+;projects[opigno_statistics][version] = 1.2
 
+projects[opigno_statistics][type] = module
+projects[opigno_statistics][subdir] = "opigno"
+projects[opigno_statistics][version] = 1.x
+projects[opigno_statistics][download][type] = git
+projects[opigno_statistics][download][branch] = 8.x-1.x
+projects[opigno_statistics][download][url] = "https://git.drupal.org/project/opigno_statistics.git"
+projects[opigno_statistics][download][revision] = 5462e6a090203c73ce8d231397c42898a6e3c524
 
-projects[opigno_tincan_api][type] = module
-projects[opigno_tincan_api][subdir] = "opigno"
-projects[opigno_tincan_api][version] = 1.1
 
 ;projects[opigno_tincan_api][type] = module
 ;projects[opigno_tincan_api][subdir] = "opigno"
-;projects[opigno_tincan_api][version] = 1.x
-;projects[opigno_tincan_api][download][type] = git
-;projects[opigno_tincan_api][download][branch] = 8.x-1.x
-;projects[opigno_tincan_api][download][url] = "https://git.drupal.org/project/opigno_tincan_api.git"
-;projects[opigno_tincan_api][download][revision] = 019e0a99a24dc12a3217973ae179cdcc179da978
+;projects[opigno_tincan_api][version] = 1.1
+
+projects[opigno_tincan_api][type] = module
+projects[opigno_tincan_api][subdir] = "opigno"
+projects[opigno_tincan_api][version] = 1.x
+projects[opigno_tincan_api][download][type] = git
+projects[opigno_tincan_api][download][branch] = 8.x-1.x
+projects[opigno_tincan_api][download][url] = "https://git.drupal.org/project/opigno_tincan_api.git"
+projects[opigno_tincan_api][download][revision] = e5cf9f618b9262237d5c59355d83e6a53605b20b
 
 projects[opigno_tour][type] = module
 projects[opigno_tour][subdir] = "opigno"
@@ -287,17 +299,17 @@ projects[opigno_tour][version] = 1.1
 ;projects[opigno_tour][download][url] = "https://git.drupal.org/project/opigno_tour.git"
 ;projects[opigno_tour][download][revision] = f08e91b4ff88cb176c230487f40b4e533ab09c09
 
-projects[tft][type] = module
-projects[tft][subdir] = "opigno"
-projects[tft][version] = 1.1
-
 ;projects[tft][type] = module
 ;projects[tft][subdir] = "opigno"
-;projects[tft][version] = 1.x
-;projects[tft][download][type] = git
-;projects[tft][download][branch] = 8.x-1.x
-;projects[tft][download][url] = "https://git.drupal.org/project/tft.git"
-;projects[tft][download][revision] = c64300e6b5229837ace79621a8bb67a3da94a697
+;projects[tft][version] = 1.1
+
+projects[tft][type] = module
+projects[tft][subdir] = "opigno"
+projects[tft][version] = 1.x
+projects[tft][download][type] = git
+projects[tft][download][branch] = 8.x-1.x
+projects[tft][download][url] = "https://git.drupal.org/project/tft.git"
+projects[tft][download][revision] = 89b047d7e645bf000033ebb926b402acac51262c
 
 
 ; Contrib modules ============================================
@@ -410,7 +422,7 @@ projects[entity_browser][version] = 1.6
 projects[entity_browser][subdir] = contrib
 
 projects[ctools][type] = module
-projects[ctools][version] = 3.0
+projects[ctools][version] = 3.2
 projects[ctools][subdir] = contrib
 
 projects[media_entity_browser][type] = module
@@ -477,12 +489,12 @@ libraries[dropzone][destination] = libraries
 
 ; Themes ========================================
 
-projects[platon][type] = theme
-projects[platon][version] = 1.2
-
 ;projects[platon][type] = theme
-;projects[platon][version] = 1.x
-;projects[platon][download][type] = git
-;projects[platon][download][branch] = 8.x-1.x
-;projects[platon][download][url] = "https://git.drupal.org/project/platon.git"
-;projects[platon][download][revision] = 14ef008ba101ec2968559aeb7044212f152e86aa
+;projects[platon][version] = 1.2
+
+projects[platon][type] = theme
+projects[platon][version] = 1.x
+projects[platon][download][type] = git
+projects[platon][download][branch] = 8.x-1.x
+projects[platon][download][url] = "https://git.drupal.org/project/platon.git"
+projects[platon][download][revision] = 8e6ee3e8f85b9110948fbc8aadffb4690eb8897a
