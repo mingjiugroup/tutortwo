@@ -206,7 +206,7 @@ projects[opigno_module][version] = 1.x
 projects[opigno_module][download][type] = git
 projects[opigno_module][download][branch] = 8.x-1.x
 projects[opigno_module][download][url] = "https://git.drupal.org/project/opigno_module.git"
-projects[opigno_module][download][revision] = 8fa6228295e81e2aa435032bf97f307ad6c51883
+projects[opigno_module][download][revision] = 0bc94c5566b8babf06a931021c05bca1b6ac5f50
 
 
 
