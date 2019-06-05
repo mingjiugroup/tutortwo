@@ -131,7 +131,7 @@ projects[opigno_group_manager][version] = 1.x
 projects[opigno_group_manager][download][type] = git
 projects[opigno_group_manager][download][branch] = 8.x-1.x
 projects[opigno_group_manager][download][url] = "https://git.drupal.org/project/opigno_group_manager.git"
-projects[opigno_group_manager][download][revision] = 90b4d84ec49a0dfa9f6b4a97cf1fdd99343fbfe7
+projects[opigno_group_manager][download][revision] = 57558ffd9e3e1fab84383acb7ee0c19ba5979e19
 
 
 projects[opigno_ilt][type] = module
@@ -497,4 +497,4 @@ projects[platon][version] = 1.x
 projects[platon][download][type] = git
 projects[platon][download][branch] = 8.x-1.x
 projects[platon][download][url] = "https://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = 8e6ee3e8f85b9110948fbc8aadffb4690eb8897a
+projects[platon][download][revision] = b77e11c7a620727f1c43c532f5eb6c456908030b
