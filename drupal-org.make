@@ -106,7 +106,7 @@ projects[opigno_dashboard][version] = 1.x
 projects[opigno_dashboard][download][type] = git
 projects[opigno_dashboard][download][branch] = 8.x-1.x
 projects[opigno_dashboard][download][url] = "https://git.drupal.org/project/opigno_dashboard.git"
-projects[opigno_dashboard][download][revision] = 3e71d450a51e7c5ca9efd8926050e197934432f0
+projects[opigno_dashboard][download][revision] = 4eb94a0729b6bb47392a5b674b334ff0ba268233
 
 ;projects[opigno_forum][type] = module
 ;projects[opigno_forum][subdir] = "opigno"
@@ -218,7 +218,7 @@ projects[opigno_moxtra][version] = 1.x
 projects[opigno_moxtra][download][type] = git
 projects[opigno_moxtra][download][branch] = 8.x-1.x
 projects[opigno_moxtra][download][url] = "https://git.drupal.org/project/opigno_moxtra.git"
-projects[opigno_moxtra][download][revision] = ab7d0b40b1d141ff132fff0ea972ff28939a634e
+projects[opigno_moxtra][download][revision] = fe6ce9bbad97ece9f769c0e3cb6560d715b6dac1
 
 
 ;projects[opigno_notification][type] = module
@@ -329,10 +329,9 @@ projects[field_group][version] = 1.0
 projects[field_group][subdir] = contrib
 
 projects[h5p][type] = module
-projects[h5p][version] = 1.0-rc11
+projects[h5p][version] = 1.0-rc14
 projects[h5p][subdir] = contrib
-projects[h5p][patch][3018798] = "https://www.drupal.org/files/issues/2019-02-26/opigno-module-h5p-hidetitle-3018798-4.patch"
-
+projects[h5p][patch][3018798] = "https://www.drupal.org/files/issues/2019-02-26/opigno-module-h5p-hidetitle-3018798-6.patch"
 
 projects[multiselect][type] = module
 projects[multiselect][version] = 1.0
@@ -406,6 +405,7 @@ projects[popup_field_group][subdir] = contrib
 projects[video][type] = module
 projects[video][version] = 1.4
 projects[video][subdir] = contrib
+projects[video][patch][2986682] = "https://www.drupal.org/files/issues/2018-07-18/2986682-2.patch"
 
 projects[embed][type] = module
 projects[embed][version] = 1.0
