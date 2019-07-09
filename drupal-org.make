@@ -331,7 +331,7 @@ projects[field_group][subdir] = contrib
 projects[h5p][type] = module
 projects[h5p][version] = 1.0-rc14
 projects[h5p][subdir] = contrib
-projects[h5p][patch][3018798] = "https://www.drupal.org/files/issues/2019-02-26/opigno-module-h5p-hidetitle-3018798-6.patch"
+projects[h5p][patch][3018798] = "https://www.drupal.org/files/issues/2019-07-09/opigno-module-h5p-hidetitle-3018798-6.patch"
 
 projects[multiselect][type] = module
 projects[multiselect][version] = 1.0
