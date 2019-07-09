@@ -131,7 +131,7 @@ projects[opigno_group_manager][version] = 1.x
 projects[opigno_group_manager][download][type] = git
 projects[opigno_group_manager][download][branch] = 8.x-1.x
 projects[opigno_group_manager][download][url] = "https://git.drupal.org/project/opigno_group_manager.git"
-projects[opigno_group_manager][download][revision] = 46338a11cd5d66b9d75b4b01cbb494a95d5443e6
+projects[opigno_group_manager][download][revision] = bb0e543dd4ae49aefced825af508752ffe52530c
 
 
 ;projects[opigno_ilt][type] = module
