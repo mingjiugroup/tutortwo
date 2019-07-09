@@ -325,7 +325,7 @@ projects[entity][version] = 1.0-rc1
 projects[entity][subdir] = contrib
 
 projects[field_group][type] = module
-projects[field_group][version] = 1.0
+projects[field_group][version] = 3.0-rc1
 projects[field_group][subdir] = contrib
 
 projects[h5p][type] = module
