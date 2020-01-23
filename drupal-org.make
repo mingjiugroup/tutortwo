@@ -401,7 +401,7 @@ projects[entity_print][patch][2969184] = "https://www.drupal.org/files/issues/20
 projects[group][type] = module
 projects[group][version] = 1.0-rc5
 projects[group][subdir] = contrib
-projects[group][patch][2736233] = "https://www.drupal.org/files/issues/2019-08-13/port-subgroups-2736233-253.patch"
+projects[group][patch][2736233] = "https://www.drupal.org/files/issues/2019-08-23/port-subgroups-2736233-261.patch"
 projects[group][patch][2973005] = "https://www.drupal.org/files/issues/2018-05-15/group-2973005-2.patch"
 
 projects[popup_field_group][type] = module
