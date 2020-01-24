@@ -54,7 +54,7 @@ projects[opigno_certificate][version] = 1.x
 projects[opigno_certificate][download][type] = git
 projects[opigno_certificate][download][branch] = 8.x-1.x
 projects[opigno_certificate][download][url] = "https://git.drupal.org/project/opigno_certificate.git"
-projects[opigno_certificate][download][revision] = e6181901667f5d6fb6737898f29796669052b9bf
+projects[opigno_certificate][download][revision] = 01ed5749f3be856f815559eccb7dfca61429809f
 
 
 ;projects[opigno_class][type] = module
