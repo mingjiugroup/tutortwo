@@ -508,7 +508,7 @@ projects[views_templates][subdir] = contrib
 libraries[dompdf][type] = library
 libraries[dompdf][download][type] = git
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf.git
-libraries[dompdf][download][download][branch] = 0.8.5
+libraries[dompdf][download][download][branch] = v0.8.5
 libraries[dompdf][download][download][download][revision] = 6782abfc090b132134cd6cea0ec6d76f0fce2c56
 libraries[dompdf][destination] = libraries
 libraries[dompdf][patch][3143778] = "https://www.drupal.org/files/issues/2020-05-29/dompdf_add_support_for_file_protocol_in_build_url-2099-2-3143778.patch"
@@ -519,6 +519,13 @@ libraries[dropzone][download][url] = https://github.com/enyo/dropzone.git
 libraries[dropzone][download][branch] = v5.5.0
 libraries[dropzone][download][revision] = 08b9e0a763b54a685404dea523a9c54242fbe1b9
 libraries[dropzone][destination] = libraries
+
+libraries[slick][type] = library
+libraries[slick][download][type] = git
+libraries[slick][download][url] = https://github.com/kenwheeler/slick.git
+libraries[slick][download][branch] = v1.8.1
+libraries[slick][download][revision] = 0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee
+libraries[slick][destination] = libraries
 
 ; Themes ========================================
 

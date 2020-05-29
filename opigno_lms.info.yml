@@ -15,7 +15,6 @@ dependencies:
   - calendar_datetime
   - ckeditor
   - ckeditor_bgimage
-  - ckeditor_font
   - color
   - comment
   - config
