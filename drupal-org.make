@@ -508,8 +508,8 @@ projects[views_templates][subdir] = contrib
 libraries[dompdf][type] = library
 libraries[dompdf][download][type] = git
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf.git
-libraries[dompdf][download][branch] = v0.8.5
-libraries[dompdf][download][revision] = 6782abfc090b132134cd6cea0ec6d76f0fce2c56
+libraries[dompdf][download][branch] = master
+libraries[dompdf][download][revision] = 2e643732cdb61fb09f867a15f2ae4e224503d1b0
 libraries[dompdf][destination] = libraries
 libraries[dompdf][patch][3143778] = "https://www.drupal.org/files/issues/2020-05-29/dompdf_add_support_for_file_protocol_in_build_url-2099-2-3143778.patch"
 
