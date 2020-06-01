@@ -106,7 +106,7 @@ projects[opigno_dashboard][version] = 1.x
 projects[opigno_dashboard][download][type] = git
 projects[opigno_dashboard][download][branch] = 8.x-1.x
 projects[opigno_dashboard][download][url] = "https://git.drupal.org/project/opigno_dashboard.git"
-projects[opigno_dashboard][download][revision] = 1ad476e115f5ee2e40c7c3ccc9bea818111128db
+projects[opigno_dashboard][download][revision] = 10da6668e3bf7de3090747cb509306c5cfbab1f4
 
 
 ;projects[opigno_forum][type] = module
@@ -158,7 +158,7 @@ projects[opigno_learning_path][version] = 1.x
 projects[opigno_learning_path][download][type] = git
 projects[opigno_learning_path][download][branch] = 8.x-1.x
 projects[opigno_learning_path][download][url] = "https://git.drupal.org/project/opigno_learning_path.git"
-projects[opigno_learning_path][download][revision] = 1349b77965f85b13fe7001edffafd8655c943d9e
+projects[opigno_learning_path][download][revision] = 98328ba4cdfac87e60d64a885cbc6269130fa118
 
 
 ;projects[opigno_messaging][type] = module
@@ -197,7 +197,7 @@ projects[opigno_mobile_app][version] = 1.x
 projects[opigno_mobile_app][download][type] = git
 projects[opigno_mobile_app][download][branch] = 8.x-1.x
 projects[opigno_mobile_app][download][url] = "https://git.drupal.org/project/opigno_mobile_app.git"
-projects[opigno_mobile_app][download][revision] = 698f61e90efe1cce06e91d5f6a5224a975a6dfc0
+projects[opigno_mobile_app][download][revision] = 8a2c04865dd02a482eb15d4acae11bf91a6dac73
 
 
 ;projects[opigno_module][type] = module
@@ -210,7 +210,7 @@ projects[opigno_module][version] = 1.x
 projects[opigno_module][download][type] = git
 projects[opigno_module][download][branch] = 8.x-1.x
 projects[opigno_module][download][url] = "https://git.drupal.org/project/opigno_module.git"
-projects[opigno_module][download][revision] = 979e655268539a05c088dd63c0826c67a1df8ab9
+projects[opigno_module][download][revision] = e18867a33b78581dbbb86ef9367277c9342faedc
 
 
 ;projects[opigno_moxtra][type] = module
@@ -508,8 +508,8 @@ projects[views_templates][subdir] = contrib
 libraries[dompdf][type] = library
 libraries[dompdf][download][type] = git
 libraries[dompdf][download][url] = https://github.com/dompdf/dompdf.git
-libraries[dompdf][download][download][branch] = v0.8.5
-libraries[dompdf][download][download][download][revision] = 6782abfc090b132134cd6cea0ec6d76f0fce2c56
+libraries[dompdf][download][branch] = v0.8.5
+libraries[dompdf][download][revision] = 6782abfc090b132134cd6cea0ec6d76f0fce2c56
 libraries[dompdf][destination] = libraries
 libraries[dompdf][patch][3143778] = "https://www.drupal.org/files/issues/2020-05-29/dompdf_add_support_for_file_protocol_in_build_url-2099-2-3143778.patch"
 
