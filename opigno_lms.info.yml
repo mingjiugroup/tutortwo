@@ -2,7 +2,7 @@ name: Opigno LMS
 type: profile
 description: 'Install Opigno with commonly used features pre-configured.'
 core: 8.x
-# version: 8.x-2.13
+# version: 8.x-2.14
 distribution:
   name: "Opigno LMS"
 dependencies:
@@ -62,6 +62,7 @@ dependencies:
   - opigno_catalog
   - opigno_certificate
   - opigno_class
+  - opigno_cron
   - opigno_course
   - opigno_dashboard
   - opigno_file_upload
@@ -116,7 +117,6 @@ dependencies:
   - user
   - userprotect
   - video
-  - view_mode_selector
   - views_role_based_global_text
   - views_templates
   - views_ui
