@@ -489,7 +489,7 @@ projects[token_filter][version] = 1.2
 projects[token_filter][subdir] = contrib
 
 projects[ultimate_cron][type] = module
-projects[ultimate_cron][version] = 2.0.0-alpha4
+projects[ultimate_cron][version] = 2.0-alpha4
 projects[ultimate_cron][subdir] = contrib
 
 projects[userprotect][type] = module
