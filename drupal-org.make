@@ -105,7 +105,7 @@ projects[opigno_cron][version] = 1.x
 projects[opigno_cron][download][type] = git
 projects[opigno_cron][download][branch] = 8.x-1.x
 projects[opigno_cron][download][url] = "https://git.drupal.org/project/opigno_cron.git"
-projects[opigno_cron][download][revision] = 353ca433bb5384a4553c0a581287a4d6a4015f92
+projects[opigno_cron][download][revision] = f027a66f040cbaccce6f3b7523cdedf61bf797be
 
 ;projects[opigno_dashboard][type] = module
 ;projects[opigno_dashboard][subdir] = "opigno"
