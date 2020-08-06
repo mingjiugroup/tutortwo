@@ -116,6 +116,7 @@ dependencies:
   - update
   - user
   - userprotect
+  - variationcache
   - video
   - views_role_based_global_text
   - views_templates
