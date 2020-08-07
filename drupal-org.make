@@ -54,7 +54,7 @@ projects[opigno_certificate][version] = 1.x
 projects[opigno_certificate][download][type] = git
 projects[opigno_certificate][download][branch] = 8.x-1.x
 projects[opigno_certificate][download][url] = "https://git.drupal.org/project/opigno_certificate.git"
-projects[opigno_certificate][download][revision] = c244ff5b9b178427d167617a4712ca943c1452d2
+projects[opigno_certificate][download][revision] = 7648510549f7859bf7e74f619d208698c6ef52b7
 
 
 ;projects[opigno_class][type] = module
@@ -169,7 +169,7 @@ projects[opigno_learning_path][version] = 1.x
 projects[opigno_learning_path][download][type] = git
 projects[opigno_learning_path][download][branch] = 8.x-1.x
 projects[opigno_learning_path][download][url] = "https://git.drupal.org/project/opigno_learning_path.git"
-projects[opigno_learning_path][download][revision] = ac5b67c5082c5f5e1d62c2469868139ffc958b04
+projects[opigno_learning_path][download][revision] = 09984fa9c0b34d19007640d7251e9ff746bde6b8
 
 
 ;projects[opigno_messaging][type] = module
@@ -553,4 +553,4 @@ projects[platon][version] = 1.x
 projects[platon][download][type] = git
 projects[platon][download][branch] = 8.x-1.x
 projects[platon][download][url] = "https://git.drupal.org/project/platon.git"
-projects[platon][download][revision] = 360789991de6015be7adf3ab841033970b407a20
+projects[platon][download][revision] = 52b9028d1f53ad80c001c135db11ee0d897ecc1c
