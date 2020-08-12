@@ -208,7 +208,7 @@ projects[opigno_mobile_app][version] = 1.x
 projects[opigno_mobile_app][download][type] = git
 projects[opigno_mobile_app][download][branch] = 8.x-1.x
 projects[opigno_mobile_app][download][url] = "https://git.drupal.org/project/opigno_mobile_app.git"
-projects[opigno_mobile_app][download][revision] = 26021c40b724f9ade68c6519a7e7a0ca17a6a101
+projects[opigno_mobile_app][download][revision] = 752b57c39ec3e0cdf10e2524a3f8366454d6fcd8
 
 
 ;projects[opigno_module][type] = module
@@ -234,7 +234,7 @@ projects[opigno_moxtra][version] = 1.x
 projects[opigno_moxtra][download][type] = git
 projects[opigno_moxtra][download][branch] = 8.x-1.x
 projects[opigno_moxtra][download][url] = "https://git.drupal.org/project/opigno_moxtra.git"
-projects[opigno_moxtra][download][revision] = 3da8f47c91a7059291b9751c297957b12235725a
+projects[opigno_moxtra][download][revision] = 40a0a7e7fadb9e7802254ea48c826f3c7ccdbb39
 
 
 ;projects[opigno_notification][type] = module
@@ -325,7 +325,7 @@ projects[tft][version] = 1.x
 projects[tft][download][type] = git
 projects[tft][download][branch] = 8.x-1.x
 projects[tft][download][url] = "https://git.drupal.org/project/tft.git"
-projects[tft][download][revision] = a948708ae2173c41d613f5461d3af9c897a3b20b
+projects[tft][download][revision] = a4f1ea67915e5d96fe500a6ab8c1aa116779eff3
 
 
 ; Contrib modules ============================================
@@ -508,6 +508,7 @@ projects[video][patch][2986682] = "https://www.drupal.org/files/issues/2018-07-1
 projects[views_role_based_global_text][type] = module
 projects[views_role_based_global_text][version] = 1.1
 projects[views_role_based_global_text][subdir] = contrib
+projects[views_role_based_global_text][patch][3157398] = "https://www.drupal.org/files/issues/2020-07-07/trying_access_array_offset_value_type_bool-3157398-01.patch"
 
 projects[views_templates][type] = module
 projects[views_templates][version] = 1.1
