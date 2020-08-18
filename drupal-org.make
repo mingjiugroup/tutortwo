@@ -169,7 +169,7 @@ projects[opigno_learning_path][version] = 1.x
 projects[opigno_learning_path][download][type] = git
 projects[opigno_learning_path][download][branch] = 8.x-1.x
 projects[opigno_learning_path][download][url] = "https://git.drupal.org/project/opigno_learning_path.git"
-projects[opigno_learning_path][download][revision] = 0dcca2e19e0d78b3af090fcd4e8022a8ba95bd5f
+projects[opigno_learning_path][download][revision] = 3e184d1ca6a8ee8160581e8c65aec43ccb9ef219
 
 
 projects[opigno_messaging][type] = module
@@ -286,7 +286,7 @@ projects[opigno_statistics][version] = 1.x
 projects[opigno_statistics][download][type] = git
 projects[opigno_statistics][download][branch] = 8.x-1.x
 projects[opigno_statistics][download][url] = "https://git.drupal.org/project/opigno_statistics.git"
-projects[opigno_statistics][download][revision] = d0a59451edbdfc73b80604e86668af377e040c97
+projects[opigno_statistics][download][revision] = 8737e06df6d79483228d491e24f6d332ee133d37
 
 
 projects[opigno_tincan_api][type] = module
