@@ -6,7 +6,6 @@ core: 8.x
 distribution:
   name: "Opigno LMS"
 dependencies:
-  - automated_cron
   - better_exposed_filters
   - block
   - block_content
@@ -40,7 +39,6 @@ dependencies:
   - field_ui
   - file
   - filter
-  - ggroup
   - group
   - h5p
   - h5peditor
