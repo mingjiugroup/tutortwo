@@ -449,7 +449,7 @@ projects[multiselect][type] = module
 projects[multiselect][version] = 1.2
 projects[multiselect][subdir] = contrib
 projects[multiselect][patch][3130318] = "https://www.drupal.org/files/issues/2020-04-23/multiselect-warning-count-3130318-2.patch"
-projects[multiselect][patch][3009259] = "https://www.drupal.org/files/issues/2018-10-31/multiselect-javascript_settings_missing-3009259-3.patch"
+projects[multiselect][patch][3009259] = "https://www.drupal.org/files/issues/2018-10-31/multiselect-javascript_settings_missing-3009259-9.patch"
 projects[multiselect][patch][3130242] = "https://www.drupal.org/files/issues/2020-04-23/multiselect-no-schema-for-multiselect-3130242-2.patch"
 
 projects[pdf][type] = module
