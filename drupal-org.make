@@ -156,7 +156,7 @@ projects[opigno_ilt][version] = 1.x
 projects[opigno_ilt][download][type] = git
 projects[opigno_ilt][download][branch] = 8.x-1.x
 projects[opigno_ilt][download][url] = "https://git.drupal.org/project/opigno_ilt.git"
-projects[opigno_ilt][download][revision] = a1145ad86ed71b2d81e78cc915397da52a2447ac
+projects[opigno_ilt][download][revision] = 9de6f66974bdf80fd38db39727bbedc37bde3cdd
 
 
 ;projects[opigno_learning_path][type] = module
@@ -169,7 +169,7 @@ projects[opigno_learning_path][version] = 1.x
 projects[opigno_learning_path][download][type] = git
 projects[opigno_learning_path][download][branch] = 8.x-1.x
 projects[opigno_learning_path][download][url] = "https://git.drupal.org/project/opigno_learning_path.git"
-projects[opigno_learning_path][download][revision] = 6a2129d01b506730ee826b392be637b38b63b57e
+projects[opigno_learning_path][download][revision] = ddafc8b98c57f14471c2bdc42037f5d934a5e72d
 
 
 ;projects[opigno_messaging][type] = module
@@ -234,7 +234,7 @@ projects[opigno_moxtra][version] = 1.x
 projects[opigno_moxtra][download][type] = git
 projects[opigno_moxtra][download][branch] = 8.x-1.x
 projects[opigno_moxtra][download][url] = "https://git.drupal.org/project/opigno_moxtra.git"
-projects[opigno_moxtra][download][revision] = 836a8cb243833282676b104006e08e1914b9695c
+projects[opigno_moxtra][download][revision] = 4758cd23b94f98fe31060b8f3b43902a470eeb93
 
 
 ;projects[opigno_notification][type] = module
@@ -286,7 +286,7 @@ projects[opigno_statistics][version] = 1.x
 projects[opigno_statistics][download][type] = git
 projects[opigno_statistics][download][branch] = 8.x-1.x
 projects[opigno_statistics][download][url] = "https://git.drupal.org/project/opigno_statistics.git"
-projects[opigno_statistics][download][revision] = 2b5859c175d0db29378db9acd695f078c89a5f34
+projects[opigno_statistics][download][revision] = 5ee2cc4669ba2cff9b3d0b91c4cc651b8b18839f
 
 
 ;projects[opigno_tincan_api][type] = module
