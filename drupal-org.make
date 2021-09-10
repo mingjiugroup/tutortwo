@@ -405,7 +405,7 @@ projects[group][subdir] = contrib
 projects[group][patch][3165140] = "https://www.drupal.org/files/issues/2020-08-14/group-course-3165140-4.patch"
 
 projects[h5p][type] = module
-projects[h5p][version] = 1.0-rc18
+projects[h5p][version] = 1.0-rc19
 projects[h5p][subdir] = contrib
 
 projects[inline_entity_form][type] = module
