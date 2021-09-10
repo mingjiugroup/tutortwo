@@ -286,7 +286,7 @@ projects[opigno_statistics][version] = 1.x
 projects[opigno_statistics][download][type] = git
 projects[opigno_statistics][download][branch] = 8.x-1.x
 projects[opigno_statistics][download][url] = "https://git.drupal.org/project/opigno_statistics.git"
-projects[opigno_statistics][download][revision] = 5ee2cc4669ba2cff9b3d0b91c4cc651b8b18839f
+projects[opigno_statistics][download][revision] = afc3e7d1340d567b12371f1b1ca2be8a5ee30c68
 
 
 ;projects[opigno_tincan_api][type] = module
